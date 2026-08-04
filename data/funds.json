@@ -1,0 +1,515 @@
+{
+  "funds": {
+    "fox-valley-pension": {
+      "name": "Fox Valley & Vicinity Laborers Pension Fund",
+      "ein": "36-6147409",
+      "planNumber": "001",
+      "type": "multiemployer-db",
+      "city": "Elgin, IL",
+      "effective": "1965-06-01",
+      "planYearEnds": "05-31",
+      "servesLocals": [
+        582,
+        1035
+      ],
+      "confirmedLocals": [
+        582,
+        1035
+      ],
+      "inferred": false,
+      "actuary": "Horizon Actuarial Services, LLC",
+      "auditor": "Calibre CPA Group, PLLC",
+      "contributionRatePerHour": 19.1,
+      "cbaExpires": "2026-05-31",
+      "series": [
+        {
+          "planYear": 2012,
+          "participants": 4410,
+          "assets": 310235338,
+          "verified": false
+        },
+        {
+          "planYear": 2013,
+          "participants": 4567,
+          "assets": 342769694,
+          "verified": false
+        },
+        {
+          "planYear": 2014,
+          "participants": 4505,
+          "assets": 363807870,
+          "verified": false
+        },
+        {
+          "planYear": 2015,
+          "participants": 4758,
+          "assets": 359498499,
+          "verified": false
+        },
+        {
+          "planYear": 2016,
+          "participants": 4937,
+          "assets": 410043865,
+          "verified": false
+        },
+        {
+          "planYear": 2017,
+          "participants": 4910,
+          "assets": 449635323,
+          "verified": false
+        },
+        {
+          "planYear": 2018,
+          "participants": 4955,
+          "assets": 452893673,
+          "verified": false
+        },
+        {
+          "planYear": 2019,
+          "participants": 5013,
+          "assets": 462860101,
+          "verified": false
+        },
+        {
+          "planYear": 2020,
+          "participants": 5047,
+          "assets": 598242585,
+          "verified": false
+        },
+        {
+          "planYear": 2021,
+          "participants": 5011,
+          "assets": 585081733,
+          "verified": false
+        },
+        {
+          "planYear": 2022,
+          "participants": 5083,
+          "assets": 574085056,
+          "verified": false
+        },
+        {
+          "planYear": 2023,
+          "participants": 5123,
+          "assets": 652100252,
+          "verified": true
+        },
+        {
+          "planYear": 2024,
+          "participants": 5171,
+          "assets": 715716094,
+          "verified": true
+        }
+      ],
+      "actuarial": [
+        {
+          "planYear": 2023,
+          "verified": true,
+          "valuationDate": "2023-06-01",
+          "actuarialAssets": 616647126,
+          "accruedLiability": 781207406,
+          "fundedPercentage": 78.9,
+          "zoneCode": "N",
+          "zoneLabel": "Neither endangered nor critical",
+          "creditBalance": 65488237,
+          "fundingDeficiency": 0,
+          "employerContributions": 41400091,
+          "normalCost": 16948787,
+          "valuationInterestRate": 7.5,
+          "returnOnActuarialValue": 4.8,
+          "returnOnMarketValue": -1.7,
+          "activeParticipants": 1415,
+          "currentLiability": 1603328404,
+          "currentLiabilityInterestRate": 2.8,
+          "assetsOverCurrentLiability": 35.72
+        },
+        {
+          "planYear": 2024,
+          "verified": true,
+          "valuationDate": "2024-06-01",
+          "actuarialAssets": 656413226,
+          "accruedLiability": 838225563,
+          "fundedPercentage": 78.3,
+          "zoneCode": "N",
+          "zoneLabel": "Neither endangered nor critical",
+          "creditBalance": 63341068,
+          "fundingDeficiency": 0,
+          "employerContributions": 45834250,
+          "normalCost": 18119114,
+          "valuationInterestRate": 7.25,
+          "returnOnActuarialValue": 6.8,
+          "returnOnMarketValue": 13.8,
+          "activeParticipants": 1432,
+          "contributingEmployers": 169,
+          "auditorOpinion": "unmodified",
+          "scheduleGAttached": false,
+          "currentLiability": 1443778810,
+          "currentLiabilityInterestRate": 3.63,
+          "assetsOverCurrentLiability": 45.01,
+          "assetAllocation": {
+            "publicEquity": 51,
+            "privateEquity": 7,
+            "investmentGradeDebt": 18,
+            "highYieldDebt": 13,
+            "realAssets": 6,
+            "cash": 0,
+            "other": 5
+          }
+        }
+      ],
+      "memberFacts": [
+        {
+          "title": "Half of your pension contribution does not build your pension",
+          "title_es": "La mitad de tu aportación de pensión no construye tu pensión",
+          "body_es": "Hasta el 31 de mayo de 2024 los contratistas pagaban <b>$18.00</b> por hora al fondo, de los cuales <b>$9.00 no contaban para acumular tu beneficio</b>. Desde el 1 de junio de 2024 la tarifa subió a <b>$19.10</b>, de los cuales <b>$10.10 no cuentan</b>. Ese dinero está pagando el pasivo no financiado del fondo en vez de construir tu propio beneficio. Esto es normal en un plan que se está recuperando y está completamente declarado — solo que nunca se dice en voz alta.",
+          "ask_es": "¿Cuál es mi beneficio mensual acumulado a la edad normal de retiro, al día de hoy?",
+          "body": "Through May 31, 2024 contractors paid <b>$18.00</b> an hour into the fund, of which <b>$9.00 did not count toward benefit accrual</b>. From June 1, 2024 the rate went to <b>$19.10</b>, of which <b>$10.10 does not count</b>. That money is paying down the fund's unfunded liability rather than building your own benefit. This is normal for a plan digging out and it is fully disclosed — it is just never said out loud.",
+          "ask": "What is my accrued monthly benefit at normal retirement age as of today?"
+        },
+        {
+          "title": "The accrual rate has been cut four times",
+          "title_es": "La tasa de acumulación se ha recortado cuatro veces",
+          "body_es": "Tu beneficio es un porcentaje de las aportaciones que hizo el patrón por ti: <b>6.7%</b> por trabajo entre junio de 1965 y mayo de 1984, <b>5%</b> de junio de 1984 a mayo de 2005, <b>3%</b> de junio de 2005 a mayo de 2010, y <b>1.5%</b> para todo lo que sea del 1 de junio de 2010 en adelante. Una hora trabajada hoy gana menos de la cuarta parte de lo que ganaba la misma hora en los años setenta.",
+          "body": "Your benefit is a percentage of the employer contributions made on your behalf: <b>6.7%</b> for work between June 1965 and May 1984, <b>5%</b> for June 1984 to May 2005, <b>3%</b> for June 2005 to May 2010, and <b>1.5%</b> for everything on or after June 1, 2010. An hour worked today earns less than a quarter of what the same hour earned in the 1970s."
+        },
+        {
+          "title": "100 hours in a plan year, or the year does not count",
+          "title_es": "100 horas en el año del plan, o el año no cuenta",
+          "body_es": "Menos de <b>100 horas de servicio</b> en un año del plan (1 de junio al 31 de mayo) y sufres una interrupción de servicio. Una vez que tienes derechos adquiridos tu beneficio acumulado está protegido, pero antes de eso una interrupción te puede costar. Este es el número contra el que cuenta el registro de horas.",
+          "ask_es": "¿Cuántos años de servicio acreditado tengo, y ya tengo derechos adquiridos?",
+          "body": "Fewer than <b>100 hours of service</b> in a plan year (June 1 to May 31) and you incur a break in service. Once you are vested your accrued benefit is protected, but before that a break can cost you. This is the number the hours log counts against.",
+          "ask": "How many years of credited service do I have, and am I vested?"
+        },
+        {
+          "title": "30 years means you can go at any age",
+          "title_es": "30 años y te puedes ir a cualquier edad",
+          "body_es": "El retiro normal es a los 65 años con 5 años de servicio, o a los 60 con 10. El retiro anticipado va de los 50 a los 59 con una <b>reducción del 4% por cada año antes de los 60</b>. Pero un participante activo con <b>al menos 30 años de servicio recibe una pensión completa sin importar la edad</b> — esa cláusula vale muchísimo y es fácil pasarla por alto.",
+          "body": "Normal retirement is age 65 with 5 years, or age 60 with 10. Early retirement runs 50 to 59 with a <b>4% reduction for each year under 60</b>. But an active participant with <b>at least 30 years of service gets an unreduced pension regardless of age</b> — that provision is worth a great deal and is easy to miss."
+        },
+        {
+          "title": "There is a lump sum on top, and it went up",
+          "title_es": "Hay un pago único además, y subió",
+          "body_es": "Los participantes activos que se retiren a partir del 1 de junio de 1999 con <b>20 años o más</b> de servicio acumulado reciben un pago único suplementario de <b>$1,000 por año de servicio</b>. A partir del 1 de junio de 2024 el plan se modificó para subirlo a <b>$2,000 por cada año después de los 30</b>.",
+          "body": "Active participants retiring on or after June 1, 1999 with <b>20 or more years</b> of cumulative service get a supplemental lump sum of <b>$1,000 per year of service</b>. Effective June 1, 2024 the plan was amended to raise that to <b>$2,000 for each year beyond 30</b>."
+        },
+        {
+          "title": "Disability pension exists at 10 years",
+          "title_es": "Hay pensión por incapacidad a los 10 años",
+          "body_es": "Un participante <b>total y permanentemente incapacitado</b> con al menos <b>10 años de servicio</b> tiene derecho al <b>80% de su beneficio acumulado de retiro normal</b>, y nunca menos de <b>$600</b> al mes. Con menos de 10 años de servicio esto no aplica.",
+          "ask_es": "¿Cumplo con la definición del plan de total y permanentemente incapacitado, y cuánto servicio acreditado tengo?",
+          "body": "A participant who is <b>totally and permanently disabled</b> with at least <b>10 years of service</b> is entitled to <b>80% of their accrued normal retirement benefit</b>, and never less than <b>$600</b> a month. Under 10 years of service and this does not apply.",
+          "ask": "Do I meet the plan definition of totally and permanently disabled, and what is my service credit?"
+        }
+      ],
+      "topContributors2024": [
+        {
+          "name": "Plote Construction Inc",
+          "amount": 1678372
+        },
+        {
+          "name": "Five Star Energy Services LLC",
+          "amount": 1550292
+        },
+        {
+          "name": "Northern Pipeline Construction",
+          "amount": 1384667
+        },
+        {
+          "name": "IHC Construction Co LLC",
+          "amount": 1107131
+        },
+        {
+          "name": "Intren LLC",
+          "amount": 1062204
+        },
+        {
+          "name": "Geneva Construction Co",
+          "amount": 1058795
+        },
+        {
+          "name": "Curran Construction Co",
+          "amount": 1052597
+        },
+        {
+          "name": "Schroeder Asphalt Services Inc",
+          "amount": 885149
+        },
+        {
+          "name": "J&S Construction Sewer & Water Inc",
+          "amount": 851102
+        },
+        {
+          "name": "Chadwick Contracting",
+          "amount": 751740
+        }
+      ]
+    },
+    "westchester-pension": {
+      "name": "Chicago & Vicinity Laborers' District Council Pension Plan",
+      "ein": "36-2514514",
+      "planNumber": "002",
+      "type": "multiemployer-db",
+      "city": "Westchester, IL",
+      "address": "11465 West Cermak Road, Westchester, IL 60154-5768",
+      "phone": "(708) 562-0200 ext. 530",
+      "administrator": "Catherine Wenskus",
+      "planYearEnds": "05-31",
+      "effective": "1963-06-01",
+      "actuary": "Segal",
+      "servesLocals": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        68,
+        75,
+        76,
+        152,
+        225,
+        681,
+        1001,
+        1092
+      ],
+      "inferred": true,
+      "contributionRatePerHour": 18.34,
+      "source": "https://www.chicagolaborersfunds.com/public/files/news/Annual%20Funding%20Notice.pdf",
+      "series": [
+        {
+          "planYear": 2022,
+          "participants": 30036,
+          "assets": 4306724797,
+          "verified": true
+        },
+        {
+          "planYear": 2023,
+          "participants": 30153,
+          "assets": 4826285793,
+          "verified": true
+        },
+        {
+          "planYear": 2024,
+          "participants": 30356,
+          "assets": 5220558637,
+          "verified": true,
+          "preliminary": true
+        }
+      ],
+      "actuarial": [
+        {
+          "planYear": 2022,
+          "verified": true,
+          "valuationDate": "2022-06-01",
+          "actuarialAssets": 4278687762,
+          "accruedLiability": 4874354930,
+          "fundedPercentage": 88,
+          "zoneCode": "N",
+          "zoneLabel": "Neither endangered nor critical"
+        },
+        {
+          "planYear": 2023,
+          "verified": true,
+          "valuationDate": "2023-06-01",
+          "actuarialAssets": 4506997992,
+          "accruedLiability": 5050010771,
+          "fundedPercentage": 89,
+          "zoneCode": "N",
+          "zoneLabel": "Neither endangered nor critical"
+        },
+        {
+          "planYear": 2024,
+          "verified": true,
+          "valuationDate": "2024-06-01",
+          "actuarialAssets": 4834208457,
+          "currentValueOfAssets": 4826285793,
+          "accruedLiability": 5266813634,
+          "fundedPercentage": 91.8,
+          "zoneCode": "N",
+          "zoneLabel": "Neither endangered nor critical",
+          "employerContributions": 313447288,
+          "normalCost": 70728885,
+          "valuationInterestRate": 7,
+          "returnOnActuarialValue": 6.9,
+          "returnOnMarketValue": 11.7,
+          "activeParticipants": 11586,
+          "retireesReceiving": 12467,
+          "vestedNotReceiving": 6100,
+          "totalParticipants": 30153,
+          "contributingEmployers": 1144,
+          "scheduleGAttached": false,
+          "currentLiability": 8477835835,
+          "currentLiabilityInterestRate": 3.63,
+          "assetsOverCurrentLiability": 56.93,
+          "assetAllocation": {
+            "commonCollectiveTrusts": 48.35,
+            "partnershipJointVenture": 23.09,
+            "corporateDebt": 6.58,
+            "govSecurities": 5.39,
+            "entities10312": 4.86,
+            "registeredInvestmentCos": 3.08,
+            "commonStock": 2.89,
+            "pooledSeparateAccounts": 1.84,
+            "other": 3.22,
+            "cash": 0.63,
+            "buildings": 0.07
+          }
+        }
+      ]
+    },
+    "westchester-hw": {
+      "name": "Chicago & Vicinity Laborers' District Council Health & Welfare Plan",
+      "ein": "36-2151212",
+      "planNumber": "501",
+      "type": "welfare",
+      "subsection": "501(c)(9) VEBA",
+      "city": "Westchester, IL",
+      "address": "11465 West Cermak Road, Westchester, IL 60154-5768",
+      "phone": "(708) 562-0200",
+      "established": 1950,
+      "effective": "1950-06-15",
+      "planYearEnds": "05-31",
+      "participants2024": {
+        "activeStart": 11572,
+        "activeEnd": 11150,
+        "receivingBenefits": 292,
+        "total": 11442
+      },
+      "contributingEmployers": 1144,
+      "scheduleGAttached": false,
+      "benefits": "Medical, prescription drug, dental, vision, life, accidental death and dismemberment, and weekly accident and sickness.",
+      "servesLocals": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        68,
+        75,
+        76,
+        152,
+        225,
+        681,
+        1001,
+        1092
+      ],
+      "inferred": true,
+      "contributionRatePerHour": 19.86,
+      "source": "https://projects.propublica.org/nonprofits/organizations/362151212",
+      "retireePlanEin": "46-5243652",
+      "series": [
+        {
+          "planYear": 2019,
+          "assets": 522991842,
+          "revenue": 230109007,
+          "expenses": 204144463,
+          "verified": true
+        },
+        {
+          "planYear": 2020,
+          "assets": 537341437,
+          "revenue": 210260712,
+          "expenses": 198632177,
+          "verified": true
+        },
+        {
+          "planYear": 2021,
+          "assets": 608474210,
+          "revenue": 222045222,
+          "expenses": 205356230,
+          "verified": true
+        },
+        {
+          "planYear": 2022,
+          "assets": 608269724,
+          "revenue": 245355059,
+          "expenses": 215027065,
+          "verified": true
+        },
+        {
+          "planYear": 2023,
+          "assets": 626781989,
+          "revenue": 263903387,
+          "expenses": 235909203,
+          "verified": true
+        }
+      ]
+    },
+    "fox-valley-hw": {
+      "name": "Fox Valley Laborers Health & Welfare Fund",
+      "ein": "36-6219639",
+      "planNumber": "501",
+      "type": "welfare",
+      "city": "Elgin, IL",
+      "effective": "1961-10-01",
+      "servesLocals": [
+        582,
+        1035
+      ],
+      "confirmedLocals": [
+        582,
+        1035
+      ],
+      "inferred": false,
+      "series": [
+        {
+          "planYear": 2013,
+          "participants": 1386,
+          "assets": 68249473,
+          "verified": false
+        },
+        {
+          "planYear": 2023,
+          "participants": 2009,
+          "assets": 130287745,
+          "verified": false
+        }
+      ]
+    }
+  },
+  "explainers": {
+    "assetsOverCurrentLiability": {
+      "label": "Assets ÷ RPA '94 current liability (Schedule MB line 2c)",
+      "label_es": "Activos ÷ pasivo corriente RPA '94 (Schedule MB línea 2c)",
+      "plain_es": "Esto NO es qué tan financiada está tu pensión. Es una medida deliberadamente pesimista que exige el IRS, calculada con una tasa de descuento que fija el gobierno — abajo del 3% en algunos años. Una tasa más baja hace que los beneficios futuros parezcan mucho más caros hoy, así que este número sale bajo en casi todos los planes multipatronales del país.",
+      "proof_es": "En el año del plan 2023 marcaba 35.72% con una tasa de 2.80%. Un año después marcaba 45.01% con 3.63%. El pasivo bajó $160 millones porque se movió la tasa obligatoria, no porque le pasara algo al fondo. En esos mismos dos años el porcentaje financiado real casi no se movió: de 78.9% a 78.3%.",
+      "lookScary": true,
+      "plain": "This is not how funded your pension is. It is a deliberately pessimistic measure the IRS requires, calculated at a discount rate the government sets — under 3% in some years. A lower rate makes future benefits look far more expensive today, so this number is low for nearly every multiemployer plan in the country.",
+      "proof": "In plan year 2023 it read 35.72% at a 2.80% rate. One year later it read 45.01% at a 3.63% rate. The liability fell by $160 million because the mandated rate moved, not because anything happened to the fund. Over the same two years the real funded percentage barely budged: 78.9% to 78.3%."
+    },
+    "fundedPercentage": {
+      "label": "Funded percentage (Schedule MB line 4a)",
+      "label_es": "Porcentaje financiado (Schedule MB línea 4a)",
+      "plain_es": "Este sí es el bueno — activos actuariales entre pasivo acumulado. Vas a ver por todos lados que \"abajo de 80% significa en peligro\". Eso es una regla de dedo, no la prueba real. La ley exime a un plan que no se proyecta en peligro en ninguno de los siguientes diez años, y por eso un plan puede estar en 78% y aun así certificar zona verde.",
+      "lookScary": false,
+      "plain": "This is the real one — actuarial assets divided by accrued liability. You will see \"below 80% means endangered\" repeated everywhere. That is a rule of thumb, not the test. The statute exempts a plan that is not projected to be endangered in any of the next ten years, which is why a plan can sit at 78% and still certify green."
+    },
+    "creditBalance": {
+      "label": "Credit balance in the funding standard account (line 9m)",
+      "label_es": "Saldo a favor en la cuenta estándar de financiamiento (línea 9m)",
+      "plain_es": "Colchón. Un plan que ha aportado más de lo requerido lo va acumulando, y puede usarlo antes de siquiera acercarse a un déficit de financiamiento. Un saldo a favor grande es de las señales más fuertes de que un plan no está en problemas.",
+      "lookScary": false,
+      "plain": "Cushion. A plan that has been contributing more than required builds this up, and can draw on it before it would ever face a funding deficiency. A large positive credit balance is one of the strongest signs a plan is not in trouble."
+    },
+    "scheduleG": {
+      "label": "Schedule G",
+      "label_es": "Schedule G",
+      "plain_es": "El anexo que solo se presenta cuando algo salió mal: préstamos en incumplimiento, arrendamientos en incumplimiento, transacciones que no estaban exentas. Si el Schedule G no viene adjunto en un reporte, es que no había nada que reportar. Fíjate si está antes de fijarte en cualquier otra cosa.",
+      "lookScary": false,
+      "plain": "The schedule that only gets filed when something went wrong: loans in default, leases in default, transactions that were not exempt. If Schedule G is absent from a filing, there was nothing to report. Check whether it is attached before you check anything else."
+    },
+    "auditorOpinion": {
+      "label": "Independent accountant's opinion (Schedule H Part III)",
+      "label_es": "Opinión del contador independiente (Schedule H Parte III)",
+      "plain_es": "Cuatro respuestas posibles: sin salvedades, con salvedades, abstención, o adversa. Sin salvedades es limpia y es la que quieres. Cualquier otra es la señal más fuerte de todo el reporte y vale la pena preguntar de inmediato.",
+      "lookScary": false,
+      "plain": "Four possible answers: unmodified, qualified, disclaimer, adverse. Unmodified is clean and is what you want. Anything else is the loudest single signal in the entire filing and is worth asking about immediately."
+    },
+    "serviceProviderFees": {
+      "label": "Payments to service providers (Schedule C)",
+      "label_es": "Pagos a proveedores de servicios (Schedule C)",
+      "plain_es": "Los pagos grandes a administradores de inversiones, actuarios, abogados y auditores son normales y la ley exige declararlos. Júzgalos como porcentaje de los activos, no en dólares crudos. Una administración de inversiones que anda por el 0.4% de una cartera institucional diversificada es de lo más común.",
+      "lookScary": true,
+      "plain": "Large payments to investment managers, actuaries, lawyers, and auditors are normal and legally required to be disclosed. Judge them as a percentage of assets, not as raw dollars. Investment management running roughly 0.4% of a diversified institutional portfolio is ordinary."
+    }
+  }
+}

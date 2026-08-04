@@ -1,0 +1,313 @@
+{
+  "id": "caica-2026",
+  "name": "CAICA — Chicago Area Independent Construction Association",
+  "counterparty": "Construction and General Laborers' District Council of Chicago and Vicinity",
+  "term": {
+    "from": "2026-06-01",
+    "to": "2031-05-31"
+  },
+  "counties": [
+    "Cook",
+    "DuPage",
+    "Lake",
+    "Will",
+    "Grundy",
+    "Kendall",
+    "Kane",
+    "McHenry",
+    "Boone"
+  ],
+  "servesLocals": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    68,
+    75,
+    76,
+    152,
+    225,
+    582,
+    681,
+    1001,
+    1035,
+    1092
+  ],
+  "source": "https://www.liunachicago.org/know-your-wages",
+  "wages": {
+    "effective": "2026-06-01",
+    "baseRate": 53,
+    "baseIncrease": 1.6,
+    "packageIncrease": 3.77,
+    "allocations": {
+      "fox-valley": {
+        "label": "Fox Valley Funds — Locals 582 and 1035",
+        "through": "2027-05-31",
+        "baseWage": 53,
+        "welfare": 17.23,
+        "welfareIncrease": 1,
+        "pension": 20.97,
+        "pensionIncrease": 1.17,
+        "training": 0.91,
+        "lecet": 0.07,
+        "ldclmcc": 0.19
+      },
+      "westchester": {
+        "label": "Westchester Funds — all other locals",
+        "through": "2027-05-31",
+        "baseWage": 53,
+        "welfare": 19.86,
+        "welfareIncrease": 1.54,
+        "pension": 18.34,
+        "pensionIncrease": 0.63,
+        "training": 0.91,
+        "lecet": 0.07,
+        "ldclmcc": 0.19
+      }
+    },
+    "workDuesPct": 3.75,
+    "industryFundCaica": 0.1,
+    "exceptions": "Employers covered by the CDCA agreement are excluded from these letters.",
+    "apprenticeSteps": [
+      {
+        "label": "1st 6 months",
+        "pct": 60
+      },
+      {
+        "label": "2nd 6 months",
+        "pct": 70
+      },
+      {
+        "label": "3rd 6 months",
+        "pct": 80
+      },
+      {
+        "label": "4th 6 months",
+        "pct": 90
+      },
+      {
+        "label": "After 24 months",
+        "pct": 100
+      }
+    ]
+  },
+  "overtime": {
+    "weekday": {
+      "label": "Weekday",
+      "note": "Normal day is 8 hours between 7:00 a.m. and 3:30 p.m. Time and one-half for the first 4 hours after the 8th, double time after that.",
+      "cite": "Art. 15 ¶1, ¶3",
+      "tiers": [
+        {
+          "upto": 8,
+          "mult": 1
+        },
+        {
+          "upto": 12,
+          "mult": 1.5
+        },
+        {
+          "upto": null,
+          "mult": 2
+        }
+      ]
+    },
+    "saturday": {
+      "label": "Saturday",
+      "note": "Time and one-half for the first 10 hours, double time thereafter, running until 8:00 a.m. Monday.",
+      "cite": "Art. 15 ¶5",
+      "tiers": [
+        {
+          "upto": 10,
+          "mult": 1.5
+        },
+        {
+          "upto": null,
+          "mult": 2
+        }
+      ]
+    },
+    "sunday": {
+      "label": "Sunday / holiday",
+      "note": "All work on Sundays and on New Year's, Memorial Day, Independence Day, Labor Day, Thanksgiving and Christmas is double time. No work on Labor Day except a dire emergency with the District Council's written consent.",
+      "cite": "Art. 17 ¶1",
+      "tiers": [
+        {
+          "upto": null,
+          "mult": 2
+        }
+      ]
+    },
+    "fourTens": {
+      "label": "Four 10s",
+      "note": "The employer may schedule four consecutive 10-hour days at straight time — but only if it is current on fringe contributions and working dues, is not in violation of JATC rules, and gave notice to the union and the employees by 4:00 p.m. the preceding Friday.",
+      "cite": "Art. 15 ¶1",
+      "tiers": [
+        {
+          "upto": 10,
+          "mult": 1
+        },
+        {
+          "upto": 14,
+          "mult": 1.5
+        },
+        {
+          "upto": null,
+          "mult": 2
+        }
+      ]
+    }
+  },
+  "premiums": {
+    "note": "Added on top of the base rate. Kane, Kendall, McHenry and Boone.",
+    "cite": "Art. 34, Art. 38",
+    "shiftSecondThird": 0.5,
+    "building": {
+      "Jackhammer & air spade": 0.25,
+      "Torch (demolition)": 0.15,
+      "Chain saw": 0.25,
+      "Power vibrator": 0.1,
+      "Swing stage & boatswain": 0.25,
+      "Cement gun nozzle": 0.25,
+      "Tile layer & bottom": 0.35,
+      "Hod carrier & plasterer tender": 0.35,
+      "Mortar": 0.15,
+      "Tunnel": 0.25,
+      "Caisson": 0.5,
+      "Dynamiter": 0.5,
+      "Tree surgeon-topper": 0.25,
+      "Dosimeter use": 1,
+      "Toxic & hazardous material remover": 1
+    },
+    "heavyHighway": {
+      "Labor foreman": 0.75,
+      "General foreman": 0.75,
+      "Superintendent": 0.75,
+      "Chain saw (operating)": 0.25,
+      "Air tampers & vibrators": 0.05,
+      "Mortar & concrete mixers": 0.05,
+      "Stringline & form setters": 0.15,
+      "Torch (demolition)": 0.15,
+      "Sheeting & cribbing": 0.15,
+      "Blacktop rakers & luteman": 0.15,
+      "Machine screwman": 0.15,
+      "Jackhammer": 0.25,
+      "Drillmen, concrete breakers & air spade": 0.25,
+      "Tunnel, tile layers & bottom": 0.35,
+      "Caisson digger": 0.5,
+      "Dynamiter": 0.5,
+      "Dynamite handler (helper)": 0.25,
+      "Toxic & hazardous lab": 1,
+      "Dosimeter": 1
+    }
+  },
+  "guarantees": [
+    {
+      "id": "reporting",
+      "title": "You showed up and got sent home",
+      "rule": "If you report for work and are not put to work **for any reason other than the weather**, you get **not less than 4 hours pay** — unless you were told at least 2 hours before starting time that there was no work. If a crew is sent home, the employer has to notify the members or the steward.",
+      "cite": "Art. 39 ¶1",
+      "owedMin": 4
+    },
+    {
+      "id": "callin",
+      "title": "You reported and no work was provided",
+      "rule": "Not less than **4 hours** pay regardless of the time you actually work. And if you work more than 4 hours in any day, you get **not less than 8 hours** pay. Read that twice: a 5-hour day that was not rained out is an **8-hour** day on the check.",
+      "cite": "Art. 39 ¶4",
+      "owedMin": 8
+    },
+    {
+      "id": "rainout",
+      "title": "Weather stopped the day partway through",
+      "rule": "This ladder is for **inclement weather only**: worked under 4 hours → minimum **4**. Over 4 and under 6 → minimum **6**. Over 6 and under 8 → minimum **8**. Any other reason for cutting the day short falls under Call-In Pay, which is more generous.",
+      "cite": "Art. 39 ¶4",
+      "ladder": [
+        {
+          "under": 4,
+          "min": 4
+        },
+        {
+          "under": 6,
+          "min": 6
+        },
+        {
+          "under": 8,
+          "min": 8
+        }
+      ]
+    },
+    {
+      "id": "calloff",
+      "title": "Nobody called you off",
+      "rule": "The employer only avoids show-up pay if it phoned you before you left home, or posted a definite phone number on the site and required you to call in. Otherwise it owes **2 hours show-up time** to anyone who appears and cannot work because of weather. This applies to the whole contract.",
+      "cite": "Art. 39 ¶5"
+    },
+    {
+      "id": "waiting",
+      "title": "You waited around on site",
+      "rule": "Waiting time is **not less than 4 hours** at your regular rate. Past 4 hours it is paid in **whole-hour multiples** — but you have to stay on site and be available.",
+      "cite": "Art. 39 ¶2",
+      "owedMin": 4
+    },
+    {
+      "id": "highest",
+      "title": "You did two different jobs in one day",
+      "rule": "If you work more than one classification in a day, **the whole day** is paid at the highest classification rate.",
+      "cite": "Art. 39 ¶3"
+    },
+    {
+      "id": "eating",
+      "title": "They worked you through lunch",
+      "rule": "An employee required to work through the eating period **shall nevertheless work at least 8.5 hours**, and that half hour is **paid at time and one-half**. On a three-shift job it is a full extra hour at the premium rate; on a twelve-hour shift, a half hour at premium.",
+      "cite": "Art. 15 ¶7",
+      "owedMin": 8.5
+    },
+    {
+      "id": "medical",
+      "title": "You got hurt on the job",
+      "rule": "You go for medical attention **at once**, and you are **paid for the lost time that day**. If the company doctor makes you come back for follow-up visits during working hours, that is paid too — up to 2 hours per visit.",
+      "cite": "Art. 19 ¶2"
+    },
+    {
+      "id": "earlystart",
+      "title": "They started you before 6:00 a.m.",
+      "rule": "**Double time** for all hours worked before 6:00 a.m., unless multiple shifts are running. Start times can move between 6:00 and 9:00 a.m. at straight time — earlier than 6:00 is premium.",
+      "cite": "Art. 15 ¶2"
+    },
+    {
+      "id": "saturdaymakeup",
+      "title": "They called a Saturday make-up day at straight time",
+      "rule": "Only allowed April 1 to November 30, once per calendar month, for rain, while tending masons — with written notice to the union by 4:00 p.m. Friday. After **40 hours** in the week it goes to time and one-half. An employer who breaks this owes **penalty double time for every hour worked**.",
+      "cite": "Art. 15 ¶5"
+    }
+  ],
+  "scope": {
+    "title": "Renewable energy work is covered",
+    "cite": "Side Letter #1",
+    "body": "The District Council and CAICA agreed to expand the branches of work to cover the renewable energy sector — solar, wind, hydrogen and geothermal power plants. The letter names the work specifically rather than leaving it to argument.",
+    "covers": [
+      "Construction and site surveying",
+      "Solar panel foundations and posts",
+      "Installation of the panel racking system",
+      "Forming, stripping of forms, backfilling and compaction of subsoil and topsoil at completed foundations",
+      "Filter cloth for access road construction",
+      "Vegetation management and weed control",
+      "Dust control, offloading and maintenance",
+      "Offloading and unwrapping panel modules in the yard and in the field",
+      "Removal of packing material, wrapping and debris",
+      "Placing modules on racking systems",
+      "Trench excavation and backfill for DC cable to the inverter",
+      "Trench excavation and backfill for AC cable to the transformer",
+      "Inverter foundations",
+      "Unloading, stockpiling, handling, distribution and placing of batteries in storage facilities"
+    ],
+    "note": "The parties also agreed to seek recognition of this work and its rates under the Davis-Bacon and Related Acts and the Illinois Prevailing Wage Act — which is what puts these jobs on the county rate schedule."
+  },
+  "fringeRules": {
+    "increment": "No less than one-half hour for each half-hour or portion worked.",
+    "grace": "30 days to submit reports and contributions.",
+    "penalty": "Late contributions are assessed 10% liquidated damages, plus interest and the trustees' audit and attorney costs.",
+    "audit": "The trustees may audit any participating employer's books and records.",
+    "cite": "Art. 5 ¶2–3"
+  }
+}

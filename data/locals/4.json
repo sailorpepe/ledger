@@ -1,0 +1,7961 @@
+{
+  "desig": 4,
+  "fNum": 19490,
+  "city": "Chicago",
+  "role": "local",
+  "label": "Local 4",
+  "latestYear": 2025,
+  "members": 1368,
+  "years": [
+    {
+      "year": 2025,
+      "formType": "LM-2",
+      "rptId": 936136,
+      "members": 1368,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2025,
+        "representational": 725534,
+        "political": 0,
+        "contributions": 47209,
+        "general_overhead": 0,
+        "union_administration": 1042125,
+        "benefits": 757631,
+        "per_capita_tax": 348313,
+        "direct_taxes": 79067,
+        "investments": 7750814,
+        "to_officers": 985826,
+        "to_employees": 148973,
+        "dues": 3052320,
+        "interest": 374816,
+        "dividends": 192381,
+        "fees": 95924,
+        "other_receipts": 109856
+      },
+      "representationalPerMember": 530,
+      "assets": 19348516,
+      "liabilities": 1794,
+      "receipts": 11208490,
+      "disbursements": 10845681,
+      "receiptsPerMember": 8193,
+      "assetsPerMember": 14144,
+      "disbursementsPerMember": 7928,
+      "payrollShare": 10.5
+    },
+    {
+      "year": 2024,
+      "formType": "LM-2",
+      "rptId": 907993,
+      "members": 1364,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2024,
+        "representational": 713868,
+        "political": 1503,
+        "contributions": 57141,
+        "general_overhead": 0,
+        "union_administration": 957206,
+        "benefits": 737594,
+        "per_capita_tax": 354367,
+        "direct_taxes": 74185,
+        "investments": 5329862,
+        "to_officers": 596308,
+        "to_employees": 205800,
+        "dues": 3004720,
+        "interest": 320550,
+        "dividends": 204912,
+        "fees": 82073,
+        "other_receipts": 105760
+      },
+      "representationalPerMember": 523,
+      "assets": 17987532,
+      "liabilities": 3107,
+      "receipts": 8193482,
+      "disbursements": 8318773,
+      "receiptsPerMember": 6007,
+      "assetsPerMember": 13187,
+      "disbursementsPerMember": 6099,
+      "payrollShare": 13.3
+    },
+    {
+      "year": 2023,
+      "formType": "LM-2",
+      "rptId": 879514,
+      "members": 1475,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2023,
+        "representational": 767472,
+        "political": 0,
+        "contributions": 33700,
+        "general_overhead": 0,
+        "union_administration": 865177,
+        "benefits": 711638,
+        "per_capita_tax": 362572,
+        "direct_taxes": 71717,
+        "investments": 2815182,
+        "to_officers": 597611,
+        "to_employees": 197769,
+        "dues": 3085714,
+        "interest": 264787,
+        "dividends": 105511,
+        "fees": 97250,
+        "other_receipts": 109808
+      },
+      "representationalPerMember": 520,
+      "assets": 16958381,
+      "liabilities": 19071,
+      "receipts": 6265978,
+      "disbursements": 5718695,
+      "receiptsPerMember": 4248,
+      "assetsPerMember": 11497,
+      "disbursementsPerMember": 3877,
+      "payrollShare": 19
+    },
+    {
+      "year": 2022,
+      "formType": "LM-2",
+      "rptId": 856894,
+      "members": 1437,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2022,
+        "representational": 696980,
+        "political": 0,
+        "contributions": 41016,
+        "general_overhead": 0,
+        "union_administration": 886256,
+        "benefits": 674192,
+        "per_capita_tax": 363723,
+        "direct_taxes": 68644,
+        "investments": 4314756,
+        "to_officers": 581209,
+        "to_employees": 185438,
+        "dues": 2817574,
+        "interest": 254387,
+        "dividends": 105650,
+        "fees": 80660,
+        "other_receipts": 106987
+      },
+      "representationalPerMember": 485,
+      "assets": 16229405,
+      "liabilities": 18650,
+      "receipts": 7190210,
+      "disbursements": 7122616,
+      "receiptsPerMember": 5004,
+      "assetsPerMember": 11294,
+      "disbursementsPerMember": 4957,
+      "payrollShare": 14.7
+    },
+    {
+      "year": 2021,
+      "formType": "LM-2",
+      "rptId": 802965,
+      "members": 1545,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2021,
+        "representational": 693919,
+        "political": 0,
+        "contributions": 48184,
+        "general_overhead": 0,
+        "union_administration": 733242,
+        "benefits": 573984,
+        "per_capita_tax": 381055,
+        "direct_taxes": 66092,
+        "investments": 10303637,
+        "to_officers": 571092,
+        "to_employees": 121765,
+        "dues": 2506839,
+        "interest": 179584,
+        "dividends": 234717,
+        "fees": 78832,
+        "other_receipts": 108578
+      },
+      "representationalPerMember": 449,
+      "assets": 16173575,
+      "liabilities": 2261,
+      "receipts": 12734662,
+      "disbursements": 12885986,
+      "receiptsPerMember": 8242,
+      "assetsPerMember": 10468,
+      "disbursementsPerMember": 8340,
+      "payrollShare": 7.6
+    },
+    {
+      "year": 2020,
+      "formType": "LM-2",
+      "rptId": 743164,
+      "members": 1615,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2020,
+        "representational": 651506,
+        "political": 0,
+        "contributions": 44568,
+        "general_overhead": 0,
+        "union_administration": 654752,
+        "benefits": 514739,
+        "per_capita_tax": 386824,
+        "direct_taxes": 56094,
+        "investments": 3097915,
+        "to_officers": 434729,
+        "to_employees": 123854,
+        "dues": 2622608,
+        "interest": 184311,
+        "dividends": 155495,
+        "fees": 91068,
+        "other_receipts": 114587
+      },
+      "representationalPerMember": 403,
+      "assets": 14935085,
+      "liabilities": 7472,
+      "receipts": 5824938,
+      "disbursements": 5442116,
+      "receiptsPerMember": 3607,
+      "assetsPerMember": 9248,
+      "disbursementsPerMember": 3370,
+      "payrollShare": 16.1
+    },
+    {
+      "year": 2019,
+      "formType": "LM-2",
+      "rptId": 719715,
+      "members": 1577,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2019,
+        "representational": 754362,
+        "political": 4443,
+        "contributions": 35350,
+        "general_overhead": 10545,
+        "union_administration": 658521,
+        "benefits": 519665,
+        "per_capita_tax": 390012,
+        "direct_taxes": 56419,
+        "investments": 1212946,
+        "to_officers": 524424,
+        "to_employees": 75693,
+        "dues": 2890098,
+        "interest": 192926,
+        "dividends": 105547,
+        "fees": 108851,
+        "other_receipts": 148628
+      },
+      "representationalPerMember": 478,
+      "assets": 14215030,
+      "liabilities": 2943,
+      "receipts": 3613044,
+      "disbursements": 3688080,
+      "receiptsPerMember": 2291,
+      "assetsPerMember": 9014,
+      "disbursementsPerMember": 2339,
+      "payrollShare": 25.3
+    },
+    {
+      "year": 2018,
+      "formType": "LM-2",
+      "rptId": 693473,
+      "members": 1632,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2018,
+        "representational": 673155,
+        "political": 6023,
+        "contributions": 52396,
+        "general_overhead": 0,
+        "union_administration": 591521,
+        "benefits": 503826,
+        "per_capita_tax": 389550,
+        "direct_taxes": 51956,
+        "investments": 1142890,
+        "to_officers": 475751,
+        "to_employees": 56834,
+        "dues": 2923135,
+        "interest": 158475,
+        "dividends": 171034,
+        "fees": 177008,
+        "other_receipts": 83843
+      },
+      "representationalPerMember": 412,
+      "assets": 13269358,
+      "liabilities": 3433,
+      "receipts": 3670621,
+      "disbursements": 3468885,
+      "receiptsPerMember": 2249,
+      "assetsPerMember": 8131,
+      "disbursementsPerMember": 2126,
+      "payrollShare": 24.1
+    },
+    {
+      "year": 2017,
+      "formType": "LM-2",
+      "rptId": 663923,
+      "members": 1629,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2017,
+        "representational": 659628,
+        "political": 0,
+        "contributions": 62502,
+        "general_overhead": 0,
+        "union_administration": 553925,
+        "benefits": 478085,
+        "per_capita_tax": 375452,
+        "direct_taxes": 51180,
+        "investments": 1152018,
+        "to_officers": 467209,
+        "to_employees": 52145,
+        "dues": 2779485,
+        "interest": 135603,
+        "dividends": 152224,
+        "fees": 199176,
+        "other_receipts": 115315
+      },
+      "representationalPerMember": 405,
+      "assets": 12114795,
+      "liabilities": 7902,
+      "receipts": 3477108,
+      "disbursements": 3397909,
+      "receiptsPerMember": 2135,
+      "assetsPerMember": 7437,
+      "disbursementsPerMember": 2086,
+      "payrollShare": 23.8
+    },
+    {
+      "year": 2016,
+      "formType": "LM-2",
+      "rptId": 634962,
+      "members": 1538,
+      "actives": null,
+      "apprentices": 34,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2016,
+        "representational": 617316,
+        "political": 2353,
+        "contributions": 53323,
+        "general_overhead": 0,
+        "union_administration": 557132,
+        "benefits": 460580,
+        "per_capita_tax": 340889,
+        "direct_taxes": 48723,
+        "investments": 1031437,
+        "to_officers": 466888,
+        "to_employees": 52414,
+        "dues": 2478762,
+        "interest": 296734,
+        "dividends": 132616,
+        "fees": 254590,
+        "other_receipts": 112613
+      },
+      "representationalPerMember": 401,
+      "assets": 11061543,
+      "liabilities": 7421,
+      "receipts": 3362025,
+      "disbursements": 3167334,
+      "receiptsPerMember": 2186,
+      "assetsPerMember": 7192,
+      "disbursementsPerMember": 2059,
+      "payrollShare": 25.3
+    },
+    {
+      "year": 2015,
+      "formType": "LM-2",
+      "rptId": 605847,
+      "members": 1382,
+      "actives": null,
+      "apprentices": 26,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2015,
+        "representational": 568478,
+        "political": 28353,
+        "contributions": 38866,
+        "general_overhead": 0,
+        "union_administration": 527638,
+        "benefits": 444718,
+        "per_capita_tax": 326214,
+        "direct_taxes": 47859,
+        "investments": 1086057,
+        "to_officers": 477856,
+        "to_employees": 66605,
+        "dues": 2164307,
+        "interest": 157116,
+        "dividends": 141674,
+        "fees": 178708,
+        "other_receipts": 103814
+      },
+      "representationalPerMember": 411,
+      "assets": 10151239,
+      "liabilities": 2957,
+      "receipts": 2828540,
+      "disbursements": 3111952,
+      "receiptsPerMember": 2047,
+      "assetsPerMember": 7345,
+      "disbursementsPerMember": 2252,
+      "payrollShare": 24.3
+    },
+    {
+      "year": 2014,
+      "formType": "LM-2",
+      "rptId": 577931,
+      "members": 1377,
+      "actives": null,
+      "apprentices": 14,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2014,
+        "representational": 368669,
+        "political": 0,
+        "contributions": 33969,
+        "general_overhead": 262845,
+        "union_administration": 315667,
+        "benefits": 351763,
+        "per_capita_tax": 273836,
+        "direct_taxes": 39235,
+        "investments": 561390,
+        "to_officers": 362743,
+        "to_employees": 53539,
+        "dues": 1810158,
+        "interest": 160933,
+        "dividends": 122398,
+        "fees": 140044,
+        "other_receipts": 140531
+      },
+      "representationalPerMember": 268,
+      "assets": 9635445,
+      "liabilities": 3276,
+      "receipts": 2409002,
+      "disbursements": 2216106,
+      "receiptsPerMember": 1749,
+      "assetsPerMember": 6997,
+      "disbursementsPerMember": 1609,
+      "payrollShare": 28.5
+    },
+    {
+      "year": 2013,
+      "formType": "LM-2",
+      "rptId": 542223,
+      "members": 1274,
+      "actives": null,
+      "apprentices": 6,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2013,
+        "representational": 335512,
+        "political": 10000,
+        "contributions": 15200,
+        "general_overhead": 160406,
+        "union_administration": 421036,
+        "benefits": 328631,
+        "per_capita_tax": 242709,
+        "direct_taxes": 36191,
+        "investments": 702077,
+        "to_officers": 330661,
+        "to_employees": 52301,
+        "dues": 1663814,
+        "interest": 173757,
+        "dividends": 67456,
+        "fees": 140044,
+        "other_receipts": 115826
+      },
+      "representationalPerMember": 263,
+      "assets": 8927627,
+      "liabilities": 2817,
+      "receipts": 2234317,
+      "disbursements": 2269670,
+      "receiptsPerMember": 1754,
+      "assetsPerMember": 7008,
+      "disbursementsPerMember": 1782,
+      "payrollShare": 25.5
+    },
+    {
+      "year": 2012,
+      "formType": "LM-2",
+      "rptId": 514286,
+      "members": 1212,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2012,
+        "representational": 409295,
+        "political": 0,
+        "contributions": 19050,
+        "general_overhead": 137033,
+        "union_administration": 408402,
+        "benefits": 357955,
+        "per_capita_tax": 259371,
+        "direct_taxes": 42864,
+        "investments": 1336834,
+        "to_officers": 385394,
+        "to_employees": 53215,
+        "dues": 1512228,
+        "interest": 177037,
+        "dividends": 54269,
+        "fees": 113123,
+        "other_receipts": 238747
+      },
+      "representationalPerMember": 338,
+      "assets": 8402923,
+      "liabilities": 1756,
+      "receipts": 3186441,
+      "disbursements": 2999738,
+      "receiptsPerMember": 2629,
+      "assetsPerMember": 6933,
+      "disbursementsPerMember": 2475,
+      "payrollShare": 21.5
+    },
+    {
+      "year": 2011,
+      "formType": "LM-2",
+      "rptId": 475820,
+      "members": 1312,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 107,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2011,
+        "representational": 416337,
+        "political": 0,
+        "contributions": 19000,
+        "general_overhead": 331840,
+        "union_administration": 345845,
+        "benefits": 443319,
+        "per_capita_tax": 259843,
+        "direct_taxes": 49408,
+        "investments": 1870795,
+        "to_officers": 294949,
+        "to_employees": 253864,
+        "dues": 1287246,
+        "interest": 177700,
+        "dividends": 37115,
+        "fees": 100142,
+        "other_receipts": 188845
+      },
+      "representationalPerMember": 317,
+      "assets": 8154120,
+      "liabilities": 114011,
+      "receipts": 3611756,
+      "disbursements": 3759011,
+      "receiptsPerMember": 2753,
+      "assetsPerMember": 6215,
+      "disbursementsPerMember": 2865,
+      "payrollShare": 21
+    },
+    {
+      "year": 2010,
+      "formType": "LM-2",
+      "rptId": 451058,
+      "members": 1371,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 81,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2010,
+        "representational": 431434,
+        "political": 1759,
+        "contributions": 19500,
+        "general_overhead": 647085,
+        "union_administration": 199916,
+        "benefits": 421522,
+        "per_capita_tax": 281196,
+        "direct_taxes": 50578,
+        "investments": 897133,
+        "to_officers": 288051,
+        "to_employees": 276691,
+        "dues": 1250444,
+        "interest": 166033,
+        "dividends": 47837,
+        "fees": 84083,
+        "other_receipts": 252350
+      },
+      "representationalPerMember": 315,
+      "assets": 8304124,
+      "liabilities": 113916,
+      "receipts": 3027969,
+      "disbursements": 3005819,
+      "receiptsPerMember": 2209,
+      "assetsPerMember": 6057,
+      "disbursementsPerMember": 2192,
+      "payrollShare": 26.8
+    },
+    {
+      "year": 2009,
+      "formType": "LM-2",
+      "rptId": 415687,
+      "members": 1644,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2009,
+        "representational": 375450,
+        "political": 0,
+        "contributions": 14550,
+        "general_overhead": 238367,
+        "union_administration": 476470,
+        "benefits": 325873,
+        "per_capita_tax": 313758,
+        "direct_taxes": 48564,
+        "investments": 1595080,
+        "to_officers": 272337,
+        "to_employees": 252120,
+        "dues": 1669101,
+        "interest": 162409,
+        "dividends": 44208,
+        "fees": 91228,
+        "other_receipts": 102139
+      },
+      "representationalPerMember": 228,
+      "assets": 8623385,
+      "liabilities": 3745,
+      "receipts": 3056068,
+      "disbursements": 3412605,
+      "receiptsPerMember": 1859,
+      "assetsPerMember": 5245,
+      "disbursementsPerMember": 2076,
+      "payrollShare": 22
+    },
+    {
+      "year": 2008,
+      "formType": "LM-2",
+      "rptId": 379490,
+      "members": 1649,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2008,
+        "representational": 406686,
+        "political": 0,
+        "contributions": 14400,
+        "general_overhead": 188770,
+        "union_administration": 607068,
+        "benefits": 286117,
+        "per_capita_tax": 330257,
+        "direct_taxes": 52407,
+        "investments": 2538639,
+        "to_officers": 379816,
+        "to_employees": 260499,
+        "dues": 2348977,
+        "interest": 167032,
+        "dividends": 51222,
+        "fees": 193008,
+        "other_receipts": 33333
+      },
+      "representationalPerMember": 247,
+      "assets": 8579102,
+      "liabilities": 3465,
+      "receipts": 4295478,
+      "disbursements": 4417708,
+      "receiptsPerMember": 2605,
+      "assetsPerMember": 5203,
+      "disbursementsPerMember": 2679,
+      "payrollShare": 18.7
+    },
+    {
+      "year": 2007,
+      "formType": "LM-2",
+      "rptId": 346395,
+      "members": 1663,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2007,
+        "representational": 430626,
+        "political": 0,
+        "contributions": 6400,
+        "general_overhead": 211354,
+        "union_administration": 435370,
+        "benefits": 277890,
+        "per_capita_tax": 303708,
+        "direct_taxes": 48538,
+        "investments": 2827406,
+        "to_officers": 278624,
+        "to_employees": 258374,
+        "dues": 2181355,
+        "interest": 230286,
+        "dividends": 54336,
+        "fees": 275407,
+        "other_receipts": 0
+      },
+      "representationalPerMember": 259,
+      "assets": 7843365,
+      "liabilities": 13099,
+      "receipts": 4198379,
+      "disbursements": 4540803,
+      "receiptsPerMember": 2525,
+      "assetsPerMember": 4716,
+      "disbursementsPerMember": 2730,
+      "payrollShare": 16.9
+    },
+    {
+      "year": 2006,
+      "formType": "LM-2",
+      "rptId": 309956,
+      "members": 1451,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2006,
+        "representational": 350776,
+        "political": 0,
+        "contributions": 9250,
+        "general_overhead": 173617,
+        "union_administration": 354518,
+        "benefits": 209186,
+        "per_capita_tax": 261821,
+        "direct_taxes": 39033,
+        "investments": 639694,
+        "to_officers": 344107,
+        "to_employees": 139598,
+        "dues": 1511470,
+        "interest": 251758,
+        "dividends": 50226,
+        "fees": 215162,
+        "other_receipts": 7620
+      },
+      "representationalPerMember": 242,
+      "assets": 6923755,
+      "liabilities": 20083,
+      "receipts": 2820386,
+      "disbursements": 2044500,
+      "receiptsPerMember": 1944,
+      "assetsPerMember": 4772,
+      "disbursementsPerMember": 1409,
+      "payrollShare": 33.2
+    },
+    {
+      "year": 2005,
+      "formType": "LM-2",
+      "rptId": 273625,
+      "members": 1390,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2005,
+        "representational": 395938,
+        "political": 563,
+        "contributions": 11100,
+        "general_overhead": 187286,
+        "union_administration": 306504,
+        "benefits": 190782,
+        "per_capita_tax": 247399,
+        "direct_taxes": 36533,
+        "investments": 1428145,
+        "to_officers": 335408,
+        "to_employees": 133809,
+        "dues": 1363645,
+        "interest": 233076,
+        "dividends": 51985,
+        "fees": 147189,
+        "other_receipts": 65598
+      },
+      "representationalPerMember": 285,
+      "assets": 6359857,
+      "liabilities": 26807,
+      "receipts": 2933945,
+      "disbursements": 2804481,
+      "receiptsPerMember": 2111,
+      "assetsPerMember": 4575,
+      "disbursementsPerMember": 2018,
+      "payrollShare": 23.1
+    },
+    {
+      "year": 2004,
+      "formType": "LM-2",
+      "rptId": 230449,
+      "members": 1380,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2004,
+        "representational": null,
+        "political": null,
+        "contributions": 5230,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 197577,
+        "per_capita_tax": 252341,
+        "direct_taxes": 35140,
+        "investments": 2492738,
+        "to_officers": 327453,
+        "to_employees": 120033,
+        "dues": 1309960,
+        "interest": 223137,
+        "dividends": 51366,
+        "fees": 163175,
+        "other_receipts": 36983
+      },
+      "representationalPerMember": 0,
+      "assets": 6013244,
+      "liabilities": 29621,
+      "receipts": 3919958,
+      "disbursements": 3824781,
+      "receiptsPerMember": 2841,
+      "assetsPerMember": 4357,
+      "disbursementsPerMember": 2772,
+      "payrollShare": 16.1
+    },
+    {
+      "year": 2003,
+      "formType": "LM-2",
+      "rptId": 200233,
+      "members": 1360,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2003,
+        "representational": null,
+        "political": null,
+        "contributions": 5732,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 168376,
+        "per_capita_tax": 237930,
+        "direct_taxes": 33142,
+        "investments": 3405168,
+        "to_officers": 318737,
+        "to_employees": 84351,
+        "dues": 1381826,
+        "interest": 239091,
+        "dividends": 15824,
+        "fees": 154138,
+        "other_receipts": 26653
+      },
+      "representationalPerMember": 0,
+      "assets": 5582813,
+      "liabilities": 7140,
+      "receipts": 3812532,
+      "disbursements": 4638006,
+      "receiptsPerMember": 2803,
+      "assetsPerMember": 4105,
+      "disbursementsPerMember": 3410,
+      "payrollShare": 11.6
+    },
+    {
+      "year": 2002,
+      "formType": "LM-2",
+      "rptId": 167872,
+      "members": 1298,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2002,
+        "representational": null,
+        "political": null,
+        "contributions": 5328,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 141777,
+        "per_capita_tax": 221408,
+        "direct_taxes": 29340,
+        "investments": 2731529,
+        "to_officers": 279311,
+        "to_employees": 60286,
+        "dues": 1256640,
+        "interest": 209844,
+        "dividends": 6423,
+        "fees": 182830,
+        "other_receipts": 23686
+      },
+      "representationalPerMember": 0,
+      "assets": 5040046,
+      "liabilities": 3159,
+      "receipts": 3574505,
+      "disbursements": 3785734,
+      "receiptsPerMember": 2754,
+      "assetsPerMember": 3883,
+      "disbursementsPerMember": 2917,
+      "payrollShare": 12.8
+    },
+    {
+      "year": 2001,
+      "formType": "LM-2",
+      "rptId": 113880,
+      "members": 1363,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2001,
+        "representational": null,
+        "political": null,
+        "contributions": 4597,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 116663,
+        "per_capita_tax": 208011,
+        "direct_taxes": 24914,
+        "investments": 2826911,
+        "to_officers": 266099,
+        "to_employees": 30745,
+        "dues": 1122423,
+        "interest": 227218,
+        "dividends": 13290,
+        "fees": 199309,
+        "other_receipts": 15528
+      },
+      "representationalPerMember": 0,
+      "assets": 4455501,
+      "liabilities": 3997,
+      "receipts": 3846264,
+      "disbursements": 3781282,
+      "receiptsPerMember": 2822,
+      "assetsPerMember": 3269,
+      "disbursementsPerMember": 2774,
+      "payrollShare": 11.3
+    },
+    {
+      "year": 2000,
+      "formType": "LM-2",
+      "rptId": 87720,
+      "members": 1252,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2000,
+        "representational": null,
+        "political": null,
+        "contributions": 3096,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 101499,
+        "per_capita_tax": 187776,
+        "direct_taxes": 21309,
+        "investments": 376427,
+        "to_officers": 252366,
+        "to_employees": 231,
+        "dues": 1062485,
+        "interest": 170201,
+        "dividends": 22322,
+        "fees": 227866,
+        "other_receipts": 6171
+      },
+      "representationalPerMember": 0,
+      "assets": 3859115,
+      "liabilities": 3024,
+      "receipts": 1556795,
+      "disbursements": 1162973,
+      "receiptsPerMember": 1243,
+      "assetsPerMember": 3082,
+      "disbursementsPerMember": 929,
+      "payrollShare": 31.3
+    }
+  ],
+  "people": [
+    {
+      "year": 2025,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SEC-TREAS/BUSINESS MGR",
+          "kind": "officer",
+          "total": 227268
+        }
+      ],
+      "grossSalary": 224940,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 227268,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "CONNOLLYJR|J",
+      "name": "James Connolly  jr",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 195652
+        }
+      ],
+      "grossSalary": 191314,
+      "allowances": 0,
+      "officialBusiness": 3432,
+      "total": 195652,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 174470
+        }
+      ],
+      "grossSalary": 167194,
+      "allowances": 0,
+      "officialBusiness": 2325,
+      "total": 174470,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "SCANLON|F",
+      "name": "Francis Scanlon",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 167265
+        }
+      ],
+      "grossSalary": 158351,
+      "allowances": 0,
+      "officialBusiness": 3000,
+      "total": 167265,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "DUGAN|T",
+      "name": "Timothy Dugan",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 161647
+        }
+      ],
+      "grossSalary": 156305,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 161647,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 148973
+        }
+      ],
+      "grossSalary": 148973,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 148973,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25824
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 824,
+      "total": 25824,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 8400
+        }
+      ],
+      "grossSalary": 8400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 8400,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "PERKINS|P",
+      "name": "Patrick Perkins",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 7800
+        }
+      ],
+      "grossSalary": 7800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7800,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "DIETTE|T",
+      "name": "Thomas Diette",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "JAQUEZ|J",
+      "name": "Jesus Jaquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 1300
+        }
+      ],
+      "grossSalary": 1300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1300,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY-TREASURER, BUS MGR",
+          "kind": "officer",
+          "total": 262333
+        }
+      ],
+      "grossSalary": 256730,
+      "allowances": 0,
+      "officialBusiness": 4000,
+      "total": 262333,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "CONNOLLY|J",
+      "name": "James  jr Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 150256
+        },
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 167784,
+      "allowances": 0,
+      "officialBusiness": 5688,
+      "total": 175256,
+      "dualRole": true
+    },
+    {
+      "year": 2024,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 171379
+        }
+      ],
+      "grossSalary": 160704,
+      "allowances": 0,
+      "officialBusiness": 7147,
+      "total": 171379,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "SCANLON|F",
+      "name": "Francis Scanlon",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 163030
+        }
+      ],
+      "grossSalary": 152864,
+      "allowances": 0,
+      "officialBusiness": 6740,
+      "total": 163030,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "DUGAN|T",
+      "name": "Timothy Dugan",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 158860
+        }
+      ],
+      "grossSalary": 150313,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 158860,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 138362
+        }
+      ],
+      "grossSalary": 138362,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 138362,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 8400
+        }
+      ],
+      "grossSalary": 8400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 8400,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 7800
+        }
+      ],
+      "grossSalary": 7800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7800,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "PERKINS|P",
+      "name": "Patrick Perkins",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7800
+        }
+      ],
+      "grossSalary": 7800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7800,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "JAQUEZ|J",
+      "name": "Jesus Jaquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 256907
+        }
+      ],
+      "grossSalary": 249389,
+      "allowances": 0,
+      "officialBusiness": 6263,
+      "total": 256907,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 171342
+        }
+      ],
+      "grossSalary": 155228,
+      "allowances": 0,
+      "officialBusiness": 6000,
+      "total": 171342,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "CONNOLLY|J",
+      "name": "James jr Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 144335
+        },
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 26353
+        }
+      ],
+      "grossSalary": 162798,
+      "allowances": 0,
+      "officialBusiness": 7571,
+      "total": 170688,
+      "dualRole": true
+    },
+    {
+      "year": 2023,
+      "key": "SCANLON|F",
+      "name": "Francis Scanlon",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 156051
+        }
+      ],
+      "grossSalary": 147759,
+      "allowances": 0,
+      "officialBusiness": 4000,
+      "total": 156051,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "DUGAN|T",
+      "name": "Timothy Dugan",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 154951
+        }
+      ],
+      "grossSalary": 145083,
+      "allowances": 0,
+      "officialBusiness": 2179,
+      "total": 154951,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 133786
+        }
+      ],
+      "grossSalary": 133411,
+      "allowances": 0,
+      "officialBusiness": 375,
+      "total": 133786,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 8400
+        }
+      ],
+      "grossSalary": 8400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 8400,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 7800
+        }
+      ],
+      "grossSalary": 7800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7800,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "PERKINS|P",
+      "name": "Patrick Perkins",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 7800
+        }
+      ],
+      "grossSalary": 7800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7800,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "JAQUEZ|J",
+      "name": "Jesus Jaquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 253524
+        }
+      ],
+      "grossSalary": 247738,
+      "allowances": 0,
+      "officialBusiness": 1897,
+      "total": 253524,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 163088
+        }
+      ],
+      "grossSalary": 151294,
+      "allowances": 0,
+      "officialBusiness": 290,
+      "total": 163088,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "CONNOLLY|J",
+      "name": "James jr Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 132860
+        },
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 26353
+        }
+      ],
+      "grossSalary": 157065,
+      "allowances": 0,
+      "officialBusiness": 1767,
+      "total": 159213,
+      "dualRole": true
+    },
+    {
+      "year": 2022,
+      "key": "DUGAN|T",
+      "name": "Timothy Dugan",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 152977
+        }
+      ],
+      "grossSalary": 140836,
+      "allowances": 0,
+      "officialBusiness": 2179,
+      "total": 152977,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "SCANLON|F",
+      "name": "Francis Scanlon",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 147167
+        }
+      ],
+      "grossSalary": 143578,
+      "allowances": 0,
+      "officialBusiness": 419,
+      "total": 147167,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 129860
+        }
+      ],
+      "grossSalary": 129485,
+      "allowances": 0,
+      "officialBusiness": 375,
+      "total": 129860,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 8300
+        }
+      ],
+      "grossSalary": 8300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 8300,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 7700
+        }
+      ],
+      "grossSalary": 7700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7700,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "PERKINS|P",
+      "name": "Patrick Perkins",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7700
+        }
+      ],
+      "grossSalary": 7700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7700,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "JAQUEZ|J",
+      "name": "Jesus Jaquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 236782
+        }
+      ],
+      "grossSalary": 235661,
+      "allowances": 0,
+      "officialBusiness": 644,
+      "total": 236782,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "RODRIGUEZJR|L",
+      "name": "Lucio Rodriguez jr",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 146643
+        }
+      ],
+      "grossSalary": 139604,
+      "allowances": 0,
+      "officialBusiness": 331,
+      "total": 146643,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "SCANLON|F",
+      "name": "Francis Scanlon",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 128153
+        }
+      ],
+      "grossSalary": 125553,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 128153,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "DUGAN|T",
+      "name": "Timothy Dugan",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 126652
+        }
+      ],
+      "grossSalary": 123277,
+      "allowances": 0,
+      "officialBusiness": 52,
+      "total": 126652,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 120246
+        }
+      ],
+      "grossSalary": 119691,
+      "allowances": 0,
+      "officialBusiness": 555,
+      "total": 120246,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 110009
+        }
+      ],
+      "grossSalary": 108162,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 110009,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 48588
+        },
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 26353
+        }
+      ],
+      "grossSalary": 73097,
+      "allowances": 0,
+      "officialBusiness": 1426,
+      "total": 74941,
+      "dualRole": true
+    },
+    {
+      "year": 2021,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 8100
+        }
+      ],
+      "grossSalary": 8100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 8100,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 7500
+        }
+      ],
+      "grossSalary": 7500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7500,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5100
+        }
+      ],
+      "grossSalary": 5100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5100,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5100
+        }
+      ],
+      "grossSalary": 5100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5100,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "JAQUEZ|J",
+      "name": "Jesus Jaquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5100
+        }
+      ],
+      "grossSalary": 5100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5100,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 230023
+        }
+      ],
+      "grossSalary": 228810,
+      "allowances": 0,
+      "officialBusiness": 1021,
+      "total": 230023,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 173044
+        }
+      ],
+      "grossSalary": 167299,
+      "allowances": 0,
+      "officialBusiness": 2507,
+      "total": 173044,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 133119
+        }
+      ],
+      "grossSalary": 129822,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 133119,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 114491
+        }
+      ],
+      "grossSalary": 114491,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 114491,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "DUGAN|T",
+      "name": "Timothy Dugan",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 105326
+        }
+      ],
+      "grossSalary": 103186,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 105326,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 51347
+        }
+      ],
+      "grossSalary": 51347,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 51347,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 26353
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 1353,
+      "total": 26353,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 8100
+        }
+      ],
+      "grossSalary": 8100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 8100,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 7500
+        }
+      ],
+      "grossSalary": 7500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7500,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "SCANLON|F",
+      "name": "Francis Scanlon",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7500
+        }
+      ],
+      "grossSalary": 7500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7500,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 5100
+        }
+      ],
+      "grossSalary": 5100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5100,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5100
+        }
+      ],
+      "grossSalary": 5100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5100,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5100
+        }
+      ],
+      "grossSalary": 5100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5100,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "PEREZ|V",
+      "name": "Victor Perez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4675
+        }
+      ],
+      "grossSalary": 4675,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4675,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 222130
+        }
+      ],
+      "grossSalary": 217367,
+      "allowances": 0,
+      "officialBusiness": 1500,
+      "total": 222130,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "MOORE|T",
+      "name": "Timothy Moore",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 186307
+        }
+      ],
+      "grossSalary": 184947,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 186307,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 169343
+        }
+      ],
+      "grossSalary": 162712,
+      "allowances": 0,
+      "officialBusiness": 1500,
+      "total": 169343,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 157843
+        }
+      ],
+      "grossSalary": 157738,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 157843,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 109076
+        }
+      ],
+      "grossSalary": 109076,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 109076,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 26066
+        }
+      ],
+      "grossSalary": 26066,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 26066,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 8000
+        }
+      ],
+      "grossSalary": 8000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 8000,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 7400
+        }
+      ],
+      "grossSalary": 7400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7400,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5000
+        }
+      ],
+      "grossSalary": 5000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5000,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 5000
+        }
+      ],
+      "grossSalary": 5000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5000,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5000
+        }
+      ],
+      "grossSalary": 5000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5000,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "PEREZ|V",
+      "name": "Victor Perez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5000
+        }
+      ],
+      "grossSalary": 5000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5000,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "SCANLON|F",
+      "name": "Francis Scanlon",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1250
+        }
+      ],
+      "grossSalary": 1250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1250,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 200775
+        }
+      ],
+      "grossSalary": 199080,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 200775,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 160628
+        }
+      ],
+      "grossSalary": 156960,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 160628,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "MOORE|T",
+      "name": "Timothy Moore",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 158893
+        }
+      ],
+      "grossSalary": 156082,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 158893,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 152236
+        }
+      ],
+      "grossSalary": 151955,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 152236,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MGR",
+          "kind": "employee",
+          "total": 103411
+        }
+      ],
+      "grossSalary": 103411,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 103411,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 7800
+        }
+      ],
+      "grossSalary": 7800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7800,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 7200
+        }
+      ],
+      "grossSalary": 7200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7200,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "PEREZ|V",
+      "name": "Victor Perez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 194502
+        }
+      ],
+      "grossSalary": 192828,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 194502,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 157465
+        }
+      ],
+      "grossSalary": 151586,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 157465,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "MOORE|T",
+      "name": "Timothy Moore",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 153026
+        }
+      ],
+      "grossSalary": 151430,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 153026,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 147319
+        }
+      ],
+      "grossSalary": 147319,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 147319,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MGR",
+          "kind": "employee",
+          "total": 99276
+        }
+      ],
+      "grossSalary": 99276,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 99276,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 7800
+        }
+      ],
+      "grossSalary": 7800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7800,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 7200
+        }
+      ],
+      "grossSalary": 7200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7200,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PEREZ|V",
+      "name": "Victor Perez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4400
+        }
+      ],
+      "grossSalary": 4400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4400,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREAS & BUS MGR",
+          "kind": "officer",
+          "total": 193490
+        }
+      ],
+      "grossSalary": 191981,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 193490,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 153349
+        }
+      ],
+      "grossSalary": 150337,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 153349,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "MOORE|T",
+      "name": "Timothy Moore",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 153001
+        }
+      ],
+      "grossSalary": 149572,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 153001,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 146032
+        }
+      ],
+      "grossSalary": 146032,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 146032,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MGR",
+          "kind": "employee",
+          "total": 97946
+        }
+      ],
+      "grossSalary": 97946,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 97946,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 7600
+        }
+      ],
+      "grossSalary": 7600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7600,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VISE PRESIDENT",
+          "kind": "officer",
+          "total": 7000
+        }
+      ],
+      "grossSalary": 7000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7000,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 4600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 4600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 4600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "PEREZ|V",
+      "name": "Victor Perez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 183186
+        }
+      ],
+      "grossSalary": 182786,
+      "allowances": 0,
+      "officialBusiness": 400,
+      "total": 183186,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 146025
+        }
+      ],
+      "grossSalary": 142520,
+      "allowances": 0,
+      "officialBusiness": 3505,
+      "total": 146025,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "MOORE|T",
+      "name": "Timothy Moore",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 143062
+        }
+      ],
+      "grossSalary": 141785,
+      "allowances": 0,
+      "officialBusiness": 1277,
+      "total": 143062,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 137617
+        }
+      ],
+      "grossSalary": 137617,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 137617,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 91463
+        }
+      ],
+      "grossSalary": 91463,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 91463,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 7200
+        }
+      ],
+      "grossSalary": 7200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7200,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 6600
+        }
+      ],
+      "grossSalary": 6600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6600,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CALHOUN|D",
+      "name": "Donald Calhoun",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2450
+        }
+      ],
+      "grossSalary": 2450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2450,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "MARY|M",
+      "name": "Mundo Mary",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1750
+        }
+      ],
+      "grossSalary": 1750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1750,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 183452
+        }
+      ],
+      "grossSalary": 174273,
+      "allowances": 0,
+      "officialBusiness": 9179,
+      "total": 183452,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 146950
+        }
+      ],
+      "grossSalary": 133650,
+      "allowances": 0,
+      "officialBusiness": 13300,
+      "total": 146950,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 133650
+        }
+      ],
+      "grossSalary": 133650,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 133650,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 88826
+        }
+      ],
+      "grossSalary": 88826,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 88826,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "MOORE|T",
+      "name": "Timothy Moore",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 21276
+        }
+      ],
+      "grossSalary": 20793,
+      "allowances": 0,
+      "officialBusiness": 483,
+      "total": 21276,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 7200
+        }
+      ],
+      "grossSalary": 7200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7200,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 6600
+        }
+      ],
+      "grossSalary": 6600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6600,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "MUNDO|M",
+      "name": "Mary Mundo",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "KOMPERDA|S",
+      "name": "Stanley Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 1100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER/BUS M",
+          "kind": "officer",
+          "total": 176789
+        }
+      ],
+      "grossSalary": 171600,
+      "allowances": 0,
+      "officialBusiness": 5189,
+      "total": 176789,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 135202
+        }
+      ],
+      "grossSalary": 124303,
+      "allowances": 0,
+      "officialBusiness": 10899,
+      "total": 135202,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 120512
+        }
+      ],
+      "grossSalary": 120512,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 120512,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 86438
+        }
+      ],
+      "grossSalary": 86438,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 86438,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6800
+        }
+      ],
+      "grossSalary": 6800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 6400
+        }
+      ],
+      "grossSalary": 6400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6400,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 6400
+        }
+      ],
+      "grossSalary": 6400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6400,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4000
+        }
+      ],
+      "grossSalary": 4000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4000,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "MUNDO|M",
+      "name": "Mary Mundo",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4000
+        }
+      ],
+      "grossSalary": 4000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4000,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 4000
+        }
+      ],
+      "grossSalary": 4000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4000,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "KOMPERDA|S",
+      "name": "Stan Komperda",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3100
+        }
+      ],
+      "grossSalary": 3100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3100,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 177090
+        }
+      ],
+      "grossSalary": 171600,
+      "allowances": 0,
+      "officialBusiness": 5490,
+      "total": 177090,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 121195
+        }
+      ],
+      "grossSalary": 109437,
+      "allowances": 0,
+      "officialBusiness": 11758,
+      "total": 121195,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 112574
+        }
+      ],
+      "grossSalary": 96592,
+      "allowances": 0,
+      "officialBusiness": 15982,
+      "total": 112574,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 97055
+        }
+      ],
+      "grossSalary": 97055,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 97055,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 83450
+        }
+      ],
+      "grossSalary": 83450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 83450,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "REGOVIC|M",
+      "name": "Mary Regovic",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "VICE PRES/BUS REP",
+          "kind": "officer",
+          "total": 181351
+        }
+      ],
+      "grossSalary": 168425,
+      "allowances": 0,
+      "officialBusiness": 12926,
+      "total": 181351,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY/TREAS & BUS MGR",
+          "kind": "officer",
+          "total": 178719
+        }
+      ],
+      "grossSalary": 172600,
+      "allowances": 0,
+      "officialBusiness": 6119,
+      "total": 178719,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 118081
+        }
+      ],
+      "grossSalary": 107087,
+      "allowances": 0,
+      "officialBusiness": 10994,
+      "total": 118081,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 95536
+        }
+      ],
+      "grossSalary": 95536,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 95536,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 82989
+        }
+      ],
+      "grossSalary": 82989,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 82989,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 81900
+        }
+      ],
+      "grossSalary": 81900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 81900,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "REGOVIC|M",
+      "name": "Mary Regovic",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "VICE PRES/BUSINESS REP",
+          "kind": "officer",
+          "total": 177009
+        }
+      ],
+      "grossSalary": 168995,
+      "allowances": 0,
+      "officialBusiness": 8014,
+      "total": 177009,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY TREASURER & BUS MGR",
+          "kind": "officer",
+          "total": 175943
+        }
+      ],
+      "grossSalary": 171484,
+      "allowances": 0,
+      "officialBusiness": 4459,
+      "total": 175943,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 119035
+        }
+      ],
+      "grossSalary": 110336,
+      "allowances": 0,
+      "officialBusiness": 8699,
+      "total": 119035,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "ORGANIZER",
+          "kind": "employee",
+          "total": 103805
+        }
+      ],
+      "grossSalary": 97839,
+      "allowances": 0,
+      "officialBusiness": 5966,
+      "total": 103805,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 97109
+        }
+      ],
+      "grossSalary": 97109,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 97109,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 81825
+        }
+      ],
+      "grossSalary": 81825,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 81825,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR/BOARD",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SGT AT ARMS/BOARD",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "VICE PRES.BUS REP",
+          "kind": "officer",
+          "total": 168682
+        }
+      ],
+      "grossSalary": 161394,
+      "allowances": 0,
+      "officialBusiness": 7288,
+      "total": 168682,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY/TREAS & BUSINESS MGR",
+          "kind": "officer",
+          "total": 164601
+        }
+      ],
+      "grossSalary": 161384,
+      "allowances": 0,
+      "officialBusiness": 3217,
+      "total": 164601,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 105505
+        }
+      ],
+      "grossSalary": 99728,
+      "allowances": 0,
+      "officialBusiness": 5777,
+      "total": 105505,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "ORGANIZER",
+          "kind": "employee",
+          "total": 95503
+        }
+      ],
+      "grossSalary": 88676,
+      "allowances": 0,
+      "officialBusiness": 6827,
+      "total": 95503,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 90796
+        }
+      ],
+      "grossSalary": 90796,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 90796,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 75800
+        }
+      ],
+      "grossSalary": 75800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 75800,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SARGEANT AT ARMS",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "VICE PRES/BUSINESS REP",
+          "kind": "officer",
+          "total": 167312
+        }
+      ],
+      "grossSalary": 158570,
+      "allowances": 0,
+      "officialBusiness": 8742,
+      "total": 167312,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY/TREAS & BUSINESS MGR",
+          "kind": "officer",
+          "total": 165203
+        }
+      ],
+      "grossSalary": 159843,
+      "allowances": 0,
+      "officialBusiness": 5360,
+      "total": 165203,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT -RETIRED",
+          "kind": "officer",
+          "total": 109696
+        }
+      ],
+      "grossSalary": 109696,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 109696,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "FAHERTY|J",
+      "name": "John joe Faherty",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 106814
+        }
+      ],
+      "grossSalary": 98153,
+      "allowances": 0,
+      "officialBusiness": 8661,
+      "total": 106814,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 96081
+        }
+      ],
+      "grossSalary": 90771,
+      "allowances": 0,
+      "officialBusiness": 5310,
+      "total": 96081,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE SECY",
+          "kind": "employee",
+          "total": 70600
+        }
+      ],
+      "grossSalary": 70600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 70600,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "ORGANIZER",
+          "kind": "employee",
+          "total": 59374
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1500
+        }
+      ],
+      "grossSalary": 57308,
+      "allowances": 0,
+      "officialBusiness": 3566,
+      "total": 60874,
+      "dualRole": true
+    },
+    {
+      "year": 2008,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 24696
+        }
+      ],
+      "grossSalary": 24696,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 24696,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5600
+        }
+      ],
+      "grossSalary": 5600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5600,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "FOLEY|J",
+      "name": "John Foley",
+      "roles": [
+        {
+          "title": "SARGEANT AT ARMS",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 157864
+        }
+      ],
+      "grossSalary": 155198,
+      "allowances": 0,
+      "officialBusiness": 2666,
+      "total": 157864,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY/TREAS",
+          "kind": "officer",
+          "total": 155778
+        }
+      ],
+      "grossSalary": 154553,
+      "allowances": 0,
+      "officialBusiness": 1225,
+      "total": 155778,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "employee",
+          "total": 134130
+        }
+      ],
+      "grossSalary": 130425,
+      "allowances": 0,
+      "officialBusiness": 3705,
+      "total": 134130,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 86920
+        },
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 83372,
+      "allowances": 0,
+      "officialBusiness": 4448,
+      "total": 87820,
+      "dualRole": true
+    },
+    {
+      "year": 2007,
+      "key": "FAHERTY|J",
+      "name": "John Faherty",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 81830
+        }
+      ],
+      "grossSalary": 79687,
+      "allowances": 0,
+      "officialBusiness": 2143,
+      "total": 81830,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE SECY",
+          "kind": "employee",
+          "total": 65500
+        }
+      ],
+      "grossSalary": 65500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 65500,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "LEATHERMAN|J",
+      "name": "James Leatherman",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 35899
+        }
+      ],
+      "grossSalary": 35552,
+      "allowances": 0,
+      "officialBusiness": 347,
+      "total": 35899,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 24589
+        }
+      ],
+      "grossSalary": 24589,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 24589,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "HOSTY|P",
+      "name": "Patrick Hosty",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 4850
+        }
+      ],
+      "grossSalary": 4850,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4850,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 4750
+        }
+      ],
+      "grossSalary": 4750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4750,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3350
+        }
+      ],
+      "grossSalary": 3350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3350,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 3350
+        }
+      ],
+      "grossSalary": 3350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3350,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3350
+        }
+      ],
+      "grossSalary": 3350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3350,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "COSTELLO|D",
+      "name": "Dean Costello",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 2250
+        }
+      ],
+      "grossSalary": 2250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2250,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 154482
+        }
+      ],
+      "grossSalary": 151891,
+      "allowances": 0,
+      "officialBusiness": 2591,
+      "total": 154482,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY/TREAS",
+          "kind": "officer",
+          "total": 152993
+        }
+      ],
+      "grossSalary": 150772,
+      "allowances": 0,
+      "officialBusiness": 2221,
+      "total": 152993,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "LEATHERMAN|J",
+      "name": "James Leatherman",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 137203
+        }
+      ],
+      "grossSalary": 133871,
+      "allowances": 0,
+      "officialBusiness": 3332,
+      "total": 137203,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "employee",
+          "total": 132055
+        }
+      ],
+      "grossSalary": 125465,
+      "allowances": 0,
+      "officialBusiness": 6590,
+      "total": 132055,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE SECY",
+          "kind": "employee",
+          "total": 60300
+        }
+      ],
+      "grossSalary": 60300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 60300,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 18756
+        }
+      ],
+      "grossSalary": 18756,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 18756,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "COSTELLO|D",
+      "name": "Dean Costello",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "LONES|O",
+      "name": "Ollis Lones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2750
+        }
+      ],
+      "grossSalary": 2750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2750,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "MULKERRIN|T",
+      "name": "Thomas Mulkerrin",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 450
+        }
+      ],
+      "grossSalary": 450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 450,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 148782
+        }
+      ],
+      "grossSalary": 140525,
+      "allowances": 2818,
+      "officialBusiness": 5439,
+      "total": 148782,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 147637
+        }
+      ],
+      "grossSalary": 140525,
+      "allowances": 2738,
+      "officialBusiness": 4374,
+      "total": 147637,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "LEATHERMAN|J",
+      "name": "James Leatherman",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 129592
+        }
+      ],
+      "grossSalary": 121850,
+      "allowances": 2861,
+      "officialBusiness": 4881,
+      "total": 129592,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 122147
+        }
+      ],
+      "grossSalary": 111454,
+      "allowances": 3265,
+      "officialBusiness": 7428,
+      "total": 122147,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE SECY",
+          "kind": "employee",
+          "total": 54050
+        }
+      ],
+      "grossSalary": 54050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 54050,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 18757
+        }
+      ],
+      "grossSalary": 18757,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 18757,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "COSTELLO|D",
+      "name": "Dean Costello",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "MULKERRIN|T",
+      "name": "Thomas Mulkerrin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "JACQUEZ|G",
+      "name": "Guillermo Jacquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "SCHULER|P",
+      "name": "Peter Schuler",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 2700
+        }
+      ],
+      "grossSalary": 2700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2700,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 144632
+        }
+      ],
+      "grossSalary": 137970,
+      "allowances": 2164,
+      "officialBusiness": 4498,
+      "total": 144632,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECT/ TREAS",
+          "kind": "officer",
+          "total": 142355
+        }
+      ],
+      "grossSalary": 137970,
+      "allowances": 2034,
+      "officialBusiness": 2351,
+      "total": 142355,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "LEATHERMAN|J",
+      "name": "James Leatherman",
+      "roles": [
+        {
+          "title": "RECORDING SECT",
+          "kind": "officer",
+          "total": 121787
+        }
+      ],
+      "grossSalary": 116153,
+      "allowances": 148,
+      "officialBusiness": 5486,
+      "total": 121787,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "BUS REP",
+          "kind": "employee",
+          "total": 110784
+        }
+      ],
+      "grossSalary": 162700,
+      "allowances": 1647,
+      "officialBusiness": 6437,
+      "total": 110784,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE SECTARY",
+          "kind": "employee",
+          "total": 47050
+        }
+      ],
+      "grossSalary": 47050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 47050,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUS MANAGER",
+          "kind": "officer",
+          "total": 18905
+        }
+      ],
+      "grossSalary": 18815,
+      "allowances": 0,
+      "officialBusiness": 90,
+      "total": 18905,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "MULKERRIN|T",
+      "name": "Thomas Mulkerrin",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 5929
+        }
+      ],
+      "grossSalary": 5150,
+      "allowances": 779,
+      "officialBusiness": 0,
+      "total": 5929,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "COSTELLO|D",
+      "name": "Dean Costello",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5150
+        }
+      ],
+      "grossSalary": 5150,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5150,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "SCHULER|P",
+      "name": "Peter Schuler",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5150
+        }
+      ],
+      "grossSalary": 5051,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5150,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5150
+        }
+      ],
+      "grossSalary": 2750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5150,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "BOSUAY|J",
+      "name": "James Bosuay",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 2750
+        }
+      ],
+      "grossSalary": 2750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2750,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "JACQUEZ|G",
+      "name": "Guiller Jacquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2750
+        }
+      ],
+      "grossSalary": 2750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2750,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2750
+        }
+      ],
+      "grossSalary": 2750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2750,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 135170
+        }
+      ],
+      "grossSalary": 130125,
+      "allowances": 0,
+      "officialBusiness": 5045,
+      "total": 135170,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY/TREASURER",
+          "kind": "officer",
+          "total": 134614
+        }
+      ],
+      "grossSalary": 130125,
+      "allowances": 0,
+      "officialBusiness": 4489,
+      "total": 134614,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "LEATHERMAN|J",
+      "name": "James Leatherman",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 111515
+        }
+      ],
+      "grossSalary": 107200,
+      "allowances": 0,
+      "officialBusiness": 4315,
+      "total": 111515,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 81996
+        }
+      ],
+      "grossSalary": 77120,
+      "allowances": 0,
+      "officialBusiness": 4876,
+      "total": 81996,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "KINGSBURY|M",
+      "name": "Marie Kingsbury",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 36070
+        }
+      ],
+      "grossSalary": 36070,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 36070,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS MGR",
+          "kind": "officer",
+          "total": 14817
+        }
+      ],
+      "grossSalary": 14817,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 14817,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "MULKERRIN|T",
+      "name": "Thomas Mulkerrin",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "SCHULER|P",
+      "name": "Peter Schuler",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "COSTELLO|D",
+      "name": "Dean Costello",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "GULLERMO|J",
+      "name": "Jacquez Gullermo",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 128411
+        }
+      ],
+      "grossSalary": 124925,
+      "allowances": 0,
+      "officialBusiness": 3486,
+      "total": 128411,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY/TREASURER",
+          "kind": "officer",
+          "total": 128337
+        }
+      ],
+      "grossSalary": 124925,
+      "allowances": 0,
+      "officialBusiness": 3412,
+      "total": 128337,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "LEATHERMAN|J",
+      "name": "James Leatherman",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 105850
+        }
+      ],
+      "grossSalary": 102000,
+      "allowances": 0,
+      "officialBusiness": 3850,
+      "total": 105850,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 81996
+        }
+      ],
+      "grossSalary": 77120,
+      "allowances": 0,
+      "officialBusiness": 4876,
+      "total": 81996,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS MGR",
+          "kind": "officer",
+          "total": 15000
+        }
+      ],
+      "grossSalary": 15000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 15000,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "COSTELLO|D",
+      "name": "Dean Costello",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "MULKERRIN|T",
+      "name": "Thomas Mulkerrin",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "SCHULER|P",
+      "name": "Peter Schuler",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GULLERMO|J",
+      "name": "Jacquez Gullermo",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SECY/TREAS",
+          "kind": "officer",
+          "total": 124369
+        }
+      ],
+      "grossSalary": 119725,
+      "allowances": 0,
+      "officialBusiness": 4644,
+      "total": 124369,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 124120
+        }
+      ],
+      "grossSalary": 119725,
+      "allowances": 0,
+      "officialBusiness": 4395,
+      "total": 124120,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "LEATHERMAN|J",
+      "name": "James Leatherman",
+      "roles": [
+        {
+          "title": "RECORDING SECRE",
+          "kind": "officer",
+          "total": 92757
+        }
+      ],
+      "grossSalary": 87946,
+      "allowances": 0,
+      "officialBusiness": 4811,
+      "total": 92757,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "LALLY|J",
+      "name": "John Lally",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 42407
+        }
+      ],
+      "grossSalary": 40890,
+      "allowances": 0,
+      "officialBusiness": 1517,
+      "total": 42407,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUSINESS MGR",
+          "kind": "officer",
+          "total": 16067
+        }
+      ],
+      "grossSalary": 14817,
+      "allowances": 0,
+      "officialBusiness": 1250,
+      "total": 16067,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "COSTELLO|D",
+      "name": "Dean Costello",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 6079
+        }
+      ],
+      "grossSalary": 6079,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6079,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "MULKERRIN|T",
+      "name": "Thomas Mulkerrin",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 6079
+        }
+      ],
+      "grossSalary": 6079,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6079,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "SCHULER|P",
+      "name": "Peter Schuler",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "BOSVAY|J",
+      "name": "James Bosvay",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GUILLERMO|J",
+      "name": "Jacquez Guillermo",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "TRIPAMER|R",
+      "name": "Robert Tripamer",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1400
+        }
+      ],
+      "grossSalary": 1400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1400,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "BRONSON|J",
+      "name": "John Bronson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1000
+        }
+      ],
+      "grossSalary": 1000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1000,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "HOSTY|W",
+      "name": "William Hosty",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 119355
+        }
+      ],
+      "grossSalary": 114625,
+      "allowances": 0,
+      "officialBusiness": 4730,
+      "total": 119355,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CONNOLLY|P",
+      "name": "Paul Connolly",
+      "roles": [
+        {
+          "title": "SEC./TREASURER",
+          "kind": "officer",
+          "total": 117824
+        }
+      ],
+      "grossSalary": 114625,
+      "allowances": 0,
+      "officialBusiness": 3199,
+      "total": 117824,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "LEATHERMAN|J",
+      "name": "James Leatherman",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "officer",
+          "total": 73626
+        }
+      ],
+      "grossSalary": 69900,
+      "allowances": 0,
+      "officialBusiness": 3726,
+      "total": 73626,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CONNOLLY|J",
+      "name": "James Connolly",
+      "roles": [
+        {
+          "title": "BUS. MANAGER",
+          "kind": "officer",
+          "total": 29821
+        }
+      ],
+      "grossSalary": 29302,
+      "allowances": 0,
+      "officialBusiness": 519,
+      "total": 29821,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "COSTELLO|D",
+      "name": "Dean Costello",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "MULKERRIN|T",
+      "name": "Thomas Mulkerrin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SCHULER|P",
+      "name": "Peter Schuler",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "BOSUAY|J",
+      "name": "James Bosuay",
+      "roles": [
+        {
+          "title": "SGT-AT-ARMS",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "BRONSON|J",
+      "name": "John Bronson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "LANE|M",
+      "name": "Michael Lane",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "JACQUEZ|G",
+      "name": "Guiller Jacquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2200
+        }
+      ],
+      "grossSalary": 2200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2200,
+      "dualRole": false
+    }
+  ],
+  "dues": {
+    "2005": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "QUARTER",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.75%  GROSS WAGE",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "600",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2006": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "qtr",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.75% gross",
+        "unit": "hour",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "600",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2007": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "quarter",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "gross pay",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "member",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2008": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "qtr",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "gross pay",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "member",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2009": [
+      {
+        "type": "Regular dues",
+        "amount": "24",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "GROSS PAY",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "MEMBER",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2010": [
+      {
+        "type": "Regular dues",
+        "amount": "24",
+        "unit": "MONTH",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "GROSS PAY",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "MEMBER",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": "MEMBER",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": "MEMBER",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2011": [
+      {
+        "type": "Regular dues",
+        "amount": "24",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2012": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25",
+        "unit": "wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2013": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2014": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "00"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2015": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "MTH",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "MEMBER",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "NA",
+        "unit": "NA",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "NA",
+        "unit": "NA",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2016": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75",
+        "unit": "3.75% gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2017": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2018": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2019": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "year",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2020": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "MTH",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "YEAR",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": "n/a",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2021": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "year",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2022": [
+      {
+        "type": "Regular dues",
+        "amount": "40",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75",
+        "unit": "grosss wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "year",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2023": [
+      {
+        "type": "Regular dues",
+        "amount": "40",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "year",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2024": [
+      {
+        "type": "Regular dues",
+        "amount": "40",
+        "unit": "mth",
+        "min": "0",
+        "max": "00"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "year",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2025": [
+      {
+        "type": "Regular dues",
+        "amount": "40",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75",
+        "unit": null,
+        "min": "gross wages",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "year",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ]
+  },
+  "surnameClusters": [
+    {
+      "year": 2025,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 227268,
+          "roles": [
+            "SEC-TREAS/BUSINESS MGR"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25824,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 253092
+    },
+    {
+      "year": 2024,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 262333,
+          "roles": [
+            "SECY-TREASURER, BUS MGR"
+          ]
+        },
+        {
+          "name": "James  jr Connolly",
+          "total": 175256,
+          "roles": [
+            "BUSINESS AGENT",
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 437589
+    },
+    {
+      "year": 2023,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 256907,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James jr Connolly",
+          "total": 170688,
+          "roles": [
+            "BUSINESS AGENT",
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 427595
+    },
+    {
+      "year": 2022,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 253524,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James jr Connolly",
+          "total": 159213,
+          "roles": [
+            "BUSINESS AGENT",
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 412737
+    },
+    {
+      "year": 2021,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 236782,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 74941,
+          "roles": [
+            "BUSINESS AGENT",
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 311723
+    },
+    {
+      "year": 2020,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 230023,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 26353,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 256376
+    },
+    {
+      "year": 2019,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 222130,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 247130
+    },
+    {
+      "year": 2018,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 200775,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 225775
+    },
+    {
+      "year": 2017,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 194502,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 219502
+    },
+    {
+      "year": 2016,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 193490,
+          "roles": [
+            "SECRETARY-TREAS & BUS MGR"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 218490
+    },
+    {
+      "year": 2015,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 183186,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 208186
+    },
+    {
+      "year": 2014,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 183452,
+          "roles": [
+            "SECRETARY-TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 208452
+    },
+    {
+      "year": 2013,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 176789,
+          "roles": [
+            "SECRETARY/TREASURER/BUS M"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 201789
+    },
+    {
+      "year": 2012,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 177090,
+          "roles": [
+            "SECRETARY/TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 202090
+    },
+    {
+      "year": 2011,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 178719,
+          "roles": [
+            "SECY/TREAS & BUS MGR"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 203719
+    },
+    {
+      "year": 2010,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 175943,
+          "roles": [
+            "SECY TREASURER & BUS MGR"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 200943
+    },
+    {
+      "year": 2009,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 164601,
+          "roles": [
+            "SECY/TREAS & BUSINESS MGR"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 25000,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 189601
+    },
+    {
+      "year": 2008,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 165203,
+          "roles": [
+            "SECY/TREAS & BUSINESS MGR"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 24696,
+          "roles": [
+            "PRESIDENT"
+          ]
+        }
+      ],
+      "combined": 189899
+    },
+    {
+      "year": 2008,
+      "surname": "HOSTY",
+      "people": [
+        {
+          "name": "William Hosty",
+          "total": 109696,
+          "roles": [
+            "PRESIDENT -RETIRED"
+          ]
+        },
+        {
+          "name": "Patrick Hosty",
+          "total": 6000,
+          "roles": [
+            "RECORDING SECRETARY"
+          ]
+        }
+      ],
+      "combined": 115696
+    },
+    {
+      "year": 2007,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 155778,
+          "roles": [
+            "SECY/TREAS"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 24589,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        }
+      ],
+      "combined": 180367
+    },
+    {
+      "year": 2007,
+      "surname": "HOSTY",
+      "people": [
+        {
+          "name": "William Hosty",
+          "total": 157864,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Patrick Hosty",
+          "total": 4850,
+          "roles": [
+            "RECORDING SECRETARY"
+          ]
+        }
+      ],
+      "combined": 162714
+    },
+    {
+      "year": 2006,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 152993,
+          "roles": [
+            "SECY/TREAS"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 18756,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        }
+      ],
+      "combined": 171749
+    },
+    {
+      "year": 2005,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 147637,
+          "roles": [
+            "SECRETARY TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 18757,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        }
+      ],
+      "combined": 166394
+    },
+    {
+      "year": 2004,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 142355,
+          "roles": [
+            "SECT/ TREAS"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 18905,
+          "roles": [
+            "BUS MANAGER"
+          ]
+        }
+      ],
+      "combined": 161260
+    },
+    {
+      "year": 2003,
+      "surname": "CONNOLLY",
+      "people": [
+        {
+          "name": "Paul Connolly",
+          "total": 134614,
+          "roles": [
+            "SECY/TREASURER"
+          ]
+        },
+        {
+          "name": "James Connolly",
+          "total": 14817,
+          "roles": [
+            "BUSINESS MGR"
+          ]
+        }
+      ],
+      "combined": 149431
+    }
+  ],
+  "events": [],
+  "lineage": [
+    {
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "cameFrom": 1,
+      "firstPaidYear": 2019,
+      "currentTitle": "DIRECTOR"
+    }
+  ]
+}

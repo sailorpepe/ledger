@@ -1,0 +1,688 @@
+{
+  "desig": 1092,
+  "fNum": 26482,
+  "city": "Chicago",
+  "role": "local",
+  "label": "Local 1092",
+  "latestYear": 2002,
+  "members": 934,
+  "years": [
+    {
+      "year": 2002,
+      "formType": "LM-2",
+      "rptId": 175862,
+      "members": 934,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2002,
+        "representational": null,
+        "political": null,
+        "contributions": 15621,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 108075,
+        "per_capita_tax": 142198,
+        "direct_taxes": 22073,
+        "investments": 74494,
+        "to_officers": 247204,
+        "to_employees": 49482,
+        "dues": 770117,
+        "interest": 852,
+        "dividends": 0,
+        "fees": 36679,
+        "other_receipts": 52359
+      },
+      "representationalPerMember": 0,
+      "assets": 232911,
+      "liabilities": 125422,
+      "receipts": 1172473,
+      "disbursements": 1218036,
+      "receiptsPerMember": 1255,
+      "assetsPerMember": 249,
+      "disbursementsPerMember": 1304,
+      "payrollShare": 34.9
+    },
+    {
+      "year": 2001,
+      "formType": "LM-2",
+      "rptId": 120536,
+      "members": 950,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2001,
+        "representational": null,
+        "political": null,
+        "contributions": 12458,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 104448,
+        "per_capita_tax": 136717,
+        "direct_taxes": 25344,
+        "investments": 146292,
+        "to_officers": 259191,
+        "to_employees": 44533,
+        "dues": 796321,
+        "interest": 5766,
+        "dividends": 0,
+        "fees": 48494,
+        "other_receipts": 0
+      },
+      "representationalPerMember": 0,
+      "assets": 309614,
+      "liabilities": 148762,
+      "receipts": 1167375,
+      "disbursements": 1242432,
+      "receiptsPerMember": 1229,
+      "assetsPerMember": 326,
+      "disbursementsPerMember": 1308,
+      "payrollShare": 35.8
+    },
+    {
+      "year": 2000,
+      "formType": "LM-2",
+      "rptId": 87483,
+      "members": 937,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2000,
+        "representational": null,
+        "political": null,
+        "contributions": 13415,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 91601,
+        "per_capita_tax": 129886,
+        "direct_taxes": 23050,
+        "investments": 0,
+        "to_officers": 215283,
+        "to_employees": 37165,
+        "dues": 758050,
+        "interest": 5496,
+        "dividends": 0,
+        "fees": 42620,
+        "other_receipts": 0
+      },
+      "representationalPerMember": 0,
+      "assets": 319083,
+      "liabilities": 82646,
+      "receipts": 1002045,
+      "disbursements": 946150,
+      "receiptsPerMember": 1069,
+      "assetsPerMember": 341,
+      "disbursementsPerMember": 1010,
+      "payrollShare": 39.6
+    }
+  ],
+  "people": [
+    {
+      "year": 2002,
+      "key": "LOVERDEIII|C",
+      "name": "Charles Loverde iii",
+      "roles": [
+        {
+          "title": "PRESIDENT BM",
+          "kind": "officer",
+          "total": 139400
+        }
+      ],
+      "grossSalary": 138375,
+      "allowances": 1025,
+      "officialBusiness": 0,
+      "total": 139400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "LOVERDE|R",
+      "name": "Robert Loverde",
+      "roles": [
+        {
+          "title": "SECRETARY/TREAS",
+          "kind": "officer",
+          "total": 139400
+        }
+      ],
+      "grossSalary": 138375,
+      "allowances": 1025,
+      "officialBusiness": 0,
+      "total": 139400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "LOVERDE|C",
+      "name": "Charles Loverde",
+      "roles": [
+        {
+          "title": "PRESIDENT BM",
+          "kind": "officer",
+          "total": 73552
+        }
+      ],
+      "grossSalary": 73125,
+      "allowances": 427,
+      "officialBusiness": 0,
+      "total": 73552,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "JAMES|C",
+      "name": "Carol James",
+      "roles": [
+        {
+          "title": "FIELD REP",
+          "kind": "employee",
+          "total": 66613
+        }
+      ],
+      "grossSalary": 65967,
+      "allowances": 646,
+      "officialBusiness": 0,
+      "total": 66613,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "LOVERDEJR|R",
+      "name": "Robert Loverde jr",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "DILISE|C",
+      "name": "Charles Dilise",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "HENRY|V",
+      "name": "Villa Henry",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "ROSSLER|J",
+      "name": "John Rossler",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "FLISK|T",
+      "name": "Ted Flisk",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "LOVERDE|C",
+      "name": "Charles Loverde",
+      "roles": [
+        {
+          "title": "PRESIDENT BM",
+          "kind": "officer",
+          "total": 126878
+        }
+      ],
+      "grossSalary": 123843,
+      "allowances": 935,
+      "officialBusiness": 2100,
+      "total": 126878,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "LOVERDEIII|C",
+      "name": "Charles Loverde iii",
+      "roles": [
+        {
+          "title": "VP/FED REP",
+          "kind": "officer",
+          "total": 126844
+        }
+      ],
+      "grossSalary": 123843,
+      "allowances": 901,
+      "officialBusiness": 2100,
+      "total": 126844,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "LOVERDE|R",
+      "name": "Robert Loverde",
+      "roles": [
+        {
+          "title": "SECRETARY/TREAS",
+          "kind": "officer",
+          "total": 124792
+        }
+      ],
+      "grossSalary": 123843,
+      "allowances": 949,
+      "officialBusiness": 0,
+      "total": 124792,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "JAMES|C",
+      "name": "Carol James",
+      "roles": [
+        {
+          "title": "FIELD REP",
+          "kind": "employee",
+          "total": 60098
+        }
+      ],
+      "grossSalary": 59644,
+      "allowances": 454,
+      "officialBusiness": 0,
+      "total": 60098,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "FLISK|T",
+      "name": "Ted Flisk",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 3300
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1200,
+      "officialBusiness": 2100,
+      "total": 3300,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "VILLA|H",
+      "name": "Henry Villa",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DILISE|C",
+      "name": "Charles Dilise",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 600,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "ROSSLER|J",
+      "name": "John Rossler",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 600,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "ACCARDO|V",
+      "name": "Vincent Accardo",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "LOVERDEJR|R",
+      "name": "Robert Loverde jr",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DISANDRO|M",
+      "name": "Mario Disandro",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "LOVERDE|R",
+      "name": "Robert Loverde",
+      "roles": [
+        {
+          "title": "SECRETARY/TREAS",
+          "kind": "officer",
+          "total": 106498
+        }
+      ],
+      "grossSalary": 105623,
+      "allowances": 875,
+      "officialBusiness": 0,
+      "total": 106498,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "LOVERDE|C",
+      "name": "Charles Loverde",
+      "roles": [
+        {
+          "title": "PRESIDENT BM",
+          "kind": "officer",
+          "total": 106448
+        }
+      ],
+      "grossSalary": 105623,
+      "allowances": 825,
+      "officialBusiness": 0,
+      "total": 106448,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "LOVERDEIII|C",
+      "name": "Charles Loverde iii",
+      "roles": [
+        {
+          "title": "VP/FED REP",
+          "kind": "officer",
+          "total": 106348
+        }
+      ],
+      "grossSalary": 105623,
+      "allowances": 725,
+      "officialBusiness": 0,
+      "total": 106348,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "JAMES|C",
+      "name": "Carol James",
+      "roles": [
+        {
+          "title": null,
+          "kind": "employee",
+          "total": 50222
+        }
+      ],
+      "grossSalary": 50222,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 50222,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "LOVERDEJR|R",
+      "name": "Robert Loverde jr",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1200,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "VILLA|H",
+      "name": "Henry Villa",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1200,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "ACCARDO|V",
+      "name": "Vincent Accardo",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1200,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "FLISK|T",
+      "name": "Ted Flisk",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1200,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DISANDRO|M",
+      "name": "Mario Disandro",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    }
+  ],
+  "dues": {},
+  "surnameClusters": [
+    {
+      "year": 2002,
+      "surname": "LOVERDE",
+      "people": [
+        {
+          "name": "Robert Loverde",
+          "total": 139400,
+          "roles": [
+            "SECRETARY/TREAS"
+          ]
+        },
+        {
+          "name": "Charles Loverde",
+          "total": 73552,
+          "roles": [
+            "PRESIDENT BM"
+          ]
+        }
+      ],
+      "combined": 212952
+    },
+    {
+      "year": 2001,
+      "surname": "LOVERDE",
+      "people": [
+        {
+          "name": "Charles Loverde",
+          "total": 126878,
+          "roles": [
+            "PRESIDENT BM"
+          ]
+        },
+        {
+          "name": "Robert Loverde",
+          "total": 124792,
+          "roles": [
+            "SECRETARY/TREAS"
+          ]
+        }
+      ],
+      "combined": 251670
+    },
+    {
+      "year": 2000,
+      "surname": "LOVERDE",
+      "people": [
+        {
+          "name": "Robert Loverde",
+          "total": 106498,
+          "roles": [
+            "SECRETARY/TREAS"
+          ]
+        },
+        {
+          "name": "Charles Loverde",
+          "total": 106448,
+          "roles": [
+            "PRESIDENT BM"
+          ]
+        }
+      ],
+      "combined": 212946
+    }
+  ],
+  "events": [],
+  "lineage": []
+}

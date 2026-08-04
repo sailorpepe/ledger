@@ -1,0 +1,4190 @@
+{
+  "desig": 149,
+  "fNum": 1993,
+  "city": "Aurora",
+  "terminated": "2014-11-01",
+  "mergedInto": 582,
+  "note": "Dissolved into a new provisional local with Local 582 on 2014-11-01.",
+  "role": "dissolved",
+  "label": "Local 149",
+  "latestYear": 2014,
+  "members": null,
+  "years": [
+    {
+      "year": 2014,
+      "formType": "LM-2",
+      "rptId": 573270,
+      "members": null,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2014,
+        "representational": 112960,
+        "political": 19583,
+        "contributions": 12628,
+        "general_overhead": 60846,
+        "union_administration": 541135,
+        "benefits": 144453,
+        "per_capita_tax": 97539,
+        "direct_taxes": 24209,
+        "investments": 8000,
+        "to_officers": 168528,
+        "to_employees": 970,
+        "dues": 539436,
+        "interest": 6,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 107493
+      },
+      "representationalPerMember": null,
+      "assets": 0,
+      "liabilities": 0,
+      "receipts": 653335,
+      "disbursements": 1027826,
+      "receiptsPerMember": null,
+      "assetsPerMember": null,
+      "disbursementsPerMember": null,
+      "payrollShare": 23
+    },
+    {
+      "year": 2013,
+      "formType": "LM-2",
+      "rptId": 545566,
+      "members": 458,
+      "actives": 409,
+      "apprentices": 8,
+      "retirees": 41,
+      "receiptsPerActive": 1757,
+      "spend": {
+        "yr_covered": 2013,
+        "representational": 109083,
+        "political": 7496,
+        "contributions": 12555,
+        "general_overhead": 75383,
+        "union_administration": 124018,
+        "benefits": 145503,
+        "per_capita_tax": 95771,
+        "direct_taxes": 17631,
+        "investments": 22923,
+        "to_officers": 162204,
+        "to_employees": 1501,
+        "dues": 602758,
+        "interest": 8,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 108394
+      },
+      "representationalPerMember": 238,
+      "assets": 666315,
+      "liabilities": 112399,
+      "receipts": 718660,
+      "disbursements": 628221,
+      "receiptsPerMember": 1569,
+      "assetsPerMember": 1455,
+      "disbursementsPerMember": 1372,
+      "payrollShare": 36.8
+    },
+    {
+      "year": 2012,
+      "formType": "LM-2",
+      "rptId": 516605,
+      "members": 496,
+      "actives": 451,
+      "apprentices": 5,
+      "retirees": 40,
+      "receiptsPerActive": 1453,
+      "spend": {
+        "yr_covered": 2012,
+        "representational": 90005,
+        "political": 14647,
+        "contributions": 8039,
+        "general_overhead": 26059,
+        "union_administration": 134704,
+        "benefits": 140365,
+        "per_capita_tax": 98280,
+        "direct_taxes": 16330,
+        "investments": 20401,
+        "to_officers": 146262,
+        "to_employees": 1156,
+        "dues": 542717,
+        "interest": 8,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 102352
+      },
+      "representationalPerMember": 181,
+      "assets": 567355,
+      "liabilities": 125142,
+      "receipts": 655478,
+      "disbursements": 555005,
+      "receiptsPerMember": 1322,
+      "assetsPerMember": 1144,
+      "disbursementsPerMember": 1119,
+      "payrollShare": 35.7
+    },
+    {
+      "year": 2011,
+      "formType": "LM-2",
+      "rptId": 477933,
+      "members": 502,
+      "actives": 453,
+      "apprentices": 5,
+      "retirees": 44,
+      "receiptsPerActive": 1430,
+      "spend": {
+        "yr_covered": 2011,
+        "representational": 137740,
+        "political": 2702,
+        "contributions": 1825,
+        "general_overhead": 25646,
+        "union_administration": 156464,
+        "benefits": 173549,
+        "per_capita_tax": 104568,
+        "direct_taxes": 21966,
+        "investments": 16620,
+        "to_officers": 185050,
+        "to_employees": 943,
+        "dues": 439998,
+        "interest": 8,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 179689
+      },
+      "representationalPerMember": 274,
+      "assets": 499051,
+      "liabilities": 128692,
+      "receipts": 647673,
+      "disbursements": 654804,
+      "receiptsPerMember": 1290,
+      "assetsPerMember": 994,
+      "disbursementsPerMember": 1304,
+      "payrollShare": 38.1
+    },
+    {
+      "year": 2010,
+      "formType": "LM-2",
+      "rptId": 448955,
+      "members": 538,
+      "actives": 494,
+      "apprentices": 4,
+      "retirees": 40,
+      "receiptsPerActive": 1457,
+      "spend": {
+        "yr_covered": 2010,
+        "representational": 154182,
+        "political": 15242,
+        "contributions": 5298,
+        "general_overhead": 26941,
+        "union_administration": 181702,
+        "benefits": 186538,
+        "per_capita_tax": 113343,
+        "direct_taxes": 21347,
+        "investments": 25390,
+        "to_officers": 228456,
+        "to_employees": 921,
+        "dues": 461598,
+        "interest": 10,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 247792
+      },
+      "representationalPerMember": 287,
+      "assets": 519645,
+      "liabilities": 142527,
+      "receipts": 719790,
+      "disbursements": 732071,
+      "receiptsPerMember": 1338,
+      "assetsPerMember": 966,
+      "disbursementsPerMember": 1361,
+      "payrollShare": 41.6
+    },
+    {
+      "year": 2009,
+      "formType": "LM-2",
+      "rptId": 414143,
+      "members": 577,
+      "actives": 534,
+      "apprentices": 10,
+      "retirees": 33,
+      "receiptsPerActive": 1618,
+      "spend": {
+        "yr_covered": 2009,
+        "representational": 119999,
+        "political": 23024,
+        "contributions": 6368,
+        "general_overhead": 25819,
+        "union_administration": 245057,
+        "benefits": 186940,
+        "per_capita_tax": 120871,
+        "direct_taxes": 24078,
+        "investments": 5093,
+        "to_officers": 225719,
+        "to_employees": 25720,
+        "dues": 542137,
+        "interest": 266,
+        "dividends": 785,
+        "fees": 0,
+        "other_receipts": 160743
+      },
+      "representationalPerMember": 208,
+      "assets": 547816,
+      "liabilities": 139171,
+      "receipts": 864256,
+      "disbursements": 758217,
+      "receiptsPerMember": 1498,
+      "assetsPerMember": 949,
+      "disbursementsPerMember": 1314,
+      "payrollShare": 43.8
+    },
+    {
+      "year": 2008,
+      "formType": "LM-2",
+      "rptId": 376636,
+      "members": 630,
+      "actives": 601,
+      "apprentices": null,
+      "retirees": 29,
+      "receiptsPerActive": 1363,
+      "spend": {
+        "yr_covered": 2008,
+        "representational": 167555,
+        "political": 7765,
+        "contributions": 22969,
+        "general_overhead": 28149,
+        "union_administration": 281333,
+        "benefits": 172720,
+        "per_capita_tax": 116031,
+        "direct_taxes": 23692,
+        "investments": 84515,
+        "to_officers": 223776,
+        "to_employees": 38025,
+        "dues": 736274,
+        "interest": 13939,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 68221
+      },
+      "representationalPerMember": 266,
+      "assets": 657270,
+      "liabilities": 154633,
+      "receipts": 818877,
+      "disbursements": 920424,
+      "receiptsPerMember": 1300,
+      "assetsPerMember": 1043,
+      "disbursementsPerMember": 1461,
+      "payrollShare": 38.2
+    },
+    {
+      "year": 2007,
+      "formType": "LM-2",
+      "rptId": 345616,
+      "members": 602,
+      "actives": 581,
+      "apprentices": null,
+      "retirees": 21,
+      "receiptsPerActive": 1600,
+      "spend": {
+        "yr_covered": 2007,
+        "representational": 132226,
+        "political": 4851,
+        "contributions": 21381,
+        "general_overhead": 22181,
+        "union_administration": 248453,
+        "benefits": 139772,
+        "per_capita_tax": 121146,
+        "direct_taxes": 22054,
+        "investments": 217815,
+        "to_officers": 174175,
+        "to_employees": 36524,
+        "dues": 860080,
+        "interest": 13214,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 10891
+      },
+      "representationalPerMember": 220,
+      "assets": 780281,
+      "liabilities": 149931,
+      "receipts": 929479,
+      "disbursements": 936356,
+      "receiptsPerMember": 1544,
+      "assetsPerMember": 1296,
+      "disbursementsPerMember": 1555,
+      "payrollShare": 31.8
+    },
+    {
+      "year": 2006,
+      "formType": "LM-2",
+      "rptId": 312534,
+      "members": 582,
+      "actives": 562,
+      "apprentices": null,
+      "retirees": 20,
+      "receiptsPerActive": 1205,
+      "spend": {
+        "yr_covered": 2006,
+        "representational": 151121,
+        "political": 8590,
+        "contributions": 25831,
+        "general_overhead": 24442,
+        "union_administration": 199748,
+        "benefits": 118746,
+        "per_capita_tax": 112164,
+        "direct_taxes": 19171,
+        "investments": 98137,
+        "to_officers": 152093,
+        "to_employees": 35474,
+        "dues": 662336,
+        "interest": 7154,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 7848
+      },
+      "representationalPerMember": 260,
+      "assets": 643919,
+      "liabilities": 154477,
+      "receipts": 677338,
+      "disbursements": 759957,
+      "receiptsPerMember": 1164,
+      "assetsPerMember": 1106,
+      "disbursementsPerMember": 1306,
+      "payrollShare": 35.8
+    },
+    {
+      "year": 2005,
+      "formType": "LM-2",
+      "rptId": 271610,
+      "members": 640,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 20,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2005,
+        "representational": 108712,
+        "political": 9718,
+        "contributions": 27355,
+        "general_overhead": 17183,
+        "union_administration": 239833,
+        "benefits": 112383,
+        "per_capita_tax": 114369,
+        "direct_taxes": 17853,
+        "investments": 44169,
+        "to_officers": 159562,
+        "to_employees": 33525,
+        "dues": 665464,
+        "interest": 3716,
+        "dividends": 0,
+        "fees": 0,
+        "other_receipts": 53218
+      },
+      "representationalPerMember": 170,
+      "assets": 670154,
+      "liabilities": 160098,
+      "receipts": 827774,
+      "disbursements": 695671,
+      "receiptsPerMember": 1293,
+      "assetsPerMember": 1047,
+      "disbursementsPerMember": 1087,
+      "payrollShare": 36.8
+    },
+    {
+      "year": 2004,
+      "formType": "LM-2",
+      "rptId": 224879,
+      "members": 590,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2004,
+        "representational": null,
+        "political": null,
+        "contributions": 25600,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 92396,
+        "per_capita_tax": 108731,
+        "direct_taxes": 17531,
+        "investments": 37301,
+        "to_officers": 145975,
+        "to_employees": 27861,
+        "dues": 238504,
+        "interest": 3418,
+        "dividends": 0,
+        "fees": 355181,
+        "other_receipts": 41773
+      },
+      "representationalPerMember": 0,
+      "assets": 587561,
+      "liabilities": 133246,
+      "receipts": 638876,
+      "disbursements": 682569,
+      "receiptsPerMember": 1083,
+      "assetsPerMember": 996,
+      "disbursementsPerMember": 1157,
+      "payrollShare": 34.6
+    },
+    {
+      "year": 2003,
+      "formType": "LM-2",
+      "rptId": 199536,
+      "members": 598,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2003,
+        "representational": null,
+        "political": null,
+        "contributions": 20589,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 83134,
+        "per_capita_tax": 102766,
+        "direct_taxes": 17203,
+        "investments": 274435,
+        "to_officers": 130430,
+        "to_employees": 29687,
+        "dues": 260683,
+        "interest": 4385,
+        "dividends": 0,
+        "fees": 356122,
+        "other_receipts": 31855
+      },
+      "representationalPerMember": 0,
+      "assets": 623031,
+      "liabilities": 137592,
+      "receipts": 846058,
+      "disbursements": 865488,
+      "receiptsPerMember": 1415,
+      "assetsPerMember": 1042,
+      "disbursementsPerMember": 1447,
+      "payrollShare": 25.9
+    },
+    {
+      "year": 2002,
+      "formType": "LM-2",
+      "rptId": 145451,
+      "members": 606,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2002,
+        "representational": null,
+        "political": null,
+        "contributions": 20552,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 73621,
+        "per_capita_tax": 104819,
+        "direct_taxes": 19797,
+        "investments": 127435,
+        "to_officers": 109120,
+        "to_employees": 27755,
+        "dues": 258884,
+        "interest": 6146,
+        "dividends": 0,
+        "fees": 324706,
+        "other_receipts": 842
+      },
+      "representationalPerMember": 0,
+      "assets": 441346,
+      "liabilities": 16657,
+      "receipts": 609497,
+      "disbursements": 647270,
+      "receiptsPerMember": 1006,
+      "assetsPerMember": 728,
+      "disbursementsPerMember": 1068,
+      "payrollShare": 31.1
+    },
+    {
+      "year": 2001,
+      "formType": "LM-2",
+      "rptId": 119420,
+      "members": 533,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2001,
+        "representational": null,
+        "political": null,
+        "contributions": 13111,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 67885,
+        "per_capita_tax": 90861,
+        "direct_taxes": 13832,
+        "investments": 75418,
+        "to_officers": 99858,
+        "to_employees": 28679,
+        "dues": 278654,
+        "interest": 6814,
+        "dividends": 0,
+        "fees": 265372,
+        "other_receipts": 6369
+      },
+      "representationalPerMember": 0,
+      "assets": 411668,
+      "liabilities": 25768,
+      "receipts": 603921,
+      "disbursements": 545968,
+      "receiptsPerMember": 1133,
+      "assetsPerMember": 772,
+      "disbursementsPerMember": 1024,
+      "payrollShare": 34.7
+    },
+    {
+      "year": 2000,
+      "formType": "LM-2",
+      "rptId": 87711,
+      "members": 508,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2000,
+        "representational": null,
+        "political": null,
+        "contributions": 10143,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 49920,
+        "per_capita_tax": 80439,
+        "direct_taxes": 12152,
+        "investments": 51079,
+        "to_officers": 85462,
+        "to_employees": 21489,
+        "dues": 233758,
+        "interest": 9925,
+        "dividends": null,
+        "fees": 244426,
+        "other_receipts": 5132
+      },
+      "representationalPerMember": 0,
+      "assets": 348242,
+      "liabilities": 6715,
+      "receipts": 505620,
+      "disbursements": 443373,
+      "receiptsPerMember": 995,
+      "assetsPerMember": 686,
+      "disbursementsPerMember": 873,
+      "payrollShare": 34.7
+    }
+  ],
+  "people": [
+    {
+      "year": 2014,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 108113
+        }
+      ],
+      "grossSalary": 100430,
+      "allowances": 0,
+      "officialBusiness": 7683,
+      "total": 108113,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "MARTINEZ|J",
+      "name": "Jose Martinez",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/FIELD REP",
+          "kind": "officer",
+          "total": 84377
+        }
+      ],
+      "grossSalary": 77720,
+      "allowances": 0,
+      "officialBusiness": 6657,
+      "total": 84377,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 36908
+        }
+      ],
+      "grossSalary": 32530,
+      "allowances": 0,
+      "officialBusiness": 4378,
+      "total": 36908,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1390
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1390,
+      "officialBusiness": 0,
+      "total": 1390,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "SLOAN|J",
+      "name": "Jeremy Sloan",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1015
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 15,
+      "total": 1015,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "ADKERSON|R",
+      "name": "Ricky Adkerson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1015
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 15,
+      "total": 1015,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 1000
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 0,
+      "total": 1000,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "COLGAN|K",
+      "name": "Kevin Colgan",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1000
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 0,
+      "total": 1000,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "BAISH|M",
+      "name": "Matt Baish",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1000
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 0,
+      "total": 1000,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "HILL|D",
+      "name": "Daniel Hill",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1000
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 0,
+      "total": 1000,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 132986
+        }
+      ],
+      "grossSalary": 128027,
+      "allowances": 0,
+      "officialBusiness": 4959,
+      "total": 132986,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "MARTINEZ|J",
+      "name": "Jose Martinez",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/FIELD REP",
+          "kind": "officer",
+          "total": 88086
+        }
+      ],
+      "grossSalary": 82111,
+      "allowances": 0,
+      "officialBusiness": 5975,
+      "total": 88086,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2170
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 800,
+      "officialBusiness": 1370,
+      "total": 2170,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "COLGAN|K",
+      "name": "Kevin Colgan",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1732
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 732,
+      "total": 1732,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 1018
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 18,
+      "total": 1018,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "ADKERSON|R",
+      "name": "Ricky Adkerson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1017
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 17,
+      "total": 1017,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "BAISH|M",
+      "name": "Matt Baish",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1000
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 0,
+      "total": 1000,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "SLOAN|J",
+      "name": "Jeremy Sloan",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1000
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1000,
+      "officialBusiness": 0,
+      "total": 1000,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "HILL|D",
+      "name": "Daniel Hill",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 800
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 800,
+      "officialBusiness": 0,
+      "total": 800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 726
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 726,
+      "total": 726,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 317
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 317,
+      "total": 317,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 200,
+      "officialBusiness": 0,
+      "total": 200,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 111354
+        }
+      ],
+      "grossSalary": 105530,
+      "allowances": 0,
+      "officialBusiness": 5824,
+      "total": 111354,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "MARTINEZ|J",
+      "name": "Jose Martinez",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/FIELD REP",
+          "kind": "officer",
+          "total": 81980
+        }
+      ],
+      "grossSalary": 75543,
+      "allowances": 0,
+      "officialBusiness": 6437,
+      "total": 81980,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "BAISH|M",
+      "name": "Matt Baish",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 665
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 650,
+      "officialBusiness": 15,
+      "total": 665,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 654
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 654,
+      "total": 654,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "SLOAN|J",
+      "name": "Jeremy Sloan",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 650
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 650,
+      "officialBusiness": 0,
+      "total": 650,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "ADKERSON|R",
+      "name": "Ricky Adkerson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "COLGAN|K",
+      "name": "Kevin Colgan",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 550
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 550,
+      "officialBusiness": 0,
+      "total": 550,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 107677
+        }
+      ],
+      "grossSalary": 100672,
+      "allowances": 0,
+      "officialBusiness": 7005,
+      "total": 107677,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "MARTINEZ|J",
+      "name": "Jose Martinez",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/FIELD REP",
+          "kind": "officer",
+          "total": 81247
+        }
+      ],
+      "grossSalary": 73216,
+      "allowances": 0,
+      "officialBusiness": 8031,
+      "total": 81247,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "SEC TREASURER/FIELD REP",
+          "kind": "officer",
+          "total": 56470
+        }
+      ],
+      "grossSalary": 52272,
+      "allowances": 0,
+      "officialBusiness": 4198,
+      "total": 56470,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "ADKERSON|R",
+      "name": "Ricky Adkerson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "COLGAN|K",
+      "name": "Kevin Colgan",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "BAISH|M",
+      "name": "Matt Baish",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 550
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 550,
+      "officialBusiness": 0,
+      "total": 550,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "SLOAN|J",
+      "name": "Jeremy Sloan",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 550
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 550,
+      "officialBusiness": 0,
+      "total": 550,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "SEC TREASURER/FIELD REP",
+          "kind": "officer",
+          "total": 111069
+        }
+      ],
+      "grossSalary": 99802,
+      "allowances": 0,
+      "officialBusiness": 11267,
+      "total": 111069,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 108331
+        }
+      ],
+      "grossSalary": 99802,
+      "allowances": 0,
+      "officialBusiness": 8529,
+      "total": 108331,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "MARTINEZ|J",
+      "name": "Jose Martinez",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/FIELD REP",
+          "kind": "officer",
+          "total": 78267
+        }
+      ],
+      "grossSalary": 71891,
+      "allowances": 0,
+      "officialBusiness": 6376,
+      "total": 78267,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1580
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 800,
+      "officialBusiness": 780,
+      "total": 1580,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "COLGAN|K",
+      "name": "Kevin Colgan",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1020
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 800,
+      "officialBusiness": 220,
+      "total": 1020,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 800
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 800,
+      "officialBusiness": 0,
+      "total": 800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "BAISH|M",
+      "name": "Matt Baish",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 800
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 800,
+      "officialBusiness": 0,
+      "total": 800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "ADKERSON|R",
+      "name": "Ricky Adkerson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 800
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 800,
+      "officialBusiness": 0,
+      "total": 800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 800
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 800,
+      "officialBusiness": 0,
+      "total": 800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "CRUZ|A",
+      "name": "Tony Cruz",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 700
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 700,
+      "officialBusiness": 0,
+      "total": 700,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "SLOAN|J",
+      "name": "Jeremy Sloan",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 430
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 190,
+      "officialBusiness": 240,
+      "total": 430,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "SEC TREASURER/FIELD REP",
+          "kind": "officer",
+          "total": 108717
+        }
+      ],
+      "grossSalary": 101088,
+      "allowances": 0,
+      "officialBusiness": 7629,
+      "total": 108717,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 106775
+        }
+      ],
+      "grossSalary": 103120,
+      "allowances": 0,
+      "officialBusiness": 3655,
+      "total": 106775,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "MARTINEZ|J",
+      "name": "Jose Martinez",
+      "roles": [
+        {
+          "title": "AUDITOR/FIELD REP",
+          "kind": "officer",
+          "total": 77360
+        }
+      ],
+      "grossSalary": 71599,
+      "allowances": 0,
+      "officialBusiness": 5761,
+      "total": 77360,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "LACOUR|D",
+      "name": "Danette Lacour",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 30915
+        }
+      ],
+      "grossSalary": 30870,
+      "allowances": 0,
+      "officialBusiness": 45,
+      "total": 30915,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "CRUZ|A",
+      "name": "Tony Cruz",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "ADKERSON|R",
+      "name": "Ricky Adkerson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 900,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "BAISH|M",
+      "name": "Matt Baish",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 700
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 700,
+      "total": 700,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 300
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 300,
+      "total": 300,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 200,
+      "total": 200,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 120778
+        }
+      ],
+      "grossSalary": 113996,
+      "allowances": 0,
+      "officialBusiness": 6782,
+      "total": 120778,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "SEC TREASURER/FIELD REP",
+          "kind": "officer",
+          "total": 120552
+        }
+      ],
+      "grossSalary": 110753,
+      "allowances": 0,
+      "officialBusiness": 9799,
+      "total": 120552,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "MARTINEZ|J",
+      "name": "Jose Martinez",
+      "roles": [
+        {
+          "title": "AUDITOR/FIELD REP",
+          "kind": "officer",
+          "total": 52040
+        }
+      ],
+      "grossSalary": 46282,
+      "allowances": 0,
+      "officialBusiness": 5758,
+      "total": 52040,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "LACOUR|D",
+      "name": "Danette Lacour",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 47537
+        }
+      ],
+      "grossSalary": 47537,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 47537,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "CRUZ|A",
+      "name": "Tony Cruz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2451
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 2451,
+      "total": 2451,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1395
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1395,
+      "total": 1395,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1265
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1265,
+      "total": 1265,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "ADKERSON|R",
+      "name": "Ricky Adkerson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 110995
+        }
+      ],
+      "grossSalary": 107970,
+      "allowances": 0,
+      "officialBusiness": 3025,
+      "total": 110995,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "SEC TREASURER/FIELD REP",
+          "kind": "officer",
+          "total": 93099
+        }
+      ],
+      "grossSalary": 87246,
+      "allowances": 0,
+      "officialBusiness": 5853,
+      "total": 93099,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "LACOUR|D",
+      "name": "Danette Lacour",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 45589
+        }
+      ],
+      "grossSalary": 45589,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 45589,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "MANN|J",
+      "name": "Joe Mann",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 38526
+        }
+      ],
+      "grossSalary": 37635,
+      "allowances": 0,
+      "officialBusiness": 891,
+      "total": 38526,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 1265
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1265,
+      "total": 1265,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1165
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1165,
+      "total": 1165,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 1124
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1124,
+      "total": 1124,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1100,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "CRUZ|A",
+      "name": "Tony Cruz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1100,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 900,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "MARTINEZ|J",
+      "name": "Jose Martinez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 600,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "ADKERSON|R",
+      "name": "Ricky Adkerson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 600,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "TIJERINA|S",
+      "name": "Sal Tijerina",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 200,
+      "total": 200,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "MANN|J",
+      "name": "Joe Mann",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 109292
+        }
+      ],
+      "grossSalary": 102018,
+      "allowances": 0,
+      "officialBusiness": 7274,
+      "total": 109292,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "BREJC|D",
+      "name": "Daniel Brejc",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 106359
+        }
+      ],
+      "grossSalary": 100270,
+      "allowances": 0,
+      "officialBusiness": 6089,
+      "total": 106359,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "LACOUR|D",
+      "name": "Danette Lacour",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 44247
+        }
+      ],
+      "grossSalary": 44247,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 44247,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 2495
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 2495,
+      "total": 2495,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "TIJERINA|S",
+      "name": "Sal Tijerina",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1790
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1790,
+      "total": 1790,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "CRUZ|A",
+      "name": "Tony Cruz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1425
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1425,
+      "total": 1425,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 1265
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1265,
+      "total": 1265,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1200,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1100,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1100,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 900,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "MANN|J",
+      "name": "Joe Mann",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 102573
+        }
+      ],
+      "grossSalary": 99591,
+      "allowances": 0,
+      "officialBusiness": 2982,
+      "total": 102573,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "TREASURER/FIELD REP.",
+          "kind": "officer",
+          "total": 101582
+        }
+      ],
+      "grossSalary": 99174,
+      "allowances": 0,
+      "officialBusiness": 2408,
+      "total": 101582,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "LACOUR|D",
+      "name": "Danette Lacour",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 42675
+        }
+      ],
+      "grossSalary": 42675,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 42675,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1200,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "CRUZ|A",
+      "name": "Tony Cruz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1200,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1200,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1100,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "GANNON|M",
+      "name": "Michael Gannon",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1100,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1100,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 1100,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "TIJERINA|S",
+      "name": "Sal Tijerina",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 900,
+      "officialBusiness": 0,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 600,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "SEC. TREAS.",
+          "kind": "officer",
+          "total": 94498
+        }
+      ],
+      "grossSalary": 93013,
+      "allowances": 0,
+      "officialBusiness": 1485,
+      "total": 94498,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "MANN|J",
+      "name": "Joe Mann",
+      "roles": [
+        {
+          "title": "BUS. MANAGER",
+          "kind": "officer",
+          "total": 93259
+        }
+      ],
+      "grossSalary": 93055,
+      "allowances": 0,
+      "officialBusiness": 204,
+      "total": 93259,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "LACOUR|D",
+      "name": "Danette Lacour",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 36709
+        }
+      ],
+      "grossSalary": 36709,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 36709,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 2780
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 780,
+      "officialBusiness": 2000,
+      "total": 2780,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "CRUZ|A",
+      "name": "Tony Cruz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2483
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 500,
+      "officialBusiness": 1983,
+      "total": 2483,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "KRANTZ|K",
+      "name": "Keith Krantz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1780
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 500,
+      "officialBusiness": 1280,
+      "total": 1780,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 780
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 780,
+      "officialBusiness": 0,
+      "total": 780,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "RECORDING SEC.",
+          "kind": "officer",
+          "total": 740
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 740,
+      "officialBusiness": 0,
+      "total": 740,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 702
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 640,
+      "officialBusiness": 62,
+      "total": 702,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "TIJERINA|S",
+      "name": "Salvado Tijerina",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 700
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 700,
+      "officialBusiness": 0,
+      "total": 700,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 680
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 680,
+      "officialBusiness": 0,
+      "total": 680,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT. OF ARMS",
+          "kind": "officer",
+          "total": 440
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 440,
+      "officialBusiness": 0,
+      "total": 440,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "HAKE|R",
+      "name": "Ronald Hake",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 200,
+      "officialBusiness": 0,
+      "total": 200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "SPITZ|W",
+      "name": "William Spitz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 80
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 80,
+      "officialBusiness": 0,
+      "total": 80,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "FIN SEC",
+          "kind": "officer",
+          "total": 90809
+        }
+      ],
+      "grossSalary": 86734,
+      "allowances": 0,
+      "officialBusiness": 4075,
+      "total": 90809,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "MANN|J",
+      "name": "Joe Mann",
+      "roles": [
+        {
+          "title": "BUS MGR",
+          "kind": "officer",
+          "total": 87538
+        }
+      ],
+      "grossSalary": 86821,
+      "allowances": 0,
+      "officialBusiness": 717,
+      "total": 87538,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "LACOUR|D",
+      "name": "Danette Lacour",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 38773
+        }
+      ],
+      "grossSalary": 38773,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 38773,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "TIJERNA|S",
+      "name": "Salvado Tijerna",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1722
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1722,
+      "total": 1722,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "HAKE|R",
+      "name": "Ronald Hake",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 860
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 480,
+      "officialBusiness": 380,
+      "total": 860,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 780
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 480,
+      "officialBusiness": 300,
+      "total": 780,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 780
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 480,
+      "officialBusiness": 300,
+      "total": 780,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "BRD MEMBER",
+          "kind": "officer",
+          "total": 740
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 440,
+      "officialBusiness": 300,
+      "total": 740,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "SPITZ|W",
+      "name": "William Spitz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 520
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 480,
+      "officialBusiness": 40,
+      "total": 520,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 480
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 480,
+      "officialBusiness": 0,
+      "total": 480,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "BRD MEMBER",
+          "kind": "officer",
+          "total": 480
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 480,
+      "officialBusiness": 0,
+      "total": 480,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "SOSNOSKI|G",
+      "name": "Glen Sosnoski",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 420
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 120,
+      "officialBusiness": 300,
+      "total": 420,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT OF ARMS",
+          "kind": "officer",
+          "total": 120
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 120,
+      "officialBusiness": 0,
+      "total": 120,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "FIN SEC",
+          "kind": "officer",
+          "total": 80901
+        }
+      ],
+      "grossSalary": 80901,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 80901,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "MANN|J",
+      "name": "Joe Mann",
+      "roles": [
+        {
+          "title": "BUS MGR",
+          "kind": "officer",
+          "total": 80734
+        }
+      ],
+      "grossSalary": 78771,
+      "allowances": 0,
+      "officialBusiness": 1963,
+      "total": 80734,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "LACOUR|D",
+      "name": "Danette Lacour",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 36037
+        }
+      ],
+      "grossSalary": 36037,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 36037,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 480
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 480,
+      "officialBusiness": 0,
+      "total": 480,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 480
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 480,
+      "officialBusiness": 0,
+      "total": 480,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 440
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 440,
+      "officialBusiness": 0,
+      "total": 440,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "BRD MEMEBER",
+          "kind": "officer",
+          "total": 440
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 440,
+      "officialBusiness": 0,
+      "total": 440,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "HAKE|R",
+      "name": "Ronald Hake",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 400
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 400,
+      "officialBusiness": 0,
+      "total": 400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "SPITZ|W",
+      "name": "William Spitz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 400
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 400,
+      "officialBusiness": 0,
+      "total": 400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "SOSNOSKI|G",
+      "name": "Glen Sosnoski",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 280
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 280,
+      "officialBusiness": 0,
+      "total": 280,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "BIVINS|M",
+      "name": "Mike Bivins",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 240
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 240,
+      "officialBusiness": 0,
+      "total": 240,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 160
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 160,
+      "officialBusiness": 0,
+      "total": 160,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "STEFFA|T",
+      "name": "Todd Steffa",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "MANN|J",
+      "name": "Joe Mann",
+      "roles": [
+        {
+          "title": "BUS MGR",
+          "kind": "officer",
+          "total": 77937
+        }
+      ],
+      "grossSalary": 74641,
+      "allowances": 144,
+      "officialBusiness": 3152,
+      "total": 77937,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "FIN SEC",
+          "kind": "officer",
+          "total": 74598
+        }
+      ],
+      "grossSalary": 70286,
+      "allowances": 155,
+      "officialBusiness": 4157,
+      "total": 74598,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DESCOTO|D",
+      "name": "Danette Descoto",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 32651
+        }
+      ],
+      "grossSalary": 32411,
+      "allowances": 0,
+      "officialBusiness": 240,
+      "total": 32651,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "JOHNSON|C",
+      "name": "Corey Johnson",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 2007
+        }
+      ],
+      "grossSalary": 1066,
+      "allowances": 100,
+      "officialBusiness": 841,
+      "total": 2007,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 384
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 384,
+      "total": 384,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "STEFFA|T",
+      "name": "Todd Steffa",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 360
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 360,
+      "total": 360,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GANNON|M",
+      "name": "Mike Gannon",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 336
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 336,
+      "total": 336,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 320
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 320,
+      "total": 320,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "HAKE|R",
+      "name": "Ronald Hake",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 240
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 240,
+      "officialBusiness": 0,
+      "total": 240,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "SPITZ|W",
+      "name": "William Spitz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 240
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 240,
+      "officialBusiness": 0,
+      "total": 240,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "HANNON|P",
+      "name": "Pat Hannon",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 200
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 200,
+      "officialBusiness": 0,
+      "total": 200,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "PIKE|C",
+      "name": "Carl Pike",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 96
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 96,
+      "officialBusiness": 0,
+      "total": 96,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "VESTER|J",
+      "name": "Judy Vester",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 72
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 72,
+      "officialBusiness": 0,
+      "total": 72,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "SOSNOSKI|G",
+      "name": "Glen Sosnoski",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 72
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 72,
+      "officialBusiness": 0,
+      "total": 72,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "JONES|W",
+      "name": "Willie Jones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 48
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 48,
+      "officialBusiness": 0,
+      "total": 48,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "BOAZ|M",
+      "name": "Mike Boaz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 24
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 24,
+      "officialBusiness": 0,
+      "total": 24,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "MANN|J",
+      "name": "Joseph Mann",
+      "roles": [
+        {
+          "title": "BUS. MANAGER",
+          "kind": "officer",
+          "total": 71828
+        }
+      ],
+      "grossSalary": 68326,
+      "allowances": 288,
+      "officialBusiness": 3214,
+      "total": 71828,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "BREJC|D",
+      "name": "Dan Brejc",
+      "roles": [
+        {
+          "title": "SEC./TREASURER",
+          "kind": "officer",
+          "total": 51734
+        }
+      ],
+      "grossSalary": 41850,
+      "allowances": 288,
+      "officialBusiness": 9596,
+      "total": 51734,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DESCOTO|D",
+      "name": "Danette Descoto",
+      "roles": [
+        {
+          "title": "SECRETARY",
+          "kind": "employee",
+          "total": 27596
+        }
+      ],
+      "grossSalary": 27416,
+      "allowances": 0,
+      "officialBusiness": 180,
+      "total": 27596,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "PIKE|C",
+      "name": "Carl Pike",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 288
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 288,
+      "officialBusiness": 0,
+      "total": 288,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "VESTER|J",
+      "name": "Judy Vester",
+      "roles": [
+        {
+          "title": "RECORDING SEC.",
+          "kind": "officer",
+          "total": 288
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 288,
+      "officialBusiness": 0,
+      "total": 288,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "ANTICH|J",
+      "name": "John Antich",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 288
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 288,
+      "officialBusiness": 0,
+      "total": 288,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "STEFFA|T",
+      "name": "Todd Steffa",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 288
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 288,
+      "officialBusiness": 0,
+      "total": 288,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "VERMAAT|J",
+      "name": "Jim Vermaat",
+      "roles": [
+        {
+          "title": "SGT-AT-ARMS",
+          "kind": "officer",
+          "total": 288
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 288,
+      "officialBusiness": 0,
+      "total": 288,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "JONES|W",
+      "name": "Willie Jones",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 288
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 288,
+      "officialBusiness": 0,
+      "total": 288,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "GANNON|M",
+      "name": "Michael Gannon",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 264
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 264,
+      "officialBusiness": 0,
+      "total": 264,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "BOAZ|M",
+      "name": "Mike Boaz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 264
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 264,
+      "officialBusiness": 0,
+      "total": 264,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SOSNOSKI|G",
+      "name": "Glen Sosnoski",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 240
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 240,
+      "officialBusiness": 0,
+      "total": 240,
+      "dualRole": false
+    }
+  ],
+  "dues": {
+    "2005": [
+      {
+        "type": "Regular dues",
+        "amount": "7.00-24.00",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "600.00",
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2006": [
+      {
+        "type": "Regular dues",
+        "amount": "7.00-24.00",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "600.00",
+        "unit": "NA",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2007": [
+      {
+        "type": "Regular dues",
+        "amount": "7.00-24.00",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700.00",
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2008": [
+      {
+        "type": "Regular dues",
+        "amount": "7.00-24.00",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700.00",
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2009": [
+      {
+        "type": "Regular dues",
+        "amount": "7.00-24.00",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700.00",
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2010": [
+      {
+        "type": "Regular dues",
+        "amount": "7.00-24.00",
+        "unit": "Month",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "Gross Wages",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700.00",
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2011": [
+      {
+        "type": "Regular dues",
+        "amount": "24",
+        "unit": "Month",
+        "min": "7",
+        "max": "24"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "Gross Wages",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2012": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "month",
+        "min": "8",
+        "max": "30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "gross wages",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2013": [
+      {
+        "type": "Regular dues",
+        "amount": "$30",
+        "unit": "month",
+        "min": "$8",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "gross wages",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800",
+        "unit": "member",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2014": [
+      {
+        "type": "Regular dues",
+        "amount": "$30",
+        "unit": "MONTH",
+        "min": "$8",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800",
+        "unit": "MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ]
+  },
+  "surnameClusters": [],
+  "events": [
+    {
+      "date": "2006-09-05",
+      "kind": "audit",
+      "title": "OLMS compliance audit",
+      "unverified": true,
+      "body": "An OLMS Compliance Audit Program review of Local 149. Search indexes describe findings around missing credit card statements and inadequate documentation of expenses, with Dan Brejc as Secretary-Treasurer. NOT INDEPENDENTLY VERIFIED — dol.gov blocks automated retrieval. Open the source and confirm before publishing.",
+      "source": "https://www.dol.gov/agencies/olms/audits/2006/liuna-lu149-09-05-06"
+    },
+    {
+      "date": "2014-11-01",
+      "kind": "termination",
+      "title": "Local 149 dissolved",
+      "body": "Final OLMS filing. Membership had declined from 640 in 2005 to 458 in 2013. Assets and officers carried into the merged local.",
+      "source": "https://labordata.bunkum.us/opdr"
+    }
+  ],
+  "lineage": []
+}

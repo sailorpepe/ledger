@@ -1,0 +1,820 @@
+{
+  "schedule": {
+    "fy": "fy27",
+    "posted": "20260715",
+    "effective": "2026-07-15"
+  },
+  "source": "https://labor.illinois.gov/content/dam/soi/en/web/idol/laws-rules/conmed/documents/fy27/20260715/{County}.pdf",
+  "counties": {
+    "Cook": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ],
+    "DuPage": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ],
+    "Lake": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ],
+    "Will": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ],
+    "Grundy": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 19.86,
+          "pension": 18.34,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ],
+    "Kendall": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ],
+    "Kane": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ],
+    "McHenry": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ],
+    "Boone": [
+      {
+        "title": "ASBESTOS ABT-GEN",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 54,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "LABORER",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 53,
+        "foreman": 53.75,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 92.11
+      },
+      {
+        "title": "MATERIAL TESTER I",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 43,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 82.11
+      },
+      {
+        "title": "MATERIALS TESTER II",
+        "region": "All",
+        "workType": "ALL",
+        "class": null,
+        "base": 48,
+        "foreman": null,
+        "ot": {
+          "weekday": 1.5,
+          "saturday": 1.5,
+          "sunday": 2,
+          "holiday": 2
+        },
+        "fringes": {
+          "welfare": 17.23,
+          "pension": 20.97,
+          "vacation": 0,
+          "training": 0.91
+        },
+        "total": null,
+        "package": 87.11
+      }
+    ]
+  }
+}

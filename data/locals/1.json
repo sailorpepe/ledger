@@ -1,0 +1,4138 @@
+{
+  "desig": 1,
+  "fNum": 545173,
+  "city": "Chicago",
+  "role": "local",
+  "label": "Local 1",
+  "latestYear": 2025,
+  "members": 1619,
+  "years": [
+    {
+      "year": 2025,
+      "formType": "LM-2",
+      "rptId": 932590,
+      "members": 1619,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2025,
+        "representational": 727987,
+        "political": 5696,
+        "contributions": 95201,
+        "general_overhead": 94405,
+        "union_administration": 858099,
+        "benefits": 574088,
+        "per_capita_tax": 399806,
+        "direct_taxes": 56342,
+        "investments": 6600,
+        "to_officers": 639921,
+        "to_employees": 69767,
+        "dues": 3278979,
+        "interest": 47032,
+        "dividends": 127603,
+        "fees": 157890,
+        "other_receipts": 144698
+      },
+      "representationalPerMember": 450,
+      "assets": 8508964,
+      "liabilities": 156334,
+      "receipts": 3756202,
+      "disbursements": 2818641,
+      "receiptsPerMember": 2320,
+      "assetsPerMember": 5256,
+      "disbursementsPerMember": 1741,
+      "payrollShare": 35.9
+    },
+    {
+      "year": 2024,
+      "formType": "LM-2",
+      "rptId": 908464,
+      "members": 1540,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2024,
+        "representational": 948631,
+        "political": 27597,
+        "contributions": 97391,
+        "general_overhead": 95866,
+        "union_administration": 861354,
+        "benefits": 661918,
+        "per_capita_tax": 390360,
+        "direct_taxes": 67234,
+        "investments": 2255952,
+        "to_officers": 781231,
+        "to_employees": 57214,
+        "dues": 3127880,
+        "interest": 37742,
+        "dividends": 119407,
+        "fees": 159211,
+        "other_receipts": 121219
+      },
+      "representationalPerMember": 616,
+      "assets": 7257189,
+      "liabilities": 1925,
+      "receipts": 3565459,
+      "disbursements": 5407239,
+      "receiptsPerMember": 2315,
+      "assetsPerMember": 4712,
+      "disbursementsPerMember": 3511,
+      "payrollShare": 22
+    },
+    {
+      "year": 2023,
+      "formType": "LM-2",
+      "rptId": 880075,
+      "members": 1570,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2023,
+        "representational": 913307,
+        "political": 22338,
+        "contributions": 80238,
+        "general_overhead": 89639,
+        "union_administration": 783742,
+        "benefits": 656952,
+        "per_capita_tax": 397306,
+        "direct_taxes": 67723,
+        "investments": 3110,
+        "to_officers": 763910,
+        "to_employees": 83028,
+        "dues": 3220489,
+        "interest": 8652,
+        "dividends": 31916,
+        "fees": 150045,
+        "other_receipts": 145041
+      },
+      "representationalPerMember": 582,
+      "assets": 6708480,
+      "liabilities": 2861,
+      "receipts": 3556143,
+      "disbursements": 3014056,
+      "receiptsPerMember": 2265,
+      "assetsPerMember": 4273,
+      "disbursementsPerMember": 1920,
+      "payrollShare": 39.1
+    },
+    {
+      "year": 2022,
+      "formType": "LM-2",
+      "rptId": 855026,
+      "members": 1652,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2022,
+        "representational": 857757,
+        "political": 6803,
+        "contributions": 71341,
+        "general_overhead": 82515,
+        "union_administration": 702109,
+        "benefits": 622025,
+        "per_capita_tax": 393757,
+        "direct_taxes": 59361,
+        "investments": 15020,
+        "to_officers": 712783,
+        "to_employees": 74420,
+        "dues": 2930902,
+        "interest": 1816,
+        "dividends": 22927,
+        "fees": 159913,
+        "other_receipts": 209451
+      },
+      "representationalPerMember": 519,
+      "assets": 6080000,
+      "liabilities": 2562,
+      "receipts": 3325009,
+      "disbursements": 2810541,
+      "receiptsPerMember": 2013,
+      "assetsPerMember": 3680,
+      "disbursementsPerMember": 1701,
+      "payrollShare": 38.7
+    },
+    {
+      "year": 2021,
+      "formType": "LM-2",
+      "rptId": 804606,
+      "members": 1675,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2021,
+        "representational": 867804,
+        "political": 4427,
+        "contributions": 46104,
+        "general_overhead": 86478,
+        "union_administration": 601604,
+        "benefits": 604579,
+        "per_capita_tax": 383353,
+        "direct_taxes": 63714,
+        "investments": 23296,
+        "to_officers": 579058,
+        "to_employees": 171825,
+        "dues": 2569100,
+        "interest": 1227,
+        "dividends": 18472,
+        "fees": 116134,
+        "other_receipts": 169562
+      },
+      "representationalPerMember": 518,
+      "assets": 5771747,
+      "liabilities": 174205,
+      "receipts": 3046285,
+      "disbursements": 2681337,
+      "receiptsPerMember": 1819,
+      "assetsPerMember": 3446,
+      "disbursementsPerMember": 1601,
+      "payrollShare": 39.5
+    },
+    {
+      "year": 2020,
+      "formType": "LM-2",
+      "rptId": 744685,
+      "members": 1730,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2020,
+        "representational": 793781,
+        "political": 12199,
+        "contributions": 37101,
+        "general_overhead": 65463,
+        "union_administration": 590028,
+        "benefits": 576713,
+        "per_capita_tax": 423996,
+        "direct_taxes": 62833,
+        "investments": 38498,
+        "to_officers": 649428,
+        "to_employees": 98901,
+        "dues": 2634996,
+        "interest": 6155,
+        "dividends": 24371,
+        "fees": 127343,
+        "other_receipts": 118664
+      },
+      "representationalPerMember": 459,
+      "assets": 5401071,
+      "liabilities": 2393,
+      "receipts": 2911529,
+      "disbursements": 2600082,
+      "receiptsPerMember": 1683,
+      "assetsPerMember": 3122,
+      "disbursementsPerMember": 1503,
+      "payrollShare": 40.5
+    },
+    {
+      "year": 2019,
+      "formType": "LM-2",
+      "rptId": 721279,
+      "members": 1964,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2019,
+        "representational": 730328,
+        "political": 11070,
+        "contributions": 53802,
+        "general_overhead": 59453,
+        "union_administration": 590360,
+        "benefits": 518290,
+        "per_capita_tax": 439843,
+        "direct_taxes": 58873,
+        "investments": 891476,
+        "to_officers": 617991,
+        "to_employees": 70979,
+        "dues": 2871240,
+        "interest": 17780,
+        "dividends": 24380,
+        "fees": 157011,
+        "other_receipts": 122390
+      },
+      "representationalPerMember": 372,
+      "assets": 5005171,
+      "liabilities": 1863,
+      "receipts": 3192801,
+      "disbursements": 3353307,
+      "receiptsPerMember": 1626,
+      "assetsPerMember": 2548,
+      "disbursementsPerMember": 1707,
+      "payrollShare": 28
+    },
+    {
+      "year": 2018,
+      "formType": "LM-2",
+      "rptId": 694239,
+      "members": 1873,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2018,
+        "representational": 686064,
+        "political": 9815,
+        "contributions": 32649,
+        "general_overhead": 82110,
+        "union_administration": 579289,
+        "benefits": 526810,
+        "per_capita_tax": 388750,
+        "direct_taxes": 59399,
+        "investments": 36452,
+        "to_officers": 575045,
+        "to_employees": 80406,
+        "dues": 2811383,
+        "interest": 26414,
+        "dividends": 0,
+        "fees": 183022,
+        "other_receipts": 160584
+      },
+      "representationalPerMember": 366,
+      "assets": 4271787,
+      "liabilities": 1675,
+      "receipts": 3181403,
+      "disbursements": 2401994,
+      "receiptsPerMember": 1699,
+      "assetsPerMember": 2281,
+      "disbursementsPerMember": 1282,
+      "payrollShare": 36.8
+    },
+    {
+      "year": 2017,
+      "formType": "LM-2",
+      "rptId": 668458,
+      "members": 1908,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2017,
+        "representational": 668851,
+        "political": 9043,
+        "contributions": 31011,
+        "general_overhead": 72066,
+        "union_administration": 449295,
+        "benefits": 506243,
+        "per_capita_tax": 445195,
+        "direct_taxes": 60193,
+        "investments": 142159,
+        "to_officers": 490071,
+        "to_employees": 112463,
+        "dues": 2652039,
+        "interest": 1240,
+        "dividends": 0,
+        "fees": 171907,
+        "other_receipts": 187364
+      },
+      "representationalPerMember": 351,
+      "assets": 3486043,
+      "liabilities": 2331,
+      "receipts": 3012550,
+      "disbursements": 2383509,
+      "receiptsPerMember": 1579,
+      "assetsPerMember": 1827,
+      "disbursementsPerMember": 1249,
+      "payrollShare": 35.2
+    },
+    {
+      "year": 2016,
+      "formType": "LM-2",
+      "rptId": 640247,
+      "members": 1732,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2016,
+        "representational": 340193,
+        "political": 5059,
+        "contributions": 15900,
+        "general_overhead": 36850,
+        "union_administration": 276828,
+        "benefits": 287444,
+        "per_capita_tax": 197689,
+        "direct_taxes": 29377,
+        "investments": 48583,
+        "to_officers": 283710,
+        "to_employees": 59252,
+        "dues": 1567718,
+        "interest": 20,
+        "dividends": 0,
+        "fees": 148660,
+        "other_receipts": 74181
+      },
+      "representationalPerMember": 196,
+      "assets": 2133701,
+      "liabilities": 1784,
+      "receipts": 1250207,
+      "disbursements": 1237513,
+      "receiptsPerMember": 722,
+      "assetsPerMember": 1232,
+      "disbursementsPerMember": 714,
+      "payrollShare": 38.5
+    },
+    {
+      "year": 2015,
+      "formType": "LM-2",
+      "rptId": 610019,
+      "members": 1651,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2015,
+        "representational": 361747,
+        "political": 75860,
+        "contributions": 23100,
+        "general_overhead": 348019,
+        "union_administration": 421360,
+        "benefits": 407819,
+        "per_capita_tax": 367764,
+        "direct_taxes": 109322,
+        "investments": 3365,
+        "to_officers": 394696,
+        "to_employees": 129511,
+        "dues": 1965282,
+        "interest": 3993,
+        "dividends": 890,
+        "fees": 200704,
+        "other_receipts": 156406
+      },
+      "representationalPerMember": 219,
+      "assets": 1729146,
+      "liabilities": 1338,
+      "receipts": 2642275,
+      "disbursements": 2121938,
+      "receiptsPerMember": 1600,
+      "assetsPerMember": 1047,
+      "disbursementsPerMember": 1285,
+      "payrollShare": 31.4
+    },
+    {
+      "year": 2014,
+      "formType": "LM-2",
+      "rptId": 586142,
+      "members": 1589,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2014,
+        "representational": 85439,
+        "political": 13011,
+        "contributions": 200,
+        "general_overhead": 15786,
+        "union_administration": 89645,
+        "benefits": 42537,
+        "per_capita_tax": 12975,
+        "direct_taxes": 14062,
+        "investments": 3515,
+        "to_officers": 89634,
+        "to_employees": 20591,
+        "dues": 388501,
+        "interest": 924,
+        "dividends": 416,
+        "fees": 17978,
+        "other_receipts": 949508
+      },
+      "representationalPerMember": 54,
+      "assets": 1743083,
+      "liabilities": 323800,
+      "receipts": 1357327,
+      "disbursements": 277123,
+      "receiptsPerMember": 854,
+      "assetsPerMember": 1097,
+      "disbursementsPerMember": 174,
+      "payrollShare": 51.7
+    }
+  ],
+  "people": [
+    {
+      "year": 2025,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER/BA",
+          "kind": "officer",
+          "total": 345834
+        }
+      ],
+      "grossSalary": 288480,
+      "allowances": 0,
+      "officialBusiness": 57354,
+      "total": 345834,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "ESPARZA|J",
+      "name": "Jeremy Esparza",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS/BA",
+          "kind": "officer",
+          "total": 246446
+        }
+      ],
+      "grossSalary": 193580,
+      "allowances": 0,
+      "officialBusiness": 52866,
+      "total": 246446,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "PRESIDENT/BA",
+          "kind": "officer",
+          "total": 245429
+        }
+      ],
+      "grossSalary": 198849,
+      "allowances": 0,
+      "officialBusiness": 46580,
+      "total": 245429,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "SANCHEZ|I",
+      "name": "Ivonne Sanchez",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASST.",
+          "kind": "employee",
+          "total": 62171
+        }
+      ],
+      "grossSalary": 59976,
+      "allowances": 0,
+      "officialBusiness": 2195,
+      "total": 62171,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 38346
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 13346,
+      "total": 38346,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 27047
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 2047,
+      "total": 27047,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6500
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6500,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4700
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4700,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "HARVEY|T",
+      "name": "Tyrone Harvey",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4700
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4700,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "WHITE|C",
+      "name": "Cheryl White",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2352
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 452,
+      "total": 2352,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "DAVIS|K",
+      "name": "Kevin Davis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1900
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1900,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1900
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1900,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER/BA",
+          "kind": "officer",
+          "total": 332791
+        }
+      ],
+      "grossSalary": 282960,
+      "allowances": 0,
+      "officialBusiness": 49831,
+      "total": 332791,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "ESPARZA|J",
+      "name": "Jeremy Esparza",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS / BA",
+          "kind": "officer",
+          "total": 241958
+        },
+        {
+          "title": "AUDITOR/BA",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 186060,
+      "allowances": 0,
+      "officialBusiness": 55898,
+      "total": 241958,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "PRESIDENT/BA",
+          "kind": "officer",
+          "total": 234884
+        }
+      ],
+      "grossSalary": 193329,
+      "allowances": 0,
+      "officialBusiness": 41555,
+      "total": 234884,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "PAGANO|M",
+      "name": "Michael Pagano",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD / BA",
+          "kind": "officer",
+          "total": 221632
+        }
+      ],
+      "grossSalary": 173633,
+      "allowances": 0,
+      "officialBusiness": 47999,
+      "total": 221632,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "SANCHEZ|I",
+      "name": "Ivonne Sanchez",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASST.",
+          "kind": "employee",
+          "total": 49720
+        }
+      ],
+      "grossSalary": 49392,
+      "allowances": 0,
+      "officialBusiness": 328,
+      "total": 49720,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 38025
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 13025,
+      "total": 38025,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 26883
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 1883,
+      "total": 26883,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6500
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6500,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4756
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 56,
+      "total": 4756,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "HARVEY|T",
+      "name": "Tyrone Harvey",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4756
+        },
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 56,
+      "total": 4756,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "DAVIS|K",
+      "name": "Kevin Davis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2256
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 356,
+      "total": 2256,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1956
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 56,
+      "total": 1956,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "WHITE|C",
+      "name": "Cheryl White",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 733
+        }
+      ],
+      "grossSalary": 733,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 733,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER/BA",
+          "kind": "officer",
+          "total": 326625
+        }
+      ],
+      "grossSalary": 270934,
+      "allowances": 0,
+      "officialBusiness": 55691,
+      "total": 326625,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "PAGANO|M",
+      "name": "Michael Pagano",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BA",
+          "kind": "officer",
+          "total": 226867
+        }
+      ],
+      "grossSalary": 174958,
+      "allowances": 0,
+      "officialBusiness": 51909,
+      "total": 226867,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "PRESIDENT/BA",
+          "kind": "officer",
+          "total": 223628
+        }
+      ],
+      "grossSalary": 181427,
+      "allowances": 0,
+      "officialBusiness": 42201,
+      "total": 223628,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "ESPARZA|J",
+      "name": "Jeremy Esparza",
+      "roles": [
+        {
+          "title": "AUDITOR/BA",
+          "kind": "officer",
+          "total": 206576
+        }
+      ],
+      "grossSalary": 154669,
+      "allowances": 0,
+      "officialBusiness": 51907,
+      "total": 206576,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASST.",
+          "kind": "employee",
+          "total": 84140
+        }
+      ],
+      "grossSalary": 84140,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 84140,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 33594
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 8594,
+      "total": 33594,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 27223
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 2223,
+      "total": 27223,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6753
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 253,
+      "total": 6753,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5499
+        },
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 799,
+      "total": 5499,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3962
+        }
+      ],
+      "grossSalary": 3850,
+      "allowances": 0,
+      "officialBusiness": 112,
+      "total": 3962,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3613
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 1713,
+      "total": 3613,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "HARVEY|T",
+      "name": "Tyrone Harvey",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 3300
+        }
+      ],
+      "grossSalary": 3300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3300,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "DAVIS|K",
+      "name": "Kevin Davis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2263
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 363,
+      "total": 2263,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 311695
+        }
+      ],
+      "grossSalary": 251701,
+      "allowances": 0,
+      "officialBusiness": 59994,
+      "total": 311695,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 206111
+        }
+      ],
+      "grossSalary": 161795,
+      "allowances": 0,
+      "officialBusiness": 44316,
+      "total": 206111,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "PAGANO|M",
+      "name": "Michael Pagano",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 204410
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 158687,
+      "allowances": 0,
+      "officialBusiness": 45723,
+      "total": 204410,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "ESPARZA|J",
+      "name": "Jeremy Esparza",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 182735
+        }
+      ],
+      "grossSalary": 135139,
+      "allowances": 0,
+      "officialBusiness": 47596,
+      "total": 182735,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASST.",
+          "kind": "employee",
+          "total": 73891
+        }
+      ],
+      "grossSalary": 73733,
+      "allowances": 0,
+      "officialBusiness": 158,
+      "total": 73891,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 31477
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 6477,
+      "total": 31477,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 25568
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 568,
+      "total": 25568,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6500
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6500,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 5388
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 688,
+      "total": 5388,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4825
+        }
+      ],
+      "grossSalary": 3850,
+      "allowances": 0,
+      "officialBusiness": 975,
+      "total": 4825,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4700
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4700,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2115
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 215,
+      "total": 2115,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "DAVIS|K",
+      "name": "Kevin Davis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1900
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1900,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 288141
+        }
+      ],
+      "grossSalary": 250706,
+      "allowances": 0,
+      "officialBusiness": 37435,
+      "total": 288141,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 141844
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 39353
+        }
+      ],
+      "grossSalary": 152509,
+      "allowances": 0,
+      "officialBusiness": 28688,
+      "total": 181197,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "PAGANO|M",
+      "name": "Michael Pagano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 175571
+        }
+      ],
+      "grossSalary": 145313,
+      "allowances": 0,
+      "officialBusiness": 30258,
+      "total": 175571,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "ESPARZA|J",
+      "name": "Jeremy Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 146085
+        }
+      ],
+      "grossSalary": 116431,
+      "allowances": 0,
+      "officialBusiness": 29654,
+      "total": 146085,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "DAMATO|F",
+      "name": "Frank Damato",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 88536
+        }
+      ],
+      "grossSalary": 83689,
+      "allowances": 0,
+      "officialBusiness": 4847,
+      "total": 88536,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASST.",
+          "kind": "employee",
+          "total": 72909
+        }
+      ],
+      "grossSalary": 71618,
+      "allowances": 0,
+      "officialBusiness": 1291,
+      "total": 72909,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 30045
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 5045,
+      "total": 30045,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 24325
+        }
+      ],
+      "grossSalary": 24325,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 24325,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6500
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6500,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5670
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 3770,
+      "total": 5670,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 4700
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4700,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4700
+        }
+      ],
+      "grossSalary": 4700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4700,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3650
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 350
+        }
+      ],
+      "grossSalary": 4000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4000,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "DAVIS|K",
+      "name": "Kevin Davis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 850
+        }
+      ],
+      "grossSalary": 850,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 850,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 266907
+        }
+      ],
+      "grossSalary": 227530,
+      "allowances": 0,
+      "officialBusiness": 39377,
+      "total": 266907,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "DAMATO|F",
+      "name": "Frank Damato",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 243977
+        }
+      ],
+      "grossSalary": 214782,
+      "allowances": 0,
+      "officialBusiness": 29195,
+      "total": 243977,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "PAGANO|M",
+      "name": "Michael Pagano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 167417
+        }
+      ],
+      "grossSalary": 129809,
+      "allowances": 0,
+      "officialBusiness": 37608,
+      "total": 167417,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 161684
+        }
+      ],
+      "grossSalary": 131616,
+      "allowances": 0,
+      "officialBusiness": 30068,
+      "total": 161684,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 66983
+        }
+      ],
+      "grossSalary": 66647,
+      "allowances": 0,
+      "officialBusiness": 336,
+      "total": 66983,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 30540
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 5540,
+      "total": 30540,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "ESPARZA|J",
+      "name": "Jeremy Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 29462
+        }
+      ],
+      "grossSalary": 20512,
+      "allowances": 0,
+      "officialBusiness": 8950,
+      "total": 29462,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 26109
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 1109,
+      "total": 26109,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 21000
+        }
+      ],
+      "grossSalary": 21000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 21000,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "FOSCO|A",
+      "name": "Alexandra Fosco",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 10350
+        }
+      ],
+      "grossSalary": 10350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 10350,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "ESPARZA|S",
+      "name": "Sandra Esparza",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 10020
+        }
+      ],
+      "grossSalary": 10020,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 10020,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6500
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6500,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4450
+        }
+      ],
+      "grossSalary": 4450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4450,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4450
+        }
+      ],
+      "grossSalary": 4450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4450,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 243724
+        }
+      ],
+      "grossSalary": 199945,
+      "allowances": 0,
+      "officialBusiness": 43779,
+      "total": 243724,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "DAMATO|F",
+      "name": "Frank Damato",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 221399
+        }
+      ],
+      "grossSalary": 183759,
+      "allowances": 0,
+      "officialBusiness": 37640,
+      "total": 221399,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "PAGANO|M",
+      "name": "Michael Pagano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 159218
+        }
+      ],
+      "grossSalary": 122384,
+      "allowances": 0,
+      "officialBusiness": 36834,
+      "total": 159218,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 146836
+        }
+      ],
+      "grossSalary": 120973,
+      "allowances": 0,
+      "officialBusiness": 25863,
+      "total": 146836,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 60673
+        }
+      ],
+      "grossSalary": 60365,
+      "allowances": 0,
+      "officialBusiness": 308,
+      "total": 60673,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 30179
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 5179,
+      "total": 30179,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 26769
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 1769,
+      "total": 26769,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 18900
+        }
+      ],
+      "grossSalary": 18900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 18900,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "FOSCO|A",
+      "name": "Alexandra Fosco",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 10240
+        }
+      ],
+      "grossSalary": 10240,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 10240,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6793
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 293,
+      "total": 6793,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4100
+        }
+      ],
+      "grossSalary": 4100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4100,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "RODRIGUEZ|L",
+      "name": "Lucio Rodriguez",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 3800
+        }
+      ],
+      "grossSalary": 3800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3800,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "OHEARN|M",
+      "name": "Michael Ohearn",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 2100
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2100,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1895
+        }
+      ],
+      "grossSalary": 1700,
+      "allowances": 0,
+      "officialBusiness": 195,
+      "total": 1895,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1700
+        }
+      ],
+      "grossSalary": 1700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1700,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 240392
+        }
+      ],
+      "grossSalary": 194485,
+      "allowances": 0,
+      "officialBusiness": 45907,
+      "total": 240392,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "DAMATO|F",
+      "name": "Frank Damato",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 192832
+        }
+      ],
+      "grossSalary": 162759,
+      "allowances": 0,
+      "officialBusiness": 30073,
+      "total": 192832,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "PAGANO|M",
+      "name": "Michael Pagano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 133130
+        }
+      ],
+      "grossSalary": 101384,
+      "allowances": 0,
+      "officialBusiness": 31746,
+      "total": 133130,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 128233
+        }
+      ],
+      "grossSalary": 99973,
+      "allowances": 0,
+      "officialBusiness": 28260,
+      "total": 128233,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 58751
+        }
+      ],
+      "grossSalary": 58607,
+      "allowances": 0,
+      "officialBusiness": 144,
+      "total": 58751,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "NICKEL|E",
+      "name": "Elizabeth Nickel",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 27236
+        }
+      ],
+      "grossSalary": 27236,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 27236,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 26598
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 1598,
+      "total": 26598,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 25000
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25000,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 18900
+        }
+      ],
+      "grossSalary": 18900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 18900,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "PEAKII|R",
+      "name": "Bobby Peak ii",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 15181
+        }
+      ],
+      "grossSalary": 12817,
+      "allowances": 0,
+      "officialBusiness": 2364,
+      "total": 15181,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6500
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6500,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4165
+        }
+      ],
+      "grossSalary": 4100,
+      "allowances": 0,
+      "officialBusiness": 65,
+      "total": 4165,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "OHEARN|M",
+      "name": "Michael Ohearn",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4100
+        }
+      ],
+      "grossSalary": 4100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4100,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2155
+        }
+      ],
+      "grossSalary": 1700,
+      "allowances": 0,
+      "officialBusiness": 455,
+      "total": 2155,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1765
+        }
+      ],
+      "grossSalary": 1700,
+      "allowances": 0,
+      "officialBusiness": 65,
+      "total": 1765,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 208289
+        }
+      ],
+      "grossSalary": 176279,
+      "allowances": 0,
+      "officialBusiness": 32010,
+      "total": 208289,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "DAMATO|F",
+      "name": "Frank Damato",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 180854
+        }
+      ],
+      "grossSalary": 149482,
+      "allowances": 0,
+      "officialBusiness": 31372,
+      "total": 180854,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 112782
+        }
+      ],
+      "grossSalary": 93084,
+      "allowances": 0,
+      "officialBusiness": 19698,
+      "total": 112782,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PEAKII|R",
+      "name": "Bobby Peak ii",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 112242
+        }
+      ],
+      "grossSalary": 91723,
+      "allowances": 0,
+      "officialBusiness": 20519,
+      "total": 112242,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 57266
+        }
+      ],
+      "grossSalary": 56900,
+      "allowances": 0,
+      "officialBusiness": 366,
+      "total": 57266,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PAGANO|M",
+      "name": "Michael Pagano",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 42999
+        }
+      ],
+      "grossSalary": 36156,
+      "allowances": 0,
+      "officialBusiness": 6843,
+      "total": 42999,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "NICKEL|E",
+      "name": "Elizabeth Nickel",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 34517
+        }
+      ],
+      "grossSalary": 34462,
+      "allowances": 0,
+      "officialBusiness": 55,
+      "total": 34517,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 28902
+        }
+      ],
+      "grossSalary": 26250,
+      "allowances": 0,
+      "officialBusiness": 2652,
+      "total": 28902,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 26250
+        }
+      ],
+      "grossSalary": 26250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 26250,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 16758
+        }
+      ],
+      "grossSalary": 16758,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 16758,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 5500
+        }
+      ],
+      "grossSalary": 5500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5500,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4100
+        }
+      ],
+      "grossSalary": 4100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4100,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "OHEARN|M",
+      "name": "Michael Ohearn",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4100
+        }
+      ],
+      "grossSalary": 4100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4100,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1895
+        }
+      ],
+      "grossSalary": 1700,
+      "allowances": 0,
+      "officialBusiness": 195,
+      "total": 1895,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1700
+        }
+      ],
+      "grossSalary": 1700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1700,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 115489
+        }
+      ],
+      "grossSalary": 99335,
+      "allowances": 0,
+      "officialBusiness": 16154,
+      "total": 115489,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "DAMATO|F",
+      "name": "Frank Damato",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 101181
+        }
+      ],
+      "grossSalary": 85909,
+      "allowances": 0,
+      "officialBusiness": 15272,
+      "total": 101181,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 68278
+        }
+      ],
+      "grossSalary": 57202,
+      "allowances": 0,
+      "officialBusiness": 11076,
+      "total": 68278,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "PEAKII|R",
+      "name": "Bobby Peak ii",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 65706
+        }
+      ],
+      "grossSalary": 53912,
+      "allowances": 0,
+      "officialBusiness": 11794,
+      "total": 65706,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 35196
+        }
+      ],
+      "grossSalary": 34963,
+      "allowances": 0,
+      "officialBusiness": 233,
+      "total": 35196,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "NICKEL|E",
+      "name": "Elizabeth Nickel",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 34134
+        }
+      ],
+      "grossSalary": 33873,
+      "allowances": 0,
+      "officialBusiness": 261,
+      "total": 34134,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 18167
+        }
+      ],
+      "grossSalary": 16833,
+      "allowances": 0,
+      "officialBusiness": 1334,
+      "total": 18167,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 16928
+        }
+      ],
+      "grossSalary": 16875,
+      "allowances": 0,
+      "officialBusiness": 53,
+      "total": 16928,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 10093
+        }
+      ],
+      "grossSalary": 10093,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 10093,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 4100
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 1500,
+      "officialBusiness": 0,
+      "total": 4100,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "OHEARN|M",
+      "name": "Michael Ohearn",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 1100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 1100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 183651
+        },
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 153480,
+      "allowances": 0,
+      "officialBusiness": 30171,
+      "total": 183651,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "DAMATO|F",
+      "name": "Frank Damato",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 131262
+        },
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 106389,
+      "allowances": 0,
+      "officialBusiness": 24873,
+      "total": 131262,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "PONTARELLI|C",
+      "name": "Claudio Pontarelli",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 90800
+        }
+      ],
+      "grossSalary": 71800,
+      "allowances": 2600,
+      "officialBusiness": 10400,
+      "total": 90800,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CASTRO|A",
+      "name": "Antonio Castro",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 66341
+        }
+      ],
+      "grossSalary": 46294,
+      "allowances": 2600,
+      "officialBusiness": 2447,
+      "total": 66341,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 55363
+        }
+      ],
+      "grossSalary": 55183,
+      "allowances": 0,
+      "officialBusiness": 180,
+      "total": 55363,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "NICKEL|E",
+      "name": "Elizabeth Nickel",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 54332
+        }
+      ],
+      "grossSalary": 53462,
+      "allowances": 0,
+      "officialBusiness": 870,
+      "total": 54332,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 27970
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 25000,
+      "allowances": 0,
+      "officialBusiness": 2970,
+      "total": 27970,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 16827
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 14723,
+      "allowances": 0,
+      "officialBusiness": 2104,
+      "total": 16827,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "BUSCH|D",
+      "name": "David Busch",
+      "roles": [
+        {
+          "title": "BOOKKEEPER",
+          "kind": "employee",
+          "total": 13860
+        }
+      ],
+      "grossSalary": 13860,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 13860,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 9995
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 9563,
+      "allowances": 0,
+      "officialBusiness": 432,
+      "total": 9995,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "OHEARN|M",
+      "name": "Michael Ohearn",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4400
+        }
+      ],
+      "grossSalary": 4400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4400,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 4400
+        }
+      ],
+      "grossSalary": 4400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4400,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3500
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 3500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3500,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2230
+        }
+      ],
+      "grossSalary": 2195,
+      "allowances": 0,
+      "officialBusiness": 35,
+      "total": 2230,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "ORTIZ|J",
+      "name": "Jesus Ortiz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 1100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "PEAKII|R",
+      "name": "Bobby Peak ii",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 1100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CASTRO|A",
+      "name": "Antonio Castro",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 51056
+        }
+      ],
+      "grossSalary": 49251,
+      "allowances": 1300,
+      "officialBusiness": 505,
+      "total": 51056,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "ESPARZA|L",
+      "name": "Leonel Esparza",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 30530
+        }
+      ],
+      "grossSalary": 27320,
+      "allowances": 0,
+      "officialBusiness": 3210,
+      "total": 30530,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "PONTARELLI|C",
+      "name": "Claudio Pontarelli",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 20449
+        }
+      ],
+      "grossSalary": 18650,
+      "allowances": 1000,
+      "officialBusiness": 799,
+      "total": 20449,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "DAMATO|F",
+      "name": "Frank Damato",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 17521
+        }
+      ],
+      "grossSalary": 16611,
+      "allowances": 0,
+      "officialBusiness": 910,
+      "total": 17521,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CASTRO|E",
+      "name": "Elizabeth Castro",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 14952
+        }
+      ],
+      "grossSalary": 14952,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 14952,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "FLANAGAN|M",
+      "name": "Martin Flanagan",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5832
+        }
+      ],
+      "grossSalary": 5750,
+      "allowances": 0,
+      "officialBusiness": 82,
+      "total": 5832,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "FOSCO|P",
+      "name": "Peter Fosco",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 720
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 120,
+      "total": 720,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "GEHRMANN|P",
+      "name": "Paul Gehrmann",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 682
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 82,
+      "total": 682,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "OHEARN|M",
+      "name": "Michael Ohearn",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 682
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 82,
+      "total": 682,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CONRAD|J",
+      "name": "John Conrad",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 282
+        }
+      ],
+      "grossSalary": 200,
+      "allowances": 0,
+      "officialBusiness": 82,
+      "total": 282,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "RIVERA|B",
+      "name": "Benito Rivera",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 282
+        }
+      ],
+      "grossSalary": 200,
+      "allowances": 0,
+      "officialBusiness": 82,
+      "total": 282,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "HALL|J",
+      "name": "James Hall",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 282
+        }
+      ],
+      "grossSalary": 200,
+      "allowances": 0,
+      "officialBusiness": 82,
+      "total": 282,
+      "dualRole": false
+    }
+  ],
+  "dues": {
+    "2014": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2015": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2016": [
+      {
+        "type": "Regular dues",
+        "amount": "$90.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2017": [
+      {
+        "type": "Regular dues",
+        "amount": "$90.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2018": [
+      {
+        "type": "Regular dues",
+        "amount": "$90.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2019": [
+      {
+        "type": "Regular dues",
+        "amount": "$90.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2020": [
+      {
+        "type": "Regular dues",
+        "amount": "$90.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2021": [
+      {
+        "type": "Regular dues",
+        "amount": "$90.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2022": [
+      {
+        "type": "Regular dues",
+        "amount": "$120.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2023": [
+      {
+        "type": "Regular dues",
+        "amount": "$120.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2024": [
+      {
+        "type": "Regular dues",
+        "amount": "$120.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2025": [
+      {
+        "type": "Regular dues",
+        "amount": "$120.00",
+        "unit": "QUARTER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "GROSS WAGES",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800.00",
+        "unit": "NEW MEMBER",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ]
+  },
+  "surnameClusters": [
+    {
+      "year": 2025,
+      "surname": "ESPARZA",
+      "people": [
+        {
+          "name": "Leonel Esparza",
+          "total": 345834,
+          "roles": [
+            "BUSINESS MANAGER/BA"
+          ]
+        },
+        {
+          "name": "Jeremy Esparza",
+          "total": 246446,
+          "roles": [
+            "SERGEANT-AT-ARMS/BA"
+          ]
+        }
+      ],
+      "combined": 592280
+    },
+    {
+      "year": 2024,
+      "surname": "ESPARZA",
+      "people": [
+        {
+          "name": "Leonel Esparza",
+          "total": 332791,
+          "roles": [
+            "BUSINESS MANAGER/BA"
+          ]
+        },
+        {
+          "name": "Jeremy Esparza",
+          "total": 241958,
+          "roles": [
+            "SERGEANT-AT-ARMS / BA",
+            "AUDITOR/BA"
+          ]
+        }
+      ],
+      "combined": 574749
+    },
+    {
+      "year": 2023,
+      "surname": "ESPARZA",
+      "people": [
+        {
+          "name": "Leonel Esparza",
+          "total": 326625,
+          "roles": [
+            "BUSINESS MANAGER/BA"
+          ]
+        },
+        {
+          "name": "Jeremy Esparza",
+          "total": 206576,
+          "roles": [
+            "AUDITOR/BA"
+          ]
+        }
+      ],
+      "combined": 533201
+    },
+    {
+      "year": 2022,
+      "surname": "ESPARZA",
+      "people": [
+        {
+          "name": "Leonel Esparza",
+          "total": 311695,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Jeremy Esparza",
+          "total": 182735,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 494430
+    },
+    {
+      "year": 2021,
+      "surname": "ESPARZA",
+      "people": [
+        {
+          "name": "Leonel Esparza",
+          "total": 288141,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Jeremy Esparza",
+          "total": 146085,
+          "roles": [
+            "BUSINESS AGENT"
+          ]
+        }
+      ],
+      "combined": 434226
+    },
+    {
+      "year": 2020,
+      "surname": "ESPARZA",
+      "people": [
+        {
+          "name": "Leonel Esparza",
+          "total": 266907,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Jeremy Esparza",
+          "total": 29462,
+          "roles": [
+            "BUSINESS AGENT"
+          ]
+        },
+        {
+          "name": "Sandra Esparza",
+          "total": 10020,
+          "roles": [
+            "ADMINISTRATIVE ASSISTANT"
+          ]
+        }
+      ],
+      "combined": 306389
+    },
+    {
+      "year": 2020,
+      "surname": "FOSCO",
+      "people": [
+        {
+          "name": "Peter Fosco",
+          "total": 30540,
+          "roles": [
+            "SECRETARY TREASURER"
+          ]
+        },
+        {
+          "name": "Alexandra Fosco",
+          "total": 10350,
+          "roles": [
+            "ADMINISTRATIVE ASSISTANT"
+          ]
+        }
+      ],
+      "combined": 40890
+    },
+    {
+      "year": 2019,
+      "surname": "FOSCO",
+      "people": [
+        {
+          "name": "Peter Fosco",
+          "total": 30179,
+          "roles": [
+            "SECRETARY TREASURER"
+          ]
+        },
+        {
+          "name": "Alexandra Fosco",
+          "total": 10240,
+          "roles": [
+            "ADMINISTRATIVE ASSISTANT"
+          ]
+        }
+      ],
+      "combined": 40419
+    },
+    {
+      "year": 2015,
+      "surname": "CASTRO",
+      "people": [
+        {
+          "name": "Antonio Castro",
+          "total": 66341,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Elizabeth Castro",
+          "total": 55363,
+          "roles": [
+            "ADMINISTRATIVE ASSISTANT"
+          ]
+        }
+      ],
+      "combined": 121704
+    },
+    {
+      "year": 2014,
+      "surname": "CASTRO",
+      "people": [
+        {
+          "name": "Antonio Castro",
+          "total": 51056,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Elizabeth Castro",
+          "total": 14952,
+          "roles": [
+            "ADMINISTRATIVE ASSISTANT"
+          ]
+        }
+      ],
+      "combined": 66008
+    }
+  ],
+  "events": [],
+  "lineage": []
+}

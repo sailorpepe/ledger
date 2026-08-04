@@ -1,0 +1,6850 @@
+{
+  "desig": 75,
+  "fNum": 6062,
+  "city": "Crest Hill",
+  "role": "local",
+  "label": "Local 75",
+  "latestYear": 2025,
+  "members": 1268,
+  "years": [
+    {
+      "year": 2025,
+      "formType": "LM-2",
+      "rptId": 937743,
+      "members": 1268,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2025,
+        "representational": 680162,
+        "political": 13430,
+        "contributions": 51531,
+        "general_overhead": 175771,
+        "union_administration": 382874,
+        "benefits": 768684,
+        "per_capita_tax": 277073,
+        "direct_taxes": 78834,
+        "investments": 3093456,
+        "to_officers": 971827,
+        "to_employees": 60573,
+        "dues": 2530515,
+        "interest": 22522,
+        "dividends": 607256,
+        "fees": 64800,
+        "other_receipts": 140863
+      },
+      "representationalPerMember": 536,
+      "assets": 9022171,
+      "liabilities": 3267,
+      "receipts": 5837118,
+      "disbursements": 5523398,
+      "receiptsPerMember": 4603,
+      "assetsPerMember": 7115,
+      "disbursementsPerMember": 4356,
+      "payrollShare": 18.7
+    },
+    {
+      "year": 2024,
+      "formType": "LM-2",
+      "rptId": 912412,
+      "members": 1237,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2024,
+        "representational": 598143,
+        "political": 13450,
+        "contributions": 51495,
+        "general_overhead": 216094,
+        "union_administration": 371783,
+        "benefits": 635393,
+        "per_capita_tax": 290677,
+        "direct_taxes": 51922,
+        "investments": 1021775,
+        "to_officers": 885266,
+        "to_employees": 57074,
+        "dues": 2539057,
+        "interest": 20365,
+        "dividends": 272507,
+        "fees": 44000,
+        "other_receipts": 99326
+      },
+      "representationalPerMember": 484,
+      "assets": 8166168,
+      "liabilities": 273,
+      "receipts": 3634675,
+      "disbursements": 3258677,
+      "receiptsPerMember": 2938,
+      "assetsPerMember": 6602,
+      "disbursementsPerMember": 2634,
+      "payrollShare": 28.9
+    },
+    {
+      "year": 2023,
+      "formType": "LM-2",
+      "rptId": 887778,
+      "members": 1246,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2023,
+        "representational": 707175,
+        "political": 10683,
+        "contributions": 57749,
+        "general_overhead": 207587,
+        "union_administration": 407763,
+        "benefits": 628980,
+        "per_capita_tax": 241044,
+        "direct_taxes": 87665,
+        "investments": 1544307,
+        "to_officers": 1031098,
+        "to_employees": 54659,
+        "dues": 2391383,
+        "interest": 20519,
+        "dividends": 203082,
+        "fees": 52656,
+        "other_receipts": 111269
+      },
+      "representationalPerMember": 568,
+      "assets": 7467986,
+      "liabilities": 3187,
+      "receipts": 3685113,
+      "disbursements": 3899645,
+      "receiptsPerMember": 2958,
+      "assetsPerMember": 5994,
+      "disbursementsPerMember": 3130,
+      "payrollShare": 27.8
+    },
+    {
+      "year": 2022,
+      "formType": "LM-2",
+      "rptId": 862364,
+      "members": 1143,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2022,
+        "representational": 646300,
+        "political": 12667,
+        "contributions": 50951,
+        "general_overhead": 231180,
+        "union_administration": 358978,
+        "benefits": 636348,
+        "per_capita_tax": 299961,
+        "direct_taxes": 74767,
+        "investments": 1717118,
+        "to_officers": 933899,
+        "to_employees": 52842,
+        "dues": 2212505,
+        "interest": 25175,
+        "dividends": 30205,
+        "fees": 42400,
+        "other_receipts": 106705
+      },
+      "representationalPerMember": 565,
+      "assets": 7194350,
+      "liabilities": 5886,
+      "receipts": 3609146,
+      "disbursements": 4033604,
+      "receiptsPerMember": 3158,
+      "assetsPerMember": 6294,
+      "disbursementsPerMember": 3529,
+      "payrollShare": 24.5
+    },
+    {
+      "year": 2021,
+      "formType": "LM-2",
+      "rptId": 809269,
+      "members": 1284,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2021,
+        "representational": 582478,
+        "political": 12399,
+        "contributions": 54937,
+        "general_overhead": 213538,
+        "union_administration": 326994,
+        "benefits": 540512,
+        "per_capita_tax": 267514,
+        "direct_taxes": 73194,
+        "investments": 2628910,
+        "to_officers": 846069,
+        "to_employees": 47259,
+        "dues": 2132287,
+        "interest": 28232,
+        "dividends": 476642,
+        "fees": 33600,
+        "other_receipts": 104908
+      },
+      "representationalPerMember": 454,
+      "assets": 7169052,
+      "liabilities": 3147,
+      "receipts": 4334519,
+      "disbursements": 4700198,
+      "receiptsPerMember": 3376,
+      "assetsPerMember": 5583,
+      "disbursementsPerMember": 3661,
+      "payrollShare": 19
+    },
+    {
+      "year": 2020,
+      "formType": "LM-2",
+      "rptId": 746767,
+      "members": 1532,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2020,
+        "representational": 573263,
+        "political": 11504,
+        "contributions": 53333,
+        "general_overhead": 161381,
+        "union_administration": 298366,
+        "benefits": 588493,
+        "per_capita_tax": 267007,
+        "direct_taxes": 66296,
+        "investments": 763856,
+        "to_officers": 824126,
+        "to_employees": 29782,
+        "dues": 2050258,
+        "interest": 34432,
+        "dividends": 296031,
+        "fees": 33600,
+        "other_receipts": 104579
+      },
+      "representationalPerMember": 374,
+      "assets": 6555204,
+      "liabilities": 1049,
+      "receipts": 2924653,
+      "disbursements": 2787696,
+      "receiptsPerMember": 1909,
+      "assetsPerMember": 4279,
+      "disbursementsPerMember": 1820,
+      "payrollShare": 30.6
+    },
+    {
+      "year": 2019,
+      "formType": "LM-2",
+      "rptId": 723323,
+      "members": 1289,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2019,
+        "representational": 584932,
+        "political": 11635,
+        "contributions": 45160,
+        "general_overhead": 149788,
+        "union_administration": 315416,
+        "benefits": 532227,
+        "per_capita_tax": 259506,
+        "direct_taxes": 66961,
+        "investments": 399606,
+        "to_officers": 839446,
+        "to_employees": 40510,
+        "dues": 2053916,
+        "interest": 29051,
+        "dividends": 147324,
+        "fees": 54400,
+        "other_receipts": 108473
+      },
+      "representationalPerMember": 454,
+      "assets": 6135961,
+      "liabilities": 2969,
+      "receipts": 2593916,
+      "disbursements": 2368889,
+      "receiptsPerMember": 2012,
+      "assetsPerMember": 4760,
+      "disbursementsPerMember": 1838,
+      "payrollShare": 37.1
+    },
+    {
+      "year": 2018,
+      "formType": "LM-2",
+      "rptId": 699059,
+      "members": 1281,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2018,
+        "representational": 685339,
+        "political": 14406,
+        "contributions": 46697,
+        "general_overhead": 193909,
+        "union_administration": 384865,
+        "benefits": 599358,
+        "per_capita_tax": 281626,
+        "direct_taxes": 79078,
+        "investments": 753048,
+        "to_officers": 929364,
+        "to_employees": 40763,
+        "dues": 2009757,
+        "interest": 23789,
+        "dividends": 235820,
+        "fees": 66400,
+        "other_receipts": 143583
+      },
+      "representationalPerMember": 535,
+      "assets": 5750214,
+      "liabilities": 387,
+      "receipts": 2992643,
+      "disbursements": 3051652,
+      "receiptsPerMember": 2336,
+      "assetsPerMember": 4489,
+      "disbursementsPerMember": 2382,
+      "payrollShare": 31.8
+    },
+    {
+      "year": 2017,
+      "formType": "LM-2",
+      "rptId": 670617,
+      "members": 1301,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2017,
+        "representational": 671730,
+        "political": 11294,
+        "contributions": 23732,
+        "general_overhead": 154247,
+        "union_administration": 311090,
+        "benefits": 529419,
+        "per_capita_tax": 261454,
+        "direct_taxes": 66896,
+        "investments": 659818,
+        "to_officers": 789526,
+        "to_employees": 58307,
+        "dues": 1928240,
+        "interest": 19500,
+        "dividends": 180885,
+        "fees": 53600,
+        "other_receipts": 82123
+      },
+      "representationalPerMember": 516,
+      "assets": 5668671,
+      "liabilities": 3251,
+      "receipts": 2646134,
+      "disbursements": 2691699,
+      "receiptsPerMember": 2034,
+      "assetsPerMember": 4357,
+      "disbursementsPerMember": 2069,
+      "payrollShare": 31.5
+    },
+    {
+      "year": 2016,
+      "formType": "LM-2",
+      "rptId": 634492,
+      "members": 1250,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2016,
+        "representational": 572052,
+        "political": 11090,
+        "contributions": 31043,
+        "general_overhead": 142565,
+        "union_administration": 294627,
+        "benefits": 501302,
+        "per_capita_tax": 225707,
+        "direct_taxes": 68334,
+        "investments": 355054,
+        "to_officers": 801937,
+        "to_employees": 40028,
+        "dues": 1848998,
+        "interest": 12646,
+        "dividends": 139794,
+        "fees": 46400,
+        "other_receipts": 119010
+      },
+      "representationalPerMember": 458,
+      "assets": 5507847,
+      "liabilities": 2539,
+      "receipts": 2368982,
+      "disbursements": 2211528,
+      "receiptsPerMember": 1895,
+      "assetsPerMember": 4406,
+      "disbursementsPerMember": 1769,
+      "payrollShare": 38.1
+    },
+    {
+      "year": 2015,
+      "formType": "LM-2",
+      "rptId": 628832,
+      "members": 1277,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2015,
+        "representational": 557750,
+        "political": 10958,
+        "contributions": 24261,
+        "general_overhead": 144111,
+        "union_administration": 275876,
+        "benefits": 491853,
+        "per_capita_tax": 241628,
+        "direct_taxes": 69112,
+        "investments": 479581,
+        "to_officers": 796479,
+        "to_employees": 33864,
+        "dues": 2015709,
+        "interest": 10908,
+        "dividends": 158072,
+        "fees": 68800,
+        "other_receipts": 106418
+      },
+      "representationalPerMember": 437,
+      "assets": 5282081,
+      "liabilities": 1980,
+      "receipts": 2582470,
+      "disbursements": 2299051,
+      "receiptsPerMember": 2022,
+      "assetsPerMember": 4136,
+      "disbursementsPerMember": 1800,
+      "payrollShare": 36.1
+    },
+    {
+      "year": 2014,
+      "formType": "LM-2",
+      "rptId": 585070,
+      "members": 1247,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2014,
+        "representational": 540329,
+        "political": 10184,
+        "contributions": 20730,
+        "general_overhead": 142708,
+        "union_administration": 258000,
+        "benefits": 482139,
+        "per_capita_tax": 236524,
+        "direct_taxes": 61945,
+        "investments": 653121,
+        "to_officers": 762630,
+        "to_employees": 31101,
+        "dues": 1621104,
+        "interest": 12557,
+        "dividends": 121923,
+        "fees": 68800,
+        "other_receipts": 112156
+      },
+      "representationalPerMember": 433,
+      "assets": 5163540,
+      "liabilities": 1741,
+      "receipts": 2122099,
+      "disbursements": 2414448,
+      "receiptsPerMember": 1702,
+      "assetsPerMember": 4141,
+      "disbursementsPerMember": 1936,
+      "payrollShare": 32.9
+    },
+    {
+      "year": 2013,
+      "formType": "LM-2",
+      "rptId": 546906,
+      "members": 1178,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2013,
+        "representational": 545235,
+        "political": 10983,
+        "contributions": 16921,
+        "general_overhead": 114307,
+        "union_administration": 253227,
+        "benefits": 457278,
+        "per_capita_tax": 252988,
+        "direct_taxes": 58666,
+        "investments": 206888,
+        "to_officers": 745977,
+        "to_employees": 28422,
+        "dues": 1631168,
+        "interest": 35592,
+        "dividends": 156133,
+        "fees": 56672,
+        "other_receipts": 127556
+      },
+      "representationalPerMember": 463,
+      "assets": 4972832,
+      "liabilities": 0,
+      "receipts": 2007121,
+      "disbursements": 1932860,
+      "receiptsPerMember": 1704,
+      "assetsPerMember": 4221,
+      "disbursementsPerMember": 1641,
+      "payrollShare": 40.1
+    },
+    {
+      "year": 2012,
+      "formType": "LM-2",
+      "rptId": 516498,
+      "members": 1319,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2012,
+        "representational": 506904,
+        "political": 9735,
+        "contributions": 16183,
+        "general_overhead": 132035,
+        "union_administration": 245282,
+        "benefits": 447962,
+        "per_capita_tax": 234212,
+        "direct_taxes": 55187,
+        "investments": 120007,
+        "to_officers": 727158,
+        "to_employees": 27741,
+        "dues": 1501816,
+        "interest": 24470,
+        "dividends": 85517,
+        "fees": 39200,
+        "other_receipts": 137971
+      },
+      "representationalPerMember": 384,
+      "assets": 4589677,
+      "liabilities": 0,
+      "receipts": 1788974,
+      "disbursements": 1815493,
+      "receiptsPerMember": 1356,
+      "assetsPerMember": 3480,
+      "disbursementsPerMember": 1376,
+      "payrollShare": 41.6
+    },
+    {
+      "year": 2011,
+      "formType": "LM-2",
+      "rptId": 474749,
+      "members": 1310,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2011,
+        "representational": 519005,
+        "political": 9807,
+        "contributions": 14583,
+        "general_overhead": 121242,
+        "union_administration": 271602,
+        "benefits": 435339,
+        "per_capita_tax": 229264,
+        "direct_taxes": 59623,
+        "investments": 387147,
+        "to_officers": 344076,
+        "to_employees": 17585,
+        "dues": 1194761,
+        "interest": 15355,
+        "dividends": 118599,
+        "fees": 33712,
+        "other_receipts": 231217
+      },
+      "representationalPerMember": 396,
+      "assets": 4388928,
+      "liabilities": 0,
+      "receipts": 1593644,
+      "disbursements": 2092179,
+      "receiptsPerMember": 1217,
+      "assetsPerMember": 3350,
+      "disbursementsPerMember": 1597,
+      "payrollShare": 37.2
+    },
+    {
+      "year": 2010,
+      "formType": "LM-2",
+      "rptId": 448644,
+      "members": 1350,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2010,
+        "representational": 520763,
+        "political": 10317,
+        "contributions": 9599,
+        "general_overhead": 145406,
+        "union_administration": 279453,
+        "benefits": 402063,
+        "per_capita_tax": 230522,
+        "direct_taxes": 57392,
+        "investments": 1167628,
+        "to_officers": 308348,
+        "to_employees": 32549,
+        "dues": 1330684,
+        "interest": 125694,
+        "dividends": 0,
+        "fees": 39900,
+        "other_receipts": 228695
+      },
+      "representationalPerMember": 386,
+      "assets": 4612595,
+      "liabilities": null,
+      "receipts": 1817539,
+      "disbursements": 2858028,
+      "receiptsPerMember": 1346,
+      "assetsPerMember": 3417,
+      "disbursementsPerMember": 2117,
+      "payrollShare": 26.7
+    },
+    {
+      "year": 2009,
+      "formType": "LM-2",
+      "rptId": 417977,
+      "members": 1332,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2009,
+        "representational": 455725,
+        "political": 10217,
+        "contributions": 12122,
+        "general_overhead": 150929,
+        "union_administration": 260238,
+        "benefits": 313175,
+        "per_capita_tax": 239728,
+        "direct_taxes": 56420,
+        "investments": 115597,
+        "to_officers": 353785,
+        "to_employees": 38794,
+        "dues": 1345507,
+        "interest": 52253,
+        "dividends": 0,
+        "fees": 37100,
+        "other_receipts": 177899
+      },
+      "representationalPerMember": 342,
+      "assets": 4538992,
+      "liabilities": 0,
+      "receipts": 1754214,
+      "disbursements": 1636511,
+      "receiptsPerMember": 1317,
+      "assetsPerMember": 3408,
+      "disbursementsPerMember": 1229,
+      "payrollShare": 42.6
+    },
+    {
+      "year": 2008,
+      "formType": "LM-2",
+      "rptId": 375905,
+      "members": 1430,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2008,
+        "representational": 412249,
+        "political": 11434,
+        "contributions": 12830,
+        "general_overhead": 120155,
+        "union_administration": 255080,
+        "benefits": 265217,
+        "per_capita_tax": 239540,
+        "direct_taxes": 51722,
+        "investments": 122732,
+        "to_officers": 338888,
+        "to_employees": 32926,
+        "dues": 1732813,
+        "interest": 81866,
+        "dividends": 0,
+        "fees": 70000,
+        "other_receipts": 56009
+      },
+      "representationalPerMember": 288,
+      "assets": 4362218,
+      "liabilities": 0,
+      "receipts": 2008912,
+      "disbursements": 1512640,
+      "receiptsPerMember": 1405,
+      "assetsPerMember": 3051,
+      "disbursementsPerMember": 1058,
+      "payrollShare": 43.5
+    },
+    {
+      "year": 2007,
+      "formType": "LM-2",
+      "rptId": 347215,
+      "members": 1398,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2007,
+        "representational": 328792,
+        "political": 9636,
+        "contributions": 12595,
+        "general_overhead": 102340,
+        "union_administration": 237269,
+        "benefits": 225285,
+        "per_capita_tax": 231002,
+        "direct_taxes": 47105,
+        "investments": 332850,
+        "to_officers": 263980,
+        "to_employees": 30520,
+        "dues": 1750451,
+        "interest": 174401,
+        "dividends": 0,
+        "fees": 103500,
+        "other_receipts": 14031
+      },
+      "representationalPerMember": 235,
+      "assets": 4008727,
+      "liabilities": 0,
+      "receipts": 2054632,
+      "disbursements": 1539939,
+      "receiptsPerMember": 1470,
+      "assetsPerMember": 2867,
+      "disbursementsPerMember": 1102,
+      "payrollShare": 36.3
+    },
+    {
+      "year": 2006,
+      "formType": "LM-2",
+      "rptId": 312072,
+      "members": 1379,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2006,
+        "representational": 298988,
+        "political": 8924,
+        "contributions": 10562,
+        "general_overhead": 104266,
+        "union_administration": 222127,
+        "benefits": 184274,
+        "per_capita_tax": 212143,
+        "direct_taxes": 44870,
+        "investments": 261525,
+        "to_officers": 252675,
+        "to_employees": 29066,
+        "dues": 1272921,
+        "interest": 81851,
+        "dividends": 0,
+        "fees": 92400,
+        "other_receipts": 17713
+      },
+      "representationalPerMember": 217,
+      "assets": 3216791,
+      "liabilities": 0,
+      "receipts": 1786748,
+      "disbursements": 1363887,
+      "receiptsPerMember": 1296,
+      "assetsPerMember": 2333,
+      "disbursementsPerMember": 989,
+      "payrollShare": 37.4
+    },
+    {
+      "year": 2005,
+      "formType": "LM-2",
+      "rptId": 268675,
+      "members": 1339,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2005,
+        "representational": 255454,
+        "political": 9598,
+        "contributions": 7362,
+        "general_overhead": 79281,
+        "union_administration": 193213,
+        "benefits": 164264,
+        "per_capita_tax": 207962,
+        "direct_taxes": 44683,
+        "investments": 1021120,
+        "to_officers": 217934,
+        "to_employees": 28300,
+        "dues": 1089086,
+        "interest": 64896,
+        "dividends": 0,
+        "fees": 87000,
+        "other_receipts": 69449
+      },
+      "representationalPerMember": 191,
+      "assets": 2888584,
+      "liabilities": 0,
+      "receipts": 1310431,
+      "disbursements": 1999427,
+      "receiptsPerMember": 979,
+      "assetsPerMember": 2157,
+      "disbursementsPerMember": 1493,
+      "payrollShare": 22.4
+    },
+    {
+      "year": 2004,
+      "formType": "LM-2",
+      "rptId": 231422,
+      "members": 1342,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2004,
+        "representational": null,
+        "political": null,
+        "contributions": 15295,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 141749,
+        "per_capita_tax": 200671,
+        "direct_taxes": 7942,
+        "investments": 30588,
+        "to_officers": 209925,
+        "to_employees": 34995,
+        "dues": 1069642,
+        "interest": 54634,
+        "dividends": 0,
+        "fees": 69192,
+        "other_receipts": 16524
+      },
+      "representationalPerMember": 0,
+      "assets": 2593227,
+      "liabilities": 0,
+      "receipts": 1209992,
+      "disbursements": 976836,
+      "receiptsPerMember": 902,
+      "assetsPerMember": 1932,
+      "disbursementsPerMember": 728,
+      "payrollShare": 44.3
+    },
+    {
+      "year": 2003,
+      "formType": "LM-2",
+      "rptId": 204572,
+      "members": 1355,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2003,
+        "representational": null,
+        "political": null,
+        "contributions": 3885,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 113774,
+        "per_capita_tax": 194884,
+        "direct_taxes": 7424,
+        "investments": 53360,
+        "to_officers": 190566,
+        "to_employees": 36611,
+        "dues": 1158904,
+        "interest": 39308,
+        "dividends": 0,
+        "fees": 91200,
+        "other_receipts": 9565
+      },
+      "representationalPerMember": 0,
+      "assets": 2371294,
+      "liabilities": 0,
+      "receipts": 1298977,
+      "disbursements": 918679,
+      "receiptsPerMember": 959,
+      "assetsPerMember": 1750,
+      "disbursementsPerMember": 678,
+      "payrollShare": 43.5
+    },
+    {
+      "year": 2002,
+      "formType": "LM-2",
+      "rptId": 169108,
+      "members": 1245,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2002,
+        "representational": null,
+        "political": null,
+        "contributions": 1770,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 97207,
+        "per_capita_tax": 180673,
+        "direct_taxes": 7163,
+        "investments": 71971,
+        "to_officers": 167783,
+        "to_employees": 34552,
+        "dues": 1075424,
+        "interest": 42917,
+        "dividends": 0,
+        "fees": 122640,
+        "other_receipts": 3333
+      },
+      "representationalPerMember": 0,
+      "assets": 1985300,
+      "liabilities": 0,
+      "receipts": 1244314,
+      "disbursements": 830742,
+      "receiptsPerMember": 999,
+      "assetsPerMember": 1595,
+      "disbursementsPerMember": 667,
+      "payrollShare": 43.7
+    },
+    {
+      "year": 2001,
+      "formType": "LM-2",
+      "rptId": 118498,
+      "members": 1245,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2001,
+        "representational": null,
+        "political": null,
+        "contributions": 1675,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 85147,
+        "per_capita_tax": 173885,
+        "direct_taxes": 7299,
+        "investments": 25929,
+        "to_officers": 153578,
+        "to_employees": 30879,
+        "dues": 892943,
+        "interest": 69995,
+        "dividends": 0,
+        "fees": 78966,
+        "other_receipts": 7617
+      },
+      "representationalPerMember": 0,
+      "assets": 1546157,
+      "liabilities": 0,
+      "receipts": 1049521,
+      "disbursements": 746389,
+      "receiptsPerMember": 843,
+      "assetsPerMember": 1242,
+      "disbursementsPerMember": 600,
+      "payrollShare": 46.4
+    },
+    {
+      "year": 2000,
+      "formType": "LM-2",
+      "rptId": 86840,
+      "members": 1237,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2000,
+        "representational": null,
+        "political": null,
+        "contributions": 2450,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 79405,
+        "per_capita_tax": 161844,
+        "direct_taxes": 7195,
+        "investments": 41755,
+        "to_officers": 115298,
+        "to_employees": 31202,
+        "dues": 901456,
+        "interest": 38948,
+        "dividends": null,
+        "fees": 86778,
+        "other_receipts": 1314
+      },
+      "representationalPerMember": 0,
+      "assets": 1240044,
+      "liabilities": null,
+      "receipts": 1028496,
+      "disbursements": 699841,
+      "receiptsPerMember": 831,
+      "assetsPerMember": 1002,
+      "disbursementsPerMember": 566,
+      "payrollShare": 43.6
+    }
+  ],
+  "people": [
+    {
+      "year": 2025,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 226413
+        }
+      ],
+      "grossSalary": 210080,
+      "allowances": 0,
+      "officialBusiness": 16333,
+      "total": 226413,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 223165
+        }
+      ],
+      "grossSalary": 210080,
+      "allowances": 0,
+      "officialBusiness": 13085,
+      "total": 223165,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 221939
+        }
+      ],
+      "grossSalary": 210080,
+      "allowances": 0,
+      "officialBusiness": 11859,
+      "total": 221939,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "DIETZ|A",
+      "name": "Andrew Dietz",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 167765
+        }
+      ],
+      "grossSalary": 153303,
+      "allowances": 0,
+      "officialBusiness": 14462,
+      "total": 167765,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 132545
+        }
+      ],
+      "grossSalary": 118072,
+      "allowances": 0,
+      "officialBusiness": 14473,
+      "total": 132545,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 60573
+        }
+      ],
+      "grossSalary": 60573,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 60573,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 230392
+        }
+      ],
+      "grossSalary": 211288,
+      "allowances": 0,
+      "officialBusiness": 18920,
+      "total": 230392,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 221628
+        }
+      ],
+      "grossSalary": 209468,
+      "allowances": 0,
+      "officialBusiness": 12019,
+      "total": 221628,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "SECY/TREASURER",
+          "kind": "officer",
+          "total": 220441
+        }
+      ],
+      "grossSalary": 209467,
+      "allowances": 0,
+      "officialBusiness": 10927,
+      "total": 220441,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "DIETZ|A",
+      "name": "Andrew Dietz",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 159529
+        }
+      ],
+      "grossSalary": 150643,
+      "allowances": 0,
+      "officialBusiness": 8731,
+      "total": 159529,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANCE",
+          "kind": "employee",
+          "total": 57074
+        }
+      ],
+      "grossSalary": 57074,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 57074,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 53276
+        }
+      ],
+      "grossSalary": 47392,
+      "allowances": 0,
+      "officialBusiness": 5830,
+      "total": 53276,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "MICETECH|M",
+      "name": "Mark Micetech",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 218021
+        }
+      ],
+      "grossSalary": 204830,
+      "allowances": 0,
+      "officialBusiness": 13044,
+      "total": 218021,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 195838
+        }
+      ],
+      "grossSalary": 183656,
+      "allowances": 0,
+      "officialBusiness": 12021,
+      "total": 195838,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 192522
+        }
+      ],
+      "grossSalary": 179645,
+      "allowances": 0,
+      "officialBusiness": 12673,
+      "total": 192522,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 181099
+        }
+      ],
+      "grossSalary": 171532,
+      "allowances": 0,
+      "officialBusiness": 9467,
+      "total": 181099,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 135071
+        }
+      ],
+      "grossSalary": 127863,
+      "allowances": 0,
+      "officialBusiness": 7208,
+      "total": 135071,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "DIETZ|A",
+      "name": "Andrew Dietz",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 108547
+        }
+      ],
+      "grossSalary": 103256,
+      "allowances": 0,
+      "officialBusiness": 5291,
+      "total": 108547,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 54659
+        }
+      ],
+      "grossSalary": 54659,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 54659,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 214007
+        }
+      ],
+      "grossSalary": 197369,
+      "allowances": 0,
+      "officialBusiness": 14546,
+      "total": 214007,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 209815
+        }
+      ],
+      "grossSalary": 197367,
+      "allowances": 0,
+      "officialBusiness": 10399,
+      "total": 209815,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "MICETECH|M",
+      "name": "Mark Micetech",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 209571
+        }
+      ],
+      "grossSalary": 197545,
+      "allowances": 0,
+      "officialBusiness": 10621,
+      "total": 209571,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "VAUGHN|L",
+      "name": "Loyd Vaughn",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 148146
+        }
+      ],
+      "grossSalary": 134492,
+      "allowances": 0,
+      "officialBusiness": 11394,
+      "total": 148146,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 142057
+        }
+      ],
+      "grossSalary": 131726,
+      "allowances": 0,
+      "officialBusiness": 8565,
+      "total": 142057,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 52842
+        }
+      ],
+      "grossSalary": 52842,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 52842,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "DIETZ|A",
+      "name": "Andrew Dietz",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 10303
+        }
+      ],
+      "grossSalary": 10303,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 10303,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 201026
+        }
+      ],
+      "grossSalary": 190719,
+      "allowances": 0,
+      "officialBusiness": 8468,
+      "total": 201026,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 200827
+        }
+      ],
+      "grossSalary": 190684,
+      "allowances": 0,
+      "officialBusiness": 8002,
+      "total": 200827,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 189222
+        }
+      ],
+      "grossSalary": 184304,
+      "allowances": 0,
+      "officialBusiness": 3711,
+      "total": 189222,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 129962
+        }
+      ],
+      "grossSalary": 122842,
+      "allowances": 0,
+      "officialBusiness": 5747,
+      "total": 129962,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 96162
+        }
+      ],
+      "grossSalary": 91267,
+      "allowances": 0,
+      "officialBusiness": 1603,
+      "total": 96162,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 47259
+        }
+      ],
+      "grossSalary": 47259,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 47259,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 28870
+        }
+      ],
+      "grossSalary": 28313,
+      "allowances": 0,
+      "officialBusiness": 555,
+      "total": 28870,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 193920
+        }
+      ],
+      "grossSalary": 182898,
+      "allowances": 0,
+      "officialBusiness": 9724,
+      "total": 193920,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 192654
+        }
+      ],
+      "grossSalary": 182902,
+      "allowances": 0,
+      "officialBusiness": 8180,
+      "total": 192654,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 188641
+        }
+      ],
+      "grossSalary": 182882,
+      "allowances": 0,
+      "officialBusiness": 5608,
+      "total": 188641,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 124898
+        }
+      ],
+      "grossSalary": 116746,
+      "allowances": 0,
+      "officialBusiness": 5992,
+      "total": 124898,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "MICETECH|M",
+      "name": "Mark Micetech",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 124013
+        }
+      ],
+      "grossSalary": 116722,
+      "allowances": 0,
+      "officialBusiness": 5458,
+      "total": 124013,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 29782
+        }
+      ],
+      "grossSalary": 29782,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 29782,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 197205
+        }
+      ],
+      "grossSalary": 180774,
+      "allowances": 0,
+      "officialBusiness": 15178,
+      "total": 197205,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 195920
+        }
+      ],
+      "grossSalary": 180780,
+      "allowances": 0,
+      "officialBusiness": 13479,
+      "total": 195920,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 188655
+        }
+      ],
+      "grossSalary": 180757,
+      "allowances": 0,
+      "officialBusiness": 7870,
+      "total": 188655,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "MICETECH|M",
+      "name": "Mark Micetech",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 128013
+        }
+      ],
+      "grossSalary": 115639,
+      "allowances": 0,
+      "officialBusiness": 10641,
+      "total": 128013,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 127054
+        }
+      ],
+      "grossSalary": 114461,
+      "allowances": 0,
+      "officialBusiness": 10561,
+      "total": 127054,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINSTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 40510
+        }
+      ],
+      "grossSalary": 40510,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 40510,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "DIETZ|A",
+      "name": "Andrew Dietz",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 1300
+        }
+      ],
+      "grossSalary": 700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1300,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "WEAVER|S",
+      "name": "Stephen Weaver",
+      "roles": [
+        {
+          "title": "BOARD MEMBER",
+          "kind": "officer",
+          "total": 1299
+        }
+      ],
+      "grossSalary": 699,
+      "allowances": 0,
+      "officialBusiness": 600,
+      "total": 1299,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 193275
+        }
+      ],
+      "grossSalary": 175980,
+      "allowances": 0,
+      "officialBusiness": 16113,
+      "total": 193275,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 188344
+        }
+      ],
+      "grossSalary": 170478,
+      "allowances": 0,
+      "officialBusiness": 16261,
+      "total": 188344,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 182284
+        }
+      ],
+      "grossSalary": 168294,
+      "allowances": 0,
+      "officialBusiness": 13858,
+      "total": 182284,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "MICETECH|M",
+      "name": "Mark Micetech",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 107219
+        }
+      ],
+      "grossSalary": 91624,
+      "allowances": 0,
+      "officialBusiness": 13715,
+      "total": 107219,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 101907
+        }
+      ],
+      "grossSalary": 91609,
+      "allowances": 0,
+      "officialBusiness": 8221,
+      "total": 101907,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER- RETIRED",
+          "kind": "officer",
+          "total": 92958
+        }
+      ],
+      "grossSalary": 91701,
+      "allowances": 0,
+      "officialBusiness": 906,
+      "total": 92958,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER- PAST",
+          "kind": "officer",
+          "total": 63377
+        }
+      ],
+      "grossSalary": 62688,
+      "allowances": 0,
+      "officialBusiness": 490,
+      "total": 63377,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "DUFF|G",
+      "name": "Geralynn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 40763
+        }
+      ],
+      "grossSalary": 38941,
+      "allowances": 0,
+      "officialBusiness": 1822,
+      "total": 40763,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 186913
+        }
+      ],
+      "grossSalary": 169105,
+      "allowances": 0,
+      "officialBusiness": 15549,
+      "total": 186913,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 176467
+        }
+      ],
+      "grossSalary": 169105,
+      "allowances": 0,
+      "officialBusiness": 4286,
+      "total": 176467,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 176373
+        }
+      ],
+      "grossSalary": 169105,
+      "allowances": 0,
+      "officialBusiness": 5369,
+      "total": 176373,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 132700
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 120105,
+      "allowances": 0,
+      "officialBusiness": 11918,
+      "total": 135100,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 97873
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 91724,
+      "allowances": 0,
+      "officialBusiness": 6114,
+      "total": 100273,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "DUFF|G",
+      "name": "Geralynn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 37353
+        }
+      ],
+      "grossSalary": 37353,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 37353,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "ADMINSTRATIVE",
+          "kind": "employee",
+          "total": 10477
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 12768,
+      "allowances": 0,
+      "officialBusiness": 109,
+      "total": 12877,
+      "dualRole": true
+    },
+    {
+      "year": 2017,
+      "key": "MICETECH|M",
+      "name": "Mark Micetech",
+      "roles": [
+        {
+          "title": "ADMINSTRATIVE",
+          "kind": "employee",
+          "total": 10477
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 12768,
+      "allowances": 0,
+      "officialBusiness": 109,
+      "total": 12877,
+      "dualRole": true
+    },
+    {
+      "year": 2017,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "DIETZ|A",
+      "name": "Andrew Dietz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "WEAVER|S",
+      "name": "Stephen Weaver",
+      "roles": [
+        {
+          "title": "SERGEANT IN ARMS",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 185910
+        }
+      ],
+      "grossSalary": 168131,
+      "allowances": 0,
+      "officialBusiness": 15518,
+      "total": 185910,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 184639
+        }
+      ],
+      "grossSalary": 168131,
+      "allowances": 0,
+      "officialBusiness": 13271,
+      "total": 184639,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 178956
+        }
+      ],
+      "grossSalary": 168131,
+      "allowances": 0,
+      "officialBusiness": 8887,
+      "total": 178956,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 135214
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 119428,
+      "allowances": 0,
+      "officialBusiness": 15060,
+      "total": 137614,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 98018
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 91208,
+      "allowances": 0,
+      "officialBusiness": 6735,
+      "total": 100418,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 36652
+        }
+      ],
+      "grossSalary": 36652,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 36652,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        },
+        {
+          "title": "ADMINSTRATIVE",
+          "kind": "employee",
+          "total": 1688
+        }
+      ],
+      "grossSalary": 4088,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4088,
+      "dualRole": true
+    },
+    {
+      "year": 2016,
+      "key": "MICETECH|M",
+      "name": "Mark Micetech",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2400
+        },
+        {
+          "title": "ADMINSTRATIVE",
+          "kind": "employee",
+          "total": 1688
+        }
+      ],
+      "grossSalary": 4088,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4088,
+      "dualRole": true
+    },
+    {
+      "year": 2016,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "DIETZ|A",
+      "name": "Andrew Dietz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "WEAVER|S",
+      "name": "Stephen Weaver",
+      "roles": [
+        {
+          "title": "SEGEANT IN ARMS",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 170341
+        }
+      ],
+      "grossSalary": 160431,
+      "allowances": 0,
+      "officialBusiness": 6654,
+      "total": 170341,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 169065
+        }
+      ],
+      "grossSalary": 160409,
+      "allowances": 0,
+      "officialBusiness": 6909,
+      "total": 169065,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 125296
+        },
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 37644
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 450
+        }
+      ],
+      "grossSalary": 150302,
+      "allowances": 0,
+      "officialBusiness": 10817,
+      "total": 163390,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 89454
+        },
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 35800
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2150
+        }
+      ],
+      "grossSalary": 114033,
+      "allowances": 0,
+      "officialBusiness": 10378,
+      "total": 127404,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 78185
+        }
+      ],
+      "grossSalary": 76298,
+      "allowances": 0,
+      "officialBusiness": 1093,
+      "total": 78185,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 73344
+        },
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2150
+        }
+      ],
+      "grossSalary": 67851,
+      "allowances": 0,
+      "officialBusiness": 5414,
+      "total": 75494,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMIN ASSISTANT",
+          "kind": "employee",
+          "total": 33864
+        }
+      ],
+      "grossSalary": 33864,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 33864,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "MICETECH|M",
+      "name": "Mark Micetech",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2150
+        }
+      ],
+      "grossSalary": 2150,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2150,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2150
+        }
+      ],
+      "grossSalary": 2150,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2150,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2150
+        }
+      ],
+      "grossSalary": 2150,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2150,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2150
+        }
+      ],
+      "grossSalary": 2150,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2150,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "DIETZ|A",
+      "name": "Andrew Dietz",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1700
+        }
+      ],
+      "grossSalary": 1700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1700,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "WEAVER|S",
+      "name": "Stephen Weaver",
+      "roles": [
+        {
+          "title": "SERGEANT IN ARMS",
+          "kind": "officer",
+          "total": 1550
+        }
+      ],
+      "grossSalary": 1550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1550,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 750
+        }
+      ],
+      "grossSalary": 750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 750,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 167244
+        }
+      ],
+      "grossSalary": 161457,
+      "allowances": 0,
+      "officialBusiness": 5787,
+      "total": 167244,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 166526
+        }
+      ],
+      "grossSalary": 160949,
+      "allowances": 0,
+      "officialBusiness": 5577,
+      "total": 166526,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "STRIBIS|W",
+      "name": "William Stribis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 165379
+        }
+      ],
+      "grossSalary": 160087,
+      "allowances": 0,
+      "officialBusiness": 5292,
+      "total": 165379,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 133245
+        }
+      ],
+      "grossSalary": 120212,
+      "allowances": 0,
+      "officialBusiness": 13033,
+      "total": 133245,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 119436
+        }
+      ],
+      "grossSalary": 106775,
+      "allowances": 0,
+      "officialBusiness": 12661,
+      "total": 119436,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMIN. ASST.",
+          "kind": "employee",
+          "total": 31101
+        }
+      ],
+      "grossSalary": 31101,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 31101,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 165899
+        }
+      ],
+      "grossSalary": 157688,
+      "allowances": 0,
+      "officialBusiness": 8211,
+      "total": 165899,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 164308
+        }
+      ],
+      "grossSalary": 158229,
+      "allowances": 0,
+      "officialBusiness": 6079,
+      "total": 164308,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 163957
+        }
+      ],
+      "grossSalary": 156468,
+      "allowances": 0,
+      "officialBusiness": 7489,
+      "total": 163957,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 130383
+        }
+      ],
+      "grossSalary": 117435,
+      "allowances": 0,
+      "officialBusiness": 12948,
+      "total": 130383,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 110630
+        }
+      ],
+      "grossSalary": 95196,
+      "allowances": 0,
+      "officialBusiness": 15434,
+      "total": 110630,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMIN. ASST.",
+          "kind": "employee",
+          "total": 28422
+        }
+      ],
+      "grossSalary": 28422,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 28422,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 163294
+        }
+      ],
+      "grossSalary": 151375,
+      "allowances": 0,
+      "officialBusiness": 11919,
+      "total": 163294,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 160207
+        }
+      ],
+      "grossSalary": 152155,
+      "allowances": 0,
+      "officialBusiness": 8052,
+      "total": 160207,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 158248
+        }
+      ],
+      "grossSalary": 151427,
+      "allowances": 0,
+      "officialBusiness": 6821,
+      "total": 158248,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 126054
+        }
+      ],
+      "grossSalary": 113056,
+      "allowances": 0,
+      "officialBusiness": 12998,
+      "total": 126054,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 108555
+        }
+      ],
+      "grossSalary": 92768,
+      "allowances": 0,
+      "officialBusiness": 15787,
+      "total": 108555,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMIN. ASST.",
+          "kind": "employee",
+          "total": 27741
+        }
+      ],
+      "grossSalary": 27741,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 27741,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXEC BD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "EXEC BD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 161664
+        }
+      ],
+      "grossSalary": 149865,
+      "allowances": 0,
+      "officialBusiness": 11799,
+      "total": 161664,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 160395
+        }
+      ],
+      "grossSalary": 151665,
+      "allowances": 0,
+      "officialBusiness": 8730,
+      "total": 160395,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "DEITZ|W",
+      "name": "William Deitz",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 158298
+        }
+      ],
+      "grossSalary": 149865,
+      "allowances": 0,
+      "officialBusiness": 8433,
+      "total": 158298,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 126651
+        }
+      ],
+      "grossSalary": 111604,
+      "allowances": 0,
+      "officialBusiness": 15047,
+      "total": 126651,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 106430
+        }
+      ],
+      "grossSalary": 88921,
+      "allowances": 0,
+      "officialBusiness": 17509,
+      "total": 106430,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "SCHANK|J",
+      "name": "Joan Schank",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASST.",
+          "kind": "employee",
+          "total": 34256
+        }
+      ],
+      "grossSalary": 34256,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 34256,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "DUFF|G",
+      "name": "Geralyn Duff",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASST.",
+          "kind": "employee",
+          "total": 18375
+        }
+      ],
+      "grossSalary": 18375,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 18375,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3540
+        }
+      ],
+      "grossSalary": 3540,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3540,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "KALLAS|T",
+      "name": "Tim Kallas",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1050
+        }
+      ],
+      "grossSalary": 1050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1050,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 750
+        }
+      ],
+      "grossSalary": 750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 750,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 153950
+        }
+      ],
+      "grossSalary": 145038,
+      "allowances": 0,
+      "officialBusiness": 8912,
+      "total": 153950,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 151382
+        }
+      ],
+      "grossSalary": 141738,
+      "allowances": 0,
+      "officialBusiness": 9644,
+      "total": 151382,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 150519
+        }
+      ],
+      "grossSalary": 144138,
+      "allowances": 0,
+      "officialBusiness": 6381,
+      "total": 150519,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 123230
+        }
+      ],
+      "grossSalary": 107925,
+      "allowances": 0,
+      "officialBusiness": 15305,
+      "total": 123230,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 99428
+        }
+      ],
+      "grossSalary": 86419,
+      "allowances": 0,
+      "officialBusiness": 13009,
+      "total": 99428,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "SCHANK|J",
+      "name": "Joan Schank",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 72778
+        }
+      ],
+      "grossSalary": 72778,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 72778,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "SGT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "PAVLIS|M",
+      "name": "Mark Pavlis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1050
+        }
+      ],
+      "grossSalary": 1050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1050,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 450
+        }
+      ],
+      "grossSalary": 450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 450,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 141201
+        }
+      ],
+      "grossSalary": 134432,
+      "allowances": 0,
+      "officialBusiness": 6769,
+      "total": 141201,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 138026
+        }
+      ],
+      "grossSalary": 132932,
+      "allowances": 0,
+      "officialBusiness": 5094,
+      "total": 138026,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 136620
+        }
+      ],
+      "grossSalary": 131732,
+      "allowances": 0,
+      "officialBusiness": 4888,
+      "total": 136620,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 109205
+        }
+      ],
+      "grossSalary": 98771,
+      "allowances": 0,
+      "officialBusiness": 10434,
+      "total": 109205,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 90119
+        }
+      ],
+      "grossSalary": 80918,
+      "allowances": 0,
+      "officialBusiness": 9201,
+      "total": 90119,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "SCHANK|J",
+      "name": "Joan Schank",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 71231
+        }
+      ],
+      "grossSalary": 71231,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 71231,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 139041
+        }
+      ],
+      "grossSalary": 129324,
+      "allowances": 0,
+      "officialBusiness": 9717,
+      "total": 139041,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 137589
+        }
+      ],
+      "grossSalary": 129324,
+      "allowances": 0,
+      "officialBusiness": 8265,
+      "total": 137589,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 133820
+        }
+      ],
+      "grossSalary": 125424,
+      "allowances": 0,
+      "officialBusiness": 8396,
+      "total": 133820,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 109874
+        }
+      ],
+      "grossSalary": 96603,
+      "allowances": 0,
+      "officialBusiness": 13271,
+      "total": 109874,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "SCHANK|J",
+      "name": "Joan Schank",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 70040
+        }
+      ],
+      "grossSalary": 70040,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 70040,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 57428
+        }
+      ],
+      "grossSalary": 50089,
+      "allowances": 0,
+      "officialBusiness": 7339,
+      "total": 57428,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 127776
+        }
+      ],
+      "grossSalary": 120144,
+      "allowances": 0,
+      "officialBusiness": 7632,
+      "total": 127776,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 123426
+        }
+      ],
+      "grossSalary": 118644,
+      "allowances": 0,
+      "officialBusiness": 4782,
+      "total": 123426,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 123035
+        }
+      ],
+      "grossSalary": 118644,
+      "allowances": 0,
+      "officialBusiness": 4391,
+      "total": 123035,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 102191
+        }
+      ],
+      "grossSalary": 91352,
+      "allowances": 0,
+      "officialBusiness": 10839,
+      "total": 102191,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "SCHANK|J",
+      "name": "Joan Schank",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 65118
+        }
+      ],
+      "grossSalary": 65118,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 65118,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6598
+        }
+      ],
+      "grossSalary": 6363,
+      "allowances": 0,
+      "officialBusiness": 235,
+      "total": 6598,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 114841
+        }
+      ],
+      "grossSalary": 106983,
+      "allowances": 0,
+      "officialBusiness": 7858,
+      "total": 114841,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 113994
+        }
+      ],
+      "grossSalary": 106983,
+      "allowances": 0,
+      "officialBusiness": 7011,
+      "total": 113994,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 112331
+        }
+      ],
+      "grossSalary": 106983,
+      "allowances": 0,
+      "officialBusiness": 5348,
+      "total": 112331,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 90524
+        }
+      ],
+      "grossSalary": 78850,
+      "allowances": 0,
+      "officialBusiness": 11674,
+      "total": 90524,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "SCHANK|J",
+      "name": "Joan Schank",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 62540
+        }
+      ],
+      "grossSalary": 62540,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 62540,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6196
+        }
+      ],
+      "grossSalary": 5897,
+      "allowances": 0,
+      "officialBusiness": 299,
+      "total": 6196,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1550
+        }
+      ],
+      "grossSalary": 1550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1550,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1550
+        }
+      ],
+      "grossSalary": 1550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1550,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1550
+        }
+      ],
+      "grossSalary": 1550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1550,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1550
+        }
+      ],
+      "grossSalary": 1550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1550,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1550
+        }
+      ],
+      "grossSalary": 1550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1550,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1550
+        }
+      ],
+      "grossSalary": 1550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1550,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER",
+          "kind": "officer",
+          "total": 102630
+        }
+      ],
+      "grossSalary": 94725,
+      "allowances": 0,
+      "officialBusiness": 7905,
+      "total": 102630,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 101424
+        }
+      ],
+      "grossSalary": 94725,
+      "allowances": 0,
+      "officialBusiness": 6699,
+      "total": 101424,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 100873
+        }
+      ],
+      "grossSalary": 94725,
+      "allowances": 0,
+      "officialBusiness": 6148,
+      "total": 100873,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 73262
+        }
+      ],
+      "grossSalary": 66048,
+      "allowances": 0,
+      "officialBusiness": 7214,
+      "total": 73262,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "SCHANK|J",
+      "name": "Joan Schank",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE ASSISTANT",
+          "kind": "employee",
+          "total": 60288
+        }
+      ],
+      "grossSalary": 60288,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 60288,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUS MANAGER",
+          "kind": "officer",
+          "total": 100641
+        }
+      ],
+      "grossSalary": 94632,
+      "allowances": 0,
+      "officialBusiness": 6009,
+      "total": 100641,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 99996
+        }
+      ],
+      "grossSalary": 94631,
+      "allowances": 0,
+      "officialBusiness": 5365,
+      "total": 99996,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 98208
+        }
+      ],
+      "grossSalary": 94631,
+      "allowances": 0,
+      "officialBusiness": 3577,
+      "total": 98208,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 65283
+        }
+      ],
+      "grossSalary": 59860,
+      "allowances": 0,
+      "officialBusiness": 5423,
+      "total": 65283,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "SCHANK|J",
+      "name": "Joan jo Schank",
+      "roles": [
+        {
+          "title": "ADM SECRETARY",
+          "kind": "employee",
+          "total": 59779
+        }
+      ],
+      "grossSalary": 59779,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 59779,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "REC SECRETARY",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "HARSEIM|G",
+      "name": "George Harseim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "officer",
+          "total": 96568
+        }
+      ],
+      "grossSalary": 91371,
+      "allowances": 0,
+      "officialBusiness": 5197,
+      "total": 96568,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 95385
+        }
+      ],
+      "grossSalary": 91544,
+      "allowances": 0,
+      "officialBusiness": 3841,
+      "total": 95385,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 81589
+        }
+      ],
+      "grossSalary": 78024,
+      "allowances": 0,
+      "officialBusiness": 3565,
+      "total": 81589,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "SCHANK|J",
+      "name": "Joan jo Schank",
+      "roles": [
+        {
+          "title": "ADM SECRETARY",
+          "kind": "employee",
+          "total": 58797
+        }
+      ],
+      "grossSalary": 58797,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 58797,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "FRATTINI|J",
+      "name": "James Frattini",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 48404
+        }
+      ],
+      "grossSalary": 45609,
+      "allowances": 0,
+      "officialBusiness": 2795,
+      "total": 48404,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 5817
+        }
+      ],
+      "grossSalary": 4346,
+      "allowances": 0,
+      "officialBusiness": 1471,
+      "total": 5817,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "REC SECRETARY",
+          "kind": "officer",
+          "total": 3182
+        }
+      ],
+      "grossSalary": 1755,
+      "allowances": 0,
+      "officialBusiness": 1427,
+      "total": 3182,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "BUMGARDNER|C",
+      "name": "Charles Bumgardner",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2374
+        }
+      ],
+      "grossSalary": 953,
+      "allowances": 0,
+      "officialBusiness": 1421,
+      "total": 2374,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1911
+        }
+      ],
+      "grossSalary": 1891,
+      "allowances": 0,
+      "officialBusiness": 20,
+      "total": 1911,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "VAUGHN|L",
+      "name": "Lloyd Vaughn",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CULLICK|T",
+      "name": "Thomas Cullick",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 800
+        }
+      ],
+      "grossSalary": 800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 800,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "HARSIEM|G",
+      "name": "George Harsiem",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 800
+        }
+      ],
+      "grossSalary": 800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 800,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "SILAKOWSKI|J",
+      "name": "Jerry Silakowski",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 342
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 342,
+      "total": 342,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "SILAKOWSKI|J",
+      "name": "Jerry Silakowski",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 100043
+        }
+      ],
+      "grossSalary": 93846,
+      "allowances": 0,
+      "officialBusiness": 6197,
+      "total": 100043,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUS MANAGER",
+          "kind": "officer",
+          "total": 95120
+        }
+      ],
+      "grossSalary": 87832,
+      "allowances": 0,
+      "officialBusiness": 7288,
+      "total": 95120,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "FRATTINI|J",
+      "name": "James Frattini",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 91011
+        }
+      ],
+      "grossSalary": 87832,
+      "allowances": 0,
+      "officialBusiness": 3179,
+      "total": 91011,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "SCHANK|J",
+      "name": "Joy Schank",
+      "roles": [
+        {
+          "title": "ADM SECRETARY",
+          "kind": "employee",
+          "total": 58747
+        }
+      ],
+      "grossSalary": 58747,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 58747,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 6084
+        }
+      ],
+      "grossSalary": 6061,
+      "allowances": 0,
+      "officialBusiness": 23,
+      "total": 6084,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 4660
+        }
+      ],
+      "grossSalary": 4660,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4660,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "MICETICH|M",
+      "name": "Mark Micetich",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "BUMGARDNER|C",
+      "name": "Charles Bumgardner",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "FRATTINI|J",
+      "name": "James Frattini",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 92343
+        }
+      ],
+      "grossSalary": 84342,
+      "allowances": 0,
+      "officialBusiness": 8001,
+      "total": 92343,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "SILAKOWSKI|J",
+      "name": "Jerry Silakowski",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 88969
+        }
+      ],
+      "grossSalary": 84341,
+      "allowances": 0,
+      "officialBusiness": 4628,
+      "total": 88969,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUS MANAGER",
+          "kind": "officer",
+          "total": 88891
+        }
+      ],
+      "grossSalary": 84342,
+      "allowances": 0,
+      "officialBusiness": 4549,
+      "total": 88891,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "SCHANK|J",
+      "name": "J joy Schank",
+      "roles": [
+        {
+          "title": "ADM SEC",
+          "kind": "employee",
+          "total": 55223
+        }
+      ],
+      "grossSalary": 55223,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 55223,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 6041
+        }
+      ],
+      "grossSalary": 5395,
+      "allowances": 0,
+      "officialBusiness": 646,
+      "total": 6041,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 3956
+        }
+      ],
+      "grossSalary": 3820,
+      "allowances": 0,
+      "officialBusiness": 136,
+      "total": 3956,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3231
+        }
+      ],
+      "grossSalary": 2510,
+      "allowances": 0,
+      "officialBusiness": 721,
+      "total": 3231,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DEITZ|W",
+      "name": "William Deitz",
+      "roles": [
+        {
+          "title": "REC SECRETARY",
+          "kind": "officer",
+          "total": 2534
+        }
+      ],
+      "grossSalary": 2534,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2534,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "SGT ARMS",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "MENDEZ|J",
+      "name": "Joseph Mendez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "BUMGARDNER|C",
+      "name": "Charles Bumgardner",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "MICETICH|M",
+      "name": "Marak Micetich",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "PAVLIS|S",
+      "name": "Scott Pavlis",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGR",
+          "kind": "officer",
+          "total": 84029
+        }
+      ],
+      "grossSalary": 81225,
+      "allowances": 0,
+      "officialBusiness": 2804,
+      "total": 84029,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "FRATTINI|J",
+      "name": "James Frattini",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 83812
+        }
+      ],
+      "grossSalary": 81225,
+      "allowances": 0,
+      "officialBusiness": 2587,
+      "total": 83812,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SILAKOWSKI|J",
+      "name": "Jerry Silakowski",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 74004
+        }
+      ],
+      "grossSalary": 72269,
+      "allowances": 0,
+      "officialBusiness": 1735,
+      "total": 74004,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SCHANK|J",
+      "name": "Joan Schank",
+      "roles": [
+        {
+          "title": "ADM SECRETARY",
+          "kind": "employee",
+          "total": 52517
+        }
+      ],
+      "grossSalary": 52517,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 52517,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DIETZ|W",
+      "name": "William Dietz",
+      "roles": [
+        {
+          "title": "REC SECRETARY",
+          "kind": "officer",
+          "total": 1224
+        }
+      ],
+      "grossSalary": 1224,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1224,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "MARTIN|W",
+      "name": "William Martin",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SERENA|M",
+      "name": "Michael Serena",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "GREEN|A",
+      "name": "Alvin Green",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "MENOEZ|J",
+      "name": "Joseph Menoez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "BUMGARDENER|C",
+      "name": "Charles Bumgardener",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "STUDER|T",
+      "name": "Ted Studer",
+      "roles": [
+        {
+          "title": "VP EXEL BOARD",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "STIRBIS|W",
+      "name": "William Stirbis",
+      "roles": [
+        {
+          "title": "DELEGATE",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "MORROW|K",
+      "name": "Keith Morrow",
+      "roles": [
+        {
+          "title": "EXEL BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "MICETISH|M",
+      "name": "Mark Micetish",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    }
+  ],
+  "dues": {
+    "2005": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "72"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.75%",
+        "unit": "Gross Wages",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": null,
+        "unit": "One Time",
+        "min": "600",
+        "max": "600"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": "NA",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": "NA",
+        "min": null,
+        "max": null
+      }
+    ],
+    "2006": [
+      {
+        "type": "Working dues",
+        "amount": "1.75%",
+        "unit": "Gross Wages",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "600",
+        "unit": "One Time",
+        "min": "600",
+        "max": "600"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      }
+    ],
+    "2007": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "72"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.75%",
+        "unit": "Gross Wages",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "600",
+        "unit": "One Time",
+        "min": "600",
+        "max": "600"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      }
+    ],
+    "2008": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "72"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "Gross           Wage",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "One Time",
+        "min": "700",
+        "max": "700"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": "N/A",
+        "min": null,
+        "max": null
+      }
+    ],
+    "2009": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "7"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "Gross Wages",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "One Time",
+        "min": "700",
+        "max": "700"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2010": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "72"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "Once",
+        "min": "700",
+        "max": "700"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2011": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "72"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "Once",
+        "min": "700",
+        "max": "700"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2012": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "Once",
+        "min": "800",
+        "max": "800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2013": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "$1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "once",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2014": [
+      {
+        "type": "Regular dues",
+        "amount": "$90",
+        "unit": "Qtr",
+        "min": "$24",
+        "max": "$90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "$1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800",
+        "unit": "once",
+        "min": "$800",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2015": [
+      {
+        "type": "Regular dues",
+        "amount": "$90",
+        "unit": "Qtr",
+        "min": "$24",
+        "max": "$90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "$1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$800",
+        "unit": "once",
+        "min": "$800",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2016": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "once",
+        "min": "800",
+        "max": "800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2017": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "Qtr",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "once",
+        "min": "800",
+        "max": "800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2018": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "QTR",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "Once",
+        "min": "800",
+        "max": "800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2019": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "QTR",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "ONCE",
+        "min": "800",
+        "max": "800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2020": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "QTR",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "ONCE",
+        "min": "800",
+        "max": "800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2021": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "QTR",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "ONCE",
+        "min": "800",
+        "max": "800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2022": [
+      {
+        "type": "Regular dues",
+        "amount": "90",
+        "unit": "QTR",
+        "min": "24",
+        "max": "90"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "ONCE",
+        "min": "800",
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2023": [
+      {
+        "type": "Regular dues",
+        "amount": "120",
+        "unit": "QTR",
+        "min": "24",
+        "max": "120"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "ONCE",
+        "min": "800",
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2024": [
+      {
+        "type": "Regular dues",
+        "amount": "120",
+        "unit": "QTR",
+        "min": "24",
+        "max": "120"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "ONCE",
+        "min": "800",
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2025": [
+      {
+        "type": "Regular dues",
+        "amount": "120",
+        "unit": "QTR",
+        "min": "24",
+        "max": "120"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "1",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "Once",
+        "min": "800",
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ]
+  },
+  "surnameClusters": [
+    {
+      "year": 2017,
+      "surname": "PAVLIS",
+      "people": [
+        {
+          "name": "Scott Pavlis",
+          "total": 176467,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Mark Pavlis",
+          "total": 2400,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 178867
+    },
+    {
+      "year": 2017,
+      "surname": "DIETZ",
+      "people": [
+        {
+          "name": "William Dietz",
+          "total": 176373,
+          "roles": [
+            "SECRETARY TREASURER"
+          ]
+        },
+        {
+          "name": "Andrew Dietz",
+          "total": 2400,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 178773
+    },
+    {
+      "year": 2016,
+      "surname": "PAVLIS",
+      "people": [
+        {
+          "name": "Scott Pavlis",
+          "total": 184639,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Mark Pavlis",
+          "total": 2400,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 187039
+    },
+    {
+      "year": 2016,
+      "surname": "DIETZ",
+      "people": [
+        {
+          "name": "William Dietz",
+          "total": 178956,
+          "roles": [
+            "SECRETARY TREASURER"
+          ]
+        },
+        {
+          "name": "Andrew Dietz",
+          "total": 2400,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 181356
+    },
+    {
+      "year": 2015,
+      "surname": "PAVLIS",
+      "people": [
+        {
+          "name": "Scott Pavlis",
+          "total": 170341,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Mark Pavlis",
+          "total": 2150,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 172491
+    },
+    {
+      "year": 2015,
+      "surname": "DIETZ",
+      "people": [
+        {
+          "name": "William Dietz",
+          "total": 169065,
+          "roles": [
+            "SECRETARY TREASURER"
+          ]
+        },
+        {
+          "name": "Andrew Dietz",
+          "total": 1700,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 170765
+    },
+    {
+      "year": 2014,
+      "surname": "PAVLIS",
+      "people": [
+        {
+          "name": "Scott Pavlis",
+          "total": 167244,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Mark Pavlis",
+          "total": 1800,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 169044
+    },
+    {
+      "year": 2013,
+      "surname": "PAVLIS",
+      "people": [
+        {
+          "name": "Scott Pavlis",
+          "total": 165899,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Mark Pavlis",
+          "total": 1800,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 167699
+    },
+    {
+      "year": 2012,
+      "surname": "PAVLIS",
+      "people": [
+        {
+          "name": "Scott Pavlis",
+          "total": 160207,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Mark Pavlis",
+          "total": 1800,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 162007
+    },
+    {
+      "year": 2011,
+      "surname": "PAVLIS",
+      "people": [
+        {
+          "name": "Scott Pavlis",
+          "total": 160395,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Mark Pavlis",
+          "total": 1800,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 162195
+    },
+    {
+      "year": 2010,
+      "surname": "PAVLIS",
+      "people": [
+        {
+          "name": "Scott Pavlis",
+          "total": 153950,
+          "roles": [
+            "BUSINESS MANAGER"
+          ]
+        },
+        {
+          "name": "Mark Pavlis",
+          "total": 1050,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 155000
+    }
+  ],
+  "events": [],
+  "lineage": []
+}

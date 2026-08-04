@@ -1,0 +1,1345 @@
+{
+  "desig": 1001,
+  "fNum": 33990,
+  "city": "Chicago",
+  "role": "local",
+  "label": "Local 1001",
+  "latestYear": 2003,
+  "members": 2754,
+  "years": [
+    {
+      "year": 2003,
+      "formType": "LM-2",
+      "rptId": 207958,
+      "members": 2754,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2003,
+        "representational": null,
+        "political": null,
+        "contributions": 22666,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 244433,
+        "per_capita_tax": 815194,
+        "direct_taxes": 53666,
+        "investments": 1032798,
+        "to_officers": 379143,
+        "to_employees": 135055,
+        "dues": 2374694,
+        "interest": 32943,
+        "dividends": 0,
+        "fees": 51250,
+        "other_receipts": 3032
+      },
+      "representationalPerMember": 0,
+      "assets": 1863223,
+      "liabilities": 369411,
+      "receipts": 3763925,
+      "disbursements": 3889079,
+      "receiptsPerMember": 1367,
+      "assetsPerMember": 677,
+      "disbursementsPerMember": 1412,
+      "payrollShare": 19
+    },
+    {
+      "year": 2002,
+      "formType": "LM-2",
+      "rptId": 166125,
+      "members": 2750,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2002,
+        "representational": null,
+        "political": null,
+        "contributions": 20084,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 288818,
+        "per_capita_tax": 803763,
+        "direct_taxes": 54222,
+        "investments": 730854,
+        "to_officers": 387111,
+        "to_employees": 130193,
+        "dues": 2259429,
+        "interest": 64105,
+        "dividends": 0,
+        "fees": 7850,
+        "other_receipts": 48416
+      },
+      "representationalPerMember": 0,
+      "assets": 2331741,
+      "liabilities": 397728,
+      "receipts": 3427600,
+      "disbursements": 3335152,
+      "receiptsPerMember": 1246,
+      "assetsPerMember": 848,
+      "disbursementsPerMember": 1213,
+      "payrollShare": 22.6
+    },
+    {
+      "year": 2001,
+      "formType": "LM-2",
+      "rptId": 116551,
+      "members": 2810,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2001,
+        "representational": null,
+        "political": null,
+        "contributions": 18068,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 227859,
+        "per_capita_tax": 851247,
+        "direct_taxes": 40506,
+        "investments": 3653346,
+        "to_officers": 285065,
+        "to_employees": 117119,
+        "dues": 2366883,
+        "interest": 96420,
+        "dividends": 0,
+        "fees": 122829,
+        "other_receipts": 27073
+      },
+      "representationalPerMember": 0,
+      "assets": 2243340,
+      "liabilities": 1023,
+      "receipts": 5413205,
+      "disbursements": 5806240,
+      "receiptsPerMember": 1926,
+      "assetsPerMember": 798,
+      "disbursementsPerMember": 2066,
+      "payrollShare": 9.9
+    },
+    {
+      "year": 2000,
+      "formType": "LM-2",
+      "rptId": 83209,
+      "members": 2894,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2000,
+        "representational": null,
+        "political": null,
+        "contributions": 26211,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 211405,
+        "per_capita_tax": 574986,
+        "direct_taxes": 39962,
+        "investments": 647748,
+        "to_officers": 299062,
+        "to_employees": 106846,
+        "dues": 1974370,
+        "interest": 78637,
+        "dividends": 0,
+        "fees": 140550,
+        "other_receipts": 2305
+      },
+      "representationalPerMember": 0,
+      "assets": 1818911,
+      "liabilities": 1141,
+      "receipts": 2400862,
+      "disbursements": 2485236,
+      "receiptsPerMember": 830,
+      "assetsPerMember": 629,
+      "disbursementsPerMember": 859,
+      "payrollShare": 23.3
+    }
+  ],
+  "people": [
+    {
+      "year": 2003,
+      "key": "GIRONDA|N",
+      "name": "Nick Gironda",
+      "roles": [
+        {
+          "title": "BUSINESS MGR",
+          "kind": "officer",
+          "total": 135921
+        }
+      ],
+      "grossSalary": 125951,
+      "allowances": 0,
+      "officialBusiness": 9970,
+      "total": 135921,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "DECHRISTOPHE|S",
+      "name": "Sam Dechristophe",
+      "roles": [
+        {
+          "title": "SECRETARY-TREAS",
+          "kind": "officer",
+          "total": 104097
+        }
+      ],
+      "grossSalary": 96785,
+      "allowances": 0,
+      "officialBusiness": 7312,
+      "total": 104097,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "GIBSON|N",
+      "name": "Nath Gibson",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 88095
+        }
+      ],
+      "grossSalary": 83809,
+      "allowances": 0,
+      "officialBusiness": 4286,
+      "total": 88095,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CHIANELLI|R",
+      "name": "Robert Chianelli",
+      "roles": [
+        {
+          "title": "RECORDING SEC",
+          "kind": "officer",
+          "total": 87225
+        }
+      ],
+      "grossSalary": 82450,
+      "allowances": 0,
+      "officialBusiness": 4775,
+      "total": 87225,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "BATES|W",
+      "name": "Willie Bates",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 73122
+        }
+      ],
+      "grossSalary": 68226,
+      "allowances": 0,
+      "officialBusiness": 4896,
+      "total": 73122,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CATAUDELLA|N",
+      "name": "Nick Cataudella",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 73058
+        }
+      ],
+      "grossSalary": 67926,
+      "allowances": 0,
+      "officialBusiness": 5132,
+      "total": 73058,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "KUMBROW|C",
+      "name": "Craig Kumbrow",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 71879
+        }
+      ],
+      "grossSalary": 67490,
+      "allowances": 0,
+      "officialBusiness": 4389,
+      "total": 71879,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CHIANELLI|D",
+      "name": "Debra Chianelli",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 39755
+        }
+      ],
+      "grossSalary": 39755,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 39755,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "COGLIANESE|A",
+      "name": "Angela Coglianese",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 31387
+        }
+      ],
+      "grossSalary": 31387,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 31387,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CANCHOLA|K",
+      "name": "Kelly Canchola",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 30180
+        }
+      ],
+      "grossSalary": 30180,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 30180,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "GROGAN|F",
+      "name": "Floyd Grogan",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 3118
+        }
+      ],
+      "grossSalary": 1500,
+      "allowances": 0,
+      "officialBusiness": 1618,
+      "total": 3118,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "ROASR|V",
+      "name": "Victor Roa sr",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "PUCILLO|D",
+      "name": "Debbie Pucillo",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 300
+        }
+      ],
+      "grossSalary": 300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 300,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CAPASSO|J",
+      "name": "James Capasso",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 300
+        }
+      ],
+      "grossSalary": 300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 300,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "REED|P",
+      "name": "Paul Reed",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 300
+        }
+      ],
+      "grossSalary": 300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 300,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GIRONDA|N",
+      "name": "Nichola Gironda",
+      "roles": [
+        {
+          "title": "BUS MGR/EX BD",
+          "kind": "officer",
+          "total": 131312
+        }
+      ],
+      "grossSalary": 119586,
+      "allowances": 0,
+      "officialBusiness": 11726,
+      "total": 131312,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "DECHRISTOPHE|S",
+      "name": "Sam Dechristophe",
+      "roles": [
+        {
+          "title": "SEC TR/EX BD/BR",
+          "kind": "officer",
+          "total": 100792
+        }
+      ],
+      "grossSalary": 91802,
+      "allowances": 0,
+      "officialBusiness": 8990,
+      "total": 100792,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GIBSON|N",
+      "name": "Nathani Gibson",
+      "roles": [
+        {
+          "title": "PRES/EX BD",
+          "kind": "officer",
+          "total": 83794
+        }
+      ],
+      "grossSalary": 77561,
+      "allowances": 0,
+      "officialBusiness": 6233,
+      "total": 83794,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CHIANELLI|R",
+      "name": "Robert Chianelli",
+      "roles": [
+        {
+          "title": "REC SEC/EX BD",
+          "kind": "officer",
+          "total": 82428
+        }
+      ],
+      "grossSalary": 76500,
+      "allowances": 0,
+      "officialBusiness": 5928,
+      "total": 82428,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "KUMEROW|C",
+      "name": "Craig Kumerow",
+      "roles": [
+        {
+          "title": "FIELD REP",
+          "kind": "employee",
+          "total": 69797
+        }
+      ],
+      "grossSalary": 63621,
+      "allowances": 0,
+      "officialBusiness": 6176,
+      "total": 69797,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CATAUDELLA|N",
+      "name": "Nichola Cataudella",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 63206
+        }
+      ],
+      "grossSalary": 57741,
+      "allowances": 0,
+      "officialBusiness": 5465,
+      "total": 63206,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "PALERMO|M",
+      "name": "Michael Palermo",
+      "roles": [
+        {
+          "title": "VP/EX BD/BUS RP",
+          "kind": "officer",
+          "total": 62430
+        }
+      ],
+      "grossSalary": 57343,
+      "allowances": 0,
+      "officialBusiness": 5087,
+      "total": 62430,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "BATES|W",
+      "name": "Willie Bates",
+      "roles": [
+        {
+          "title": "SGT ARMS",
+          "kind": "officer",
+          "total": 59986
+        }
+      ],
+      "grossSalary": 55337,
+      "allowances": 0,
+      "officialBusiness": 4649,
+      "total": 59986,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CHIANELLI|D",
+      "name": "Debra Chianelli",
+      "roles": [
+        {
+          "title": "CLERICAL",
+          "kind": "employee",
+          "total": 40082
+        }
+      ],
+      "grossSalary": 40082,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 40082,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "COGLIANESE|A",
+      "name": "Angela Coglianese",
+      "roles": [
+        {
+          "title": "CLERICAL",
+          "kind": "employee",
+          "total": 31802
+        }
+      ],
+      "grossSalary": 31802,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 31802,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CANCHOLA|K",
+      "name": "Kelly Canchola",
+      "roles": [
+        {
+          "title": "CLERICAL",
+          "kind": "employee",
+          "total": 29753
+        }
+      ],
+      "grossSalary": 29753,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 29753,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GROGAN|F",
+      "name": "Floyd Grogan",
+      "roles": [
+        {
+          "title": "EX BD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "ROA|V",
+      "name": "Victor Roa",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CAPASSO|J",
+      "name": "James Capasso",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GIRONDA|N",
+      "name": "Nichola Gironda",
+      "roles": [
+        {
+          "title": "SEC TR/EB/BRP",
+          "kind": "officer",
+          "total": 74140
+        },
+        {
+          "title": "BUS MG/EX BD",
+          "kind": "officer",
+          "total": 37762
+        }
+      ],
+      "grossSalary": 96129,
+      "allowances": 0,
+      "officialBusiness": 15773,
+      "total": 111902,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CARUSO|B",
+      "name": "Bruno Caruso",
+      "roles": [
+        {
+          "title": "BUS MG/EX BD",
+          "kind": "officer",
+          "total": 91906
+        }
+      ],
+      "grossSalary": 81167,
+      "allowances": 0,
+      "officialBusiness": 10739,
+      "total": 91906,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GIBSON|N",
+      "name": "Nathani Gibson",
+      "roles": [
+        {
+          "title": "PRES/EX BD",
+          "kind": "officer",
+          "total": 83183
+        }
+      ],
+      "grossSalary": 74578,
+      "allowances": 0,
+      "officialBusiness": 8605,
+      "total": 83183,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "PALERMO|M",
+      "name": "Michael Palermo",
+      "roles": [
+        {
+          "title": "VP/BUS RP/EX BD",
+          "kind": "officer",
+          "total": 79426
+        }
+      ],
+      "grossSalary": 70300,
+      "allowances": 0,
+      "officialBusiness": 9126,
+      "total": 79426,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "KUMEROW|C",
+      "name": "Craig Kumerow",
+      "roles": [
+        {
+          "title": "FIELD REP",
+          "kind": "employee",
+          "total": 70268
+        }
+      ],
+      "grossSalary": 61174,
+      "allowances": 0,
+      "officialBusiness": 9094,
+      "total": 70268,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CHIANELLI|D",
+      "name": "Debra Chianelli",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 33251
+        }
+      ],
+      "grossSalary": 33251,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 33251,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DECHRISTOPHE|S",
+      "name": "Sam Dechristophe",
+      "roles": [
+        {
+          "title": "SEC-TR/EX BD",
+          "kind": "officer",
+          "total": 27623
+        },
+        {
+          "title": "REC SEC/EX BD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 24231,
+      "allowances": 0,
+      "officialBusiness": 3392,
+      "total": 27623,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "COGLIANESE|A",
+      "name": "Angela Coglianese",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 26252
+        }
+      ],
+      "grossSalary": 26252,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 26252,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CANCHOLA|K",
+      "name": "Kelly Canchola",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 25243
+        }
+      ],
+      "grossSalary": 25243,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 25243,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CHIANELLI|R",
+      "name": "Robert Chianelli",
+      "roles": [
+        {
+          "title": "REC/BRP/EB",
+          "kind": "officer",
+          "total": 23003
+        },
+        {
+          "title": "EX BD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 20192,
+      "allowances": 0,
+      "officialBusiness": 2811,
+      "total": 23003,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "ROA|V",
+      "name": "Victor Roa",
+      "roles": [
+        {
+          "title": "EX BD",
+          "kind": "officer",
+          "total": 0
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DECHRISTOPER|S",
+      "name": "Sam Dechristoper",
+      "roles": [
+        {
+          "title": "BUS REP",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "BATES|W",
+      "name": "Willie Bates",
+      "roles": [
+        {
+          "title": "SGT@ARMS",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GROGAN|F",
+      "name": "Floyd Grogan",
+      "roles": [
+        {
+          "title": "EX BD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CATAUDELLA|N",
+      "name": "Nick Cataudella",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CAPASSO|J",
+      "name": "James Capasso",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CARUSO|B",
+      "name": "Bruno Caruso",
+      "roles": [
+        {
+          "title": "BM/EB",
+          "kind": "officer",
+          "total": 124417
+        }
+      ],
+      "grossSalary": 110397,
+      "allowances": 0,
+      "officialBusiness": 14020,
+      "total": 124417,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "GIRONDA|N",
+      "name": "Nichola Gironda",
+      "roles": [
+        {
+          "title": "SEC-TR/BRP/EB",
+          "kind": "officer",
+          "total": 109313
+        }
+      ],
+      "grossSalary": 96748,
+      "allowances": 0,
+      "officialBusiness": 12565,
+      "total": 109313,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "GIBSON|N",
+      "name": "Nathani Gibson",
+      "roles": [
+        {
+          "title": "PRES/EB",
+          "kind": "officer",
+          "total": 86269
+        }
+      ],
+      "grossSalary": 79102,
+      "allowances": 0,
+      "officialBusiness": 7167,
+      "total": 86269,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "PALERMO|M",
+      "name": "Michael Palermo",
+      "roles": [
+        {
+          "title": "VP/BRP/EB",
+          "kind": "officer",
+          "total": 77400
+        }
+      ],
+      "grossSalary": 71994,
+      "allowances": 0,
+      "officialBusiness": 5406,
+      "total": 77400,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "KUMEROW|C",
+      "name": "Craig Kumerow",
+      "roles": [
+        {
+          "title": "FIELD REP",
+          "kind": "employee",
+          "total": 63233
+        }
+      ],
+      "grossSalary": 63233,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 63233,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "ESPOSITO|S",
+      "name": "Shirley Esposito",
+      "roles": [
+        {
+          "title": "REC-SEC/BRP/EB",
+          "kind": "officer",
+          "total": 38060
+        }
+      ],
+      "grossSalary": 38060,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 38060,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CHIANELLI|D",
+      "name": "Debra Chianelli",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 37549
+        }
+      ],
+      "grossSalary": 31522,
+      "allowances": 0,
+      "officialBusiness": 6027,
+      "total": 37549,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "COGLIANESE|A",
+      "name": "Angela Coglianese",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 24413
+        }
+      ],
+      "grossSalary": 24413,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 24413,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CANCHOLA|K",
+      "name": "Kelly Canchola",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 17424
+        }
+      ],
+      "grossSalary": 17424,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 17424,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DECHRISTOPHE|S",
+      "name": "Sam Dechristophe",
+      "roles": [
+        {
+          "title": "REC - SEC/BRP",
+          "kind": "officer",
+          "total": 1431
+        },
+        {
+          "title": "SGT @ ARMS",
+          "kind": "officer",
+          "total": 0
+        },
+        {
+          "title": "EXEC BD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 1431,
+      "total": 1431,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CHIANELLI|R",
+      "name": "Robert Chianelli",
+      "roles": [
+        {
+          "title": "EXEC BD",
+          "kind": "officer",
+          "total": 111
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 111,
+      "total": 111,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CATAUDELLA|N",
+      "name": "Nick Cataudella",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SPANO|B",
+      "name": "Bernard Spano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CAPASSO|J",
+      "name": "James Capasso",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "BATES|W",
+      "name": "Willie Bates",
+      "roles": [
+        {
+          "title": "SGT @ ARMS",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "ROASR|V",
+      "name": "Victor Roa sr",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "GROGAN|F",
+      "name": "Floyd Grogan",
+      "roles": [
+        {
+          "title": "EXEC BD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    }
+  ],
+  "dues": {},
+  "surnameClusters": [
+    {
+      "year": 2003,
+      "surname": "CHIANELLI",
+      "people": [
+        {
+          "name": "Robert Chianelli",
+          "total": 87225,
+          "roles": [
+            "RECORDING SEC"
+          ]
+        },
+        {
+          "name": "Debra Chianelli",
+          "total": 39755,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 126980
+    },
+    {
+      "year": 2002,
+      "surname": "CHIANELLI",
+      "people": [
+        {
+          "name": "Robert Chianelli",
+          "total": 82428,
+          "roles": [
+            "REC SEC/EX BD"
+          ]
+        },
+        {
+          "name": "Debra Chianelli",
+          "total": 40082,
+          "roles": [
+            "CLERICAL"
+          ]
+        }
+      ],
+      "combined": 122510
+    },
+    {
+      "year": 2001,
+      "surname": "CHIANELLI",
+      "people": [
+        {
+          "name": "Debra Chianelli",
+          "total": 33251,
+          "roles": [
+            "CLERK"
+          ]
+        },
+        {
+          "name": "Robert Chianelli",
+          "total": 23003,
+          "roles": [
+            "REC/BRP/EB",
+            "EX BD"
+          ]
+        }
+      ],
+      "combined": 56254
+    },
+    {
+      "year": 2000,
+      "surname": "CHIANELLI",
+      "people": [
+        {
+          "name": "Debra Chianelli",
+          "total": 37549,
+          "roles": [
+            "CLERK"
+          ]
+        },
+        {
+          "name": "Robert Chianelli",
+          "total": 111,
+          "roles": [
+            "EXEC BD",
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 37660
+    }
+  ],
+  "events": [],
+  "lineage": []
+}

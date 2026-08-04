@@ -1,0 +1,7785 @@
+{
+  "desig": 76,
+  "fNum": 9112,
+  "city": "Chicago",
+  "role": "local",
+  "label": "Local 76",
+  "latestYear": 2025,
+  "members": 1330,
+  "years": [
+    {
+      "year": 2025,
+      "formType": "LM-2",
+      "rptId": 933898,
+      "members": 1330,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2025,
+        "representational": 344539,
+        "political": 160678,
+        "contributions": 350,
+        "general_overhead": 219818,
+        "union_administration": 1576196,
+        "benefits": 1027251,
+        "per_capita_tax": 366330,
+        "direct_taxes": 103943,
+        "investments": 2625189,
+        "to_officers": 1078972,
+        "to_employees": 263976,
+        "dues": 3679206,
+        "interest": 261892,
+        "dividends": 385470,
+        "fees": 113498,
+        "other_receipts": 117520
+      },
+      "representationalPerMember": 259,
+      "assets": 15429299,
+      "liabilities": 96754,
+      "receipts": 6786113,
+      "disbursements": 6526629,
+      "receiptsPerMember": 5102,
+      "assetsPerMember": 11601,
+      "disbursementsPerMember": 4907,
+      "payrollShare": 30.2
+    },
+    {
+      "year": 2024,
+      "formType": "LM-2",
+      "rptId": 906737,
+      "members": 1273,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2024,
+        "representational": 338392,
+        "political": 132528,
+        "contributions": 1188,
+        "general_overhead": 215004,
+        "union_administration": 1531969,
+        "benefits": 991280,
+        "per_capita_tax": 319132,
+        "direct_taxes": 99939,
+        "investments": 1299556,
+        "to_officers": 1035445,
+        "to_employees": 255131,
+        "dues": 3341955,
+        "interest": 252029,
+        "dividends": 334935,
+        "fees": 105170,
+        "other_receipts": 115761
+      },
+      "representationalPerMember": 266,
+      "assets": 14727565,
+      "liabilities": 131781,
+      "receipts": 4936314,
+      "disbursements": 5021667,
+      "receiptsPerMember": 3878,
+      "assetsPerMember": 11569,
+      "disbursementsPerMember": 3945,
+      "payrollShare": 37.4
+    },
+    {
+      "year": 2023,
+      "formType": "LM-2",
+      "rptId": 881636,
+      "members": 1202,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2023,
+        "representational": 395110,
+        "political": 128588,
+        "contributions": 5976,
+        "general_overhead": 213887,
+        "union_administration": 1430652,
+        "benefits": 848116,
+        "per_capita_tax": 329256,
+        "direct_taxes": 95092,
+        "investments": 5481387,
+        "to_officers": 993792,
+        "to_employees": 249052,
+        "dues": 3309879,
+        "interest": 307771,
+        "dividends": 201283,
+        "fees": 134636,
+        "other_receipts": 100100
+      },
+      "representationalPerMember": 329,
+      "assets": 14345736,
+      "liabilities": 164357,
+      "receipts": 9282150,
+      "disbursements": 9033002,
+      "receiptsPerMember": 7722,
+      "assetsPerMember": 11935,
+      "disbursementsPerMember": 7515,
+      "payrollShare": 20.2
+    },
+    {
+      "year": 2022,
+      "formType": "LM-2",
+      "rptId": 854193,
+      "members": 1262,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2022,
+        "representational": 317085,
+        "political": 126347,
+        "contributions": 843,
+        "general_overhead": 147360,
+        "union_administration": 1440223,
+        "benefits": 1049541,
+        "per_capita_tax": 320996,
+        "direct_taxes": 88892,
+        "investments": 3330991,
+        "to_officers": 971040,
+        "to_employees": 238379,
+        "dues": 2943147,
+        "interest": 237913,
+        "dividends": 142460,
+        "fees": 98058,
+        "other_receipts": 102219
+      },
+      "representationalPerMember": 251,
+      "assets": 13911339,
+      "liabilities": 128212,
+      "receipts": 7067711,
+      "disbursements": 6959398,
+      "receiptsPerMember": 5600,
+      "assetsPerMember": 11023,
+      "disbursementsPerMember": 5515,
+      "payrollShare": 25.6
+    },
+    {
+      "year": 2021,
+      "formType": "LM-2",
+      "rptId": 804525,
+      "members": 1311,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2021,
+        "representational": 306855,
+        "political": 121964,
+        "contributions": 11665,
+        "general_overhead": 125504,
+        "union_administration": 1475147,
+        "benefits": 854310,
+        "per_capita_tax": 327986,
+        "direct_taxes": 86158,
+        "investments": 3020063,
+        "to_officers": 884203,
+        "to_employees": 228834,
+        "dues": 2735640,
+        "interest": 240835,
+        "dividends": 60902,
+        "fees": 99218,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 234,
+      "assets": 13954156,
+      "liabilities": 82468,
+      "receipts": 6513939,
+      "disbursements": 6484583,
+      "receiptsPerMember": 4969,
+      "assetsPerMember": 10644,
+      "disbursementsPerMember": 4946,
+      "payrollShare": 26.5
+    },
+    {
+      "year": 2020,
+      "formType": "LM-2",
+      "rptId": 745098,
+      "members": 1250,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2020,
+        "representational": 295972,
+        "political": 118918,
+        "contributions": 1109,
+        "general_overhead": 114341,
+        "union_administration": 1339145,
+        "benefits": 831481,
+        "per_capita_tax": 334063,
+        "direct_taxes": 0,
+        "investments": 7638413,
+        "to_officers": 865865,
+        "to_employees": 224253,
+        "dues": 2666105,
+        "interest": 256897,
+        "dividends": 157625,
+        "fees": 94527,
+        "other_receipts": 100025
+      },
+      "representationalPerMember": 237,
+      "assets": 14025859,
+      "liabilities": 116301,
+      "receipts": 10584281,
+      "disbursements": 10765679,
+      "receiptsPerMember": 8467,
+      "assetsPerMember": 11221,
+      "disbursementsPerMember": 8613,
+      "payrollShare": 15.6
+    },
+    {
+      "year": 2019,
+      "formType": "LM-2",
+      "rptId": 718192,
+      "members": 1334,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2019,
+        "representational": 322290,
+        "political": 114845,
+        "contributions": 17162,
+        "general_overhead": 159320,
+        "union_administration": 1335719,
+        "benefits": 785847,
+        "per_capita_tax": 333673,
+        "direct_taxes": 79922,
+        "investments": 9427848,
+        "to_officers": 757601,
+        "to_employees": 218248,
+        "dues": 2777141,
+        "interest": 253736,
+        "dividends": 128479,
+        "fees": 159040,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 242,
+      "assets": 13999947,
+      "liabilities": 149872,
+      "receipts": 12387307,
+      "disbursements": 12612218,
+      "receiptsPerMember": 9286,
+      "assetsPerMember": 10495,
+      "disbursementsPerMember": 9454,
+      "payrollShare": 12.8
+    },
+    {
+      "year": 2018,
+      "formType": "LM-2",
+      "rptId": 693404,
+      "members": 1219,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2018,
+        "representational": 317574,
+        "political": 112038,
+        "contributions": 8680,
+        "general_overhead": 126337,
+        "union_administration": 1289148,
+        "benefits": 759193,
+        "per_capita_tax": 323956,
+        "direct_taxes": 77136,
+        "investments": 7639569,
+        "to_officers": 799072,
+        "to_employees": 208098,
+        "dues": 2605062,
+        "interest": 188950,
+        "dividends": 67520,
+        "fees": 144456,
+        "other_receipts": 100040
+      },
+      "representationalPerMember": 261,
+      "assets": 13749232,
+      "liabilities": 39344,
+      "receipts": 11066173,
+      "disbursements": 10674019,
+      "receiptsPerMember": 9078,
+      "assetsPerMember": 11279,
+      "disbursementsPerMember": 8756,
+      "payrollShare": 14.7
+    },
+    {
+      "year": 2017,
+      "formType": "LM-2",
+      "rptId": 662708,
+      "members": 1171,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2017,
+        "representational": 315362,
+        "political": 109515,
+        "contributions": 4275,
+        "general_overhead": 131625,
+        "union_administration": 1213852,
+        "benefits": 736571,
+        "per_capita_tax": 322548,
+        "direct_taxes": 75847,
+        "investments": 4117114,
+        "to_officers": 792131,
+        "to_employees": 194896,
+        "dues": 2466643,
+        "interest": 149827,
+        "dividends": 56218,
+        "fees": 110158,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 269,
+      "assets": 13733453,
+      "liabilities": 47335,
+      "receipts": 6150588,
+      "disbursements": 7045331,
+      "receiptsPerMember": 5252,
+      "assetsPerMember": 11728,
+      "disbursementsPerMember": 6017,
+      "payrollShare": 21.6
+    },
+    {
+      "year": 2016,
+      "formType": "LM-2",
+      "rptId": 637520,
+      "members": 1267,
+      "actives": null,
+      "apprentices": 12,
+      "retirees": 12,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2016,
+        "representational": 302321,
+        "political": 105830,
+        "contributions": 4724,
+        "general_overhead": 229245,
+        "union_administration": 1127836,
+        "benefits": 721840,
+        "per_capita_tax": 346463,
+        "direct_taxes": 71801,
+        "investments": 46177,
+        "to_officers": 778055,
+        "to_employees": 188414,
+        "dues": 2512344,
+        "interest": 136912,
+        "dividends": 65265,
+        "fees": 132790,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 239,
+      "assets": 13895124,
+      "liabilities": 54431,
+      "receipts": 3589481,
+      "disbursements": 2976022,
+      "receiptsPerMember": 2833,
+      "assetsPerMember": 10967,
+      "disbursementsPerMember": 2349,
+      "payrollShare": 50
+    },
+    {
+      "year": 2015,
+      "formType": "LM-2",
+      "rptId": 607659,
+      "members": 1266,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2015,
+        "representational": 307041,
+        "political": 87421,
+        "contributions": 9716,
+        "general_overhead": 205757,
+        "union_administration": 1069917,
+        "benefits": 562747,
+        "per_capita_tax": 351730,
+        "direct_taxes": 70380,
+        "investments": 287048,
+        "to_officers": 620293,
+        "to_employees": 302490,
+        "dues": 2582394,
+        "interest": 165586,
+        "dividends": 44139,
+        "fees": 182512,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 243,
+      "assets": 13880963,
+      "liabilities": 29974,
+      "receipts": 3085226,
+      "disbursements": 2970953,
+      "receiptsPerMember": 2437,
+      "assetsPerMember": 10964,
+      "disbursementsPerMember": 2347,
+      "payrollShare": 48.3
+    },
+    {
+      "year": 2014,
+      "formType": "LM-2",
+      "rptId": 582863,
+      "members": 1216,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2014,
+        "representational": 378748,
+        "political": 73118,
+        "contributions": 7500,
+        "general_overhead": 202466,
+        "union_administration": 1061068,
+        "benefits": 629211,
+        "per_capita_tax": 410226,
+        "direct_taxes": 69369,
+        "investments": 170948,
+        "to_officers": 691819,
+        "to_employees": 254027,
+        "dues": 2435721,
+        "interest": 171614,
+        "dividends": 36649,
+        "fees": 346850,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 311,
+      "assets": 13780403,
+      "liabilities": 37754,
+      "receipts": 3098334,
+      "disbursements": 3014362,
+      "receiptsPerMember": 2548,
+      "assetsPerMember": 11333,
+      "disbursementsPerMember": 2479,
+      "payrollShare": 47.8
+    },
+    {
+      "year": 2013,
+      "formType": "LM-2",
+      "rptId": 543937,
+      "members": 1468,
+      "actives": null,
+      "apprentices": 4,
+      "retirees": 16,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2013,
+        "representational": 341223,
+        "political": 70741,
+        "contributions": 4750,
+        "general_overhead": 186582,
+        "union_administration": 968868,
+        "benefits": 662403,
+        "per_capita_tax": 350866,
+        "direct_taxes": 66288,
+        "investments": 745936,
+        "to_officers": 502156,
+        "to_employees": 377196,
+        "dues": 2144104,
+        "interest": 175234,
+        "dividends": 21799,
+        "fees": 186838,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 232,
+      "assets": 13687758,
+      "liabilities": 45238,
+      "receipts": 3140149,
+      "disbursements": 3404377,
+      "receiptsPerMember": 2139,
+      "assetsPerMember": 9324,
+      "disbursementsPerMember": 2319,
+      "payrollShare": 39.5
+    },
+    {
+      "year": 2012,
+      "formType": "LM-2",
+      "rptId": 514754,
+      "members": 1342,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 18,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2012,
+        "representational": 356340,
+        "political": 0,
+        "contributions": 2000,
+        "general_overhead": 196813,
+        "union_administration": 986940,
+        "benefits": 637660,
+        "per_capita_tax": 404247,
+        "direct_taxes": 64207,
+        "investments": 496231,
+        "to_officers": 527798,
+        "to_employees": 380051,
+        "dues": 2142232,
+        "interest": 225791,
+        "dividends": 14227,
+        "fees": 285048,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 266,
+      "assets": 13676566,
+      "liabilities": 8070,
+      "receipts": 3067674,
+      "disbursements": 3139713,
+      "receiptsPerMember": 2286,
+      "assetsPerMember": 10191,
+      "disbursementsPerMember": 2340,
+      "payrollShare": 41.4
+    },
+    {
+      "year": 2011,
+      "formType": "LM-2",
+      "rptId": 499418,
+      "members": 1412,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2011,
+        "representational": 322540,
+        "political": 0,
+        "contributions": 3437,
+        "general_overhead": 192570,
+        "union_administration": 1037073,
+        "benefits": 710919,
+        "per_capita_tax": 307003,
+        "direct_taxes": 61671,
+        "investments": 4512624,
+        "to_officers": 524723,
+        "to_employees": 366883,
+        "dues": 1586359,
+        "interest": 290856,
+        "dividends": 14084,
+        "fees": 175829,
+        "other_receipts": 175000
+      },
+      "representationalPerMember": 228,
+      "assets": 13525227,
+      "liabilities": 1799,
+      "receipts": 6407122,
+      "disbursements": 7147971,
+      "receiptsPerMember": 4538,
+      "assetsPerMember": 9579,
+      "disbursementsPerMember": 5062,
+      "payrollShare": 17.2
+    },
+    {
+      "year": 2010,
+      "formType": "LM-2",
+      "rptId": 458182,
+      "members": 1510,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2010,
+        "representational": 313006,
+        "political": 0,
+        "contributions": 0,
+        "general_overhead": 189160,
+        "union_administration": 1006033,
+        "benefits": 666761,
+        "per_capita_tax": 331204,
+        "direct_taxes": 60351,
+        "investments": 2856468,
+        "to_officers": 744039,
+        "to_employees": 47424,
+        "dues": 1795052,
+        "interest": 336831,
+        "dividends": 20611,
+        "fees": 200343,
+        "other_receipts": 200000
+      },
+      "representationalPerMember": 207,
+      "assets": 14095532,
+      "liabilities": 86,
+      "receipts": 4664208,
+      "disbursements": 5422983,
+      "receiptsPerMember": 3089,
+      "assetsPerMember": 9335,
+      "disbursementsPerMember": 3591,
+      "payrollShare": 21
+    },
+    {
+      "year": 2009,
+      "formType": "LM-2",
+      "rptId": 420519,
+      "members": 1250,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2009,
+        "representational": 298566,
+        "political": 0,
+        "contributions": 0,
+        "general_overhead": 168334,
+        "union_administration": 967038,
+        "benefits": 801152,
+        "per_capita_tax": 353630,
+        "direct_taxes": 58585,
+        "investments": 5041280,
+        "to_officers": 716302,
+        "to_employees": 44415,
+        "dues": 2198774,
+        "interest": 430185,
+        "dividends": 24163,
+        "fees": 249764,
+        "other_receipts": 100000
+      },
+      "representationalPerMember": 239,
+      "assets": 14140754,
+      "liabilities": 0,
+      "receipts": 7857409,
+      "disbursements": 7688585,
+      "receiptsPerMember": 6286,
+      "assetsPerMember": 11313,
+      "disbursementsPerMember": 6151,
+      "payrollShare": 14
+    },
+    {
+      "year": 2008,
+      "formType": "LM-2",
+      "rptId": 387778,
+      "members": 1252,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2008,
+        "representational": 270769,
+        "political": 0,
+        "contributions": 3666,
+        "general_overhead": 160493,
+        "union_administration": 844951,
+        "benefits": 526103,
+        "per_capita_tax": 326788,
+        "direct_taxes": 54866,
+        "investments": 8991310,
+        "to_officers": 658339,
+        "to_employees": 41405,
+        "dues": 2495596,
+        "interest": 475234,
+        "dividends": 46361,
+        "fees": 340879,
+        "other_receipts": 33533
+      },
+      "representationalPerMember": 216,
+      "assets": 13937776,
+      "liabilities": 152627,
+      "receipts": 11011560,
+      "disbursements": 11178946,
+      "receiptsPerMember": 8795,
+      "assetsPerMember": 11132,
+      "disbursementsPerMember": 8929,
+      "payrollShare": 8.7
+    },
+    {
+      "year": 2007,
+      "formType": "LM-2",
+      "rptId": 341551,
+      "members": 1545,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2007,
+        "representational": 217741,
+        "political": 0,
+        "contributions": 0,
+        "general_overhead": 262803,
+        "union_administration": 661362,
+        "benefits": 432788,
+        "per_capita_tax": 300119,
+        "direct_taxes": 44579,
+        "investments": 8188302,
+        "to_officers": 547750,
+        "to_employees": 34250,
+        "dues": 2777788,
+        "interest": 497251,
+        "dividends": 39879,
+        "fees": 311074,
+        "other_receipts": 0
+      },
+      "representationalPerMember": 141,
+      "assets": 12811568,
+      "liabilities": 1490,
+      "receipts": 10832411,
+      "disbursements": 10107445,
+      "receiptsPerMember": 7011,
+      "assetsPerMember": 8292,
+      "disbursementsPerMember": 6542,
+      "payrollShare": 8
+    },
+    {
+      "year": 2006,
+      "formType": "LM-2",
+      "rptId": 311046,
+      "members": 1538,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2006,
+        "representational": 133880,
+        "political": 0,
+        "contributions": 100,
+        "general_overhead": 339577,
+        "union_administration": 611777,
+        "benefits": 243475,
+        "per_capita_tax": 272472,
+        "direct_taxes": 41748,
+        "investments": 7307138,
+        "to_officers": 487967,
+        "to_employees": 111113,
+        "dues": 1902298,
+        "interest": 347754,
+        "dividends": 7138,
+        "fees": 272182,
+        "other_receipts": 0
+      },
+      "representationalPerMember": 87,
+      "assets": 11200454,
+      "liabilities": 42231,
+      "receipts": 8649559,
+      "disbursements": 8929885,
+      "receiptsPerMember": 5624,
+      "assetsPerMember": 7282,
+      "disbursementsPerMember": 5806,
+      "payrollShare": 9.2
+    },
+    {
+      "year": 2005,
+      "formType": "LM-2",
+      "rptId": 273866,
+      "members": 1350,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2005,
+        "representational": 127694,
+        "political": 0,
+        "contributions": 0,
+        "general_overhead": 219227,
+        "union_administration": 518336,
+        "benefits": 198602,
+        "per_capita_tax": 261543,
+        "direct_taxes": 36857,
+        "investments": 2913719,
+        "to_officers": 572373,
+        "to_employees": 82505,
+        "dues": 1489209,
+        "interest": 252301,
+        "dividends": 26473,
+        "fees": 199896,
+        "other_receipts": 0
+      },
+      "representationalPerMember": 95,
+      "assets": 10406747,
+      "liabilities": 2744,
+      "receipts": 3375986,
+      "disbursements": 4273882,
+      "receiptsPerMember": 2501,
+      "assetsPerMember": 7709,
+      "disbursementsPerMember": 3166,
+      "payrollShare": 15.3
+    },
+    {
+      "year": 2004,
+      "formType": "LM-2",
+      "rptId": 232195,
+      "members": 1500,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2004,
+        "representational": null,
+        "political": null,
+        "contributions": 265,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 182579,
+        "per_capita_tax": 230767,
+        "direct_taxes": 36680,
+        "investments": 5454249,
+        "to_officers": 416091,
+        "to_employees": 64668,
+        "dues": 1583463,
+        "interest": 124398,
+        "dividends": 37590,
+        "fees": 195373,
+        "other_receipts": 1938
+      },
+      "representationalPerMember": 0,
+      "assets": 9848079,
+      "liabilities": 0,
+      "receipts": 7161773,
+      "disbursements": 6703927,
+      "receiptsPerMember": 4775,
+      "assetsPerMember": 6565,
+      "disbursementsPerMember": 4469,
+      "payrollShare": 9.4
+    },
+    {
+      "year": 2003,
+      "formType": "LM-2",
+      "rptId": 203249,
+      "members": 1660,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2003,
+        "representational": null,
+        "political": null,
+        "contributions": 12142,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 159907,
+        "per_capita_tax": 259237,
+        "direct_taxes": 34742,
+        "investments": 3598718,
+        "to_officers": 406972,
+        "to_employees": 62818,
+        "dues": 1751995,
+        "interest": 216306,
+        "dividends": 19290,
+        "fees": 225301,
+        "other_receipts": 5185
+      },
+      "representationalPerMember": 0,
+      "assets": 9207129,
+      "liabilities": 0,
+      "receipts": 5662139,
+      "disbursements": 4849892,
+      "receiptsPerMember": 3411,
+      "assetsPerMember": 5546,
+      "disbursementsPerMember": 2922,
+      "payrollShare": 12.4
+    },
+    {
+      "year": 2002,
+      "formType": "LM-2",
+      "rptId": 167582,
+      "members": 1641,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2002,
+        "representational": null,
+        "political": null,
+        "contributions": 0,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 134641,
+        "per_capita_tax": 248714,
+        "direct_taxes": 32184,
+        "investments": 4946596,
+        "to_officers": 357324,
+        "to_employees": 52292,
+        "dues": 1576598,
+        "interest": 205939,
+        "dividends": 26657,
+        "fees": 216257,
+        "other_receipts": 0
+      },
+      "representationalPerMember": 0,
+      "assets": 8266598,
+      "liabilities": 0,
+      "receipts": 3710076,
+      "disbursements": 5949617,
+      "receiptsPerMember": 2261,
+      "assetsPerMember": 5038,
+      "disbursementsPerMember": 3626,
+      "payrollShare": 9
+    },
+    {
+      "year": 2001,
+      "formType": "LM-2",
+      "rptId": 117074,
+      "members": 1585,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2001,
+        "representational": null,
+        "political": null,
+        "contributions": 0,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 110916,
+        "per_capita_tax": 217926,
+        "direct_taxes": 27618,
+        "investments": 4560581,
+        "to_officers": 320208,
+        "to_employees": 44025,
+        "dues": 1418140,
+        "interest": 203620,
+        "dividends": 70416,
+        "fees": 187794,
+        "other_receipts": 0
+      },
+      "representationalPerMember": 0,
+      "assets": 7374172,
+      "liabilities": 0,
+      "receipts": 5740419,
+      "disbursements": 5558201,
+      "receiptsPerMember": 3622,
+      "assetsPerMember": 4652,
+      "disbursementsPerMember": 3507,
+      "payrollShare": 8.5
+    },
+    {
+      "year": 2000,
+      "formType": "LM-2",
+      "rptId": 86971,
+      "members": 1239,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2000,
+        "representational": null,
+        "political": null,
+        "contributions": 225,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 97900,
+        "per_capita_tax": 207358,
+        "direct_taxes": 22974,
+        "investments": 353822,
+        "to_officers": 268052,
+        "to_employees": 37338,
+        "dues": 1267238,
+        "interest": 252452,
+        "dividends": 64786,
+        "fees": 184028,
+        "other_receipts": null
+      },
+      "representationalPerMember": 0,
+      "assets": 6486627,
+      "liabilities": 0,
+      "receipts": 2816347,
+      "disbursements": 1220220,
+      "receiptsPerMember": 2273,
+      "assetsPerMember": 5235,
+      "disbursementsPerMember": 985,
+      "payrollShare": 19.9
+    }
+  ],
+  "people": [
+    {
+      "year": 2025,
+      "key": "NAILOLI|L",
+      "name": "Liberato Nailoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 470676
+        }
+      ],
+      "grossSalary": 468514,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 470676,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 410516
+        }
+      ],
+      "grossSalary": 404684,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 410516,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT/DIRECTOR",
+          "kind": "employee",
+          "total": 227975
+        }
+      ],
+      "grossSalary": 223960,
+      "allowances": 0,
+      "officialBusiness": 65,
+      "total": 227975,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 225091
+        }
+      ],
+      "grossSalary": 216419,
+      "allowances": 0,
+      "officialBusiness": 818,
+      "total": 225091,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 224179
+        }
+      ],
+      "grossSalary": 218885,
+      "allowances": 0,
+      "officialBusiness": 1009,
+      "total": 224179,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 217068
+        }
+      ],
+      "grossSalary": 214900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 217068,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 157800
+        }
+      ],
+      "grossSalary": 157800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 157800,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7450
+        }
+      ],
+      "grossSalary": 7450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7450,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 7450
+        }
+      ],
+      "grossSalary": 7450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7450,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "NALBANO|R",
+      "name": "Rosario Nalbano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 7450
+        }
+      ],
+      "grossSalary": 7450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7450,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "GRANATO|V",
+      "name": "Vincent Granato",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 7450
+        }
+      ],
+      "grossSalary": 7450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7450,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "WALLK|A",
+      "name": "Anthony Wallk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 7450
+        }
+      ],
+      "grossSalary": 7450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7450,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 451537
+        }
+      ],
+      "grossSalary": 447233,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 451537,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 391413
+        }
+      ],
+      "grossSalary": 384697,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 391413,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGT/DIRECTOR",
+          "kind": "employee",
+          "total": 217224
+        }
+      ],
+      "grossSalary": 212909,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 217224,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 215689
+        }
+      ],
+      "grossSalary": 208668,
+      "allowances": 0,
+      "officialBusiness": 838,
+      "total": 215689,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 215515
+        }
+      ],
+      "grossSalary": 206278,
+      "allowances": 0,
+      "officialBusiness": 428,
+      "total": 215515,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 206523
+        }
+      ],
+      "grossSalary": 204180,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 206523,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 149270
+        }
+      ],
+      "grossSalary": 149270,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 149270,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "WALLK|A",
+      "name": "Anthony Wallk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "NALBANO|R",
+      "name": "Rosario Nalbano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "GRANATO|V",
+      "name": "Vincent Granato",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 437181
+        }
+      ],
+      "grossSalary": 435411,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 437181,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 376748
+        }
+      ],
+      "grossSalary": 373087,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 376748,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT/DIRECTOR",
+          "kind": "employee",
+          "total": 211753
+        }
+      ],
+      "grossSalary": 207009,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 211753,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 210775
+        }
+      ],
+      "grossSalary": 202901,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 210775,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 206492
+        }
+      ],
+      "grossSalary": 200289,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 206492,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 200741
+        }
+      ],
+      "grossSalary": 198280,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 200741,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 143370
+        }
+      ],
+      "grossSalary": 143370,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 143370,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "GRANATO|V",
+      "name": "Vincent Granato",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "WALLK|A",
+      "name": "Anthony Wallk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "NALBONO|R",
+      "name": "Rosario Nalbono",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 430690
+        }
+      ],
+      "grossSalary": 422750,
+      "allowances": 0,
+      "officialBusiness": 2977,
+      "total": 430690,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 366942
+        }
+      ],
+      "grossSalary": 360657,
+      "allowances": 0,
+      "officialBusiness": 91,
+      "total": 366942,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT/DIRECTOR",
+          "kind": "employee",
+          "total": 206832
+        }
+      ],
+      "grossSalary": 201109,
+      "allowances": 0,
+      "officialBusiness": 55,
+      "total": 206832,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 206724
+        }
+      ],
+      "grossSalary": 196881,
+      "allowances": 0,
+      "officialBusiness": 1082,
+      "total": 206724,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 204651
+        }
+      ],
+      "grossSalary": 194468,
+      "allowances": 0,
+      "officialBusiness": 769,
+      "total": 204651,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRES",
+          "kind": "officer",
+          "total": 195370
+        }
+      ],
+      "grossSalary": 192380,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 195370,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 137470
+        }
+      ],
+      "grossSalary": 137470,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 137470,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "NALBONO|R",
+      "name": "Rosario Nalbono",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "GRANATO|V",
+      "name": "Vincent Granato",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "WALLK|A",
+      "name": "Anthony Wallk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUSINESS MGR",
+          "kind": "officer",
+          "total": 416003
+        }
+      ],
+      "grossSalary": 409728,
+      "allowances": 0,
+      "officialBusiness": 530,
+      "total": 416003,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 351375
+        }
+      ],
+      "grossSalary": 348079,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 351375,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT/DIRECTOR",
+          "kind": "employee",
+          "total": 200105
+        },
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 202584,
+      "allowances": 0,
+      "officialBusiness": 126,
+      "total": 206730,
+      "dualRole": true
+    },
+    {
+      "year": 2021,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 197518
+        }
+      ],
+      "grossSalary": 191474,
+      "allowances": 0,
+      "officialBusiness": 387,
+      "total": 197518,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 197077
+        }
+      ],
+      "grossSalary": 189108,
+      "allowances": 0,
+      "officialBusiness": 157,
+      "total": 197077,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 190114
+        }
+      ],
+      "grossSalary": 187380,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 190114,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFCIE MANAGER",
+          "kind": "employee",
+          "total": 131570
+        }
+      ],
+      "grossSalary": 131570,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 131570,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "WALLK|A",
+      "name": "Anthony Wallk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "NALBONO|R",
+      "name": "Rosario Nalbono",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUSINESS MGR",
+          "kind": "officer",
+          "total": 404494
+        }
+      ],
+      "grossSalary": 402220,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 404494,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 343157
+        }
+      ],
+      "grossSalary": 340667,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 343157,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT/DIRECTOR",
+          "kind": "employee",
+          "total": 195595
+        }
+      ],
+      "grossSalary": 192210,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 195595,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 194843
+        }
+      ],
+      "grossSalary": 188035,
+      "allowances": 0,
+      "officialBusiness": 574,
+      "total": 194843,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 190676
+        }
+      ],
+      "grossSalary": 185622,
+      "allowances": 0,
+      "officialBusiness": 187,
+      "total": 190676,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 185348
+        }
+      ],
+      "grossSalary": 183300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 185348,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 127800
+        }
+      ],
+      "grossSalary": 127800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 127800,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "NALBONO|R",
+      "name": "Rosario Nalbono",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "GRANATO|V",
+      "name": "Vincent Granato",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "WALLK|A",
+      "name": "Anthony Wallk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 6625
+        }
+      ],
+      "grossSalary": 6625,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6625,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 389026
+        }
+      ],
+      "grossSalary": 383506,
+      "allowances": 0,
+      "officialBusiness": 1722,
+      "total": 389026,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 326252
+        }
+      ],
+      "grossSalary": 322578,
+      "allowances": 0,
+      "officialBusiness": 107,
+      "total": 326252,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 193372
+        }
+      ],
+      "grossSalary": 179164,
+      "allowances": 0,
+      "officialBusiness": 5130,
+      "total": 193372,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 187460
+        }
+      ],
+      "grossSalary": 176788,
+      "allowances": 0,
+      "officialBusiness": 1338,
+      "total": 187460,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 187281
+        }
+      ],
+      "grossSalary": 183259,
+      "allowances": 0,
+      "officialBusiness": 232,
+      "total": 187281,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 177028
+        }
+      ],
+      "grossSalary": 175080,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 177028,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 119770
+        }
+      ],
+      "grossSalary": 119770,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 119770,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 6125
+        }
+      ],
+      "grossSalary": 6125,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6125,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6125
+        }
+      ],
+      "grossSalary": 6125,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6125,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "WALLK|A",
+      "name": "Anthony Wallk",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4125
+        }
+      ],
+      "grossSalary": 4125,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4125,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "NALBONO|R",
+      "name": "Rosario Nalbono",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4125
+        }
+      ],
+      "grossSalary": 4125,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4125,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "GRANATO|V",
+      "name": "Vincent Granato",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4125
+        }
+      ],
+      "grossSalary": 4125,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4125,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "GLADNEY|R",
+      "name": "Rufus Gladney",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2821
+        }
+      ],
+      "grossSalary": 2000,
+      "allowances": 0,
+      "officialBusiness": 821,
+      "total": 2821,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2000
+        }
+      ],
+      "grossSalary": 2000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2000,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "DINARDO|D",
+      "name": "Dominic Dinardo",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 2000
+        }
+      ],
+      "grossSalary": 2000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2000,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 381018
+        }
+      ],
+      "grossSalary": 373370,
+      "allowances": 0,
+      "officialBusiness": 4179,
+      "total": 381018,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 318184
+        }
+      ],
+      "grossSalary": 312592,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 318184,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 188916
+        }
+      ],
+      "grossSalary": 169938,
+      "allowances": 0,
+      "officialBusiness": 1667,
+      "total": 188916,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 188325
+        }
+      ],
+      "grossSalary": 172304,
+      "allowances": 0,
+      "officialBusiness": 93,
+      "total": 188325,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 179785
+        }
+      ],
+      "grossSalary": 175759,
+      "allowances": 0,
+      "officialBusiness": 207,
+      "total": 179785,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 170010
+        }
+      ],
+      "grossSalary": 167780,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 170010,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 113870
+        }
+      ],
+      "grossSalary": 113870,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 113870,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "GLADNEY|R",
+      "name": "Rufus Gladney",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "DINARDO|D",
+      "name": "Dominic Dinardo",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 370441
+        }
+      ],
+      "grossSalary": 365455,
+      "allowances": 0,
+      "officialBusiness": 1611,
+      "total": 370441,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECY-TREASURER",
+          "kind": "officer",
+          "total": 311654
+        }
+      ],
+      "grossSalary": 307911,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 311654,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 191667
+        }
+      ],
+      "grossSalary": 165980,
+      "allowances": 0,
+      "officialBusiness": 10140,
+      "total": 191667,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 180657
+        }
+      ],
+      "grossSalary": 163838,
+      "allowances": 0,
+      "officialBusiness": 809,
+      "total": 180657,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 173275
+        }
+      ],
+      "grossSalary": 169872,
+      "allowances": 0,
+      "officialBusiness": 57,
+      "total": 173275,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 162596
+        }
+      ],
+      "grossSalary": 161780,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 162596,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 107970
+        }
+      ],
+      "grossSalary": 107970,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 107970,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "GLADNEY|R",
+      "name": "Rufus Gladney",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "DINARDO|D",
+      "name": "Dominic Dinardo",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 365399
+        }
+      ],
+      "grossSalary": 358802,
+      "allowances": 0,
+      "officialBusiness": 767,
+      "total": 365399,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 305446
+        }
+      ],
+      "grossSalary": 301771,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 305446,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 180201
+        }
+      ],
+      "grossSalary": 160007,
+      "allowances": 0,
+      "officialBusiness": 2915,
+      "total": 180201,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 176641
+        }
+      ],
+      "grossSalary": 157520,
+      "allowances": 0,
+      "officialBusiness": 746,
+      "total": 176641,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 166707
+        }
+      ],
+      "grossSalary": 163859,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 166707,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 163750
+        }
+      ],
+      "grossSalary": 155780,
+      "allowances": 0,
+      "officialBusiness": 81,
+      "total": 163750,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 102070
+        }
+      ],
+      "grossSalary": 102070,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 102070,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "DINARDO|D",
+      "name": "Dominic Dinardo",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "GLADNEY|R",
+      "name": "Rufus Gladney",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUSINESS MGR",
+          "kind": "officer",
+          "total": 360690
+        }
+      ],
+      "grossSalary": 355873,
+      "allowances": 0,
+      "officialBusiness": 4817,
+      "total": 360690,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY-TREASURER",
+          "kind": "officer",
+          "total": 299328
+        }
+      ],
+      "grossSalary": 298179,
+      "allowances": 0,
+      "officialBusiness": 1149,
+      "total": 299328,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 170125
+        }
+      ],
+      "grossSalary": 152352,
+      "allowances": 0,
+      "officialBusiness": 17773,
+      "total": 170125,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "AUDITOR/ORGANIZING AGENT",
+          "kind": "employee",
+          "total": 168390
+        }
+      ],
+      "grossSalary": 156541,
+      "allowances": 0,
+      "officialBusiness": 11849,
+      "total": 168390,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 162382
+        }
+      ],
+      "grossSalary": 158671,
+      "allowances": 0,
+      "officialBusiness": 3711,
+      "total": 162382,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 152828
+        }
+      ],
+      "grossSalary": 150448,
+      "allowances": 0,
+      "officialBusiness": 2380,
+      "total": 152828,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 96170
+        }
+      ],
+      "grossSalary": 96170,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 96170,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "DINARDO|D",
+      "name": "Dominic Dinardo",
+      "roles": [
+        {
+          "title": "DIRECTOR/SGT AT ARMS",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "GLADNEY|R",
+      "name": "Rufus Gladney",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 365588
+        }
+      ],
+      "grossSalary": 350450,
+      "allowances": 0,
+      "officialBusiness": 15138,
+      "total": 365588,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 315288
+        }
+      ],
+      "grossSalary": 290420,
+      "allowances": 0,
+      "officialBusiness": 24868,
+      "total": 315288,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 170090
+        }
+      ],
+      "grossSalary": 146482,
+      "allowances": 0,
+      "officialBusiness": 23608,
+      "total": 170090,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "BUSINESS & ORGANIZING AGT",
+          "kind": "employee",
+          "total": 165934
+        }
+      ],
+      "grossSalary": 147800,
+      "allowances": 0,
+      "officialBusiness": 18134,
+      "total": 165934,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 154795
+        }
+      ],
+      "grossSalary": 154373,
+      "allowances": 0,
+      "officialBusiness": 422,
+      "total": 154795,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 150520
+        }
+      ],
+      "grossSalary": 145950,
+      "allowances": 0,
+      "officialBusiness": 4570,
+      "total": 150520,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "NAILOMI|J",
+      "name": "Jamie Nailomi",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 91800
+        }
+      ],
+      "grossSalary": 91800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 91800,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "GLADNEY|R",
+      "name": "Rufus Gladney",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "DINARDO|D",
+      "name": "Dominic Dinardo",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5300
+        }
+      ],
+      "grossSalary": 5300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5300,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 353706
+        }
+      ],
+      "grossSalary": 331600,
+      "allowances": 0,
+      "officialBusiness": 22106,
+      "total": 353706,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 294757
+        }
+      ],
+      "grossSalary": 275060,
+      "allowances": 0,
+      "officialBusiness": 19697,
+      "total": 294757,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "employee",
+          "total": 154041
+        }
+      ],
+      "grossSalary": 136886,
+      "allowances": 0,
+      "officialBusiness": 17155,
+      "total": 154041,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "BUS REP/ORGANIZING AGENT",
+          "kind": "employee",
+          "total": 148718
+        }
+      ],
+      "grossSalary": 137150,
+      "allowances": 0,
+      "officialBusiness": 11568,
+      "total": 148718,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 144440
+        }
+      ],
+      "grossSalary": 144258,
+      "allowances": 0,
+      "officialBusiness": 182,
+      "total": 144440,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 139677
+        }
+      ],
+      "grossSalary": 135960,
+      "allowances": 0,
+      "officialBusiness": 3717,
+      "total": 139677,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 82940
+        }
+      ],
+      "grossSalary": 82940,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 82940,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "SZRAMIAK|R",
+      "name": "Richard Szramiak",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3200
+        }
+      ],
+      "grossSalary": 3200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3200,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "GLADNEY|R",
+      "name": "Rufus Gladney",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3200
+        }
+      ],
+      "grossSalary": 3200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3200,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 2800
+        }
+      ],
+      "grossSalary": 2800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2000
+        }
+      ],
+      "grossSalary": 2000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2000,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2000
+        }
+      ],
+      "grossSalary": 2000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2000,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "DINARDO|D",
+      "name": "Dominic Dinardo",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1600
+        }
+      ],
+      "grossSalary": 1600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1600,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 337998
+        }
+      ],
+      "grossSalary": 320800,
+      "allowances": 0,
+      "officialBusiness": 17198,
+      "total": 337998,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 285961
+        }
+      ],
+      "grossSalary": 264660,
+      "allowances": 0,
+      "officialBusiness": 21301,
+      "total": 285961,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "employee",
+          "total": 149715
+        }
+      ],
+      "grossSalary": 130086,
+      "allowances": 0,
+      "officialBusiness": 19629,
+      "total": 149715,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "BUSINESS/ORGANIZING AGENT",
+          "kind": "employee",
+          "total": 146750
+        }
+      ],
+      "grossSalary": 131350,
+      "allowances": 0,
+      "officialBusiness": 15400,
+      "total": 146750,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 141510
+        }
+      ],
+      "grossSalary": 138058,
+      "allowances": 0,
+      "officialBusiness": 3452,
+      "total": 141510,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 133932
+        }
+      ],
+      "grossSalary": 130160,
+      "allowances": 0,
+      "officialBusiness": 3772,
+      "total": 133932,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 77140
+        }
+      ],
+      "grossSalary": 77140,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 77140,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMSC",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 317446
+        }
+      ],
+      "grossSalary": 300700,
+      "allowances": 0,
+      "officialBusiness": 16746,
+      "total": 317446,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 262088
+        }
+      ],
+      "grossSalary": 248940,
+      "allowances": 0,
+      "officialBusiness": 13148,
+      "total": 262088,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 140522
+        }
+      ],
+      "grossSalary": 132258,
+      "allowances": 0,
+      "officialBusiness": 8264,
+      "total": 140522,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "BUSINESS/ORGANIZING AGENT",
+          "kind": "employee",
+          "total": 140031
+        }
+      ],
+      "grossSalary": 125550,
+      "allowances": 0,
+      "officialBusiness": 14481,
+      "total": 140031,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "employee",
+          "total": 136746
+        }
+      ],
+      "grossSalary": 124286,
+      "allowances": 0,
+      "officialBusiness": 12460,
+      "total": 136746,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 131338
+        }
+      ],
+      "grossSalary": 124160,
+      "allowances": 0,
+      "officialBusiness": 7178,
+      "total": 131338,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 71340
+        }
+      ],
+      "grossSalary": 71340,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 71340,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7600
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 2400,
+      "total": 7600,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 300594
+        }
+      ],
+      "grossSalary": 292147,
+      "allowances": 0,
+      "officialBusiness": 8447,
+      "total": 300594,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 239108
+        }
+      ],
+      "grossSalary": 233466,
+      "allowances": 0,
+      "officialBusiness": 5642,
+      "total": 239108,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECY",
+          "kind": "officer",
+          "total": 131074
+        }
+      ],
+      "grossSalary": 119354,
+      "allowances": 0,
+      "officialBusiness": 11720,
+      "total": 131074,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 130203
+        }
+      ],
+      "grossSalary": 125958,
+      "allowances": 0,
+      "officialBusiness": 4245,
+      "total": 130203,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "officer",
+          "total": 128611
+        }
+      ],
+      "grossSalary": 121445,
+      "allowances": 0,
+      "officialBusiness": 7166,
+      "total": 128611,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 120420
+        }
+      ],
+      "grossSalary": 117660,
+      "allowances": 0,
+      "officialBusiness": 2760,
+      "total": 120420,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "ADMIN OFFICE MGR",
+          "kind": "employee",
+          "total": 65540
+        }
+      ],
+      "grossSalary": 65540,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 65540,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4950
+        }
+      ],
+      "grossSalary": 4950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4950,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4950
+        }
+      ],
+      "grossSalary": 4950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4950,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4950
+        }
+      ],
+      "grossSalary": 4950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4950,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4950
+        }
+      ],
+      "grossSalary": 4950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4950,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4950
+        }
+      ],
+      "grossSalary": 4950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4950,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 281484
+        }
+      ],
+      "grossSalary": 274000,
+      "allowances": 0,
+      "officialBusiness": 7484,
+      "total": 281484,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 219739
+        }
+      ],
+      "grossSalary": 214160,
+      "allowances": 0,
+      "officialBusiness": 5579,
+      "total": 219739,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 125498
+        }
+      ],
+      "grossSalary": 116436,
+      "allowances": 0,
+      "officialBusiness": 9062,
+      "total": 125498,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "officer",
+          "total": 124354
+        }
+      ],
+      "grossSalary": 115425,
+      "allowances": 0,
+      "officialBusiness": 8929,
+      "total": 124354,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 123562
+        }
+      ],
+      "grossSalary": 119707,
+      "allowances": 0,
+      "officialBusiness": 3855,
+      "total": 123562,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 117403
+        }
+      ],
+      "grossSalary": 113960,
+      "allowances": 0,
+      "officialBusiness": 3443,
+      "total": 117403,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE OFFICE MGR",
+          "kind": "employee",
+          "total": 59640
+        }
+      ],
+      "grossSalary": 59640,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 59640,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 6750
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 2200,
+      "total": 6750,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 6750
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 2200,
+      "total": 6750,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4550
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4550,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4550
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4550,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4550
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4550,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 265699
+        }
+      ],
+      "grossSalary": 260716,
+      "allowances": 0,
+      "officialBusiness": 4983,
+      "total": 265699,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 206126
+        }
+      ],
+      "grossSalary": 197325,
+      "allowances": 0,
+      "officialBusiness": 8801,
+      "total": 206126,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 122897
+        }
+      ],
+      "grossSalary": 111296,
+      "allowances": 0,
+      "officialBusiness": 11601,
+      "total": 122897,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 120785
+        }
+      ],
+      "grossSalary": 115890,
+      "allowances": 0,
+      "officialBusiness": 4895,
+      "total": 120785,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 109947
+        }
+      ],
+      "grossSalary": 106905,
+      "allowances": 0,
+      "officialBusiness": 3042,
+      "total": 109947,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "officer",
+          "total": 71269
+        }
+      ],
+      "grossSalary": 65154,
+      "allowances": 0,
+      "officialBusiness": 6115,
+      "total": 71269,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE",
+          "kind": "employee",
+          "total": 52910
+        }
+      ],
+      "grossSalary": 52910,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 52910,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4550
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4550,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4550
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4550,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4550
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4550,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4550
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4550,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4550
+        }
+      ],
+      "grossSalary": 4550,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4550,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "KATSIVALI|S",
+      "name": "Steven Katsivali",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1750
+        }
+      ],
+      "grossSalary": 1750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1750,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 246893
+        }
+      ],
+      "grossSalary": 239200,
+      "allowances": 0,
+      "officialBusiness": 7693,
+      "total": 246893,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 175907
+        }
+      ],
+      "grossSalary": 167880,
+      "allowances": 0,
+      "officialBusiness": 8027,
+      "total": 175907,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 109108
+        }
+      ],
+      "grossSalary": 103756,
+      "allowances": 0,
+      "officialBusiness": 5352,
+      "total": 109108,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 108900
+        }
+      ],
+      "grossSalary": 98196,
+      "allowances": 0,
+      "officialBusiness": 10704,
+      "total": 108900,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 97242
+        }
+      ],
+      "grossSalary": 95570,
+      "allowances": 0,
+      "officialBusiness": 1672,
+      "total": 97242,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "NAIMOLI|J",
+      "name": "Jamie Naimoli",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE",
+          "kind": "employee",
+          "total": 46380
+        }
+      ],
+      "grossSalary": 46380,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 46380,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4050
+        }
+      ],
+      "grossSalary": 4050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4050,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR/AUDITOR",
+          "kind": "officer",
+          "total": 4050
+        }
+      ],
+      "grossSalary": 4050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4050,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4050
+        }
+      ],
+      "grossSalary": 4050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4050,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4050
+        }
+      ],
+      "grossSalary": 4050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4050,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4050
+        }
+      ],
+      "grossSalary": 4050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4050,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4050
+        }
+      ],
+      "grossSalary": 4050,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4050,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 234174
+        }
+      ],
+      "grossSalary": 227350,
+      "allowances": 0,
+      "officialBusiness": 6824,
+      "total": 234174,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 158148
+        }
+      ],
+      "grossSalary": 150948,
+      "allowances": 0,
+      "officialBusiness": 7200,
+      "total": 158148,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "GAMBINO|J",
+      "name": "Judith Gambino",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE",
+          "kind": "employee",
+          "total": 136880
+        }
+      ],
+      "grossSalary": 136880,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 136880,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 102796
+        }
+      ],
+      "grossSalary": 97605,
+      "allowances": 0,
+      "officialBusiness": 5191,
+      "total": 102796,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 101938
+        }
+      ],
+      "grossSalary": 92252,
+      "allowances": 0,
+      "officialBusiness": 9686,
+      "total": 101938,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "JENSEN|J",
+      "name": "Jamie Jensen",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE",
+          "kind": "employee",
+          "total": 34950
+        }
+      ],
+      "grossSalary": 34950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 34950,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 22994
+        },
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7400
+        }
+      ],
+      "grossSalary": 28760,
+      "allowances": 0,
+      "officialBusiness": 1634,
+      "total": 30394,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "PIERUCCIN|R",
+      "name": "Richard Pieruccin",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5350
+        }
+      ],
+      "grossSalary": 5350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5350,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5350
+        }
+      ],
+      "grossSalary": 5350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5350,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5350
+        }
+      ],
+      "grossSalary": 5350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5350,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3350
+        }
+      ],
+      "grossSalary": 3350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3350,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "AUDITOR/DIRECTOR",
+          "kind": "officer",
+          "total": 3250
+        }
+      ],
+      "grossSalary": 3250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3250,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3250
+        }
+      ],
+      "grossSalary": 3250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3250,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "NAIMOLI|L",
+      "name": "Liberato Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 215026
+        }
+      ],
+      "grossSalary": 209250,
+      "allowances": 0,
+      "officialBusiness": 5776,
+      "total": 215026,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 144077
+        }
+      ],
+      "grossSalary": 137800,
+      "allowances": 0,
+      "officialBusiness": 6277,
+      "total": 144077,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 94073
+        }
+      ],
+      "grossSalary": 89805,
+      "allowances": 0,
+      "officialBusiness": 4268,
+      "total": 94073,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 91897
+        }
+      ],
+      "grossSalary": 83110,
+      "allowances": 0,
+      "officialBusiness": 8787,
+      "total": 91897,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "GAMBINO|J",
+      "name": "Judith Gambino",
+      "roles": [
+        {
+          "title": "ADMINISTRATIVE",
+          "kind": "employee",
+          "total": 79505
+        }
+      ],
+      "grossSalary": 79505,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 79505,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7800
+        }
+      ],
+      "grossSalary": 7800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7800,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "AUDITOR/DIRECTOR",
+          "kind": "officer",
+          "total": 3250
+        }
+      ],
+      "grossSalary": 3250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3250,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3250
+        }
+      ],
+      "grossSalary": 3250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3250,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3250
+        }
+      ],
+      "grossSalary": 3250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3250,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3250
+        }
+      ],
+      "grossSalary": 3250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3250,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3250
+        }
+      ],
+      "grossSalary": 3250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3250,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3250
+        }
+      ],
+      "grossSalary": 3250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3250,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "AMODEO|D",
+      "name": "Danielle Amodeo",
+      "roles": [
+        {
+          "title": "OFFICE CLERK",
+          "kind": "employee",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "NAIMOLI|L",
+      "name": "Liberat Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 198419
+        }
+      ],
+      "grossSalary": 193250,
+      "allowances": 0,
+      "officialBusiness": 5169,
+      "total": 198419,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECY/TREAS",
+          "kind": "officer",
+          "total": 133538
+        }
+      ],
+      "grossSalary": 127780,
+      "allowances": 0,
+      "officialBusiness": 5758,
+      "total": 133538,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUS REP",
+          "kind": "officer",
+          "total": 89874
+        }
+      ],
+      "grossSalary": 86006,
+      "allowances": 0,
+      "officialBusiness": 3868,
+      "total": 89874,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "BUS REP",
+          "kind": "officer",
+          "total": 88080
+        }
+      ],
+      "grossSalary": 80144,
+      "allowances": 0,
+      "officialBusiness": 7936,
+      "total": 88080,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "GAMBINO|J",
+      "name": "Judith Gambino",
+      "roles": [
+        {
+          "title": "ADMIN SECY",
+          "kind": "employee",
+          "total": 75915
+        }
+      ],
+      "grossSalary": 75915,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 75915,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "AMODEO|D",
+      "name": "Daniell Amodeo",
+      "roles": [
+        {
+          "title": "OFFICE CLERK",
+          "kind": "employee",
+          "total": 21600
+        }
+      ],
+      "grossSalary": 21600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 21600,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7300
+        }
+      ],
+      "grossSalary": 7300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7300,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "NAIMOLI|L",
+      "name": "Liberat Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 184400
+        }
+      ],
+      "grossSalary": 178050,
+      "allowances": 0,
+      "officialBusiness": 6350,
+      "total": 184400,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECY/TREAS",
+          "kind": "officer",
+          "total": 124511
+        }
+      ],
+      "grossSalary": 117400,
+      "allowances": 0,
+      "officialBusiness": 7111,
+      "total": 124511,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 87953
+        }
+      ],
+      "grossSalary": 83381,
+      "allowances": 0,
+      "officialBusiness": 4572,
+      "total": 87953,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 85952
+        }
+      ],
+      "grossSalary": 78587,
+      "allowances": 0,
+      "officialBusiness": 7365,
+      "total": 85952,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "GAMBINO|J",
+      "name": "Judy Gambino",
+      "roles": [
+        {
+          "title": "ADMIN SECY",
+          "kind": "employee",
+          "total": 74985
+        }
+      ],
+      "grossSalary": 74985,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 74985,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "AMODEO|D",
+      "name": "Daniell Amodeo",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 9600
+        }
+      ],
+      "grossSalary": 9600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 9600,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "GALLUZZI|R",
+      "name": "Richard Galluzzi",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 8500
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 2000,
+      "total": 8500,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 2000,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 2000,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 2000,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 2000,
+      "allowances": 0,
+      "officialBusiness": 2600,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 2000,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "KATSIVALIS|S",
+      "name": "Steven Katsivalis",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 2000,
+      "total": 4600,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "NAIMOLI|A",
+      "name": "Al Naimoli",
+      "roles": [
+        {
+          "title": "PRESDIENT",
+          "kind": "officer",
+          "total": 174488
+        }
+      ],
+      "grossSalary": 169350,
+      "allowances": 0,
+      "officialBusiness": 5138,
+      "total": 174488,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECY/TREAS",
+          "kind": "officer",
+          "total": 111709
+        }
+      ],
+      "grossSalary": 105900,
+      "allowances": 0,
+      "officialBusiness": 5809,
+      "total": 111709,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 77699
+        }
+      ],
+      "grossSalary": 71802,
+      "allowances": 0,
+      "officialBusiness": 5897,
+      "total": 77699,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUINESS REP",
+          "kind": "officer",
+          "total": 77556
+        }
+      ],
+      "grossSalary": 74304,
+      "allowances": 0,
+      "officialBusiness": 3252,
+      "total": 77556,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GAMBINO|J",
+      "name": "Judy Gambino",
+      "roles": [
+        {
+          "title": "ADMIN SECY",
+          "kind": "employee",
+          "total": 68410
+        }
+      ],
+      "grossSalary": 68410,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 68410,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 6500
+        }
+      ],
+      "grossSalary": 6500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6500,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "AMODEO|D",
+      "name": "Daniell Amodeo",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "NIEMOTKA|E",
+      "name": "Edward Niemotka",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "NAILMOLI|A",
+      "name": "Al Nailmoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 169310
+        }
+      ],
+      "grossSalary": 165250,
+      "allowances": 0,
+      "officialBusiness": 4060,
+      "total": 169310,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECY/TREAS",
+          "kind": "officer",
+          "total": 101481
+        }
+      ],
+      "grossSalary": 97520,
+      "allowances": 0,
+      "officialBusiness": 3961,
+      "total": 101481,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DARMSTADT|A",
+      "name": "Anthonu Darmstadt",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 74725
+        }
+      ],
+      "grossSalary": 71135,
+      "allowances": 0,
+      "officialBusiness": 3590,
+      "total": 74725,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GAMBINO|J",
+      "name": "Judy Gambino",
+      "roles": [
+        {
+          "title": "ADMIN SECY",
+          "kind": "employee",
+          "total": 63460
+        }
+      ],
+      "grossSalary": 63460,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 63460,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 39912
+        }
+      ],
+      "grossSalary": 38952,
+      "allowances": 0,
+      "officialBusiness": 960,
+      "total": 39912,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 7000
+        }
+      ],
+      "grossSalary": 7000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 7000,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 4350
+        }
+      ],
+      "grossSalary": 4350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4350,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "BENOIT|F",
+      "name": "Fed Benoit",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2350
+        }
+      ],
+      "grossSalary": 2350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2350,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2350
+        }
+      ],
+      "grossSalary": 2350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2350,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2350
+        }
+      ],
+      "grossSalary": 2350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2350,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "NIEMOTKA|E",
+      "name": "Edward Niemotka",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2350
+        }
+      ],
+      "grossSalary": 2350,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2350,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "OLIVER|W",
+      "name": "William Oliver",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1600
+        }
+      ],
+      "grossSalary": 1600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1600,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "PIERUCCINI|R",
+      "name": "Richard Pieruccini",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1600
+        }
+      ],
+      "grossSalary": 1600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1600,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "LAPORE|M",
+      "name": "Marcus Lapore",
+      "roles": [
+        {
+          "title": "SECY/TREAS",
+          "kind": "officer",
+          "total": 93238
+        }
+      ],
+      "grossSalary": 86940,
+      "allowances": 0,
+      "officialBusiness": 6298,
+      "total": 93238,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DARMSTADT|A",
+      "name": "Anthony Darmstadt",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "officer",
+          "total": 68036
+        }
+      ],
+      "grossSalary": 65423,
+      "allowances": 0,
+      "officialBusiness": 2613,
+      "total": 68036,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "GAMBINO|J",
+      "name": "Judy Gambino",
+      "roles": [
+        {
+          "title": "ADMIN SECY",
+          "kind": "employee",
+          "total": 58440
+        }
+      ],
+      "grossSalary": 58440,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 58440,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "OLIVER|W",
+      "name": "William Oliver",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 5200
+        }
+      ],
+      "grossSalary": 5200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5200,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "NAIMOLI|L",
+      "name": "Liberat Naimoli",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 3029
+        }
+      ],
+      "grossSalary": 159000,
+      "allowances": 0,
+      "officialBusiness": 4029,
+      "total": 3029,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "GALUZZI|R",
+      "name": "Richard Galuzzi",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 2600
+        }
+      ],
+      "grossSalary": 2600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2600,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "BENOIT|F",
+      "name": "Fred Benoit",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1950
+        }
+      ],
+      "grossSalary": 1950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1950,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CATEZONE|G",
+      "name": "George Catezone",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1950
+        }
+      ],
+      "grossSalary": 1950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1950,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CUVALA|R",
+      "name": "Robert Cuvala",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1950
+        }
+      ],
+      "grossSalary": 1950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1950,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DYSON|M",
+      "name": "Michael Dyson",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1950
+        }
+      ],
+      "grossSalary": 1950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1950,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "GRANATO|R",
+      "name": "Rafael Granato",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1950
+        }
+      ],
+      "grossSalary": 1950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1950,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "NIEMOTKA|E",
+      "name": "Edward Niemotka",
+      "roles": [
+        {
+          "title": "DIRECTOR",
+          "kind": "officer",
+          "total": 1950
+        }
+      ],
+      "grossSalary": 1950,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1950,
+      "dualRole": false
+    }
+  ],
+  "dues": {
+    "2005": [
+      {
+        "type": "Regular dues",
+        "amount": "$72",
+        "unit": "quarter",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.75% gross",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$600",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2006": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "mth",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.75%",
+        "unit": "gross pay",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "600",
+        "unit": "member",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2007": [
+      {
+        "type": "Regular dues",
+        "amount": "24",
+        "unit": "month",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "gross pay",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "member",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2008": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "qtr",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "gross pay",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "member",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2009": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "QTR",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "GROSS PAY",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "member",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "n/a",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2010": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "QTR",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "GROSS PAY",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "MEMBER",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2011": [
+      {
+        "type": "Regular dues",
+        "amount": "72",
+        "unit": "qtr",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "2.75%",
+        "unit": "wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "700",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2012": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25",
+        "unit": "hour",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2013": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "month",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25$",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2014": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "month",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.25%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2015": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "month",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2016": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "month",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "3.75% gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2017": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2018": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2019": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2020": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2021": [
+      {
+        "type": "Regular dues",
+        "amount": "30",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2022": [
+      {
+        "type": "Regular dues",
+        "amount": "40",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": null,
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2023": [
+      {
+        "type": "Regular dues",
+        "amount": "40",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      }
+    ],
+    "2024": [
+      {
+        "type": "Regular dues",
+        "amount": "40",
+        "unit": "mth",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": "0"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": "0",
+        "min": "0",
+        "max": null
+      }
+    ],
+    "2025": [
+      {
+        "type": "Regular dues",
+        "amount": "40",
+        "unit": "mth",
+        "min": "n/a",
+        "max": "n/a"
+      },
+      {
+        "type": "Working dues",
+        "amount": "3.75%",
+        "unit": "gross wages",
+        "min": "n/a",
+        "max": "n/a"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "800",
+        "unit": "member",
+        "min": "n/a",
+        "max": "n/a"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "0",
+        "unit": null,
+        "min": "n/a",
+        "max": "n/a"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "0",
+        "unit": null,
+        "min": "n/a",
+        "max": "n/a"
+      }
+    ]
+  },
+  "surnameClusters": [
+    {
+      "year": 2025,
+      "surname": "GRANATO",
+      "people": [
+        {
+          "name": "Rafael Granato",
+          "total": 227975,
+          "roles": [
+            "BUSINESS AGENT/DIRECTOR"
+          ]
+        },
+        {
+          "name": "Vincent Granato",
+          "total": 7450,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 235425
+    },
+    {
+      "year": 2024,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 451537,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 149270,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 600807
+    },
+    {
+      "year": 2024,
+      "surname": "GRANATO",
+      "people": [
+        {
+          "name": "Rafael Granato",
+          "total": 217224,
+          "roles": [
+            "BUSINESS AGT/DIRECTOR"
+          ]
+        },
+        {
+          "name": "Vincent Granato",
+          "total": 6625,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 223849
+    },
+    {
+      "year": 2023,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 437181,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 143370,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 580551
+    },
+    {
+      "year": 2023,
+      "surname": "GRANATO",
+      "people": [
+        {
+          "name": "Rafael Granato",
+          "total": 211753,
+          "roles": [
+            "BUSINESS AGENT/DIRECTOR"
+          ]
+        },
+        {
+          "name": "Vincent Granato",
+          "total": 6625,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 218378
+    },
+    {
+      "year": 2022,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 430690,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 137470,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 568160
+    },
+    {
+      "year": 2022,
+      "surname": "GRANATO",
+      "people": [
+        {
+          "name": "Rafael Granato",
+          "total": 206832,
+          "roles": [
+            "BUSINESS AGENT/DIRECTOR"
+          ]
+        },
+        {
+          "name": "Vincent Granato",
+          "total": 6625,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 213457
+    },
+    {
+      "year": 2021,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 416003,
+          "roles": [
+            "PRESIDENT/BUSINESS MGR"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 131570,
+          "roles": [
+            "OFFCIE MANAGER"
+          ]
+        }
+      ],
+      "combined": 547573
+    },
+    {
+      "year": 2020,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 404494,
+          "roles": [
+            "PRESIDENT/BUSINESS MGR"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 127800,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 532294
+    },
+    {
+      "year": 2020,
+      "surname": "GRANATO",
+      "people": [
+        {
+          "name": "Rafael Granato",
+          "total": 195595,
+          "roles": [
+            "BUSINESS AGENT/DIRECTOR"
+          ]
+        },
+        {
+          "name": "Vincent Granato",
+          "total": 6625,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 202220
+    },
+    {
+      "year": 2019,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 389026,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 119770,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 508796
+    },
+    {
+      "year": 2019,
+      "surname": "GRANATO",
+      "people": [
+        {
+          "name": "Rafael Granato",
+          "total": 187281,
+          "roles": [
+            "BUSINESS AGENT"
+          ]
+        },
+        {
+          "name": "Vincent Granato",
+          "total": 4125,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 191406
+    },
+    {
+      "year": 2018,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 381018,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 113870,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 494888
+    },
+    {
+      "year": 2017,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 370441,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 107970,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 478411
+    },
+    {
+      "year": 2016,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 365399,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 102070,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 467469
+    },
+    {
+      "year": 2015,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 360690,
+          "roles": [
+            "PRESIDENT/BUSINESS MGR"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 96170,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 456860
+    },
+    {
+      "year": 2013,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 353706,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 82940,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 436646
+    },
+    {
+      "year": 2012,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 337998,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 77140,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 415138
+    },
+    {
+      "year": 2011,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 317446,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 71340,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 388786
+    },
+    {
+      "year": 2010,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 300594,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 65540,
+          "roles": [
+            "ADMIN OFFICE MGR"
+          ]
+        }
+      ],
+      "combined": 366134
+    },
+    {
+      "year": 2009,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 281484,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 59640,
+          "roles": [
+            "ADMINISTRATIVE OFFICE MGR"
+          ]
+        }
+      ],
+      "combined": 341124
+    },
+    {
+      "year": 2008,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 265699,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 52910,
+          "roles": [
+            "ADMINISTRATIVE"
+          ]
+        }
+      ],
+      "combined": 318609
+    },
+    {
+      "year": 2007,
+      "surname": "NAIMOLI",
+      "people": [
+        {
+          "name": "Liberato Naimoli",
+          "total": 246893,
+          "roles": [
+            "PRESIDENT"
+          ]
+        },
+        {
+          "name": "Jamie Naimoli",
+          "total": 46380,
+          "roles": [
+            "ADMINISTRATIVE"
+          ]
+        }
+      ],
+      "combined": 293273
+    }
+  ],
+  "events": [],
+  "lineage": []
+}

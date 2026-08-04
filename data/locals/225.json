@@ -1,0 +1,8610 @@
+{
+  "desig": 225,
+  "fNum": 19479,
+  "city": "Willow Springs",
+  "role": "local",
+  "label": "Local 225",
+  "latestYear": 2025,
+  "members": 1703,
+  "years": [
+    {
+      "year": 2025,
+      "formType": "LM-2",
+      "rptId": 928828,
+      "members": 1703,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 134,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2025,
+        "representational": 786030,
+        "political": 0,
+        "contributions": 275194,
+        "general_overhead": 210843,
+        "union_administration": 781606,
+        "benefits": 763080,
+        "per_capita_tax": 536143,
+        "direct_taxes": 119169,
+        "investments": 1134962,
+        "to_officers": 795027,
+        "to_employees": 84369,
+        "dues": 3426764,
+        "interest": 252093,
+        "dividends": 643134,
+        "fees": 239525,
+        "other_receipts": 124544
+      },
+      "representationalPerMember": 462,
+      "assets": 14843308,
+      "liabilities": 197879,
+      "receipts": 4686060,
+      "disbursements": 4599821,
+      "receiptsPerMember": 2752,
+      "assetsPerMember": 8716,
+      "disbursementsPerMember": 2701,
+      "payrollShare": 30.5
+    },
+    {
+      "year": 2024,
+      "formType": "LM-2",
+      "rptId": 905137,
+      "members": 1758,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 103,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2024,
+        "representational": 854935,
+        "political": 12013,
+        "contributions": 235019,
+        "general_overhead": 190316,
+        "union_administration": 628640,
+        "benefits": 821902,
+        "per_capita_tax": 556730,
+        "direct_taxes": 128965,
+        "investments": 1054498,
+        "to_officers": 728993,
+        "to_employees": 93924,
+        "dues": 3221440,
+        "interest": 205313,
+        "dividends": 395203,
+        "fees": 231628,
+        "other_receipts": 129413
+      },
+      "representationalPerMember": 486,
+      "assets": 13624095,
+      "liabilities": 178098,
+      "receipts": 4182997,
+      "disbursements": 4493668,
+      "receiptsPerMember": 2379,
+      "assetsPerMember": 7750,
+      "disbursementsPerMember": 2556,
+      "payrollShare": 29.6
+    },
+    {
+      "year": 2023,
+      "formType": "LM-2",
+      "rptId": 885499,
+      "members": 1739,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 94,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2023,
+        "representational": 915012,
+        "political": 0,
+        "contributions": 286385,
+        "general_overhead": 198915,
+        "union_administration": 541640,
+        "benefits": 886420,
+        "per_capita_tax": 534193,
+        "direct_taxes": 126493,
+        "investments": 445756,
+        "to_officers": 703867,
+        "to_employees": 74374,
+        "dues": 3182321,
+        "interest": 181991,
+        "dividends": 166683,
+        "fees": 254970,
+        "other_receipts": 136406
+      },
+      "representationalPerMember": 526,
+      "assets": 12801406,
+      "liabilities": 198829,
+      "receipts": 3922371,
+      "disbursements": 3934074,
+      "receiptsPerMember": 2256,
+      "assetsPerMember": 7361,
+      "disbursementsPerMember": 2262,
+      "payrollShare": 33.6
+    },
+    {
+      "year": 2022,
+      "formType": "LM-2",
+      "rptId": 858372,
+      "members": 1753,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 89,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2022,
+        "representational": 945524,
+        "political": 1241,
+        "contributions": 245146,
+        "general_overhead": 184163,
+        "union_administration": 525003,
+        "benefits": 916219,
+        "per_capita_tax": 548451,
+        "direct_taxes": 128027,
+        "investments": 636263,
+        "to_officers": 728369,
+        "to_employees": 72392,
+        "dues": 3158372,
+        "interest": 165392,
+        "dividends": 154288,
+        "fees": 258395,
+        "other_receipts": 166360
+      },
+      "representationalPerMember": 539,
+      "assets": 11551516,
+      "liabilities": 115917,
+      "receipts": 4301527,
+      "disbursements": 4134084,
+      "receiptsPerMember": 2454,
+      "assetsPerMember": 6590,
+      "disbursementsPerMember": 2358,
+      "payrollShare": 32.5
+    },
+    {
+      "year": 2021,
+      "formType": "LM-2",
+      "rptId": 809298,
+      "members": 1794,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 73,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2021,
+        "representational": 1026915,
+        "political": 0,
+        "contributions": 189332,
+        "general_overhead": 138309,
+        "union_administration": 506178,
+        "benefits": 897758,
+        "per_capita_tax": 515088,
+        "direct_taxes": 127202,
+        "investments": 1209253,
+        "to_officers": 668569,
+        "to_employees": 159981,
+        "dues": 2604448,
+        "interest": 166732,
+        "dividends": 267399,
+        "fees": 180930,
+        "other_receipts": 470045
+      },
+      "representationalPerMember": 572,
+      "assets": 13606723,
+      "liabilities": 150992,
+      "receipts": 4996229,
+      "disbursements": 4608581,
+      "receiptsPerMember": 2785,
+      "assetsPerMember": 7585,
+      "disbursementsPerMember": 2569,
+      "payrollShare": 29
+    },
+    {
+      "year": 2020,
+      "formType": "LM-2",
+      "rptId": 742850,
+      "members": 1839,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 49,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2020,
+        "representational": 967732,
+        "political": 0,
+        "contributions": 356403,
+        "general_overhead": 162755,
+        "union_administration": 483599,
+        "benefits": 863102,
+        "per_capita_tax": 569565,
+        "direct_taxes": 114807,
+        "investments": 1205975,
+        "to_officers": 673229,
+        "to_employees": 139268,
+        "dues": 2560353,
+        "interest": 181910,
+        "dividends": 199840,
+        "fees": 169977,
+        "other_receipts": 135075
+      },
+      "representationalPerMember": 526,
+      "assets": 12972914,
+      "liabilities": 140877,
+      "receipts": 4091875,
+      "disbursements": 4711199,
+      "receiptsPerMember": 2225,
+      "assetsPerMember": 7054,
+      "disbursementsPerMember": 2562,
+      "payrollShare": 27.8
+    },
+    {
+      "year": 2019,
+      "formType": "LM-2",
+      "rptId": 720766,
+      "members": 2040,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 47,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2019,
+        "representational": 789220,
+        "political": 3917,
+        "contributions": 293494,
+        "general_overhead": 147803,
+        "union_administration": 527926,
+        "benefits": 691204,
+        "per_capita_tax": 634953,
+        "direct_taxes": 107241,
+        "investments": 2257167,
+        "to_officers": 605510,
+        "to_employees": 116644,
+        "dues": 3170849,
+        "interest": 171810,
+        "dividends": 190221,
+        "fees": 325177,
+        "other_receipts": 57799
+      },
+      "representationalPerMember": 387,
+      "assets": 12417669,
+      "liabilities": 121296,
+      "receipts": 4655877,
+      "disbursements": 5440141,
+      "receiptsPerMember": 2282,
+      "assetsPerMember": 6087,
+      "disbursementsPerMember": 2667,
+      "payrollShare": 20.8
+    },
+    {
+      "year": 2018,
+      "formType": "LM-2",
+      "rptId": 698460,
+      "members": 1926,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 38,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2018,
+        "representational": 722185,
+        "political": 0,
+        "contributions": 293595,
+        "general_overhead": 144410,
+        "union_administration": 528734,
+        "benefits": 635478,
+        "per_capita_tax": 576795,
+        "direct_taxes": 106067,
+        "investments": 1395599,
+        "to_officers": 565303,
+        "to_employees": 113185,
+        "dues": 3002145,
+        "interest": 112446,
+        "dividends": 221648,
+        "fees": 309134,
+        "other_receipts": 8286
+      },
+      "representationalPerMember": 375,
+      "assets": 10661528,
+      "liabilities": 94418,
+      "receipts": 4587989,
+      "disbursements": 4423000,
+      "receiptsPerMember": 2382,
+      "assetsPerMember": 5536,
+      "disbursementsPerMember": 2296,
+      "payrollShare": 24
+    },
+    {
+      "year": 2017,
+      "formType": "LM-2",
+      "rptId": 666771,
+      "members": 2008,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 42,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2017,
+        "representational": 783877,
+        "political": 1462,
+        "contributions": 171226,
+        "general_overhead": 140329,
+        "union_administration": 435199,
+        "benefits": 685235,
+        "per_capita_tax": 586916,
+        "direct_taxes": 108448,
+        "investments": 673011,
+        "to_officers": 469362,
+        "to_employees": 198065,
+        "dues": 2830442,
+        "interest": 188307,
+        "dividends": 181876,
+        "fees": 293688,
+        "other_receipts": 75372
+      },
+      "representationalPerMember": 390,
+      "assets": 10673266,
+      "liabilities": 191465,
+      "receipts": 3680006,
+      "disbursements": 3586152,
+      "receiptsPerMember": 1833,
+      "assetsPerMember": 5315,
+      "disbursementsPerMember": 1786,
+      "payrollShare": 29.6
+    },
+    {
+      "year": 2016,
+      "formType": "LM-2",
+      "rptId": 639740,
+      "members": 1986,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 34,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2016,
+        "representational": 685614,
+        "political": 0,
+        "contributions": 179336,
+        "general_overhead": 162733,
+        "union_administration": 474892,
+        "benefits": 647829,
+        "per_capita_tax": 544552,
+        "direct_taxes": 99271,
+        "investments": 834293,
+        "to_officers": 462696,
+        "to_employees": 185561,
+        "dues": 2766508,
+        "interest": 95806,
+        "dividends": 141816,
+        "fees": 342247,
+        "other_receipts": 9524
+      },
+      "representationalPerMember": 345,
+      "assets": 9591018,
+      "liabilities": 178275,
+      "receipts": 3424698,
+      "disbursements": 3628200,
+      "receiptsPerMember": 1724,
+      "assetsPerMember": 4829,
+      "disbursementsPerMember": 1827,
+      "payrollShare": 27.7
+    },
+    {
+      "year": 2015,
+      "formType": "LM-2",
+      "rptId": 610543,
+      "members": 1970,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 26,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2015,
+        "representational": 482816,
+        "political": 0,
+        "contributions": 108900,
+        "general_overhead": 161598,
+        "union_administration": 478357,
+        "benefits": 502044,
+        "per_capita_tax": 567275,
+        "direct_taxes": 90613,
+        "investments": 1096328,
+        "to_officers": 473247,
+        "to_employees": 61212,
+        "dues": 2575936,
+        "interest": 124826,
+        "dividends": 161943,
+        "fees": 314239,
+        "other_receipts": 23845
+      },
+      "representationalPerMember": 245,
+      "assets": 8935138,
+      "liabilities": 217825,
+      "receipts": 3245101,
+      "disbursements": 3501738,
+      "receiptsPerMember": 1647,
+      "assetsPerMember": 4536,
+      "disbursementsPerMember": 1778,
+      "payrollShare": 23.8
+    },
+    {
+      "year": 2014,
+      "formType": "LM-2",
+      "rptId": 581466,
+      "members": 2132,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 18,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2014,
+        "representational": 566609,
+        "political": 2286,
+        "contributions": 61857,
+        "general_overhead": 124763,
+        "union_administration": 422131,
+        "benefits": 550444,
+        "per_capita_tax": 579175,
+        "direct_taxes": 91252,
+        "investments": 1891520,
+        "to_officers": 520597,
+        "to_employees": 37393,
+        "dues": 2613792,
+        "interest": 121252,
+        "dividends": 160760,
+        "fees": 347748,
+        "other_receipts": 9131
+      },
+      "representationalPerMember": 266,
+      "assets": 8449909,
+      "liabilities": 198152,
+      "receipts": 4774925,
+      "disbursements": 4271646,
+      "receiptsPerMember": 2240,
+      "assetsPerMember": 3963,
+      "disbursementsPerMember": 2004,
+      "payrollShare": 20.3
+    },
+    {
+      "year": 2013,
+      "formType": "LM-2",
+      "rptId": 548807,
+      "members": 2132,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 18,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2013,
+        "representational": 592387,
+        "political": 0,
+        "contributions": 19819,
+        "general_overhead": 142477,
+        "union_administration": 408964,
+        "benefits": 583324,
+        "per_capita_tax": 563957,
+        "direct_taxes": 56484,
+        "investments": 586158,
+        "to_officers": 529434,
+        "to_employees": 37588,
+        "dues": 2449626,
+        "interest": 86488,
+        "dividends": 147286,
+        "fees": 300897,
+        "other_receipts": 15041
+      },
+      "representationalPerMember": 278,
+      "assets": 7534954,
+      "liabilities": 170041,
+      "receipts": 3367036,
+      "disbursements": 2953926,
+      "receiptsPerMember": 1579,
+      "assetsPerMember": 3534,
+      "disbursementsPerMember": 1386,
+      "payrollShare": 30.2
+    },
+    {
+      "year": 2012,
+      "formType": "LM-2",
+      "rptId": 519901,
+      "members": 2131,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 16,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2012,
+        "representational": 589516,
+        "political": 0,
+        "contributions": 10241,
+        "general_overhead": 48924,
+        "union_administration": 470633,
+        "benefits": 551639,
+        "per_capita_tax": 545041,
+        "direct_taxes": 54152,
+        "investments": 443207,
+        "to_officers": 538423,
+        "to_employees": 34445,
+        "dues": 2204837,
+        "interest": 98741,
+        "dividends": 110942,
+        "fees": 299075,
+        "other_receipts": 21209
+      },
+      "representationalPerMember": 277,
+      "assets": 6908604,
+      "liabilities": 167504,
+      "receipts": 2799974,
+      "disbursements": 2717557,
+      "receiptsPerMember": 1314,
+      "assetsPerMember": 3242,
+      "disbursementsPerMember": 1275,
+      "payrollShare": 30.8
+    },
+    {
+      "year": 2011,
+      "formType": "LM-2",
+      "rptId": 480857,
+      "members": 2137,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 16,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2011,
+        "representational": 571318,
+        "political": 0,
+        "contributions": 10827,
+        "general_overhead": 47886,
+        "union_administration": 475787,
+        "benefits": 541220,
+        "per_capita_tax": 527032,
+        "direct_taxes": 54270,
+        "investments": 539416,
+        "to_officers": 449245,
+        "to_employees": 126052,
+        "dues": 1832958,
+        "interest": 94564,
+        "dividends": 96630,
+        "fees": 263016,
+        "other_receipts": 83246
+      },
+      "representationalPerMember": 267,
+      "assets": 6329582,
+      "liabilities": 173098,
+      "receipts": 2669221,
+      "disbursements": 2769117,
+      "receiptsPerMember": 1249,
+      "assetsPerMember": 2962,
+      "disbursementsPerMember": 1296,
+      "payrollShare": 30
+    },
+    {
+      "year": 2010,
+      "formType": "LM-2",
+      "rptId": 450931,
+      "members": 2235,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 18,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2010,
+        "representational": 560466,
+        "political": 0,
+        "contributions": 13907,
+        "general_overhead": 46021,
+        "union_administration": 532222,
+        "benefits": 499822,
+        "per_capita_tax": 553679,
+        "direct_taxes": 55296,
+        "investments": 1275628,
+        "to_officers": 448991,
+        "to_employees": 126708,
+        "dues": 1859911,
+        "interest": 88476,
+        "dividends": 103291,
+        "fees": 242388,
+        "other_receipts": 111468
+      },
+      "representationalPerMember": 251,
+      "assets": 6136252,
+      "liabilities": 174697,
+      "receipts": 2803487,
+      "disbursements": 3537041,
+      "receiptsPerMember": 1254,
+      "assetsPerMember": 2746,
+      "disbursementsPerMember": 1583,
+      "payrollShare": 23.5
+    },
+    {
+      "year": 2009,
+      "formType": "LM-2",
+      "rptId": 416446,
+      "members": 2324,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 18,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2009,
+        "representational": 581491,
+        "political": 0,
+        "contributions": 14353,
+        "general_overhead": 58844,
+        "union_administration": 470426,
+        "benefits": 406300,
+        "per_capita_tax": 677741,
+        "direct_taxes": 54489,
+        "investments": 1467642,
+        "to_officers": 446111,
+        "to_employees": 125339,
+        "dues": 1956983,
+        "interest": 117241,
+        "dividends": 57724,
+        "fees": 274317,
+        "other_receipts": 84152
+      },
+      "representationalPerMember": 250,
+      "assets": 6039441,
+      "liabilities": 175146,
+      "receipts": 2842395,
+      "disbursements": 3727723,
+      "receiptsPerMember": 1223,
+      "assetsPerMember": 2599,
+      "disbursementsPerMember": 1604,
+      "payrollShare": 22
+    },
+    {
+      "year": 2008,
+      "formType": "LM-2",
+      "rptId": 388842,
+      "members": 2627,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 16,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2008,
+        "representational": 614368,
+        "political": 0,
+        "contributions": 15524,
+        "general_overhead": 28296,
+        "union_administration": 584850,
+        "benefits": 363221,
+        "per_capita_tax": 600742,
+        "direct_taxes": 54213,
+        "investments": 1338381,
+        "to_officers": 376419,
+        "to_employees": 195452,
+        "dues": 2638593,
+        "interest": 117116,
+        "dividends": 63367,
+        "fees": 392142,
+        "other_receipts": 35047
+      },
+      "representationalPerMember": 234,
+      "assets": 5711760,
+      "liabilities": 261822,
+      "receipts": 3672831,
+      "disbursements": 3597308,
+      "receiptsPerMember": 1398,
+      "assetsPerMember": 2174,
+      "disbursementsPerMember": 1369,
+      "payrollShare": 23.1
+    },
+    {
+      "year": 2007,
+      "formType": "LM-2",
+      "rptId": 350301,
+      "members": 2607,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 14,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2007,
+        "representational": 536454,
+        "political": 0,
+        "contributions": 15853,
+        "general_overhead": 40150,
+        "union_administration": 510966,
+        "benefits": 342136,
+        "per_capita_tax": 578614,
+        "direct_taxes": 50288,
+        "investments": 1045356,
+        "to_officers": 345923,
+        "to_employees": 174270,
+        "dues": 2514716,
+        "interest": 184483,
+        "dividends": 0,
+        "fees": 458573,
+        "other_receipts": 40908
+      },
+      "representationalPerMember": 206,
+      "assets": 5081361,
+      "liabilities": 173607,
+      "receipts": 3929620,
+      "disbursements": 3122731,
+      "receiptsPerMember": 1507,
+      "assetsPerMember": 1949,
+      "disbursementsPerMember": 1198,
+      "payrollShare": 24.4
+    },
+    {
+      "year": 2006,
+      "formType": "LM-2",
+      "rptId": 308898,
+      "members": 2602,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 10,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2006,
+        "representational": 537561,
+        "political": 0,
+        "contributions": 35362,
+        "general_overhead": 47450,
+        "union_administration": 491942,
+        "benefits": 279285,
+        "per_capita_tax": 531230,
+        "direct_taxes": 53858,
+        "investments": 433324,
+        "to_officers": 335249,
+        "to_employees": 179096,
+        "dues": 1966761,
+        "interest": 130164,
+        "dividends": 0,
+        "fees": 403495,
+        "other_receipts": 66797
+      },
+      "representationalPerMember": 207,
+      "assets": 4033184,
+      "liabilities": 69693,
+      "receipts": 2643117,
+      "disbursements": 2560985,
+      "receiptsPerMember": 1016,
+      "assetsPerMember": 1550,
+      "disbursementsPerMember": 984,
+      "payrollShare": 28.1
+    },
+    {
+      "year": 2005,
+      "formType": "LM-2",
+      "rptId": 270475,
+      "members": 2378,
+      "actives": null,
+      "apprentices": null,
+      "retirees": 7,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2005,
+        "representational": 507100,
+        "political": 0,
+        "contributions": 19531,
+        "general_overhead": 36536,
+        "union_administration": 433510,
+        "benefits": 224815,
+        "per_capita_tax": 508203,
+        "direct_taxes": 48978,
+        "investments": 731431,
+        "to_officers": 403133,
+        "to_employees": 85777,
+        "dues": 1883387,
+        "interest": 69208,
+        "dividends": 0,
+        "fees": 438330,
+        "other_receipts": 72320
+      },
+      "representationalPerMember": 213,
+      "assets": 3549853,
+      "liabilities": 92765,
+      "receipts": 2571201,
+      "disbursements": 2637019,
+      "receiptsPerMember": 1081,
+      "assetsPerMember": 1493,
+      "disbursementsPerMember": 1109,
+      "payrollShare": 25
+    },
+    {
+      "year": 2004,
+      "formType": "LM-2",
+      "rptId": 227078,
+      "members": 2034,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2004,
+        "representational": null,
+        "political": null,
+        "contributions": 19839,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 187737,
+        "per_capita_tax": 470738,
+        "direct_taxes": 46837,
+        "investments": 624197,
+        "to_officers": 407446,
+        "to_employees": 83838,
+        "dues": 1830867,
+        "interest": 36725,
+        "dividends": 0,
+        "fees": 339244,
+        "other_receipts": 95578
+      },
+      "representationalPerMember": 0,
+      "assets": 2863035,
+      "liabilities": 1043,
+      "receipts": 2362414,
+      "disbursements": 2563625,
+      "receiptsPerMember": 1161,
+      "assetsPerMember": 1408,
+      "disbursementsPerMember": 1260,
+      "payrollShare": 25.1
+    },
+    {
+      "year": 2003,
+      "formType": "LM-2",
+      "rptId": 196901,
+      "members": 2345,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2003,
+        "representational": null,
+        "political": null,
+        "contributions": 21345,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 186737,
+        "per_capita_tax": 495783,
+        "direct_taxes": 54415,
+        "investments": 97712,
+        "to_officers": 348208,
+        "to_employees": 181087,
+        "dues": 1942814,
+        "interest": 34258,
+        "dividends": 0,
+        "fees": 440121,
+        "other_receipts": 27232
+      },
+      "representationalPerMember": 0,
+      "assets": 2550991,
+      "liabilities": 875,
+      "receipts": 2518425,
+      "disbursements": 2123191,
+      "receiptsPerMember": 1074,
+      "assetsPerMember": 1088,
+      "disbursementsPerMember": 905,
+      "payrollShare": 31.7
+    },
+    {
+      "year": 2002,
+      "formType": "LM-2",
+      "rptId": 167161,
+      "members": 2371,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2002,
+        "representational": null,
+        "political": null,
+        "contributions": 15249,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 172996,
+        "per_capita_tax": 476877,
+        "direct_taxes": 68590,
+        "investments": 129708,
+        "to_officers": 297666,
+        "to_employees": 308533,
+        "dues": 1753695,
+        "interest": 45794,
+        "dividends": 0,
+        "fees": 528248,
+        "other_receipts": 124775
+      },
+      "representationalPerMember": 0,
+      "assets": 2199606,
+      "liabilities": 957,
+      "receipts": 2610628,
+      "disbursements": 2275640,
+      "receiptsPerMember": 1101,
+      "assetsPerMember": 928,
+      "disbursementsPerMember": 960,
+      "payrollShare": 29.1
+    },
+    {
+      "year": 2001,
+      "formType": "LM-2",
+      "rptId": 113143,
+      "members": 2252,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2001,
+        "representational": null,
+        "political": null,
+        "contributions": 12253,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 148148,
+        "per_capita_tax": 426175,
+        "direct_taxes": 56974,
+        "investments": 192933,
+        "to_officers": 344368,
+        "to_employees": 162112,
+        "dues": 1504854,
+        "interest": 55310,
+        "dividends": 0,
+        "fees": 416473,
+        "other_receipts": 52160
+      },
+      "representationalPerMember": 0,
+      "assets": 1844120,
+      "liabilities": 630,
+      "receipts": 2115926,
+      "disbursements": 1998398,
+      "receiptsPerMember": 940,
+      "assetsPerMember": 819,
+      "disbursementsPerMember": 887,
+      "payrollShare": 28.7
+    },
+    {
+      "year": 2000,
+      "formType": "LM-2",
+      "rptId": 86375,
+      "members": 2247,
+      "actives": null,
+      "apprentices": null,
+      "retirees": null,
+      "receiptsPerActive": null,
+      "spend": {
+        "yr_covered": 2000,
+        "representational": null,
+        "political": null,
+        "contributions": 7120,
+        "general_overhead": null,
+        "union_administration": null,
+        "benefits": 166913,
+        "per_capita_tax": 456928,
+        "direct_taxes": 55786,
+        "investments": 50940,
+        "to_officers": 97727,
+        "to_employees": 342764,
+        "dues": 1613532,
+        "interest": null,
+        "dividends": null,
+        "fees": 499537,
+        "other_receipts": 10441
+      },
+      "representationalPerMember": 0,
+      "assets": 1582838,
+      "liabilities": 3211,
+      "receipts": 2271885,
+      "disbursements": 1888522,
+      "receiptsPerMember": 1011,
+      "assetsPerMember": 704,
+      "disbursementsPerMember": 840,
+      "payrollShare": 30.4
+    }
+  ],
+  "people": [
+    {
+      "year": 2025,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MGR",
+          "kind": "officer",
+          "total": 446336
+        }
+      ],
+      "grossSalary": 437067,
+      "allowances": 0,
+      "officialBusiness": 9269,
+      "total": 446336,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUS MGR/SEC TREAS",
+          "kind": "officer",
+          "total": 332225
+        }
+      ],
+      "grossSalary": 308288,
+      "allowances": 0,
+      "officialBusiness": 23937,
+      "total": 332225,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "REC SEC/BUS REP",
+          "kind": "officer",
+          "total": 169195
+        }
+      ],
+      "grossSalary": 155069,
+      "allowances": 0,
+      "officialBusiness": 14126,
+      "total": 169195,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 148755
+        }
+      ],
+      "grossSalary": 131007,
+      "allowances": 0,
+      "officialBusiness": 17748,
+      "total": 148755,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "CULLINA|A",
+      "name": "Andrew Cullina",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 144205
+        }
+      ],
+      "grossSalary": 133178,
+      "allowances": 0,
+      "officialBusiness": 11027,
+      "total": 144205,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 124374
+        }
+      ],
+      "grossSalary": 122894,
+      "allowances": 0,
+      "officialBusiness": 1480,
+      "total": 124374,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "LEWIS|B",
+      "name": "Baron Lewis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 7382
+        }
+      ],
+      "grossSalary": 1500,
+      "allowances": 0,
+      "officialBusiness": 5882,
+      "total": 7382,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "MARTINEZ|H",
+      "name": "Hassam Martinez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 6132
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 732,
+      "total": 6132,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "ROMANO|A",
+      "name": "Angelo Romano",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "ROCHABARBOSA|F",
+      "name": "Fernando Rocha barbosa",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 4959
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 159,
+      "total": 4959,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "MARQUEZ|H",
+      "name": "Hector Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3633
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 33,
+      "total": 3633,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "HEIL|J",
+      "name": "James Heil",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2270
+        }
+      ],
+      "grossSalary": 2250,
+      "allowances": 0,
+      "officialBusiness": 20,
+      "total": 2270,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "RAYA|H",
+      "name": "Humberto Raya",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2161
+        }
+      ],
+      "grossSalary": 1500,
+      "allowances": 0,
+      "officialBusiness": 661,
+      "total": 2161,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "PERRY|L",
+      "name": "Larry Perry",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2100
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2100,
+      "dualRole": false
+    },
+    {
+      "year": 2025,
+      "key": "PACHECO|V",
+      "name": "Victor Pacheco",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1880
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 80,
+      "total": 1880,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MGR",
+          "kind": "officer",
+          "total": 305691
+        }
+      ],
+      "grossSalary": 290685,
+      "allowances": 0,
+      "officialBusiness": 15006,
+      "total": 305691,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 304868
+        }
+      ],
+      "grossSalary": 284958,
+      "allowances": 0,
+      "officialBusiness": 19910,
+      "total": 304868,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 158627
+        }
+      ],
+      "grossSalary": 145781,
+      "allowances": 0,
+      "officialBusiness": 12846,
+      "total": 158627,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "CULLINA|A",
+      "name": "Andrew Cullina",
+      "roles": [
+        {
+          "title": "RECORDING SEC/BUS REP",
+          "kind": "officer",
+          "total": 145427
+        }
+      ],
+      "grossSalary": 125077,
+      "allowances": 0,
+      "officialBusiness": 20350,
+      "total": 145427,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 139960
+        }
+      ],
+      "grossSalary": 135844,
+      "allowances": 0,
+      "officialBusiness": 4116,
+      "total": 139960,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS REP",
+          "kind": "officer",
+          "total": 137168
+        }
+      ],
+      "grossSalary": 123250,
+      "allowances": 0,
+      "officialBusiness": 13918,
+      "total": 137168,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 115745
+        }
+      ],
+      "grossSalary": 115216,
+      "allowances": 0,
+      "officialBusiness": 529,
+      "total": 115745,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "MARTINEZ|H",
+      "name": "Hassam Martinez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "ROMANO|A",
+      "name": "Angelo Romano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "ROCHABARBOSA|F",
+      "name": "Fernando Rocha barbosa",
+      "roles": [
+        {
+          "title": "SGT AR ARMS",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "MARQUEZ|H",
+      "name": "Hector Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3300
+        }
+      ],
+      "grossSalary": 3300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3300,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "RAYA|H",
+      "name": "Humberto Raya",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2100
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2100,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "LEWIS|B",
+      "name": "Baron Lewis",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2024,
+      "key": "DUFRAIN|M",
+      "name": "Mark Dufrain",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1224
+        }
+      ],
+      "grossSalary": 900,
+      "allowances": 0,
+      "officialBusiness": 324,
+      "total": 1224,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 294295
+        }
+      ],
+      "grossSalary": 274990,
+      "allowances": 0,
+      "officialBusiness": 19305,
+      "total": 294295,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MGR",
+          "kind": "officer",
+          "total": 293018
+        }
+      ],
+      "grossSalary": 280784,
+      "allowances": 0,
+      "officialBusiness": 12234,
+      "total": 293018,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 184751
+        }
+      ],
+      "grossSalary": 175189,
+      "allowances": 0,
+      "officialBusiness": 9562,
+      "total": 184751,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/ BUS REP",
+          "kind": "officer",
+          "total": 152607
+        }
+      ],
+      "grossSalary": 140400,
+      "allowances": 0,
+      "officialBusiness": 12207,
+      "total": 152607,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "CULLINA|A",
+      "name": "Andrew Cullina",
+      "roles": [
+        {
+          "title": "RECORDING SEC/BUS REP",
+          "kind": "officer",
+          "total": 133289
+        }
+      ],
+      "grossSalary": 119720,
+      "allowances": 0,
+      "officialBusiness": 13569,
+      "total": 133289,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/ BUS REP",
+          "kind": "officer",
+          "total": 131798
+        }
+      ],
+      "grossSalary": 117772,
+      "allowances": 0,
+      "officialBusiness": 14026,
+      "total": 131798,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 110202
+        }
+      ],
+      "grossSalary": 109816,
+      "allowances": 0,
+      "officialBusiness": 386,
+      "total": 110202,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "MARTINEZ|H",
+      "name": "Hassam Martinez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5452
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 52,
+      "total": 5452,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "ROCHABARBOSA|F",
+      "name": "Fernando Rocha barbosa",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 5003
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 203,
+      "total": 5003,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "ROMANO|A",
+      "name": "Angelo Romano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "MARQUEZ|H",
+      "name": "Hector Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3340
+        }
+      ],
+      "grossSalary": 3300,
+      "allowances": 0,
+      "officialBusiness": 40,
+      "total": 3340,
+      "dualRole": false
+    },
+    {
+      "year": 2023,
+      "key": "DUFRAIN|M",
+      "name": "Mark Dufrain",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3300
+        }
+      ],
+      "grossSalary": 3300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3300,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 292932
+        }
+      ],
+      "grossSalary": 267131,
+      "allowances": 0,
+      "officialBusiness": 25801,
+      "total": 292932,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS. MGR.",
+          "kind": "officer",
+          "total": 284768
+        }
+      ],
+      "grossSalary": 272751,
+      "allowances": 0,
+      "officialBusiness": 12017,
+      "total": 284768,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS. REP.",
+          "kind": "officer",
+          "total": 177517
+        }
+      ],
+      "grossSalary": 169449,
+      "allowances": 0,
+      "officialBusiness": 8068,
+      "total": 177517,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "EXEC BOARD/BUS REP.",
+          "kind": "officer",
+          "total": 149094
+        }
+      ],
+      "grossSalary": 134849,
+      "allowances": 0,
+      "officialBusiness": 14245,
+      "total": 149094,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "EXEC BOARD/BUS. REP.",
+          "kind": "officer",
+          "total": 125235
+        }
+      ],
+      "grossSalary": 112562,
+      "allowances": 0,
+      "officialBusiness": 12673,
+      "total": 125235,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "CULLINA|A",
+      "name": "Andrew Cullina",
+      "roles": [
+        {
+          "title": "RECORDING SEC./BUS. REP.",
+          "kind": "officer",
+          "total": 124074
+        }
+      ],
+      "grossSalary": 113300,
+      "allowances": 0,
+      "officialBusiness": 10774,
+      "total": 124074,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 104976
+        }
+      ],
+      "grossSalary": 104516,
+      "allowances": 0,
+      "officialBusiness": 460,
+      "total": 104976,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "RECORDING SEC./BUS. REP.",
+          "kind": "officer",
+          "total": 64703
+        }
+      ],
+      "grossSalary": 59154,
+      "allowances": 0,
+      "officialBusiness": 5549,
+      "total": 64703,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "MARTINEZ|H",
+      "name": "Hassam Martinez",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5376
+        }
+      ],
+      "grossSalary": 5050,
+      "allowances": 0,
+      "officialBusiness": 326,
+      "total": 5376,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "ROCHABARBOSA|F",
+      "name": "Fernando Rocha barbosa",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 4426
+        }
+      ],
+      "grossSalary": 4100,
+      "allowances": 0,
+      "officialBusiness": 326,
+      "total": 4426,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "ROMANO|A",
+      "name": "Angelo Romano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "MARQUEZ|H",
+      "name": "Hector Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3312
+        }
+      ],
+      "grossSalary": 3300,
+      "allowances": 0,
+      "officialBusiness": 12,
+      "total": 3312,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 2700
+        }
+      ],
+      "grossSalary": 2700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2700,
+      "dualRole": false
+    },
+    {
+      "year": 2022,
+      "key": "DUFRAIN|M",
+      "name": "Mark Dufrain",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1826
+        }
+      ],
+      "grossSalary": 1500,
+      "allowances": 0,
+      "officialBusiness": 326,
+      "total": 1826,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 276564
+        }
+      ],
+      "grossSalary": 262474,
+      "allowances": 0,
+      "officialBusiness": 14090,
+      "total": 276564,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUSINESS MANAGE",
+          "kind": "officer",
+          "total": 274425
+        }
+      ],
+      "grossSalary": 269116,
+      "allowances": 0,
+      "officialBusiness": 5309,
+      "total": 274425,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 173394
+        }
+      ],
+      "grossSalary": 166541,
+      "allowances": 0,
+      "officialBusiness": 6853,
+      "total": 173394,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 141322
+        }
+      ],
+      "grossSalary": 132020,
+      "allowances": 0,
+      "officialBusiness": 9302,
+      "total": 141322,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 119701
+        }
+      ],
+      "grossSalary": 109306,
+      "allowances": 0,
+      "officialBusiness": 10395,
+      "total": 119701,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 117531
+        }
+      ],
+      "grossSalary": 109118,
+      "allowances": 0,
+      "officialBusiness": 8413,
+      "total": 117531,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "CULLINA|A",
+      "name": "Andrew Cullina",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 116194
+        }
+      ],
+      "grossSalary": 110582,
+      "allowances": 0,
+      "officialBusiness": 5612,
+      "total": 116194,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 99801
+        }
+      ],
+      "grossSalary": 99691,
+      "allowances": 0,
+      "officialBusiness": 110,
+      "total": 99801,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 4972
+        }
+      ],
+      "grossSalary": 4950,
+      "allowances": 0,
+      "officialBusiness": 22,
+      "total": 4972,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "MARTINEZ|H",
+      "name": "Hassam Martinez",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4400
+        }
+      ],
+      "grossSalary": 4400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4400,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "ROMANO|A",
+      "name": "Angelo Romano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "MARQUEZ|H",
+      "name": "Hector Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3300
+        }
+      ],
+      "grossSalary": 3300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3300,
+      "dualRole": false
+    },
+    {
+      "year": 2021,
+      "key": "BARBOSA|F",
+      "name": "Fernando Barbosa",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3300
+        }
+      ],
+      "grossSalary": 3300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3300,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 272060
+        }
+      ],
+      "grossSalary": 267590,
+      "allowances": 0,
+      "officialBusiness": 4470,
+      "total": 272060,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 270653
+        }
+      ],
+      "grossSalary": 260568,
+      "allowances": 0,
+      "officialBusiness": 10085,
+      "total": 270653,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 170662
+        }
+      ],
+      "grossSalary": 164698,
+      "allowances": 0,
+      "officialBusiness": 5964,
+      "total": 170662,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 136625
+        }
+      ],
+      "grossSalary": 126922,
+      "allowances": 0,
+      "officialBusiness": 9703,
+      "total": 136625,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 113263
+        }
+      ],
+      "grossSalary": 104062,
+      "allowances": 0,
+      "officialBusiness": 9201,
+      "total": 113263,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 112873
+        }
+      ],
+      "grossSalary": 105704,
+      "allowances": 0,
+      "officialBusiness": 7169,
+      "total": 112873,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "CULLINA|A",
+      "name": "Andrew Cullina",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 111799
+        }
+      ],
+      "grossSalary": 105966,
+      "allowances": 0,
+      "officialBusiness": 5833,
+      "total": 111799,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 96954
+        }
+      ],
+      "grossSalary": 96769,
+      "allowances": 0,
+      "officialBusiness": 185,
+      "total": 96954,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5984
+        }
+      ],
+      "grossSalary": 5834,
+      "allowances": 0,
+      "officialBusiness": 150,
+      "total": 5984,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "ROMANO|A",
+      "name": "Angelo Romano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 5774
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 2174,
+      "total": 5774,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "MARTINEZ|H",
+      "name": "Hassam Martinez",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 5099
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 299,
+      "total": 5099,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "MARQUEZ|H",
+      "name": "Hector Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3899
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 299,
+      "total": 3899,
+      "dualRole": false
+    },
+    {
+      "year": 2020,
+      "key": "BARBOSA|F",
+      "name": "Fernando Barbosa",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 264365
+        }
+      ],
+      "grossSalary": 245894,
+      "allowances": 0,
+      "officialBusiness": 18471,
+      "total": 264365,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 256544
+        }
+      ],
+      "grossSalary": 251515,
+      "allowances": 0,
+      "officialBusiness": 5029,
+      "total": 256544,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 165479
+        }
+      ],
+      "grossSalary": 157460,
+      "allowances": 0,
+      "officialBusiness": 8019,
+      "total": 165479,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 133627
+        }
+      ],
+      "grossSalary": 122410,
+      "allowances": 0,
+      "officialBusiness": 11217,
+      "total": 133627,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 90847
+        }
+      ],
+      "grossSalary": 90776,
+      "allowances": 0,
+      "officialBusiness": 71,
+      "total": 90847,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "CULLINA|A",
+      "name": "Andrew Cullina",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 69462
+        }
+      ],
+      "grossSalary": 63127,
+      "allowances": 0,
+      "officialBusiness": 6335,
+      "total": 69462,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 67576
+        }
+      ],
+      "grossSalary": 61859,
+      "allowances": 0,
+      "officialBusiness": 5717,
+      "total": 67576,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 63112
+        }
+      ],
+      "grossSalary": 58385,
+      "allowances": 0,
+      "officialBusiness": 4727,
+      "total": 63112,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "EXEC BOARD",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "MARTINEZ|H",
+      "name": "Hassam Martinez",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "ROMANO|A",
+      "name": "Angelo Romano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "MARQUEZ|H",
+      "name": "Hector Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2019,
+      "key": "BARBOSA|F",
+      "name": "Fernando Barbosa",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 241556
+        }
+      ],
+      "grossSalary": 234857,
+      "allowances": 0,
+      "officialBusiness": 6699,
+      "total": 241556,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 240512
+        }
+      ],
+      "grossSalary": 226759,
+      "allowances": 0,
+      "officialBusiness": 13753,
+      "total": 240512,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRES/BUS REP",
+          "kind": "officer",
+          "total": 155679
+        }
+      ],
+      "grossSalary": 149802,
+      "allowances": 0,
+      "officialBusiness": 5877,
+      "total": 155679,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "ROBERTO|P",
+      "name": "Perez Roberto",
+      "roles": [
+        {
+          "title": "EXEC BOARD/BUS AGENT",
+          "kind": "officer",
+          "total": 123081
+        }
+      ],
+      "grossSalary": 113683,
+      "allowances": 0,
+      "officialBusiness": 9398,
+      "total": 123081,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXEC BOARD/BUS REP",
+          "kind": "officer",
+          "total": 121563
+        }
+      ],
+      "grossSalary": 117651,
+      "allowances": 0,
+      "officialBusiness": 3912,
+      "total": 121563,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 86242
+        }
+      ],
+      "grossSalary": 86226,
+      "allowances": 0,
+      "officialBusiness": 16,
+      "total": 86242,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "SNYDER|T",
+      "name": "Tim Snyder",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 63924
+        }
+      ],
+      "grossSalary": 59847,
+      "allowances": 0,
+      "officialBusiness": 4077,
+      "total": 63924,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6708
+        }
+      ],
+      "grossSalary": 6700,
+      "allowances": 0,
+      "officialBusiness": 8,
+      "total": 6708,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5158
+        }
+      ],
+      "grossSalary": 5150,
+      "allowances": 0,
+      "officialBusiness": 8,
+      "total": 5158,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4033
+        }
+      ],
+      "grossSalary": 4025,
+      "allowances": 0,
+      "officialBusiness": 8,
+      "total": 4033,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "BARBOSA|F",
+      "name": "Fernando Barbosa",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2975
+        }
+      ],
+      "grossSalary": 2975,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2975,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "HASSAM|M",
+      "name": "Martinez Hassam",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 2837
+        }
+      ],
+      "grossSalary": 2800,
+      "allowances": 0,
+      "officialBusiness": 37,
+      "total": 2837,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "LEIDER|K",
+      "name": "Kevin Leider",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "ANGELO|R",
+      "name": "Romano Angelo",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2100
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2100,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "MARQUEZ|H",
+      "name": "Hector Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2100
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2100,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "KRAWCYCK|W",
+      "name": "William Krawcyck",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1250
+        }
+      ],
+      "grossSalary": 1250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1250,
+      "dualRole": false
+    },
+    {
+      "year": 2018,
+      "key": "PERRY|L",
+      "name": "Larry Perry",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 875
+        }
+      ],
+      "grossSalary": 875,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 875,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 223137
+        }
+      ],
+      "grossSalary": 218762,
+      "allowances": 0,
+      "officialBusiness": 4375,
+      "total": 223137,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 222481
+        }
+      ],
+      "grossSalary": 211075,
+      "allowances": 0,
+      "officialBusiness": 11406,
+      "total": 222481,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRES/BUS REP",
+          "kind": "officer",
+          "total": 146233
+        }
+      ],
+      "grossSalary": 140781,
+      "allowances": 0,
+      "officialBusiness": 5452,
+      "total": 146233,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXEC BOARD/BUS REP",
+          "kind": "officer",
+          "total": 145663
+        }
+      ],
+      "grossSalary": 139455,
+      "allowances": 0,
+      "officialBusiness": 6208,
+      "total": 145663,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "SNYDER|T",
+      "name": "Tim Snyder",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 110337
+        }
+      ],
+      "grossSalary": 103239,
+      "allowances": 0,
+      "officialBusiness": 7098,
+      "total": 110337,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 108386
+        }
+      ],
+      "grossSalary": 101470,
+      "allowances": 0,
+      "officialBusiness": 6916,
+      "total": 108386,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE MANAGER",
+          "kind": "employee",
+          "total": 81337
+        }
+      ],
+      "grossSalary": 79418,
+      "allowances": 0,
+      "officialBusiness": 1919,
+      "total": 81337,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "LEIDER|K",
+      "name": "Kevin Leider",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4809
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 9,
+      "total": 4809,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4800
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4800,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "KRAWCYCK|W",
+      "name": "William Krawcyck",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PERRY|L",
+      "name": "Larry Perry",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 900,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2100
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2100,
+      "dualRole": false
+    },
+    {
+      "year": 2017,
+      "key": "PLASCENSIA|C",
+      "name": "Catarino Plascensia",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1400
+        }
+      ],
+      "grossSalary": 1400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1400,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 214923
+        }
+      ],
+      "grossSalary": 210813,
+      "allowances": 0,
+      "officialBusiness": 4110,
+      "total": 214923,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 213158
+        }
+      ],
+      "grossSalary": 202974,
+      "allowances": 0,
+      "officialBusiness": 10184,
+      "total": 213158,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRES/BUS REP",
+          "kind": "officer",
+          "total": 142391
+        }
+      ],
+      "grossSalary": 136325,
+      "allowances": 0,
+      "officialBusiness": 6066,
+      "total": 142391,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "E BOARD/BUS REP",
+          "kind": "officer",
+          "total": 141040
+        }
+      ],
+      "grossSalary": 135452,
+      "allowances": 0,
+      "officialBusiness": 5588,
+      "total": 141040,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "SNYDER|T",
+      "name": "Tim Snyder",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 102936
+        }
+      ],
+      "grossSalary": 96430,
+      "allowances": 0,
+      "officialBusiness": 6506,
+      "total": 102936,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 85787
+        }
+      ],
+      "grossSalary": 80725,
+      "allowances": 0,
+      "officialBusiness": 5062,
+      "total": 85787,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 76117
+        }
+      ],
+      "grossSalary": 75768,
+      "allowances": 0,
+      "officialBusiness": 349,
+      "total": 76117,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 6651
+        }
+      ],
+      "grossSalary": 6000,
+      "allowances": 0,
+      "officialBusiness": 651,
+      "total": 6651,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5141
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 341,
+      "total": 5141,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "LEIDER|K",
+      "name": "Kevin Leider",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5120
+        }
+      ],
+      "grossSalary": 4800,
+      "allowances": 0,
+      "officialBusiness": 320,
+      "total": 5120,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "PERRY|L",
+      "name": "Larry Perry",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3845
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 1745,
+      "total": 3845,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "KRAWCYCK|W",
+      "name": "William Krawcyck",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2447
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 347,
+      "total": 2447,
+      "dualRole": false
+    },
+    {
+      "year": 2016,
+      "key": "PLASCENSIA|C",
+      "name": "Catarino Plascensia",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1925
+        }
+      ],
+      "grossSalary": 1925,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1925,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 201597
+        }
+      ],
+      "grossSalary": 191776,
+      "allowances": 0,
+      "officialBusiness": 9821,
+      "total": 201597,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 196668
+        }
+      ],
+      "grossSalary": 185789,
+      "allowances": 0,
+      "officialBusiness": 10879,
+      "total": 196668,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "E BOARD/BUS REP",
+          "kind": "officer",
+          "total": 135883
+        }
+      ],
+      "grossSalary": 127363,
+      "allowances": 0,
+      "officialBusiness": 8520,
+      "total": 135883,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRES/BUS REP",
+          "kind": "officer",
+          "total": 135086
+        }
+      ],
+      "grossSalary": 128483,
+      "allowances": 0,
+      "officialBusiness": 6603,
+      "total": 135086,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 64659
+        }
+      ],
+      "grossSalary": 64659,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 64659,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SEC/ OFFICE SECRETARY",
+          "kind": "officer",
+          "total": 60543
+        }
+      ],
+      "grossSalary": 60543,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 60543,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "SNYDER|T",
+      "name": "Tim Snyder",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 13052
+        }
+      ],
+      "grossSalary": 12655,
+      "allowances": 0,
+      "officialBusiness": 397,
+      "total": 13052,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY",
+          "kind": "officer",
+          "total": 5400
+        }
+      ],
+      "grossSalary": 5400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5400,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "SYKES|J",
+      "name": "James Sykes",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3900
+        }
+      ],
+      "grossSalary": 3900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3900,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3700
+        }
+      ],
+      "grossSalary": 3700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3700,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "LEIDER|K",
+      "name": "Kevin Leider",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3200
+        }
+      ],
+      "grossSalary": 3200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3200,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "KRAWCYCK|W",
+      "name": "William Krawcyck",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 2800
+        }
+      ],
+      "grossSalary": 2800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2800,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "SERRANO|H",
+      "name": "Hector Serrano",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1925
+        }
+      ],
+      "grossSalary": 1400,
+      "allowances": 0,
+      "officialBusiness": 525,
+      "total": 1925,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "PLASCENSIA|C",
+      "name": "Catarino Plascensia",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1400
+        }
+      ],
+      "grossSalary": 1400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1400,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "PERRY|L",
+      "name": "Larry Perry",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1400
+        }
+      ],
+      "grossSalary": 1400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1400,
+      "dualRole": false
+    },
+    {
+      "year": 2015,
+      "key": "CHANNQUIN|C",
+      "name": "Carlos Channquin",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 500
+        }
+      ],
+      "grossSalary": 500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 500,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 184503
+        }
+      ],
+      "grossSalary": 177058,
+      "allowances": 0,
+      "officialBusiness": 7445,
+      "total": 184503,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 171043
+        }
+      ],
+      "grossSalary": 156862,
+      "allowances": 0,
+      "officialBusiness": 14181,
+      "total": 171043,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "E BOARD/BUS REP",
+          "kind": "officer",
+          "total": 129281
+        }
+      ],
+      "grossSalary": 119862,
+      "allowances": 0,
+      "officialBusiness": 9419,
+      "total": 129281,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRES/E BD/BUS REP",
+          "kind": "officer",
+          "total": 127390
+        }
+      ],
+      "grossSalary": 120704,
+      "allowances": 0,
+      "officialBusiness": 6686,
+      "total": 127390,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "SCHNEIDER|R",
+      "name": "Russell Schneider",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 102556
+        }
+      ],
+      "grossSalary": 100284,
+      "allowances": 0,
+      "officialBusiness": 2272,
+      "total": 102556,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SECRETARY/SECRETARY",
+          "kind": "officer",
+          "total": 87477
+        }
+      ],
+      "grossSalary": 87477,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 87477,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 52901
+        }
+      ],
+      "grossSalary": 52901,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 52901,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "SYKES|J",
+      "name": "James Sykes",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3575
+        }
+      ],
+      "grossSalary": 3500,
+      "allowances": 0,
+      "officialBusiness": 75,
+      "total": 3575,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "EXCUTIVE BOARD",
+          "kind": "officer",
+          "total": 2150
+        }
+      ],
+      "grossSalary": 2150,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2150,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "KRAWCYCK|W",
+      "name": "William Krawcyck",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "CHANNQUIN|C",
+      "name": "Carlos Channquin",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1250
+        }
+      ],
+      "grossSalary": 1250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1250,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "ZAJIC|S",
+      "name": "Scott Zajic",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2014,
+      "key": "VILIM|M",
+      "name": "Matt Vilim",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 500
+        }
+      ],
+      "grossSalary": 500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 500,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "SCHNEIDER|R",
+      "name": "Russ Schneider",
+      "roles": [
+        {
+          "title": "PRESIDENT/BUS MANAGER",
+          "kind": "officer",
+          "total": 173423
+        }
+      ],
+      "grossSalary": 164842,
+      "allowances": 0,
+      "officialBusiness": 8581,
+      "total": 173423,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 171271
+        }
+      ],
+      "grossSalary": 163320,
+      "allowances": 0,
+      "officialBusiness": 7951,
+      "total": 171271,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS REP",
+          "kind": "officer",
+          "total": 144386
+        }
+      ],
+      "grossSalary": 131918,
+      "allowances": 0,
+      "officialBusiness": 12468,
+      "total": 144386,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS REP",
+          "kind": "officer",
+          "total": 127057
+        }
+      ],
+      "grossSalary": 118584,
+      "allowances": 0,
+      "officialBusiness": 8473,
+      "total": 127057,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VP/EXEC BRD/BUS REP",
+          "kind": "officer",
+          "total": 126226
+        }
+      ],
+      "grossSalary": 118350,
+      "allowances": 0,
+      "officialBusiness": 7876,
+      "total": 126226,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SECRETARY/OFFICE",
+          "kind": "officer",
+          "total": 87335
+        }
+      ],
+      "grossSalary": 87335,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 87335,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 52815
+        }
+      ],
+      "grossSalary": 52815,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 52815,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "SYKES|J",
+      "name": "James Sykes",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2800
+        }
+      ],
+      "grossSalary": 2800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2800,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "ZAJIC|S",
+      "name": "Scott Zajic",
+      "roles": [
+        {
+          "title": "SERGEANT AT ARMS",
+          "kind": "officer",
+          "total": 2200
+        }
+      ],
+      "grossSalary": 2200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2200,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "CHANNQUIN|C",
+      "name": "Carlos Channquin",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1500
+        }
+      ],
+      "grossSalary": 1500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1500,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "JANSA|D",
+      "name": "David Jansa",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1500
+        }
+      ],
+      "grossSalary": 1500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1500,
+      "dualRole": false
+    },
+    {
+      "year": 2013,
+      "key": "KRAWCYCK|W",
+      "name": "William Krawcyck",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1500
+        }
+      ],
+      "grossSalary": 1500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1500,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "SCHNEIDER|R",
+      "name": "Russ Schneider",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER/PRES",
+          "kind": "officer",
+          "total": 169419
+        }
+      ],
+      "grossSalary": 160188,
+      "allowances": 0,
+      "officialBusiness": 9231,
+      "total": 169419,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 166817
+        }
+      ],
+      "grossSalary": 158244,
+      "allowances": 0,
+      "officialBusiness": 8573,
+      "total": 166817,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS AGENT",
+          "kind": "officer",
+          "total": 134659
+        }
+      ],
+      "grossSalary": 118658,
+      "allowances": 0,
+      "officialBusiness": 16001,
+      "total": 134659,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS REP",
+          "kind": "officer",
+          "total": 118895
+        }
+      ],
+      "grossSalary": 106877,
+      "allowances": 0,
+      "officialBusiness": 12018,
+      "total": 118895,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 115545
+        }
+      ],
+      "grossSalary": 106337,
+      "allowances": 0,
+      "officialBusiness": 9208,
+      "total": 115545,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SECRETARY/OFFICE",
+          "kind": "officer",
+          "total": 75647
+        }
+      ],
+      "grossSalary": 75647,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 75647,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 46275
+        }
+      ],
+      "grossSalary": 46275,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 46275,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "SYKES|J",
+      "name": "James Sykes",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3150
+        }
+      ],
+      "grossSalary": 3150,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3150,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "ZAJIC|S",
+      "name": "Scott Zajic",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 1900
+        }
+      ],
+      "grossSalary": 1900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1900,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "ALVAREZ|H",
+      "name": "Herlindo Alvarez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1625
+        }
+      ],
+      "grossSalary": 625,
+      "allowances": 0,
+      "officialBusiness": 1000,
+      "total": 1625,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "KRAWCZYK|W",
+      "name": "William Krawczyk",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1250
+        }
+      ],
+      "grossSalary": 1250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1250,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "BLAKES|J",
+      "name": "Jd Blakes",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 1000
+        }
+      ],
+      "grossSalary": 1000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1000,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "CHANQUIN|C",
+      "name": "Carlos Chanquin",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 875
+        }
+      ],
+      "grossSalary": 875,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 875,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "JANSA|D",
+      "name": "Dave Jansa",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 500
+        }
+      ],
+      "grossSalary": 500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 500,
+      "dualRole": false
+    },
+    {
+      "year": 2012,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 0
+        }
+      ],
+      "grossSalary": 0,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 0,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "SCHNEIDER|R",
+      "name": "Russ Schneider",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER/PRES",
+          "kind": "officer",
+          "total": 169418
+        }
+      ],
+      "grossSalary": 160344,
+      "allowances": 0,
+      "officialBusiness": 9074,
+      "total": 169418,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 164469
+        }
+      ],
+      "grossSalary": 155728,
+      "allowances": 0,
+      "officialBusiness": 8741,
+      "total": 164469,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 131443
+        }
+      ],
+      "grossSalary": 118723,
+      "allowances": 0,
+      "officialBusiness": 12720,
+      "total": 131443,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS REP",
+          "kind": "officer",
+          "total": 117726
+        }
+      ],
+      "grossSalary": 106731,
+      "allowances": 0,
+      "officialBusiness": 10995,
+      "total": 117726,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 112589
+        }
+      ],
+      "grossSalary": 105760,
+      "allowances": 0,
+      "officialBusiness": 6829,
+      "total": 112589,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SECRETARY/OFFICE",
+          "kind": "officer",
+          "total": 75647
+        }
+      ],
+      "grossSalary": 75647,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 75647,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 45747
+        }
+      ],
+      "grossSalary": 45747,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 45747,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "SYKES|J",
+      "name": "James Sykes",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "BLAKES|J",
+      "name": "Jd Blakes",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "ALVAREZ|H",
+      "name": "Herlindo Alvarez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1375
+        }
+      ],
+      "grossSalary": 1375,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1375,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "KRAWCZYK|W",
+      "name": "William Krawczyk",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1375
+        }
+      ],
+      "grossSalary": 1375,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1375,
+      "dualRole": false
+    },
+    {
+      "year": 2011,
+      "key": "ZAJIC|S",
+      "name": "Scott Zajic",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1375
+        }
+      ],
+      "grossSalary": 1375,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1375,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "SCHNEIDER|R",
+      "name": "Russ Schneider",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER/PRES",
+          "kind": "officer",
+          "total": 168669
+        }
+      ],
+      "grossSalary": 160795,
+      "allowances": 0,
+      "officialBusiness": 7874,
+      "total": 168669,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 166358
+        }
+      ],
+      "grossSalary": 155969,
+      "allowances": 0,
+      "officialBusiness": 10389,
+      "total": 166358,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 129950
+        }
+      ],
+      "grossSalary": 120258,
+      "allowances": 0,
+      "officialBusiness": 9692,
+      "total": 129950,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS REP",
+          "kind": "officer",
+          "total": 114316
+        }
+      ],
+      "grossSalary": 106676,
+      "allowances": 0,
+      "officialBusiness": 7640,
+      "total": 114316,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 114155
+        }
+      ],
+      "grossSalary": 107460,
+      "allowances": 0,
+      "officialBusiness": 6695,
+      "total": 114155,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SECRETARY/OFFICE",
+          "kind": "officer",
+          "total": 75779
+        }
+      ],
+      "grossSalary": 75647,
+      "allowances": 0,
+      "officialBusiness": 132,
+      "total": 75779,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 47507
+        }
+      ],
+      "grossSalary": 47507,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 47507,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "SYKES|J",
+      "name": "James Sykes",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 4200
+        }
+      ],
+      "grossSalary": 4200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4200,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "BLAKES|J",
+      "name": "Jd Blakes",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "ZAJIC|S",
+      "name": "Scott Zajic",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1500
+        }
+      ],
+      "grossSalary": 1500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1500,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "ALVAREZ|H",
+      "name": "Herlindo Alvarez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1250
+        }
+      ],
+      "grossSalary": 1250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1250,
+      "dualRole": false
+    },
+    {
+      "year": 2010,
+      "key": "KRAWCZYK|W",
+      "name": "William Krawczyk",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1250
+        }
+      ],
+      "grossSalary": 1250,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1250,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "SCHNEIDER|R",
+      "name": "Russ Schneider",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER/PRES",
+          "kind": "officer",
+          "total": 170868
+        }
+      ],
+      "grossSalary": 164110,
+      "allowances": 0,
+      "officialBusiness": 6758,
+      "total": 170868,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 161091
+        }
+      ],
+      "grossSalary": 153025,
+      "allowances": 0,
+      "officialBusiness": 8066,
+      "total": 161091,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 127694
+        }
+      ],
+      "grossSalary": 116787,
+      "allowances": 0,
+      "officialBusiness": 10907,
+      "total": 127694,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS REP",
+          "kind": "officer",
+          "total": 112635
+        }
+      ],
+      "grossSalary": 105143,
+      "allowances": 0,
+      "officialBusiness": 7492,
+      "total": 112635,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 111702
+        }
+      ],
+      "grossSalary": 103688,
+      "allowances": 0,
+      "officialBusiness": 8014,
+      "total": 111702,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SECRETARY/OFFICE",
+          "kind": "officer",
+          "total": 74270
+        }
+      ],
+      "grossSalary": 74270,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 74270,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 45764
+        }
+      ],
+      "grossSalary": 45764,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 45764,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5525
+        }
+      ],
+      "grossSalary": 3950,
+      "allowances": 0,
+      "officialBusiness": 1575,
+      "total": 5525,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "BLAKES|J",
+      "name": "Jd Blakes",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 2925
+        }
+      ],
+      "grossSalary": 2150,
+      "allowances": 0,
+      "officialBusiness": 775,
+      "total": 2925,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "SYKES|J",
+      "name": "James Sykes",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 2450
+        }
+      ],
+      "grossSalary": 2450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2450,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "TULK|R",
+      "name": "Ronald Tulk",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "ZAJIC|S",
+      "name": "Scott Zajic",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1175
+        }
+      ],
+      "grossSalary": 875,
+      "allowances": 0,
+      "officialBusiness": 300,
+      "total": 1175,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "ALVAREZ|H",
+      "name": "Herlindo Alvarez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 875
+        }
+      ],
+      "grossSalary": 875,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 875,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "KRAWCZYK|W",
+      "name": "William Krawczyk",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 750
+        }
+      ],
+      "grossSalary": 750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 750,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "WILLIAMS|C",
+      "name": "Cw Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2009,
+      "key": "RAYA|H",
+      "name": "Humberto Raya",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "SCHNEIDER|R",
+      "name": "Russ Schneider",
+      "roles": [
+        {
+          "title": "BUSINESS MANAGER/PRES",
+          "kind": "officer",
+          "total": 171280
+        }
+      ],
+      "grossSalary": 161667,
+      "allowances": 0,
+      "officialBusiness": 9613,
+      "total": 171280,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 159536
+        }
+      ],
+      "grossSalary": 150500,
+      "allowances": 0,
+      "officialBusiness": 9036,
+      "total": 159536,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 132732
+        }
+      ],
+      "grossSalary": 114190,
+      "allowances": 0,
+      "officialBusiness": 18542,
+      "total": 132732,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS REP",
+          "kind": "officer",
+          "total": 116765
+        }
+      ],
+      "grossSalary": 102999,
+      "allowances": 0,
+      "officialBusiness": 13766,
+      "total": 116765,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 112114
+        }
+      ],
+      "grossSalary": 102785,
+      "allowances": 0,
+      "officialBusiness": 9329,
+      "total": 112114,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SECRETARY/OFFICE",
+          "kind": "officer",
+          "total": 74070
+        }
+      ],
+      "grossSalary": 74070,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 74070,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 42450
+        }
+      ],
+      "grossSalary": 42450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 42450,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 8363
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 4763,
+      "total": 8363,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "TULK|R",
+      "name": "Ronald Tulk",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 8213
+        }
+      ],
+      "grossSalary": 4500,
+      "allowances": 0,
+      "officialBusiness": 3713,
+      "total": 8213,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "BLAKES|J",
+      "name": "Jd Blakes",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "WILLIAMS|C",
+      "name": "Cw Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 1100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "RAYA|H",
+      "name": "Humberto Raya",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1100
+        }
+      ],
+      "grossSalary": 1100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1100,
+      "dualRole": false
+    },
+    {
+      "year": 2008,
+      "key": "RICE|T",
+      "name": "Tracey Rice",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 200
+        }
+      ],
+      "grossSalary": 200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 200,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "SCHNEIDER|R",
+      "name": "Russ Schneider",
+      "roles": [
+        {
+          "title": "BUS. MGR./PRESIDENT",
+          "kind": "officer",
+          "total": 161871
+        }
+      ],
+      "grossSalary": 153683,
+      "allowances": 0,
+      "officialBusiness": 8188,
+      "total": 161871,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY/TREASURER",
+          "kind": "officer",
+          "total": 153710
+        }
+      ],
+      "grossSalary": 142818,
+      "allowances": 0,
+      "officialBusiness": 10892,
+      "total": 153710,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 121228
+        }
+      ],
+      "grossSalary": 106601,
+      "allowances": 0,
+      "officialBusiness": 14627,
+      "total": 121228,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 102288
+        }
+      ],
+      "grossSalary": 95872,
+      "allowances": 0,
+      "officialBusiness": 6416,
+      "total": 102288,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS. REP.",
+          "kind": "officer",
+          "total": 101585
+        }
+      ],
+      "grossSalary": 95780,
+      "allowances": 0,
+      "officialBusiness": 5805,
+      "total": 101585,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC. SECRETARY/OFFICE",
+          "kind": "officer",
+          "total": 67544
+        }
+      ],
+      "grossSalary": 67544,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 67544,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 34800
+        }
+      ],
+      "grossSalary": 34800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 34800,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "TULK|R",
+      "name": "Ronald Tulk",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 6175
+        }
+      ],
+      "grossSalary": 3900,
+      "allowances": 0,
+      "officialBusiness": 2275,
+      "total": 6175,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 6000
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 2400,
+      "total": 6000,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "BLAKES|J",
+      "name": "Jd Blakes",
+      "roles": [
+        {
+          "title": "SERGEANT-AT-ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "WILLIAMS|C",
+      "name": "Cw Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "RICE|T",
+      "name": "Tracey Rice",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2007,
+      "key": "RAYA|H",
+      "name": "Humberto Raya",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "SCHNEIDER|R",
+      "name": "Russ Schneider",
+      "roles": [
+        {
+          "title": "BUSINESS MGR/PRESIDENT",
+          "kind": "officer",
+          "total": 158542
+        }
+      ],
+      "grossSalary": 149163,
+      "allowances": 0,
+      "officialBusiness": 9379,
+      "total": 158542,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 145272
+        }
+      ],
+      "grossSalary": 137198,
+      "allowances": 0,
+      "officialBusiness": 8074,
+      "total": 145272,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 119520
+        }
+      ],
+      "grossSalary": 102056,
+      "allowances": 0,
+      "officialBusiness": 17464,
+      "total": 119520,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT/BUS. REP.",
+          "kind": "officer",
+          "total": 98967
+        }
+      ],
+      "grossSalary": 91312,
+      "allowances": 0,
+      "officialBusiness": 7655,
+      "total": 98967,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 97416
+        }
+      ],
+      "grossSalary": 88805,
+      "allowances": 0,
+      "officialBusiness": 8611,
+      "total": 97416,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "RECORDING SECRETARY/OFFIC",
+          "kind": "officer",
+          "total": 61881
+        }
+      ],
+      "grossSalary": 61881,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 61881,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "CANTONE|M",
+      "name": "Meggen Cantone",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 22101
+        }
+      ],
+      "grossSalary": 22101,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 22101,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "TULK|R",
+      "name": "Ronald Tulk",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 5727
+        }
+      ],
+      "grossSalary": 4017,
+      "allowances": 0,
+      "officialBusiness": 1710,
+      "total": 5727,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "BLAKES|J",
+      "name": "Jd Blakes",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "WILLIAMS|C",
+      "name": "Cornelius Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1568
+        }
+      ],
+      "grossSalary": 1568,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1568,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "RAYA|H",
+      "name": "Humberto Raya",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1362
+        }
+      ],
+      "grossSalary": 1362,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1362,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "RICE|T",
+      "name": "Tracy Rice",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 700
+        }
+      ],
+      "grossSalary": 700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 700,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "MURRAY|L",
+      "name": "Lizette Murray",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 500
+        }
+      ],
+      "grossSalary": 500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 500,
+      "dualRole": false
+    },
+    {
+      "year": 2006,
+      "key": "ALVAREZ|H",
+      "name": "Herlindo Alvarez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 500
+        }
+      ],
+      "grossSalary": 500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 500,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "SCHNEIDER|R",
+      "name": "Russell Schneider",
+      "roles": [
+        {
+          "title": "BUSINESS MGR/PRESIDENT",
+          "kind": "officer",
+          "total": 149540
+        }
+      ],
+      "grossSalary": 142069,
+      "allowances": 0,
+      "officialBusiness": 7471,
+      "total": 149540,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SECRETARY TREASURER",
+          "kind": "officer",
+          "total": 139104
+        }
+      ],
+      "grossSalary": 130166,
+      "allowances": 0,
+      "officialBusiness": 8938,
+      "total": 139104,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUSINESS REPRESENTATIVE",
+          "kind": "employee",
+          "total": 111619
+        }
+      ],
+      "grossSalary": 96738,
+      "allowances": 0,
+      "officialBusiness": 14881,
+      "total": 111619,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "VICE-PRESIDENT/BUS. REP.",
+          "kind": "officer",
+          "total": 95101
+        }
+      ],
+      "grossSalary": 87336,
+      "allowances": 0,
+      "officialBusiness": 7765,
+      "total": 95101,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD/BUS. REP.",
+          "kind": "officer",
+          "total": 91814
+        }
+      ],
+      "grossSalary": 86214,
+      "allowances": 0,
+      "officialBusiness": 5600,
+      "total": 91814,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "ALMANZAN|L",
+      "name": "Lourdes Almanzan",
+      "roles": [
+        {
+          "title": "REC SECRETARY/OFFICE",
+          "kind": "officer",
+          "total": 58060
+        }
+      ],
+      "grossSalary": 58060,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 58060,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "TULK|R",
+      "name": "Ronald Tulk",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "MURRAYWH|L",
+      "name": "Lizette Murraywh",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2010
+        }
+      ],
+      "grossSalary": 2010,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2010,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "BLAKES|J",
+      "name": "Jd Blakes",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1650
+        }
+      ],
+      "grossSalary": 1650,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1650,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "WILLIAMS|C",
+      "name": "Cornelius Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2005,
+      "key": "ALVAREZ|H",
+      "name": "Herlindo Alvarez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "SCHNEIDER|R",
+      "name": "Russell Schneider",
+      "roles": [
+        {
+          "title": "BUS MGR/PRES",
+          "kind": "officer",
+          "total": 150209
+        }
+      ],
+      "grossSalary": 142757,
+      "allowances": 0,
+      "officialBusiness": 7452,
+      "total": 150209,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SEC/TREAS",
+          "kind": "officer",
+          "total": 141063
+        }
+      ],
+      "grossSalary": 132733,
+      "allowances": 0,
+      "officialBusiness": 8330,
+      "total": 141063,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUS. AGENT",
+          "kind": "employee",
+          "total": 105980
+        }
+      ],
+      "grossSalary": 94362,
+      "allowances": 0,
+      "officialBusiness": 11618,
+      "total": 105980,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXEC BRD/BA",
+          "kind": "officer",
+          "total": 94560
+        }
+      ],
+      "grossSalary": 85979,
+      "allowances": 0,
+      "officialBusiness": 8581,
+      "total": 94560,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "V-P",
+          "kind": "officer",
+          "total": 91858
+        }
+      ],
+      "grossSalary": 83991,
+      "allowances": 0,
+      "officialBusiness": 7867,
+      "total": 91858,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "ALMAZAN|L",
+      "name": "Lourdes Almazan",
+      "roles": [
+        {
+          "title": "REC SEC/OFFICE",
+          "kind": "officer",
+          "total": 47455
+        }
+      ],
+      "grossSalary": 47455,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 47455,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "TULK|R",
+      "name": "Ronald Tulk",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 3600
+        }
+      ],
+      "grossSalary": 3600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3600,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 3300
+        }
+      ],
+      "grossSalary": 3300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3300,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "BLAKE|J",
+      "name": "Jd Blake",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "WILLIAMS|C",
+      "name": "Corneli Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "MURRAYWHEEL|L",
+      "name": "Lizette Murraywheel",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2004,
+      "key": "ALVAREZ|H",
+      "name": "Herlind Alvarez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1200
+        }
+      ],
+      "grossSalary": 1200,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1200,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "SCHNEIDER|R",
+      "name": "Russell Schneider",
+      "roles": [
+        {
+          "title": "BUS MGR/PRES",
+          "kind": "officer",
+          "total": 142923
+        }
+      ],
+      "grossSalary": 135133,
+      "allowances": 0,
+      "officialBusiness": 7790,
+      "total": 142923,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SEC/TREAS",
+          "kind": "officer",
+          "total": 123553
+        }
+      ],
+      "grossSalary": 114713,
+      "allowances": 0,
+      "officialBusiness": 8840,
+      "total": 123553,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUS AGENT",
+          "kind": "employee",
+          "total": 89462
+        }
+      ],
+      "grossSalary": 80617,
+      "allowances": 0,
+      "officialBusiness": 8845,
+      "total": 89462,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "V-P",
+          "kind": "officer",
+          "total": 87027
+        }
+      ],
+      "grossSalary": 81146,
+      "allowances": 0,
+      "officialBusiness": 5881,
+      "total": 87027,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "EXEC BRD/BA",
+          "kind": "officer",
+          "total": 86801
+        }
+      ],
+      "grossSalary": 81184,
+      "allowances": 0,
+      "officialBusiness": 5617,
+      "total": 86801,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "REILLY|K",
+      "name": "Kevin Reilly",
+      "roles": [
+        {
+          "title": "BUS AGENT",
+          "kind": "employee",
+          "total": 68307
+        }
+      ],
+      "grossSalary": 58917,
+      "allowances": 0,
+      "officialBusiness": 9390,
+      "total": 68307,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "KOSIAREK|M",
+      "name": "Mary Kosiarek",
+      "roles": [
+        {
+          "title": "OFFICE",
+          "kind": "employee",
+          "total": 51806
+        }
+      ],
+      "grossSalary": 50906,
+      "allowances": 0,
+      "officialBusiness": 900,
+      "total": 51806,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "ALMAZON|L",
+      "name": "Lourdes Almazon",
+      "roles": [
+        {
+          "title": "REC SECRETARY",
+          "kind": "officer",
+          "total": 6174
+        }
+      ],
+      "grossSalary": 6174,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 6174,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "TULK|R",
+      "name": "Ronald Tulk",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 4209
+        }
+      ],
+      "grossSalary": 4209,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 4209,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "WILLIAMS|C",
+      "name": "Corneli Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 2404
+        }
+      ],
+      "grossSalary": 2404,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2404,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "DELGADILLO|R",
+      "name": "Ricardo Delgadillo",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 2300
+        }
+      ],
+      "grossSalary": 1400,
+      "allowances": 0,
+      "officialBusiness": 900,
+      "total": 2300,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "WILLIAMS|M",
+      "name": "Mary Williams",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "VASQUEZ|I",
+      "name": "Irais Vasquez",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 1300
+        }
+      ],
+      "grossSalary": 1300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1300,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "MURRAYWHEE|L",
+      "name": "Lizette Murray whee",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "BLAKE|J",
+      "name": "Jd Blake",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "KRAWCZYK|W",
+      "name": "William Krawczyk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 750
+        }
+      ],
+      "grossSalary": 750,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 750,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "ALVAREZ|H",
+      "name": "Herlind Alvarez",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "MARQUEZ|M",
+      "name": "Martin Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 450
+        }
+      ],
+      "grossSalary": 450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 450,
+      "dualRole": false
+    },
+    {
+      "year": 2003,
+      "key": "OLSEWSKI|J",
+      "name": "Jerzy Olsewski",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 450
+        }
+      ],
+      "grossSalary": 450,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 450,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "SCHNEIDER|R",
+      "name": "Russell Schneider",
+      "roles": [
+        {
+          "title": "BUS MGR/PRES",
+          "kind": "officer",
+          "total": 138350
+        }
+      ],
+      "grossSalary": 134894,
+      "allowances": 0,
+      "officialBusiness": 3456,
+      "total": 138350,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SEC/TRES",
+          "kind": "officer",
+          "total": 109405
+        }
+      ],
+      "grossSalary": 102917,
+      "allowances": 0,
+      "officialBusiness": 6488,
+      "total": 109405,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUS AGENT",
+          "kind": "employee",
+          "total": 84087
+        }
+      ],
+      "grossSalary": 74272,
+      "allowances": 0,
+      "officialBusiness": 9815,
+      "total": 84087,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "REILLY|K",
+      "name": "Kevin Reilly",
+      "roles": [
+        {
+          "title": "BUS AGENT",
+          "kind": "employee",
+          "total": 83670
+        }
+      ],
+      "grossSalary": 73385,
+      "allowances": 0,
+      "officialBusiness": 10285,
+      "total": 83670,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "ANAYA|H",
+      "name": "Hector Anaya",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 78451
+        }
+      ],
+      "grossSalary": 72903,
+      "allowances": 0,
+      "officialBusiness": 5548,
+      "total": 78451,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "KOSIAREK|M",
+      "name": "Mary Kosiarek",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 50894
+        }
+      ],
+      "grossSalary": 49402,
+      "allowances": 0,
+      "officialBusiness": 1492,
+      "total": 50894,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "BARRIENTOS|A",
+      "name": "Adrian Barrientos",
+      "roles": [
+        {
+          "title": "BUS AGENT",
+          "kind": "employee",
+          "total": 44195
+        }
+      ],
+      "grossSalary": 41348,
+      "allowances": 0,
+      "officialBusiness": 2847,
+      "total": 44195,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "DELGADILLO|R",
+      "name": "Ricardo Delgadillo",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 34683
+        }
+      ],
+      "grossSalary": 33061,
+      "allowances": 0,
+      "officialBusiness": 1622,
+      "total": 34683,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "STEWARD|T",
+      "name": "Thomas Steward",
+      "roles": [
+        {
+          "title": "PRES",
+          "kind": "officer",
+          "total": 24536
+        }
+      ],
+      "grossSalary": 22113,
+      "allowances": 0,
+      "officialBusiness": 2423,
+      "total": 24536,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "ALMAZON|L",
+      "name": "Lourdes Almazon",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 6016
+        }
+      ],
+      "grossSalary": 5010,
+      "allowances": 0,
+      "officialBusiness": 1006,
+      "total": 6016,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "TULK|R",
+      "name": "Ronald Tulk",
+      "roles": [
+        {
+          "title": "VICE",
+          "kind": "officer",
+          "total": 2400
+        }
+      ],
+      "grossSalary": 2400,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2400,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "VASQUEZ|I",
+      "name": "Irais Vasquez",
+      "roles": [
+        {
+          "title": "EXEV BRD",
+          "kind": "officer",
+          "total": 1800
+        }
+      ],
+      "grossSalary": 1800,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1800,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "KRAWCZYK|W",
+      "name": "William Krawczyk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 1375
+        }
+      ],
+      "grossSalary": 1375,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1375,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "MARQUEZ|M",
+      "name": "Martin Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "WILLIAMS|C",
+      "name": "Corneli Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2002,
+      "key": "OLSZEWSKI|J",
+      "name": "Jerzy Olszewski",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "SCHNEIDER|R",
+      "name": "Russell Schneider",
+      "roles": [
+        {
+          "title": "BUS MGR",
+          "kind": "officer",
+          "total": 132053
+        }
+      ],
+      "grossSalary": 126978,
+      "allowances": 0,
+      "officialBusiness": 5075,
+      "total": 132053,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SEC/TREAS",
+          "kind": "officer",
+          "total": 99890
+        }
+      ],
+      "grossSalary": 93227,
+      "allowances": 0,
+      "officialBusiness": 6663,
+      "total": 99890,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DELGADILLO|R",
+      "name": "Ricardo Delgadillo",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 74790
+        }
+      ],
+      "grossSalary": 68765,
+      "allowances": 0,
+      "officialBusiness": 6025,
+      "total": 74790,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "STEWARD|T",
+      "name": "Thomas Steward",
+      "roles": [
+        {
+          "title": "PRES",
+          "kind": "officer",
+          "total": 72522
+        }
+      ],
+      "grossSalary": 64555,
+      "allowances": 0,
+      "officialBusiness": 7967,
+      "total": 72522,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "HERRERA|D",
+      "name": "Daniel Herrera",
+      "roles": [
+        {
+          "title": "PRES",
+          "kind": "officer",
+          "total": 61683
+        }
+      ],
+      "grossSalary": 52059,
+      "allowances": 0,
+      "officialBusiness": 9624,
+      "total": 61683,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "DONATO|J",
+      "name": "Joseph Donato",
+      "roles": [
+        {
+          "title": "FMR BUS REP",
+          "kind": "employee",
+          "total": 52993
+        }
+      ],
+      "grossSalary": 45027,
+      "allowances": 0,
+      "officialBusiness": 7966,
+      "total": 52993,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "KOSIAREK|M",
+      "name": "Mary Kosiarek",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 48000
+        }
+      ],
+      "grossSalary": 48000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 48000,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "ZAMORA|A",
+      "name": "Adolfo Zamora",
+      "roles": [
+        {
+          "title": "BUS AGENT",
+          "kind": "employee",
+          "total": 15958
+        }
+      ],
+      "grossSalary": 14414,
+      "allowances": 0,
+      "officialBusiness": 1544,
+      "total": 15958,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "ALMAZON|L",
+      "name": "Lourdes Almazon",
+      "roles": [
+        {
+          "title": "REC SEC",
+          "kind": "officer",
+          "total": 5358
+        }
+      ],
+      "grossSalary": 5358,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 5358,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "VASQUEZ|I",
+      "name": "Irais Vasquez",
+      "roles": [
+        {
+          "title": "EXEC BRD",
+          "kind": "officer",
+          "total": 3463
+        }
+      ],
+      "grossSalary": 3463,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3463,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "MARQUEZ|M",
+      "name": "Martin Marquez",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 3000
+        }
+      ],
+      "grossSalary": 3000,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 3000,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "KRAWCZYK|W",
+      "name": "William Krawczyk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 2100
+        }
+      ],
+      "grossSalary": 2100,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 2100,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "WILLIAMS|C",
+      "name": "Corneli Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 1700
+        }
+      ],
+      "grossSalary": 1700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 1700,
+      "dualRole": false
+    },
+    {
+      "year": 2001,
+      "key": "OLSZEWSKI|J",
+      "name": "Jerzy Olszewski",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 900
+        }
+      ],
+      "grossSalary": 900,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 900,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SALERNO|S",
+      "name": "Sam Salerno",
+      "roles": [
+        {
+          "title": "TRUSTEE",
+          "kind": "employee",
+          "total": 79368
+        }
+      ],
+      "grossSalary": 77954,
+      "allowances": 0,
+      "officialBusiness": 1414,
+      "total": 79368,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DUMO|D",
+      "name": "Daniel Dumo",
+      "roles": [
+        {
+          "title": "DEPUTY TRUSTEE",
+          "kind": "employee",
+          "total": 75884
+        }
+      ],
+      "grossSalary": 74192,
+      "allowances": 0,
+      "officialBusiness": 1692,
+      "total": 75884,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "ZABALA|G",
+      "name": "George Zabala",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 58644
+        }
+      ],
+      "grossSalary": 56806,
+      "allowances": 0,
+      "officialBusiness": 1838,
+      "total": 58644,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "WONG|C",
+      "name": "Craig Wong",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 52796
+        }
+      ],
+      "grossSalary": 45527,
+      "allowances": 0,
+      "officialBusiness": 7269,
+      "total": 52796,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "PAPPAS|V",
+      "name": "Vernon Pappas",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 51323
+        }
+      ],
+      "grossSalary": 50631,
+      "allowances": 0,
+      "officialBusiness": 692,
+      "total": 51323,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SNYDER|T",
+      "name": "Tim Snyder",
+      "roles": [
+        {
+          "title": "BUSINESS AGENT",
+          "kind": "employee",
+          "total": 42909
+        }
+      ],
+      "grossSalary": 39417,
+      "allowances": 0,
+      "officialBusiness": 3492,
+      "total": 42909,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SCHNEIDER|R",
+      "name": "Russell Schneider",
+      "roles": [
+        {
+          "title": "BUSINESS MGR",
+          "kind": "officer",
+          "total": 40677
+        }
+      ],
+      "grossSalary": 40493,
+      "allowances": 0,
+      "officialBusiness": 184,
+      "total": 40677,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "KOSIAREK|M",
+      "name": "Mary Kosiarek",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 31513
+        }
+      ],
+      "grossSalary": 31513,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 31513,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "SCHMARJE|R",
+      "name": "Rebecca Schmarje",
+      "roles": [
+        {
+          "title": "CLERK",
+          "kind": "employee",
+          "total": 30648
+        }
+      ],
+      "grossSalary": 30648,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 30648,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "CANTONE|A",
+      "name": "Anthony Cantone",
+      "roles": [
+        {
+          "title": "SEC TREASURER",
+          "kind": "officer",
+          "total": 29647
+        }
+      ],
+      "grossSalary": 27879,
+      "allowances": 0,
+      "officialBusiness": 1768,
+      "total": 29647,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "HERRERA|D",
+      "name": "Daniel Herrera",
+      "roles": [
+        {
+          "title": "PRESIDENT",
+          "kind": "officer",
+          "total": 21774
+        }
+      ],
+      "grossSalary": 18832,
+      "allowances": 0,
+      "officialBusiness": 2942,
+      "total": 21774,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DONATO|J",
+      "name": "Joseph Donato",
+      "roles": [
+        {
+          "title": "BUSINESS REP",
+          "kind": "employee",
+          "total": 19515
+        }
+      ],
+      "grossSalary": 17658,
+      "allowances": 0,
+      "officialBusiness": 1857,
+      "total": 19515,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "STEWARD|T",
+      "name": "Thomas Steward",
+      "roles": [
+        {
+          "title": "VICE PRESIDENT",
+          "kind": "officer",
+          "total": 19513
+        }
+      ],
+      "grossSalary": 18745,
+      "allowances": 0,
+      "officialBusiness": 768,
+      "total": 19513,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "DELGADILLO|R",
+      "name": "Ricardo Delgadillo",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 17119
+        }
+      ],
+      "grossSalary": 15329,
+      "allowances": 0,
+      "officialBusiness": 1790,
+      "total": 17119,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "ALMAZON|L",
+      "name": "Lourdes Almazon",
+      "roles": [
+        {
+          "title": "REC SECRETARY",
+          "kind": "officer",
+          "total": 700
+        }
+      ],
+      "grossSalary": 700,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 700,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "VAZQUEZ|I",
+      "name": "Irais Vazquez",
+      "roles": [
+        {
+          "title": "EXECUTIVE BOARD",
+          "kind": "officer",
+          "total": 600
+        }
+      ],
+      "grossSalary": 600,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 600,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "KRAWCZYK|W",
+      "name": "William Krawczyk",
+      "roles": [
+        {
+          "title": "SGT AT ARMS",
+          "kind": "officer",
+          "total": 500
+        }
+      ],
+      "grossSalary": 500,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 500,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "WILLIAMS|C",
+      "name": "Corneli Williams",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 300
+        }
+      ],
+      "grossSalary": 300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 300,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "OLSZEWSKI|J",
+      "name": "Jerzy Olszewski",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 300
+        }
+      ],
+      "grossSalary": 300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 300,
+      "dualRole": false
+    },
+    {
+      "year": 2000,
+      "key": "MARTIN|M",
+      "name": "Marquez Martin",
+      "roles": [
+        {
+          "title": "AUDITOR",
+          "kind": "officer",
+          "total": 300
+        }
+      ],
+      "grossSalary": 300,
+      "allowances": 0,
+      "officialBusiness": 0,
+      "total": 300,
+      "dualRole": false
+    }
+  ],
+  "dues": {
+    "2005": [
+      {
+        "type": "Regular dues",
+        "amount": "15/24",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.35%/1.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "225-600",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2006": [
+      {
+        "type": "Regular dues",
+        "amount": "15/24",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.35%/1.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "225-600",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2007": [
+      {
+        "type": "Regular dues",
+        "amount": "15/24",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%- 2.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "175-700",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2008": [
+      {
+        "type": "Regular dues",
+        "amount": "15/24",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "175-700",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2009": [
+      {
+        "type": "Regular dues",
+        "amount": "15/24",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "175-700",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2010": [
+      {
+        "type": "Regular dues",
+        "amount": "$15/$24",
+        "unit": "MONTH",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%- 2.75%",
+        "unit": "GROSS WAGES",
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$700",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "2011": [
+      {
+        "type": "Regular dues",
+        "amount": "$15/$24",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$24"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-2.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "2.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$700",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$700"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2012": [
+      {
+        "type": "Regular dues",
+        "amount": "$15/$30",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2013": [
+      {
+        "type": "Regular dues",
+        "amount": "$15/$30",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2014": [
+      {
+        "type": "Regular dues",
+        "amount": "$15-$30",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.25%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.25%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2015": [
+      {
+        "type": "Regular dues",
+        "amount": "$15-$30",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2016": [
+      {
+        "type": "Regular dues",
+        "amount": "$15-$30",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2017": [
+      {
+        "type": "Regular dues",
+        "amount": "$15-$30",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2018": [
+      {
+        "type": "Regular dues",
+        "amount": "$7-$30",
+        "unit": "Month",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "Gross Wages",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "Time",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "Per",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "Per",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2019": [
+      {
+        "type": "Regular dues",
+        "amount": "$7-$30",
+        "unit": "Month",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "Gross Wages",
+        "min": "1.30%`",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "Time",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "Per",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "Per",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2020": [
+      {
+        "type": "Regular dues",
+        "amount": "$7-$30",
+        "unit": "Month",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30% - 3.75%",
+        "unit": "Gross Wages",
+        "min": "1.3%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175 - $800",
+        "unit": "Time",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2021": [
+      {
+        "type": "Regular dues",
+        "amount": "$7-$30",
+        "unit": "Month",
+        "min": "$7",
+        "max": "$30"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "Gross Wages",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "Time",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2022": [
+      {
+        "type": "Regular dues",
+        "amount": "$7-$40",
+        "unit": "Month",
+        "min": "$7",
+        "max": "$40"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "Gross Wages",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "Time",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2023": [
+      {
+        "type": "Regular dues",
+        "amount": "$7-$40",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$40"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2024": [
+      {
+        "type": "Regular dues",
+        "amount": "$7-$40",
+        "unit": "MONTH",
+        "min": "$7",
+        "max": "$40"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$175-$800",
+        "unit": "TIME",
+        "min": "$175",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ],
+    "2025": [
+      {
+        "type": "Regular dues",
+        "amount": "$8-$40",
+        "unit": "MONTH",
+        "min": "$8",
+        "max": "$40"
+      },
+      {
+        "type": "Working dues",
+        "amount": "1.30%-3.75%",
+        "unit": "GROSS WAGES",
+        "min": "1.30%",
+        "max": "3.75%"
+      },
+      {
+        "type": "Initiation fee",
+        "amount": "$200-$800",
+        "unit": "ONE TIME",
+        "min": "$200",
+        "max": "$800"
+      },
+      {
+        "type": "Transfer fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      },
+      {
+        "type": "Work permit fee",
+        "amount": "N/A",
+        "unit": "N/A",
+        "min": "N/A",
+        "max": "N/A"
+      }
+    ]
+  },
+  "surnameClusters": [
+    {
+      "year": 2025,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 446336,
+          "roles": [
+            "PRESIDENT/BUS MGR"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 124374,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 570710
+    },
+    {
+      "year": 2024,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 305691,
+          "roles": [
+            "PRESIDENT/BUS MGR"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 115745,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 421436
+    },
+    {
+      "year": 2023,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 293018,
+          "roles": [
+            "PRESIDENT/BUS MGR"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 110202,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 403220
+    },
+    {
+      "year": 2022,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 284768,
+          "roles": [
+            "PRESIDENT/BUS. MGR."
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 104976,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 389744
+    },
+    {
+      "year": 2021,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 274425,
+          "roles": [
+            "PRESIDENT/BUSINESS MANAGE"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 99801,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 374226
+    },
+    {
+      "year": 2020,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 272060,
+          "roles": [
+            "PRESIDENT/BUS MANAGER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 96954,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 369014
+    },
+    {
+      "year": 2019,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 256544,
+          "roles": [
+            "PRESIDENT/BUS MANAGER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 90847,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 347391
+    },
+    {
+      "year": 2018,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 241556,
+          "roles": [
+            "PRESIDENT/BUS MANAGER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 86242,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 327798
+    },
+    {
+      "year": 2017,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 223137,
+          "roles": [
+            "PRESIDENT/BUS MANAGER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 81337,
+          "roles": [
+            "OFFICE MANAGER"
+          ]
+        }
+      ],
+      "combined": 304474
+    },
+    {
+      "year": 2016,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 214923,
+          "roles": [
+            "PRESIDENT/BUS MANAGER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 76117,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 291040
+    },
+    {
+      "year": 2015,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 201597,
+          "roles": [
+            "PRESIDENT/BUS MANAGER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 64659,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 266256
+    },
+    {
+      "year": 2014,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 184503,
+          "roles": [
+            "PRESIDENT/BUS MANAGER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 52901,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 237404
+    },
+    {
+      "year": 2013,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 171271,
+          "roles": [
+            "SECRETARY/TREASURER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 52815,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 224086
+    },
+    {
+      "year": 2012,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 166817,
+          "roles": [
+            "SECRETARY/TREASURER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 46275,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 213092
+    },
+    {
+      "year": 2011,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 164469,
+          "roles": [
+            "SECRETARY/TREASURER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 45747,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 210216
+    },
+    {
+      "year": 2010,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 166358,
+          "roles": [
+            "SECRETARY/TREASURER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 47507,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 213865
+    },
+    {
+      "year": 2009,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 161091,
+          "roles": [
+            "SECRETARY/TREASURER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 45764,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 206855
+    },
+    {
+      "year": 2009,
+      "surname": "WILLIAMS",
+      "people": [
+        {
+          "name": "Mary Williams",
+          "total": 5525,
+          "roles": [
+            "EXECUTIVE BOARD"
+          ]
+        },
+        {
+          "name": "Cw Williams",
+          "total": 600,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 6125
+    },
+    {
+      "year": 2008,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 159536,
+          "roles": [
+            "SECRETARY/TREASURER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 42450,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 201986
+    },
+    {
+      "year": 2008,
+      "surname": "WILLIAMS",
+      "people": [
+        {
+          "name": "Mary Williams",
+          "total": 8363,
+          "roles": [
+            "EXECUTIVE BOARD"
+          ]
+        },
+        {
+          "name": "Cw Williams",
+          "total": 1100,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 9463
+    },
+    {
+      "year": 2007,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 153710,
+          "roles": [
+            "SECRETARY/TREASURER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 34800,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 188510
+    },
+    {
+      "year": 2007,
+      "surname": "WILLIAMS",
+      "people": [
+        {
+          "name": "Mary Williams",
+          "total": 6000,
+          "roles": [
+            "EXECUTIVE BOARD"
+          ]
+        },
+        {
+          "name": "Cw Williams",
+          "total": 1200,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 7200
+    },
+    {
+      "year": 2006,
+      "surname": "CANTONE",
+      "people": [
+        {
+          "name": "Anthony Cantone",
+          "total": 145272,
+          "roles": [
+            "SECRETARY TREASURER"
+          ]
+        },
+        {
+          "name": "Meggen Cantone",
+          "total": 22101,
+          "roles": [
+            "OFFICE"
+          ]
+        }
+      ],
+      "combined": 167373
+    },
+    {
+      "year": 2006,
+      "surname": "WILLIAMS",
+      "people": [
+        {
+          "name": "Mary Williams",
+          "total": 3600,
+          "roles": [
+            "EXECUTIVE BOARD"
+          ]
+        },
+        {
+          "name": "Cornelius Williams",
+          "total": 1568,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 5168
+    },
+    {
+      "year": 2005,
+      "surname": "WILLIAMS",
+      "people": [
+        {
+          "name": "Mary Williams",
+          "total": 3600,
+          "roles": [
+            "EXECUTIVE BOARD"
+          ]
+        },
+        {
+          "name": "Cornelius Williams",
+          "total": 1200,
+          "roles": [
+            "AUDITOR"
+          ]
+        }
+      ],
+      "combined": 4800
+    }
+  ],
+  "events": [],
+  "lineage": [
+    {
+      "key": "PEREZ|R",
+      "name": "Roberto Perez",
+      "cameFrom": 152,
+      "firstPaidYear": 2016,
+      "currentTitle": "REC SEC/BUS REP"
+    }
+  ]
+}

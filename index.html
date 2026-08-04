@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ledger — your hours, your record</title>
+<meta name="description" content="Log your hours in twenty seconds. Keep a record no one can edit but you.">
+<meta name="theme-color" content="#0d1014">
+<link rel="stylesheet" href="./style.css">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ledger">
+</head>
+<body>
+
+<div id="splash" role="status" aria-label="Ledger">
+  <div class="sp-rings">
+    <i></i><i></i><i></i>
+    <span class="sp-emoji">🦅</span>
+  </div>
+  <div class="sp-word">LEDGER</div>
+  <div class="sp-tag" id="spTag">Your hours. Your record.</div>
+</div>
+
+<div class="shell">
+
+  <!-- ============ LOG ============ -->
+  <section class="view" id="view-log" data-view="log">
+    <header class="vhead">
+      <div>
+        <p class="eyebrow" id="todayLabel"></p>
+        <h1 id="appTitle" contenteditable="plaintext-only" spellcheck="false"
+            role="textbox" aria-label="Name this app whatever you want">Your hours</h1>
+      </div>
+      <div class="headbtns">
+        <button class="gear" id="btnSettings" type="button" aria-label="Settings">
+          <span class="gear-ic" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Tapping + or - changes the hours, the split and the pay all at once,
+         silently. This is where a screen reader is told what the number became. -->
+    <p class="sr-only" id="liveSay" role="status" aria-live="polite" aria-atomic="true"></p>
+
+    <div id="radarNag" hidden></div>
+    <div id="noticeBoard"></div>
+    <div class="nag" id="backupNag" hidden></div>
+
+    <div class="banked card">
+      <div class="banked-main">
+        <span class="banked-k">Hours logged this plan year</span>
+        <span class="banked-v" id="bankedHours">0</span>
+        <span class="banked-sub" id="bankedSub">Plan year runs June 1 – May 31</span>
+      </div>
+      <div class="meter"><div class="meter-fill" id="meterFill"></div></div>
+      <p class="meter-note" id="meterNote"></p>
+    </div>
+
+    <div class="card entry">
+      <div class="punch" id="punchBox">
+        <button type="button" class="punch-btn" id="btnPunch">
+          <span class="punch-ic" aria-hidden="true"></span>
+          <span id="punchLabel">Punch in</span>
+        </button>
+        <div class="punch-live" id="punchLive" hidden>
+          <div class="pl-elapsed" id="punchElapsed" aria-live="off">0:00:00</div>
+          <div class="pl-since" id="punchSince"></div>
+          <button type="button" class="punch-out" id="btnPunchOut">Punch out</button>
+        </div>
+      </div>
+      <p class="micro punch-summary" id="punchSummary" hidden></p>
+      <div class="row2">
+        <label class="line">
+          <span>Date</span>
+          <input type="date" id="fDate">
+        </label>
+        <label class="line">
+          <span>Rate</span>
+          <input type="number" id="fRate" inputmode="decimal" step="0.01" min="0" placeholder="$0.00">
+          <button type="button" id="btnScale" class="scale-btn" aria-label="Pick your classification">scale</button>
+        </label>
+      </div>
+      <label class="line">
+        <span>Contractor</span>
+        <input type="text" id="fContractor" placeholder="Who you worked for" autocomplete="off">
+      </label>
+      <div class="sug" id="contractorSug" hidden></div>
+
+      <div class="daytype" role="group" aria-label="Day type">
+        <button type="button" data-day="weekday" class="on">Weekday</button>
+        <button type="button" data-day="saturday">Saturday</button>
+        <button type="button" data-day="sunday">Sun / holiday</button>
+        <button type="button" data-day="fourTens">Four 10s</button>
+      </div>
+
+      <div class="hero-hours">
+        <button type="button" id="hMinus" data-step="-0.5" aria-label="fewer hours">−</button>
+        <div class="hh-mid">
+          <output id="outTotal">8</output>
+          <span class="hh-unit">hours worked</span>
+        </div>
+        <button type="button" id="hPlus" data-step="0.5" aria-label="more hours">+</button>
+      </div>
+
+      <div class="shortday" id="shortBox" hidden></div>
+
+      <div class="tally">
+        <div class="split" id="splitOut"></div>
+        <output class="gross" id="grossOut">—</output>
+      </div>
+
+      <details class="rulebox">
+        <summary id="ruleSum">How this day is paid</summary>
+        <p class="ruleline" id="ruleLine"></p>
+      </details>
+
+      <button class="mic" id="btnMic" type="button">
+        <span class="mic-icon" aria-hidden="true"></span>
+        <span class="mic-text">Say what happened today</span>
+      </button>
+      <label class="sr-only" for="fNote" id="fNoteLabel">What happened today</label>
+      <textarea id="fNote" rows="3" placeholder="Job, foreman, who told you to stay, anything that felt off. Twenty seconds is plenty."></textarea>
+
+      <div class="flags" id="flagStrip" hidden></div>
+
+      <button class="primary" id="btnSave" type="button">Log it</button>
+      <p class="micro" id="saveHint">Sealed when you save. You can add a correction later; nothing is ever rewritten.</p>
+      <p class="micro" id="storageLine"></p>
+    </div>
+
+    <div class="recent">
+      <div class="cal-head">
+        <button class="cal-nav" id="calPrev" type="button" aria-label="previous month">‹</button>
+        <h2 id="calTitle">—</h2>
+        <button class="cal-nav" id="calNext" type="button" aria-label="next month">›</button>
+      </div>
+      <div class="card pad">
+        <div class="cal-dow"><span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span></div>
+        <div class="cal" id="calGrid"></div>
+        <div class="cal-foot" id="calFoot"></div>
+        <p class="payday-line" id="paydayLine"></p>
+      </div>
+    </div>
+
+    <div class="recent">
+      <h2>Recent</h2>
+      <div id="entryList"></div>
+    </div>
+  </section>
+
+  <!-- ============ LOCAL ============ -->
+  <section class="view" id="view-local" data-view="local" hidden>
+    <header class="vhead">
+      <div>
+        <p class="eyebrow">Public federal filings</p>
+        <h1>Know your local</h1>
+      </div>
+      <button class="bigpick" id="localPick" type="button">
+        <span id="localPickLabel">Local 582</span>
+        <span class="bigpick-chev" aria-hidden="true"></span>
+      </button>
+    </header>
+    <div id="localBody"><p class="loading">Loading filings…</p></div>
+  </section>
+
+  <!-- ============ PENSION ============ -->
+  <section class="view" id="view-fund" data-view="fund" hidden>
+    <header class="vhead">
+      <div>
+        <p class="eyebrow">Form 5500</p>
+        <h1>Your pension</h1>
+      </div>
+    </header>
+    <div id="fundBody"><p class="loading">Loading…</p></div>
+  </section>
+
+
+  <!-- ============ CARDS ============ -->
+  <section class="view" id="view-certs" data-view="certs" hidden>
+    <header class="vhead">
+      <div>
+        <p class="eyebrow">Your certifications</p>
+        <h1>Cards</h1>
+      </div>
+      <button class="ghost" id="btnAddCert" type="button">Add</button>
+    </header>
+    <div id="certBody"></div>
+  </section>
+
+
+  <!-- ============ RADAR ============ -->
+  <section class="view" id="view-radar" data-view="radar" hidden>
+    <header class="vhead">
+      <div>
+        <p class="eyebrow">Federal court dockets</p>
+        <h1>Radar</h1>
+      </div>
+    </header>
+    <div id="radarBody"><p class="loading">Loading…</p></div>
+  </section>
+
+</div>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="sheet-scrim" data-close></div>
+  <div class="sheet-panel">
+    <div class="sheet-grab"></div>
+    <h2 id="sheetTitle">Choose</h2>
+    <div id="sheetBody"></div>
+    <button class="sheet-cancel" type="button" data-close>Close</button>
+  </div>
+</div>
+
+<nav class="tabs" role="tablist">
+  <button data-go="log" class="on" type="button"><i class="ic-log"></i><span>Log</span></button>
+  <button data-go="certs" type="button"><i class="ic-card"></i><span>Cards</span></button>
+  <button data-go="local" type="button"><i class="ic-local"></i><span>Local</span></button>
+  <button data-go="fund" type="button"><i class="ic-fund"></i><span>Pension</span></button>
+  <button data-go="radar" type="button"><i class="ic-radar"></i><span>Radar</span></button>
+</nav>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>

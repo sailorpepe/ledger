@@ -1,0 +1,297 @@
+{
+  "generated": "2026-08-04T01:36:18.860Z",
+  "source": "https://labordata.bunkum.us/opdr",
+  "latestYear": 2025,
+  "homeLocal": 582,
+  "peers": [
+    {
+      "desig": 68,
+      "city": "Lombard",
+      "members": 2377,
+      "receiptsPerMember": 2805,
+      "assetsPerMember": 7204,
+      "topPay": 414746,
+      "payrollShare": 31.7
+    },
+    {
+      "desig": 225,
+      "city": "Willow Springs",
+      "members": 1703,
+      "receiptsPerMember": 2752,
+      "assetsPerMember": 8716,
+      "topPay": 446336,
+      "payrollShare": 30.5
+    },
+    {
+      "desig": 1,
+      "city": "Chicago",
+      "members": 1619,
+      "receiptsPerMember": 2320,
+      "assetsPerMember": 5256,
+      "topPay": 345834,
+      "payrollShare": 35.9
+    },
+    {
+      "desig": 2,
+      "city": "Brookfield",
+      "members": 1580,
+      "receiptsPerMember": 2916,
+      "assetsPerMember": 9171,
+      "topPay": 340676,
+      "payrollShare": 32.8
+    },
+    {
+      "desig": 582,
+      "city": "Elgin",
+      "members": 1562,
+      "receiptsPerMember": 2547,
+      "assetsPerMember": 10706,
+      "topPay": 222496,
+      "payrollShare": 24.4
+    },
+    {
+      "desig": 4,
+      "city": "Chicago",
+      "members": 1368,
+      "receiptsPerMember": 8193,
+      "assetsPerMember": 14144,
+      "topPay": 227268,
+      "payrollShare": 10.5
+    },
+    {
+      "desig": 76,
+      "city": "Chicago",
+      "members": 1330,
+      "receiptsPerMember": 5102,
+      "assetsPerMember": 11601,
+      "topPay": 470676,
+      "payrollShare": 30.2
+    },
+    {
+      "desig": 75,
+      "city": "Crest Hill",
+      "members": 1268,
+      "receiptsPerMember": 4603,
+      "assetsPerMember": 7115,
+      "topPay": 226413,
+      "payrollShare": 18.7
+    },
+    {
+      "desig": 5,
+      "city": "Chicago Heights",
+      "members": 1095,
+      "receiptsPerMember": 1880,
+      "assetsPerMember": 3014,
+      "topPay": 200719,
+      "payrollShare": 37.6
+    },
+    {
+      "desig": 152,
+      "city": "Highland Park",
+      "members": 1031,
+      "receiptsPerMember": 2101,
+      "assetsPerMember": 2088,
+      "topPay": 220492,
+      "payrollShare": 34.1
+    },
+    {
+      "desig": 681,
+      "city": "Westmont",
+      "members": 976,
+      "receiptsPerMember": 1779,
+      "assetsPerMember": 2682,
+      "topPay": 258053,
+      "payrollShare": 33.8
+    },
+    {
+      "desig": 6,
+      "city": "Chicago",
+      "members": 866,
+      "receiptsPerMember": 3629,
+      "assetsPerMember": 11164,
+      "topPay": 234429,
+      "payrollShare": 31.3
+    },
+    {
+      "desig": 1035,
+      "city": "Marengo",
+      "members": 528,
+      "receiptsPerMember": 3119,
+      "assetsPerMember": 14879,
+      "topPay": 147398,
+      "payrollShare": 29.7
+    }
+  ],
+  "locals": [
+    {
+      "desig": null,
+      "slug": "district-council",
+      "label": "Construction & General Laborers District Council of Chicago & Vicinity",
+      "city": "Burr Ridge",
+      "role": "council",
+      "members": 20606,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 1,
+      "slug": 1,
+      "label": "Local 1",
+      "city": "Chicago",
+      "role": "local",
+      "members": 1619,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 2,
+      "slug": 2,
+      "label": "Local 2",
+      "city": "Brookfield",
+      "role": "local",
+      "members": 1580,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 4,
+      "slug": 4,
+      "label": "Local 4",
+      "city": "Chicago",
+      "role": "local",
+      "members": 1368,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 5,
+      "slug": 5,
+      "label": "Local 5",
+      "city": "Chicago Heights",
+      "role": "local",
+      "members": 1095,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 6,
+      "slug": 6,
+      "label": "Local 6",
+      "city": "Chicago",
+      "role": "local",
+      "members": 866,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 68,
+      "slug": 68,
+      "label": "Local 68",
+      "city": "Lombard",
+      "role": "local",
+      "members": 2377,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 75,
+      "slug": 75,
+      "label": "Local 75",
+      "city": "Crest Hill",
+      "role": "local",
+      "members": 1268,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 76,
+      "slug": 76,
+      "label": "Local 76",
+      "city": "Chicago",
+      "role": "local",
+      "members": 1330,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 152,
+      "slug": 152,
+      "label": "Local 152",
+      "city": "Highland Park",
+      "role": "local",
+      "members": 1031,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 225,
+      "slug": 225,
+      "label": "Local 225",
+      "city": "Willow Springs",
+      "role": "local",
+      "members": 1703,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 582,
+      "slug": 582,
+      "label": "Local 582",
+      "city": "Elgin",
+      "role": "local",
+      "members": 1562,
+      "latestYear": 2025,
+      "hasEvents": true
+    },
+    {
+      "desig": 681,
+      "slug": 681,
+      "label": "Local 681",
+      "city": "Westmont",
+      "role": "local",
+      "members": 976,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 1001,
+      "slug": 1001,
+      "label": "Local 1001",
+      "city": "Chicago",
+      "role": "local",
+      "members": 2754,
+      "latestYear": 2003,
+      "hasEvents": false
+    },
+    {
+      "desig": 1035,
+      "slug": 1035,
+      "label": "Local 1035",
+      "city": "Marengo",
+      "role": "local",
+      "members": 528,
+      "latestYear": 2025,
+      "hasEvents": false
+    },
+    {
+      "desig": 1092,
+      "slug": 1092,
+      "label": "Local 1092",
+      "city": "Chicago",
+      "role": "local",
+      "members": 934,
+      "latestYear": 2002,
+      "hasEvents": false
+    },
+    {
+      "desig": 149,
+      "slug": 149,
+      "label": "Local 149",
+      "city": "Aurora",
+      "role": "dissolved",
+      "members": null,
+      "latestYear": 2014,
+      "hasEvents": true
+    }
+  ]
+}
