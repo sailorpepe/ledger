@@ -1013,18 +1013,39 @@ async function exportLog() {
   const stamp = new Date().toISOString().slice(0, 10)
   // Two files on purpose: the .txt is what a human reads, the .json is what
   // restores. Exporting only the readable one is how people lose everything.
-  for (const [name, body, type] of [
+  const files = [
     [`work-log-${stamp}.txt`, lines.join('\n'), 'text/plain'],
     [`work-log-${stamp}.json`, JSON.stringify(log), 'application/json'],
-  ]) {
+  ]
+
+  // "Backed up" is only recorded once the files verifiably left — and the app
+  // says so out loud, with the filenames. A save with no confirmation is
+  // indistinguishable from a broken button; that is not a guess, it shipped.
+  const done = async () => {
+    await store.setMeta('lastBackup', { at: new Date().toISOString(), count: log.length })
+    paintBackupState()
+    tell(t('saveBackup'), t(log.length === 1 ? 'backupDone1' : 'backupDone', { n: log.length, d: stamp }))
+  }
+
+  if (NATIVE) {
+    // WKWebView ignores <a download> outright. On the phone the old path was a
+    // silent no-op that then RECORDED the backup as taken — the app reassured
+    // the member he was safe when nothing had been written anywhere. The files
+    // go over the bridge to the iOS share sheet instead: the member picks
+    // where they live, and success comes back only when the share completes.
+    window.__shareDone = (completed) => { if (completed) done() }
+    nativePost({ type: 'share', files: files.map(([name, body]) => ({ name, body })) })
+    return
+  }
+
+  for (const [name, body, type] of files) {
     const a = document.createElement('a')
     a.href = URL.createObjectURL(new Blob([body], { type }))
     a.download = name
     a.click()
     URL.revokeObjectURL(a.href)
   }
-  await store.setMeta('lastBackup', { at: new Date().toISOString(), count: log.length })
-  paintBackupState()
+  await done()
 }
 
 /* ---- durability ----
@@ -1533,7 +1554,14 @@ function openSettings() {
     lang: pickLang,
     backup: exportLog,
     restore: importLog,
-    notices: async () => { await store.setMeta('noticesSeen', []); paintNotices() },
+    notices: async () => {
+      await store.setMeta('noticesSeen', [])
+      await paintNotices()
+      // notices.json is legitimately empty most of the time — the button still
+      // has to answer, or it reads as broken. (It did.)
+      const count = await fetch('./data/notices.json').then((r) => r.json()).then((n) => n.length).catch(() => 0)
+      tell(t('noticesAgain'), count ? t('noticesBack', { n: count }) : t('noticesEmpty'))
+    },
     report: reportProblem,
     about: showAbout,
     reset: resetEverything,
