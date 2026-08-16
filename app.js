@@ -1599,7 +1599,10 @@ function showAbout() {
 function reportProblem() {
   const subject = encodeURIComponent(t('reportSubject', { v: APP_VERSION }))
   const body = encodeURIComponent(t('reportBody', { v: APP_VERSION, ua: navigator.userAgent, n: readLog().length }))
-  location.href = `mailto:?subject=${subject}&body=${body}`
+  // The address is the one on the privacy policy and the App Store listing.
+  // It was missing entirely — the draft opened addressed to nobody, and a
+  // member with a real bug got a dead end dressed as a feature.
+  location.href = `mailto:ledger@the-undesirables.com?subject=${subject}&body=${body}`
 }
 
 // Two deliberate obstacles: a backup check, and typing a word. A thumb in a
