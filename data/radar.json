@@ -1,7 +1,18 @@
 {
-  "generated": "2026-08-04T01:37:02.111Z",
+  "generated": "2026-09-03T21:40:19.177Z",
   "lookbackDays": 365,
   "events": [
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "Sustainable Sewer & Water, Inc.",
+      "defendantKey": "SUSTAINABLE SEWER WATER",
+      "dateFiled": "2026-08-20",
+      "docketNumber": "1:26-cv-10058",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/74675569/chicago-vicinity-laborers-district-council-pension-fund-v-sustainable/",
+      "source": "CourtListener / RECAP (federal docket)"
+    },
     {
       "kind": "fund-lawsuit",
       "plaintiff": "Central Laborers' Pension Fund",
@@ -110,6 +121,17 @@
       "docketNumber": "1:26-cv-06104",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73387730/central-laborers-pension-fund-v-american-mechanical-services-inc/",
+      "source": "CourtListener / RECAP (federal docket)"
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "Blue Reef, LLC",
+      "defendantKey": "BLUE REEF",
+      "dateFiled": "2026-05-18",
+      "docketNumber": "1:26-cv-05763",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/73357969/chicago-vicinity-laborers-district-council-pension-fund-v-blue-reef/",
       "source": "CourtListener / RECAP (federal docket)"
     },
     {
@@ -396,17 +418,6 @@
       "docketNumber": "3:25-cv-50386",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/71299842/central-laborers-pension-fund-v-herbig-blacktop-construction-llc/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "UR Group Construction LLC",
-      "defendantKey": "UR GROUP CONSTRUCTION",
-      "dateFiled": "2025-08-25",
-      "docketNumber": "1:25-cv-10155",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71197214/chicago-vicinity-laborers-district-council-pension-fund-v-ur-group/",
       "source": "CourtListener / RECAP (federal docket)"
     }
   ]

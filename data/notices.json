@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "2026-08-app-store-launch",
+    "date": "2026-08-17",
+    "from": "Sailorpepe",
+    "title": "It's on the App Store · Ya está en la App Store",
+    "body": "Ledger is now on the Apple App Store, free. If you are using this web version on an iPhone, you can switch: back up here (Settings → Save a backup), install the app, restore your backup, and your whole record moves with you. Android users — this web version is yours, and it is not going anywhere. — Ledger ya está en la App Store de Apple, gratis. Si usas esta versión web en un iPhone, puedes cambiarte: haz un respaldo aquí (Ajustes → Guardar un respaldo), instala la app, restaura tu respaldo, y todo tu registro se va contigo. Si usas Android — esta versión web es tuya y no se va a ninguna parte.",
+    "link": {
+      "label": "Get it on the App Store",
+      "url": "https://apps.apple.com/us/app/ledger-union-work-log/id6797896983"
+    },
+    "until": "2026-11-30"
+  }
+]
