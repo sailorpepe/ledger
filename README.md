@@ -11,7 +11,7 @@ to install.**
 | **Privacy** | https://sailorpepe.github.io/ledger-help/privacy.html |
 | **Contact** | ledger@the-undesirables.com |
 
-Built by a member of LIUNA Local 582, for the guys he works with.
+Built by a union laborer, for the guys he works with.
 
 ---
 
