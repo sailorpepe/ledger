@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<!-- The page runs and reads only Ledger's own files: no inline script, no
+     eval, no fetch to any other host. So a hostile backup or a bad data file
+     that got past the app's own checks still can't run code, or send the log
+     anywhere. ledger: is the iPhone shell's own scheme (ledger://app), named
+     outright so the policy never depends on a WebKit version counting a
+     custom scheme as 'self'. Styles need 'unsafe-inline' for the style=""
+     widths and colors the app sets. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' ledger:; script-src 'self' ledger:; connect-src 'self' ledger:; img-src 'self' ledger: data:; style-src 'self' ledger: 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ledger — your hours, your record</title>
 <meta name="description" content="Log your hours in twenty seconds. Keep a record no one can edit but you.">
@@ -45,9 +53,14 @@
          silently. This is where a screen reader is told what the number became. -->
     <p class="sr-only" id="liveSay" role="status" aria-live="polite" aria-atomic="true"></p>
 
+    <!-- The radar keeps its own row. Everything else that can need him shares
+         one: the most urgent shows, the rest fold behind a +N (app.js). -->
     <div id="radarNag" hidden></div>
-    <div id="noticeBoard"></div>
-    <div class="nag" id="backupNag" hidden></div>
+    <div class="status-rows" id="statusRows">
+      <div id="noticeBoard"></div>
+      <div class="nag" id="backupNag" hidden></div>
+      <div class="nag" id="cardNag" hidden aria-live="off"></div>
+    </div>
 
     <div class="banked card">
       <div class="banked-main">
@@ -75,7 +88,7 @@
       <div class="row2">
         <label class="line">
           <span>Date</span>
-          <input type="date" id="fDate">
+          <input type="date" id="fDate" required min="1970-01-01" max="2099-12-31">
         </label>
         <label class="line">
           <span>Rate</span>
@@ -90,11 +103,12 @@
       <div class="sug" id="contractorSug" hidden></div>
 
       <div class="daytype" role="group" aria-label="Day type">
-        <button type="button" data-day="weekday" class="on">Weekday</button>
-        <button type="button" data-day="saturday">Saturday</button>
-        <button type="button" data-day="sunday">Sun / holiday</button>
-        <button type="button" data-day="fourTens">Four 10s</button>
+        <button type="button" data-day="weekday" class="on" aria-pressed="true">Weekday</button>
+        <button type="button" data-day="saturday" aria-pressed="false">Saturday</button>
+        <button type="button" data-day="sunday" aria-pressed="false">Sun / holiday</button>
+        <button type="button" data-day="fourTens" aria-pressed="false">Four 10s</button>
       </div>
+      <p class="micro dayhint" id="dayHint" hidden></p>
 
       <div class="hero-hours">
         <button type="button" id="hMinus" data-step="-0.5" aria-label="fewer hours">−</button>
@@ -117,17 +131,18 @@
         <p class="ruleline" id="ruleLine"></p>
       </details>
 
-      <button class="mic" id="btnMic" type="button">
+      <button class="mic gone" id="btnMic" type="button">
         <span class="mic-icon" aria-hidden="true"></span>
         <span class="mic-text">Say what happened today</span>
       </button>
+      <p class="mic-msg" id="micMsg" hidden></p>
       <label class="sr-only" for="fNote" id="fNoteLabel">What happened today</label>
       <textarea id="fNote" rows="3" placeholder="Job, foreman, who told you to stay, anything that felt off. Twenty seconds is plenty."></textarea>
 
       <div class="flags" id="flagStrip" hidden></div>
 
       <button class="primary" id="btnSave" type="button">Log it</button>
-      <p class="micro" id="saveHint">Sealed when you save. You can add a correction later; nothing is ever rewritten.</p>
+      <p class="micro" id="saveHint">Sealed when you save, and never rewritten. If a day is wrong, remove it with its × below and log it again.</p>
       <p class="micro" id="storageLine"></p>
     </div>
 
@@ -204,11 +219,11 @@
 
 </div>
 
-<div class="sheet" id="sheet" hidden>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
   <div class="sheet-scrim" data-close></div>
   <div class="sheet-panel">
     <div class="sheet-grab"></div>
-    <h2 id="sheetTitle">Choose</h2>
+    <h2 id="sheetTitle" tabindex="-1">Choose</h2>
     <div id="sheetBody"></div>
     <button class="sheet-cancel" type="button" data-close>Close</button>
   </div>

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-03T21:39:09.760Z",
+  "generated": "2026-10-30T05:22:11.257Z",
   "source": "https://labordata.bunkum.us/opdr",
-  "latestYear": 2025,
+  "latestYear": 2026,
   "homeLocal": 582,
   "peers": [
     {
@@ -11,7 +11,11 @@
       "receiptsPerMember": 2805,
       "assetsPerMember": 7204,
       "topPay": 414746,
-      "payrollShare": 31.7
+      "payrollShare": 31.7,
+      "year": 2025,
+      "duesPerMember": 2096,
+      "topPayWithoutExpenses": 383140,
+      "payrollShareOperating": 40.9
     },
     {
       "desig": 225,
@@ -20,7 +24,11 @@
       "receiptsPerMember": 2752,
       "assetsPerMember": 8716,
       "topPay": 446336,
-      "payrollShare": 30.5
+      "payrollShare": 30.5,
+      "year": 2025,
+      "duesPerMember": 2012,
+      "topPayWithoutExpenses": 437067,
+      "payrollShareOperating": 37.9
     },
     {
       "desig": 1,
@@ -29,7 +37,11 @@
       "receiptsPerMember": 2320,
       "assetsPerMember": 5256,
       "topPay": 345834,
-      "payrollShare": 35.9
+      "payrollShare": 35.9,
+      "year": 2025,
+      "duesPerMember": 2025,
+      "topPayWithoutExpenses": 288480,
+      "payrollShareOperating": 30
     },
     {
       "desig": 2,
@@ -38,7 +50,11 @@
       "receiptsPerMember": 2916,
       "assetsPerMember": 9171,
       "topPay": 340676,
-      "payrollShare": 32.8
+      "payrollShare": 32.8,
+      "year": 2025,
+      "duesPerMember": 2414,
+      "topPayWithoutExpenses": 330447,
+      "payrollShareOperating": 40.8
     },
     {
       "desig": 582,
@@ -47,7 +63,11 @@
       "receiptsPerMember": 2547,
       "assetsPerMember": 10706,
       "topPay": 222496,
-      "payrollShare": 24.4
+      "payrollShare": 24.4,
+      "year": 2025,
+      "duesPerMember": 1968,
+      "topPayWithoutExpenses": 206093,
+      "payrollShareOperating": 32.2
     },
     {
       "desig": 4,
@@ -56,7 +76,11 @@
       "receiptsPerMember": 8193,
       "assetsPerMember": 14144,
       "topPay": 227268,
-      "payrollShare": 10.5
+      "payrollShare": 10.5,
+      "year": 2025,
+      "duesPerMember": 2231,
+      "topPayWithoutExpenses": 227268,
+      "payrollShareOperating": 37.5
     },
     {
       "desig": 76,
@@ -65,7 +89,11 @@
       "receiptsPerMember": 5102,
       "assetsPerMember": 11601,
       "topPay": 470676,
-      "payrollShare": 30.2
+      "payrollShare": 30.2,
+      "year": 2025,
+      "duesPerMember": 2766,
+      "topPayWithoutExpenses": 470676,
+      "payrollShareOperating": 51.8
     },
     {
       "desig": 75,
@@ -74,7 +102,24 @@
       "receiptsPerMember": 4603,
       "assetsPerMember": 7115,
       "topPay": 226413,
-      "payrollShare": 18.7
+      "payrollShare": 18.7,
+      "year": 2025,
+      "duesPerMember": 1996,
+      "topPayWithoutExpenses": 210080,
+      "payrollShareOperating": 39.5
+    },
+    {
+      "desig": 152,
+      "city": "Highland Park",
+      "members": 1139,
+      "receiptsPerMember": 2227,
+      "assetsPerMember": 2440,
+      "topPay": 236448,
+      "payrollShare": 36.2,
+      "year": 2026,
+      "duesPerMember": 1908,
+      "topPayWithoutExpenses": 224194,
+      "payrollShareOperating": 36.1
     },
     {
       "desig": 5,
@@ -83,16 +128,11 @@
       "receiptsPerMember": 1880,
       "assetsPerMember": 3014,
       "topPay": 200719,
-      "payrollShare": 37.6
-    },
-    {
-      "desig": 152,
-      "city": "Highland Park",
-      "members": 1031,
-      "receiptsPerMember": 2101,
-      "assetsPerMember": 2088,
-      "topPay": 220492,
-      "payrollShare": 34.1
+      "payrollShare": 37.6,
+      "year": 2025,
+      "duesPerMember": 1612,
+      "topPayWithoutExpenses": 190724,
+      "payrollShareOperating": 38.6
     },
     {
       "desig": 681,
@@ -101,7 +141,11 @@
       "receiptsPerMember": 1779,
       "assetsPerMember": 2682,
       "topPay": 258053,
-      "payrollShare": 33.8
+      "payrollShare": 33.8,
+      "year": 2025,
+      "duesPerMember": 1404,
+      "topPayWithoutExpenses": 242675,
+      "payrollShareOperating": 33.8
     },
     {
       "desig": 6,
@@ -110,7 +154,11 @@
       "receiptsPerMember": 3629,
       "assetsPerMember": 11164,
       "topPay": 234429,
-      "payrollShare": 31.3
+      "payrollShare": 31.3,
+      "year": 2025,
+      "duesPerMember": 2314,
+      "topPayWithoutExpenses": 214363,
+      "payrollShareOperating": 38.3
     },
     {
       "desig": 1035,
@@ -119,7 +167,11 @@
       "receiptsPerMember": 3119,
       "assetsPerMember": 14879,
       "topPay": 147398,
-      "payrollShare": 29.7
+      "payrollShare": 29.7,
+      "year": 2025,
+      "duesPerMember": 2179,
+      "topPayWithoutExpenses": 138170,
+      "payrollShareOperating": 36.6
     }
   ],
   "locals": [
@@ -131,7 +183,8 @@
       "role": "council",
       "members": 20606,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 1,
@@ -141,7 +194,8 @@
       "role": "local",
       "members": 1619,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 2,
@@ -151,7 +205,8 @@
       "role": "local",
       "members": 1580,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 4,
@@ -161,7 +216,8 @@
       "role": "local",
       "members": 1368,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 5,
@@ -171,7 +227,8 @@
       "role": "local",
       "members": 1095,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 6,
@@ -181,7 +238,8 @@
       "role": "local",
       "members": 866,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 68,
@@ -191,7 +249,8 @@
       "role": "local",
       "members": 2377,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 75,
@@ -201,7 +260,8 @@
       "role": "local",
       "members": 1268,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 76,
@@ -211,7 +271,8 @@
       "role": "local",
       "members": 1330,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 152,
@@ -219,9 +280,10 @@
       "label": "Local 152",
       "city": "Highland Park",
       "role": "local",
-      "members": 1031,
-      "latestYear": 2025,
-      "hasEvents": false
+      "members": 1139,
+      "latestYear": 2026,
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 225,
@@ -231,7 +293,8 @@
       "role": "local",
       "members": 1703,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 582,
@@ -241,7 +304,8 @@
       "role": "local",
       "members": 1562,
       "latestYear": 2025,
-      "hasEvents": true
+      "hasEvents": true,
+      "stale": false
     },
     {
       "desig": 681,
@@ -251,7 +315,8 @@
       "role": "local",
       "members": 976,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 1001,
@@ -261,7 +326,8 @@
       "role": "local",
       "members": 2754,
       "latestYear": 2003,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": true
     },
     {
       "desig": 1035,
@@ -271,7 +337,8 @@
       "role": "local",
       "members": 528,
       "latestYear": 2025,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": false
     },
     {
       "desig": 1092,
@@ -281,7 +348,8 @@
       "role": "local",
       "members": 934,
       "latestYear": 2002,
-      "hasEvents": false
+      "hasEvents": false,
+      "stale": true
     },
     {
       "desig": 149,
@@ -291,7 +359,8 @@
       "role": "dissolved",
       "members": null,
       "latestYear": 2014,
-      "hasEvents": true
+      "hasEvents": true,
+      "stale": true
     }
   ]
 }

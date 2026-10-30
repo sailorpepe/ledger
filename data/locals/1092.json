@@ -5,6 +5,7 @@
   "role": "local",
   "label": "Local 1092",
   "latestYear": 2002,
+  "stale": true,
   "members": 934,
   "years": [
     {
@@ -33,9 +34,22 @@
         "interest": 852,
         "dividends": 0,
         "fees": 36679,
-        "other_receipts": 52359
+        "other_receipts": 52359,
+        "strike_benefits": null,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 81063,
+        "edu_pub_expense": 16501,
+        "pro_fees": 27387,
+        "other_disbursements": 17754,
+        "to_affiliates": 236156,
+        "for_members": 7817,
+        "loans_made": 0,
+        "loans_repaid": 43932,
+        "withheld": 128279,
+        "withheld_sent": null
       },
-      "representationalPerMember": 0,
+      "representationalPerMember": null,
       "assets": 232911,
       "liabilities": 125422,
       "receipts": 1172473,
@@ -43,7 +57,19 @@
       "receiptsPerMember": 1255,
       "assetsPerMember": 249,
       "disbursementsPerMember": 1304,
-      "payrollShare": 34.9
+      "payrollShare": 34.9,
+      "memberClasses": null,
+      "working": null,
+      "duesPerMember": 825,
+      "oldForm": true,
+      "operatingSpend": 855637,
+      "operatingPerWorking": null,
+      "representationalPerWorking": null,
+      "passedThrough": 243973,
+      "payroll": 418965,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 6000,
+      "payrollShareOperating": 49
     },
     {
       "year": 2001,
@@ -71,9 +97,22 @@
         "interest": 5766,
         "dividends": 0,
         "fees": 48494,
-        "other_receipts": 0
+        "other_receipts": 0,
+        "strike_benefits": null,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 79559,
+        "edu_pub_expense": 7921,
+        "pro_fees": 24835,
+        "other_disbursements": 12884,
+        "to_affiliates": 238600,
+        "for_members": 2492,
+        "loans_made": 0,
+        "loans_repaid": 6570,
+        "withheld": 140588,
+        "withheld_sent": null
       },
-      "representationalPerMember": 0,
+      "representationalPerMember": null,
       "assets": 309614,
       "liabilities": 148762,
       "receipts": 1167375,
@@ -81,7 +120,19 @@
       "receiptsPerMember": 1229,
       "assetsPerMember": 326,
       "disbursementsPerMember": 1308,
-      "payrollShare": 35.8
+      "payrollShare": 35.8,
+      "memberClasses": null,
+      "working": null,
+      "duesPerMember": 838,
+      "oldForm": true,
+      "operatingSpend": 848478,
+      "operatingPerWorking": null,
+      "representationalPerWorking": null,
+      "passedThrough": 241092,
+      "payroll": 435612,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 8700,
+      "payrollShareOperating": 51.3
     },
     {
       "year": 2000,
@@ -109,9 +160,22 @@
         "interest": 5496,
         "dividends": 0,
         "fees": 42620,
-        "other_receipts": 0
+        "other_receipts": 0,
+        "strike_benefits": null,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 76390,
+        "edu_pub_expense": 6796,
+        "pro_fees": 24420,
+        "other_disbursements": 10397,
+        "to_affiliates": 191877,
+        "for_members": 4002,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 121868,
+        "withheld_sent": null
       },
-      "representationalPerMember": 0,
+      "representationalPerMember": null,
       "assets": 319083,
       "liabilities": 82646,
       "receipts": 1002045,
@@ -119,26 +183,40 @@
       "receiptsPerMember": 1069,
       "assetsPerMember": 341,
       "disbursementsPerMember": 1010,
-      "payrollShare": 39.6
+      "payrollShare": 39.6,
+      "memberClasses": null,
+      "working": null,
+      "duesPerMember": 809,
+      "oldForm": true,
+      "operatingSpend": 750271,
+      "operatingPerWorking": null,
+      "representationalPerWorking": null,
+      "passedThrough": 195879,
+      "payroll": 374316,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 0,
+      "payrollShareOperating": 49.9
     }
   ],
   "people": [
     {
       "year": 2002,
       "key": "LOVERDEIII|C",
-      "name": "Charles Loverde iii",
+      "name": "Charles Loverde Iii",
       "roles": [
         {
           "title": "PRESIDENT BM",
           "kind": "officer",
-          "total": 139400
+          "total": 139400,
+          "pay": 139400
         }
       ],
       "grossSalary": 138375,
       "allowances": 1025,
       "officialBusiness": 0,
       "total": 139400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 139400
     },
     {
       "year": 2002,
@@ -148,14 +226,16 @@
         {
           "title": "SECRETARY/TREAS",
           "kind": "officer",
-          "total": 139400
+          "total": 139400,
+          "pay": 139400
         }
       ],
       "grossSalary": 138375,
       "allowances": 1025,
       "officialBusiness": 0,
       "total": 139400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 139400
     },
     {
       "year": 2002,
@@ -165,14 +245,16 @@
         {
           "title": "PRESIDENT BM",
           "kind": "officer",
-          "total": 73552
+          "total": 73552,
+          "pay": 73552
         }
       ],
       "grossSalary": 73125,
       "allowances": 427,
       "officialBusiness": 0,
       "total": 73552,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 73552
     },
     {
       "year": 2002,
@@ -182,31 +264,35 @@
         {
           "title": "FIELD REP",
           "kind": "employee",
-          "total": 66613
+          "total": 66613,
+          "pay": 66613
         }
       ],
       "grossSalary": 65967,
       "allowances": 646,
       "officialBusiness": 0,
       "total": 66613,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 66613
     },
     {
       "year": 2002,
       "key": "LOVERDEJR|R",
-      "name": "Robert Loverde jr",
+      "name": "Robert Loverde Jr",
       "roles": [
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 1200,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2002,
@@ -216,14 +302,16 @@
         {
           "title": "REC SEC",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 1200,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2002,
@@ -233,14 +321,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 1200,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2002,
@@ -250,14 +340,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 1200,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2002,
@@ -267,14 +359,16 @@
         {
           "title": "VICE PRESIDENT",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 1200,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2001,
@@ -284,31 +378,35 @@
         {
           "title": "PRESIDENT BM",
           "kind": "officer",
-          "total": 126878
+          "total": 126878,
+          "pay": 124778
         }
       ],
       "grossSalary": 123843,
       "allowances": 935,
       "officialBusiness": 2100,
       "total": 126878,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 124778
     },
     {
       "year": 2001,
       "key": "LOVERDEIII|C",
-      "name": "Charles Loverde iii",
+      "name": "Charles Loverde Iii",
       "roles": [
         {
           "title": "VP/FED REP",
           "kind": "officer",
-          "total": 126844
+          "total": 126844,
+          "pay": 124744
         }
       ],
       "grossSalary": 123843,
       "allowances": 901,
       "officialBusiness": 2100,
       "total": 126844,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 124744
     },
     {
       "year": 2001,
@@ -318,14 +416,16 @@
         {
           "title": "SECRETARY/TREAS",
           "kind": "officer",
-          "total": 124792
+          "total": 124792,
+          "pay": 124792
         }
       ],
       "grossSalary": 123843,
       "allowances": 949,
       "officialBusiness": 0,
       "total": 124792,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 124792
     },
     {
       "year": 2001,
@@ -335,14 +435,16 @@
         {
           "title": "FIELD REP",
           "kind": "employee",
-          "total": 60098
+          "total": 60098,
+          "pay": 60098
         }
       ],
       "grossSalary": 59644,
       "allowances": 454,
       "officialBusiness": 0,
       "total": 60098,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 60098
     },
     {
       "year": 2001,
@@ -352,14 +454,16 @@
         {
           "title": "REC SEC",
           "kind": "officer",
-          "total": 3300
+          "total": 3300,
+          "pay": 1200
         }
       ],
       "grossSalary": 0,
       "allowances": 1200,
       "officialBusiness": 2100,
       "total": 3300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2001,
@@ -369,14 +473,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 1200,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2001,
@@ -386,14 +492,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 600
+          "total": 600,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 600,
       "total": 600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2001,
@@ -403,14 +511,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 600
+          "total": 600,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 600,
       "total": 600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2001,
@@ -420,31 +530,35 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 0
+          "total": 0,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 0,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2001,
       "key": "LOVERDEJR|R",
-      "name": "Robert Loverde jr",
+      "name": "Robert Loverde Jr",
       "roles": [
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 0
+          "total": 0,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 0,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2001,
@@ -454,14 +568,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 0
+          "total": 0,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 0,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2000,
@@ -471,14 +587,16 @@
         {
           "title": "SECRETARY/TREAS",
           "kind": "officer",
-          "total": 106498
+          "total": 106498,
+          "pay": 106498
         }
       ],
       "grossSalary": 105623,
       "allowances": 875,
       "officialBusiness": 0,
       "total": 106498,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 106498
     },
     {
       "year": 2000,
@@ -488,31 +606,35 @@
         {
           "title": "PRESIDENT BM",
           "kind": "officer",
-          "total": 106448
+          "total": 106448,
+          "pay": 106448
         }
       ],
       "grossSalary": 105623,
       "allowances": 825,
       "officialBusiness": 0,
       "total": 106448,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 106448
     },
     {
       "year": 2000,
       "key": "LOVERDEIII|C",
-      "name": "Charles Loverde iii",
+      "name": "Charles Loverde Iii",
       "roles": [
         {
           "title": "VP/FED REP",
           "kind": "officer",
-          "total": 106348
+          "total": 106348,
+          "pay": 106348
         }
       ],
       "grossSalary": 105623,
       "allowances": 725,
       "officialBusiness": 0,
       "total": 106348,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 106348
     },
     {
       "year": 2000,
@@ -522,31 +644,35 @@
         {
           "title": null,
           "kind": "employee",
-          "total": 50222
+          "total": 50222,
+          "pay": 50222
         }
       ],
       "grossSalary": 50222,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 50222,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 50222
     },
     {
       "year": 2000,
       "key": "LOVERDEJR|R",
-      "name": "Robert Loverde jr",
+      "name": "Robert Loverde Jr",
       "roles": [
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 0,
       "allowances": 1200,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2000,
@@ -556,14 +682,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 0,
       "allowances": 1200,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2000,
@@ -573,14 +701,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 0,
       "allowances": 1200,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2000,
@@ -590,14 +720,16 @@
         {
           "title": "REC SEC",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 0,
       "allowances": 1200,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2000,
@@ -607,14 +739,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 0
+          "total": 0,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 0,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     }
   ],
   "dues": {},

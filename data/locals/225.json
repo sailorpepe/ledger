@@ -5,6 +5,7 @@
   "role": "local",
   "label": "Local 225",
   "latestYear": 2025,
+  "stale": false,
   "members": 1703,
   "years": [
     {
@@ -12,10 +13,10 @@
       "formType": "LM-2",
       "rptId": 928828,
       "members": 1703,
-      "actives": null,
+      "actives": 1569,
       "apprentices": null,
       "retirees": 134,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2987,
       "spend": {
         "yr_covered": 2025,
         "representational": 786030,
@@ -33,7 +34,20 @@
         "interest": 252093,
         "dividends": 643134,
         "fees": 239525,
-        "other_receipts": 124544
+        "other_receipts": 124544,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": null,
+        "loans_repaid": null,
+        "withheld": 521611,
+        "withheld_sent": 514405
       },
       "representationalPerMember": 462,
       "assets": 14843308,
@@ -43,17 +57,35 @@
       "receiptsPerMember": 2752,
       "assetsPerMember": 8716,
       "disbursementsPerMember": 2701,
-      "payrollShare": 30.5
+      "payrollShare": 30.5,
+      "memberClasses": {
+        "active": 1569,
+        "apprentice": null,
+        "retired": 134,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1569,
+      "duesPerMember": 2012,
+      "oldForm": false,
+      "operatingSpend": 3472065,
+      "operatingPerWorking": 2213,
+      "representationalPerWorking": 501,
+      "passedThrough": 0,
+      "payroll": 1315853,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 85154,
+      "payrollShareOperating": 37.9
     },
     {
       "year": 2024,
       "formType": "LM-2",
       "rptId": 905137,
       "members": 1758,
-      "actives": null,
+      "actives": 1655,
       "apprentices": null,
       "retirees": 103,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2527,
       "spend": {
         "yr_covered": 2024,
         "representational": 854935,
@@ -71,7 +103,20 @@
         "interest": 205313,
         "dividends": 395203,
         "fees": 231628,
-        "other_receipts": 129413
+        "other_receipts": 129413,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 525493,
+        "withheld_sent": 536143
       },
       "representationalPerMember": 486,
       "assets": 13624095,
@@ -81,17 +126,35 @@
       "receiptsPerMember": 2379,
       "assetsPerMember": 7750,
       "disbursementsPerMember": 2556,
-      "payrollShare": 29.6
+      "payrollShare": 29.6,
+      "memberClasses": {
+        "active": 1655,
+        "apprentice": null,
+        "retired": 103,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1655,
+      "duesPerMember": 1832,
+      "oldForm": false,
+      "operatingSpend": 3428520,
+      "operatingPerWorking": 2072,
+      "representationalPerWorking": 517,
+      "passedThrough": 0,
+      "payroll": 1261411,
+      "staffUnder10k": 17500,
+      "expensesPaidBack": 86999,
+      "payrollShareOperating": 36.8
     },
     {
       "year": 2023,
       "formType": "LM-2",
       "rptId": 885499,
       "members": 1739,
-      "actives": null,
+      "actives": 1645,
       "apprentices": null,
       "retirees": 94,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2384,
       "spend": {
         "yr_covered": 2023,
         "representational": 915012,
@@ -109,7 +172,20 @@
         "interest": 181991,
         "dividends": 166683,
         "fees": 254970,
-        "other_receipts": 136406
+        "other_receipts": 136406,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 542414,
+        "withheld_sent": 541674
       },
       "representationalPerMember": 526,
       "assets": 12801406,
@@ -119,17 +195,35 @@
       "receiptsPerMember": 2256,
       "assetsPerMember": 7361,
       "disbursementsPerMember": 2262,
-      "payrollShare": 33.6
+      "payrollShare": 33.6,
+      "memberClasses": {
+        "active": 1645,
+        "apprentice": null,
+        "retired": 94,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1645,
+      "duesPerMember": 1830,
+      "oldForm": false,
+      "operatingSpend": 3489058,
+      "operatingPerWorking": 2121,
+      "representationalPerWorking": 556,
+      "passedThrough": 0,
+      "payroll": 1239071,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 81584,
+      "payrollShareOperating": 35.5
     },
     {
       "year": 2022,
       "formType": "LM-2",
       "rptId": 858372,
       "members": 1753,
-      "actives": null,
+      "actives": 1664,
       "apprentices": null,
       "retirees": 89,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2585,
       "spend": {
         "yr_covered": 2022,
         "representational": 945524,
@@ -147,7 +241,20 @@
         "interest": 165392,
         "dividends": 154288,
         "fees": 258395,
-        "other_receipts": 166360
+        "other_receipts": 166360,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 545932,
+        "withheld_sent": 549979
       },
       "representationalPerMember": 539,
       "assets": 11551516,
@@ -157,17 +264,35 @@
       "receiptsPerMember": 2454,
       "assetsPerMember": 6590,
       "disbursementsPerMember": 2358,
-      "payrollShare": 32.5
+      "payrollShare": 32.5,
+      "memberClasses": {
+        "active": 1664,
+        "apprentice": null,
+        "retired": 89,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1664,
+      "duesPerMember": 1802,
+      "oldForm": false,
+      "operatingSpend": 3493774,
+      "operatingPerWorking": 2100,
+      "representationalPerWorking": 568,
+      "passedThrough": 0,
+      "payroll": 1256116,
+      "staffUnder10k": 2154,
+      "expensesPaidBack": 90577,
+      "payrollShareOperating": 36
     },
     {
       "year": 2021,
       "formType": "LM-2",
       "rptId": 809298,
       "members": 1794,
-      "actives": null,
+      "actives": 1721,
       "apprentices": null,
       "retirees": 73,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2903,
       "spend": {
         "yr_covered": 2021,
         "representational": 1026915,
@@ -185,7 +310,20 @@
         "interest": 166732,
         "dividends": 267399,
         "fees": 180930,
-        "other_receipts": 470045
+        "other_receipts": 470045,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 528544,
+        "withheld_sent": 527090
       },
       "representationalPerMember": 572,
       "assets": 13606723,
@@ -195,17 +333,35 @@
       "receiptsPerMember": 2785,
       "assetsPerMember": 7585,
       "disbursementsPerMember": 2569,
-      "payrollShare": 29
+      "payrollShare": 29,
+      "memberClasses": {
+        "active": 1721,
+        "apprentice": null,
+        "retired": 73,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1721,
+      "duesPerMember": 1452,
+      "oldForm": false,
+      "operatingSpend": 3400782,
+      "operatingPerWorking": 1976,
+      "representationalPerWorking": 597,
+      "passedThrough": 0,
+      "payroll": 1296988,
+      "staffUnder10k": 18590,
+      "expensesPaidBack": 60106,
+      "payrollShareOperating": 38.1
     },
     {
       "year": 2020,
       "formType": "LM-2",
       "rptId": 742850,
       "members": 1839,
-      "actives": null,
+      "actives": 1790,
       "apprentices": null,
       "retirees": 49,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2286,
       "spend": {
         "yr_covered": 2020,
         "representational": 967732,
@@ -223,7 +379,20 @@
         "interest": 181910,
         "dividends": 199840,
         "fees": 169977,
-        "other_receipts": 135075
+        "other_receipts": 135075,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 509486,
+        "withheld_sent": 496747
       },
       "representationalPerMember": 526,
       "assets": 12972914,
@@ -233,17 +402,35 @@
       "receiptsPerMember": 2225,
       "assetsPerMember": 7054,
       "disbursementsPerMember": 2562,
-      "payrollShare": 27.8
+      "payrollShare": 27.8,
+      "memberClasses": {
+        "active": 1790,
+        "apprentice": null,
+        "retired": 49,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1790,
+      "duesPerMember": 1392,
+      "oldForm": false,
+      "operatingSpend": 3517963,
+      "operatingPerWorking": 1965,
+      "representationalPerWorking": 541,
+      "passedThrough": 0,
+      "payroll": 1253713,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 55532,
+      "payrollShareOperating": 35.6
     },
     {
       "year": 2019,
       "formType": "LM-2",
       "rptId": 720766,
       "members": 2040,
-      "actives": null,
+      "actives": 1993,
       "apprentices": null,
       "retirees": 47,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2336,
       "spend": {
         "yr_covered": 2019,
         "representational": 789220,
@@ -261,7 +448,20 @@
         "interest": 171810,
         "dividends": 190221,
         "fees": 325177,
-        "other_receipts": 57799
+        "other_receipts": 57799,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 418858,
+        "withheld_sent": 406074
       },
       "representationalPerMember": 387,
       "assets": 12417669,
@@ -271,17 +471,35 @@
       "receiptsPerMember": 2282,
       "assetsPerMember": 6087,
       "disbursementsPerMember": 2667,
-      "payrollShare": 20.8
+      "payrollShare": 20.8,
+      "memberClasses": {
+        "active": 1993,
+        "apprentice": null,
+        "retired": 47,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1993,
+      "duesPerMember": 1554,
+      "oldForm": false,
+      "operatingSpend": 3195758,
+      "operatingPerWorking": 1603,
+      "representationalPerWorking": 396,
+      "passedThrough": 0,
+      "payroll": 1081426,
+      "staffUnder10k": 9000,
+      "expensesPaidBack": 59586,
+      "payrollShareOperating": 33.8
     },
     {
       "year": 2018,
       "formType": "LM-2",
       "rptId": 698460,
       "members": 1926,
-      "actives": null,
+      "actives": 1888,
       "apprentices": null,
       "retirees": 38,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2430,
       "spend": {
         "yr_covered": 2018,
         "representational": 722185,
@@ -299,7 +517,20 @@
         "interest": 112446,
         "dividends": 221648,
         "fees": 309134,
-        "other_receipts": 8286
+        "other_receipts": 8286,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 397055,
+        "withheld_sent": 417192
       },
       "representationalPerMember": 375,
       "assets": 10661528,
@@ -309,17 +540,35 @@
       "receiptsPerMember": 2382,
       "assetsPerMember": 5536,
       "disbursementsPerMember": 2296,
-      "payrollShare": 24
+      "payrollShare": 24,
+      "memberClasses": {
+        "active": 1888,
+        "apprentice": null,
+        "retired": 38,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1888,
+      "duesPerMember": 1559,
+      "oldForm": false,
+      "operatingSpend": 3007264,
+      "operatingPerWorking": 1593,
+      "representationalPerWorking": 383,
+      "passedThrough": 0,
+      "payroll": 1031750,
+      "staffUnder10k": 12550,
+      "expensesPaidBack": 43793,
+      "payrollShareOperating": 34.3
     },
     {
       "year": 2017,
       "formType": "LM-2",
       "rptId": 666771,
       "members": 2008,
-      "actives": null,
+      "actives": 1966,
       "apprentices": null,
       "retirees": 42,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1872,
       "spend": {
         "yr_covered": 2017,
         "representational": 783877,
@@ -337,7 +586,20 @@
         "interest": 188307,
         "dividends": 181876,
         "fees": 293688,
-        "other_receipts": 75372
+        "other_receipts": 75372,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 397407,
+        "withheld_sent": 397856
       },
       "representationalPerMember": 390,
       "assets": 10673266,
@@ -347,17 +609,35 @@
       "receiptsPerMember": 1833,
       "assetsPerMember": 5315,
       "disbursementsPerMember": 1786,
-      "payrollShare": 29.6
+      "payrollShare": 29.6,
+      "memberClasses": {
+        "active": 1966,
+        "apprentice": null,
+        "retired": 42,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1966,
+      "duesPerMember": 1410,
+      "oldForm": false,
+      "operatingSpend": 2912692,
+      "operatingPerWorking": 1482,
+      "representationalPerWorking": 399,
+      "passedThrough": 0,
+      "payroll": 1020550,
+      "staffUnder10k": 2150,
+      "expensesPaidBack": 44283,
+      "payrollShareOperating": 35
     },
     {
       "year": 2016,
       "formType": "LM-2",
       "rptId": 639740,
       "members": 1986,
-      "actives": null,
+      "actives": 1952,
       "apprentices": null,
       "retirees": 34,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1754,
       "spend": {
         "yr_covered": 2016,
         "representational": 685614,
@@ -375,7 +655,20 @@
         "interest": 95806,
         "dividends": 141816,
         "fees": 342247,
-        "other_receipts": 9524
+        "other_receipts": 9524,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 368024,
+        "withheld_sent": 367704
       },
       "representationalPerMember": 345,
       "assets": 9591018,
@@ -385,17 +678,35 @@
       "receiptsPerMember": 1724,
       "assetsPerMember": 4829,
       "disbursementsPerMember": 1827,
-      "payrollShare": 27.7
+      "payrollShare": 27.7,
+      "memberClasses": {
+        "active": 1952,
+        "apprentice": null,
+        "retired": 34,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1952,
+      "duesPerMember": 1393,
+      "oldForm": false,
+      "operatingSpend": 2794227,
+      "operatingPerWorking": 1431,
+      "representationalPerWorking": 351,
+      "passedThrough": 0,
+      "payroll": 975012,
+      "staffUnder10k": 11800,
+      "expensesPaidBack": 41269,
+      "payrollShareOperating": 34.9
     },
     {
       "year": 2015,
       "formType": "LM-2",
       "rptId": 610543,
       "members": 1970,
-      "actives": null,
+      "actives": 1944,
       "apprentices": null,
       "retirees": 26,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1669,
       "spend": {
         "yr_covered": 2015,
         "representational": 482816,
@@ -413,7 +724,20 @@
         "interest": 124826,
         "dividends": 161943,
         "fees": 314239,
-        "other_receipts": 23845
+        "other_receipts": 23845,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 305954,
+        "withheld_sent": 319761
       },
       "representationalPerMember": 245,
       "assets": 8935138,
@@ -423,17 +747,35 @@
       "receiptsPerMember": 1647,
       "assetsPerMember": 4536,
       "disbursementsPerMember": 1778,
-      "payrollShare": 23.8
+      "payrollShare": 23.8,
+      "memberClasses": {
+        "active": 1944,
+        "apprentice": null,
+        "retired": 26,
+        "noDues": null,
+        "other": null
+      },
+      "working": 1944,
+      "duesPerMember": 1308,
+      "oldForm": false,
+      "operatingSpend": 2391603,
+      "operatingPerWorking": 1230,
+      "representationalPerWorking": 248,
+      "passedThrough": 0,
+      "payroll": 803668,
+      "staffUnder10k": 8700,
+      "expensesPaidBack": 36745,
+      "payrollShareOperating": 33.6
     },
     {
       "year": 2014,
       "formType": "LM-2",
       "rptId": 581466,
       "members": 2132,
-      "actives": null,
+      "actives": 2114,
       "apprentices": null,
       "retirees": 18,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 2259,
       "spend": {
         "yr_covered": 2014,
         "representational": 566609,
@@ -451,7 +793,20 @@
         "interest": 121252,
         "dividends": 160760,
         "fees": 347748,
-        "other_receipts": 9131
+        "other_receipts": 9131,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 307636,
+        "withheld_sent": 289245
       },
       "representationalPerMember": 266,
       "assets": 8449909,
@@ -461,17 +816,35 @@
       "receiptsPerMember": 2240,
       "assetsPerMember": 3963,
       "disbursementsPerMember": 2004,
-      "payrollShare": 20.3
+      "payrollShare": 20.3,
+      "memberClasses": {
+        "active": 2114,
+        "apprentice": null,
+        "retired": 18,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2114,
+      "duesPerMember": 1226,
+      "oldForm": false,
+      "operatingSpend": 2398517,
+      "operatingPerWorking": 1135,
+      "representationalPerWorking": 268,
+      "passedThrough": 0,
+      "payroll": 825548,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 40078,
+      "payrollShareOperating": 34.4
     },
     {
       "year": 2013,
       "formType": "LM-2",
       "rptId": 548807,
       "members": 2132,
-      "actives": null,
+      "actives": 2114,
       "apprentices": null,
       "retirees": 18,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1593,
       "spend": {
         "yr_covered": 2013,
         "representational": 592387,
@@ -489,7 +862,20 @@
         "interest": 86488,
         "dividends": 147286,
         "fees": 300897,
-        "other_receipts": 15041
+        "other_receipts": 15041,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 324991,
+        "withheld_sent": 325347
       },
       "representationalPerMember": 278,
       "assets": 7534954,
@@ -499,17 +885,35 @@
       "receiptsPerMember": 1579,
       "assetsPerMember": 3534,
       "disbursementsPerMember": 1386,
-      "payrollShare": 30.2
+      "payrollShare": 30.2,
+      "memberClasses": {
+        "active": 2114,
+        "apprentice": null,
+        "retired": 18,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2114,
+      "duesPerMember": 1149,
+      "oldForm": false,
+      "operatingSpend": 2367412,
+      "operatingPerWorking": 1120,
+      "representationalPerWorking": 280,
+      "passedThrough": 0,
+      "payroll": 846664,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 45349,
+      "payrollShareOperating": 35.8
     },
     {
       "year": 2012,
       "formType": "LM-2",
       "rptId": 519901,
       "members": 2131,
-      "actives": null,
+      "actives": 2115,
       "apprentices": null,
       "retirees": 16,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1324,
       "spend": {
         "yr_covered": 2012,
         "representational": 589516,
@@ -527,7 +931,20 @@
         "interest": 98741,
         "dividends": 110942,
         "fees": 299075,
-        "other_receipts": 21209
+        "other_receipts": 21209,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 265408,
+        "withheld_sent": 269612
       },
       "representationalPerMember": 277,
       "assets": 6908604,
@@ -537,17 +954,35 @@
       "receiptsPerMember": 1314,
       "assetsPerMember": 3242,
       "disbursementsPerMember": 1275,
-      "payrollShare": 30.8
+      "payrollShare": 30.8,
+      "memberClasses": {
+        "active": 2115,
+        "apprentice": null,
+        "retired": 16,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2115,
+      "duesPerMember": 1035,
+      "oldForm": false,
+      "operatingSpend": 2270146,
+      "operatingPerWorking": 1073,
+      "representationalPerWorking": 279,
+      "passedThrough": 0,
+      "payroll": 782245,
+      "staffUnder10k": 719,
+      "expensesPaidBack": 56031,
+      "payrollShareOperating": 34.5
     },
     {
       "year": 2011,
       "formType": "LM-2",
       "rptId": 480857,
       "members": 2137,
-      "actives": null,
+      "actives": 2121,
       "apprentices": null,
       "retirees": 16,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1258,
       "spend": {
         "yr_covered": 2011,
         "representational": 571318,
@@ -565,7 +1000,20 @@
         "interest": 94564,
         "dividends": 96630,
         "fees": 263016,
-        "other_receipts": 83246
+        "other_receipts": 83246,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": null,
+        "edu_pub_expense": null,
+        "pro_fees": null,
+        "other_disbursements": null,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": null,
+        "withheld": 256667,
+        "withheld_sent": 258028
       },
       "representationalPerMember": 267,
       "assets": 6329582,
@@ -575,17 +1023,35 @@
       "receiptsPerMember": 1249,
       "assetsPerMember": 2962,
       "disbursementsPerMember": 1296,
-      "payrollShare": 30
+      "payrollShare": 30,
+      "memberClasses": {
+        "active": 2121,
+        "apprentice": null,
+        "retired": 16,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2121,
+      "duesPerMember": 858,
+      "oldForm": false,
+      "operatingSpend": 2228340,
+      "operatingPerWorking": 1051,
+      "representationalPerWorking": 269,
+      "passedThrough": 0,
+      "payroll": 783605,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 48359,
+      "payrollShareOperating": 35.2
     },
     {
       "year": 2010,
       "formType": "LM-2",
       "rptId": 450931,
       "members": 2235,
-      "actives": null,
+      "actives": 2217,
       "apprentices": null,
       "retirees": 18,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1265,
       "spend": {
         "yr_covered": 2010,
         "representational": 560466,
@@ -603,7 +1069,20 @@
         "interest": 88476,
         "dividends": 103291,
         "fees": 242388,
-        "other_receipts": 111468
+        "other_receipts": 111468,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 0,
+        "edu_pub_expense": null,
+        "pro_fees": 0,
+        "other_disbursements": 0,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 255835,
+        "withheld_sent": 255835
       },
       "representationalPerMember": 251,
       "assets": 6136252,
@@ -613,17 +1092,35 @@
       "receiptsPerMember": 1254,
       "assetsPerMember": 2746,
       "disbursementsPerMember": 1583,
-      "payrollShare": 23.5
+      "payrollShare": 23.5,
+      "memberClasses": {
+        "active": 2217,
+        "apprentice": null,
+        "retired": 18,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2217,
+      "duesPerMember": 832,
+      "oldForm": false,
+      "operatingSpend": 2261413,
+      "operatingPerWorking": 1020,
+      "representationalPerWorking": 253,
+      "passedThrough": 0,
+      "payroll": 789112,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 42422,
+      "payrollShareOperating": 34.9
     },
     {
       "year": 2009,
       "formType": "LM-2",
       "rptId": 416446,
       "members": 2324,
-      "actives": null,
+      "actives": 2306,
       "apprentices": null,
       "retirees": 18,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1233,
       "spend": {
         "yr_covered": 2009,
         "representational": 581491,
@@ -641,7 +1138,20 @@
         "interest": 117241,
         "dividends": 57724,
         "fees": 274317,
-        "other_receipts": 84152
+        "other_receipts": 84152,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 0,
+        "edu_pub_expense": null,
+        "pro_fees": 0,
+        "other_disbursements": 0,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 250421,
+        "withheld_sent": 246858
       },
       "representationalPerMember": 250,
       "assets": 6039441,
@@ -651,17 +1161,35 @@
       "receiptsPerMember": 1223,
       "assetsPerMember": 2599,
       "disbursementsPerMember": 1604,
-      "payrollShare": 22
+      "payrollShare": 22,
+      "memberClasses": {
+        "active": 2306,
+        "apprentice": null,
+        "retired": 18,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2306,
+      "duesPerMember": 842,
+      "oldForm": false,
+      "operatingSpend": 2263644,
+      "operatingPerWorking": 982,
+      "representationalPerWorking": 252,
+      "passedThrough": 0,
+      "payroll": 777984,
+      "staffUnder10k": 1147,
+      "expensesPaidBack": 43887,
+      "payrollShareOperating": 34.4
     },
     {
       "year": 2008,
       "formType": "LM-2",
       "rptId": 388842,
       "members": 2627,
-      "actives": null,
+      "actives": 2611,
       "apprentices": null,
       "retirees": 16,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1407,
       "spend": {
         "yr_covered": 2008,
         "representational": 614368,
@@ -679,7 +1207,20 @@
         "interest": 117116,
         "dividends": 63367,
         "fees": 392142,
-        "other_receipts": 35047
+        "other_receipts": 35047,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 0,
+        "edu_pub_expense": null,
+        "pro_fees": 0,
+        "other_disbursements": 0,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 257852,
+        "withheld_sent": 255565
       },
       "representationalPerMember": 234,
       "assets": 5711760,
@@ -689,17 +1230,35 @@
       "receiptsPerMember": 1398,
       "assetsPerMember": 2174,
       "disbursementsPerMember": 1369,
-      "payrollShare": 23.1
+      "payrollShare": 23.1,
+      "memberClasses": {
+        "active": 2611,
+        "apprentice": null,
+        "retired": 16,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2611,
+      "duesPerMember": 1004,
+      "oldForm": false,
+      "operatingSpend": 2261214,
+      "operatingPerWorking": 866,
+      "representationalPerWorking": 235,
+      "passedThrough": 0,
+      "payroll": 760961,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 68762,
+      "payrollShareOperating": 33.7
     },
     {
       "year": 2007,
       "formType": "LM-2",
       "rptId": 350301,
       "members": 2607,
-      "actives": null,
+      "actives": 2593,
       "apprentices": null,
       "retirees": 14,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1515,
       "spend": {
         "yr_covered": 2007,
         "representational": 536454,
@@ -717,7 +1276,20 @@
         "interest": 184483,
         "dividends": 0,
         "fees": 458573,
-        "other_receipts": 40908
+        "other_receipts": 40908,
+        "strike_benefits": 0,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 0,
+        "edu_pub_expense": null,
+        "pro_fees": 0,
+        "other_disbursements": 0,
+        "to_affiliates": 0,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 240408,
+        "withheld_sent": 243322
       },
       "representationalPerMember": 206,
       "assets": 5081361,
@@ -727,17 +1299,35 @@
       "receiptsPerMember": 1507,
       "assetsPerMember": 1949,
       "disbursementsPerMember": 1198,
-      "payrollShare": 24.4
+      "payrollShare": 24.4,
+      "memberClasses": {
+        "active": 2593,
+        "apprentice": null,
+        "retired": 14,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2593,
+      "duesPerMember": 965,
+      "oldForm": false,
+      "operatingSpend": 2074461,
+      "operatingPerWorking": 800,
+      "representationalPerWorking": 207,
+      "passedThrough": 0,
+      "payroll": 709998,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 50603,
+      "payrollShareOperating": 34.2
     },
     {
       "year": 2006,
       "formType": "LM-2",
       "rptId": 308898,
       "members": 2602,
-      "actives": null,
+      "actives": 2592,
       "apprentices": null,
       "retirees": 10,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1020,
       "spend": {
         "yr_covered": 2006,
         "representational": 537561,
@@ -755,7 +1345,20 @@
         "interest": 130164,
         "dividends": 0,
         "fees": 403495,
-        "other_receipts": 66797
+        "other_receipts": 66797,
+        "strike_benefits": 80156,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 0,
+        "edu_pub_expense": null,
+        "pro_fees": 0,
+        "other_disbursements": 0,
+        "to_affiliates": 75900,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 209831,
+        "withheld_sent": 204748
       },
       "representationalPerMember": 207,
       "assets": 4033184,
@@ -765,17 +1368,35 @@
       "receiptsPerMember": 1016,
       "assetsPerMember": 1550,
       "disbursementsPerMember": 984,
-      "payrollShare": 28.1
+      "payrollShare": 28.1,
+      "memberClasses": {
+        "active": 2592,
+        "apprentice": null,
+        "retired": 10,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2592,
+      "duesPerMember": 756,
+      "oldForm": false,
+      "operatingSpend": 2056844,
+      "operatingPerWorking": 794,
+      "representationalPerWorking": 207,
+      "passedThrough": 75900,
+      "payroll": 671283,
+      "staffUnder10k": 4720,
+      "expensesPaidBack": 52893,
+      "payrollShareOperating": 32.6
     },
     {
       "year": 2005,
       "formType": "LM-2",
       "rptId": 270475,
       "members": 2378,
-      "actives": null,
+      "actives": 2371,
       "apprentices": null,
       "retirees": 7,
-      "receiptsPerActive": null,
+      "receiptsPerActive": 1084,
       "spend": {
         "yr_covered": 2005,
         "representational": 507100,
@@ -793,7 +1414,20 @@
         "interest": 69208,
         "dividends": 0,
         "fees": 438330,
-        "other_receipts": 72320
+        "other_receipts": 72320,
+        "strike_benefits": 26715,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 0,
+        "edu_pub_expense": null,
+        "pro_fees": 0,
+        "other_disbursements": 0,
+        "to_affiliates": 99956,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 171452,
+        "withheld_sent": 171696
       },
       "representationalPerMember": 213,
       "assets": 3549853,
@@ -803,7 +1437,25 @@
       "receiptsPerMember": 1081,
       "assetsPerMember": 1493,
       "disbursementsPerMember": 1109,
-      "payrollShare": 25
+      "payrollShare": 25,
+      "memberClasses": {
+        "active": 2371,
+        "apprentice": null,
+        "retired": 7,
+        "noDues": null,
+        "other": null
+      },
+      "working": 2371,
+      "duesPerMember": 792,
+      "oldForm": false,
+      "operatingSpend": 1805388,
+      "operatingPerWorking": 761,
+      "representationalPerWorking": 214,
+      "passedThrough": 99956,
+      "payroll": 615707,
+      "staffUnder10k": 1864,
+      "expensesPaidBack": 44655,
+      "payrollShareOperating": 34.1
     },
     {
       "year": 2004,
@@ -831,9 +1483,22 @@
         "interest": 36725,
         "dividends": 0,
         "fees": 339244,
-        "other_receipts": 95578
+        "other_receipts": 95578,
+        "strike_benefits": null,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 162138,
+        "edu_pub_expense": 0,
+        "pro_fees": 55430,
+        "other_disbursements": 247636,
+        "to_affiliates": 108493,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 149296,
+        "withheld_sent": null
       },
-      "representationalPerMember": 0,
+      "representationalPerMember": null,
       "assets": 2863035,
       "liabilities": 1043,
       "receipts": 2362414,
@@ -841,7 +1506,19 @@
       "receiptsPerMember": 1161,
       "assetsPerMember": 1408,
       "disbursementsPerMember": 1260,
-      "payrollShare": 25.1
+      "payrollShare": 25.1,
+      "memberClasses": null,
+      "working": null,
+      "duesPerMember": 900,
+      "oldForm": true,
+      "operatingSpend": 1830935,
+      "operatingPerWorking": null,
+      "representationalPerWorking": null,
+      "passedThrough": 108493,
+      "payroll": 599577,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 43848,
+      "payrollShareOperating": 32.7
     },
     {
       "year": 2003,
@@ -869,9 +1546,22 @@
         "interest": 34258,
         "dividends": 0,
         "fees": 440121,
-        "other_receipts": 27232
+        "other_receipts": 27232,
+        "strike_benefits": null,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 304920,
+        "edu_pub_expense": 0,
+        "pro_fees": 93636,
+        "other_disbursements": 72832,
+        "to_affiliates": 105934,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 160582,
+        "withheld_sent": null
       },
-      "representationalPerMember": 0,
+      "representationalPerMember": null,
       "assets": 2550991,
       "liabilities": 875,
       "receipts": 2518425,
@@ -879,7 +1569,19 @@
       "receiptsPerMember": 1074,
       "assetsPerMember": 1088,
       "disbursementsPerMember": 905,
-      "payrollShare": 31.7
+      "payrollShare": 31.7,
+      "memberClasses": null,
+      "working": null,
+      "duesPerMember": 828,
+      "oldForm": true,
+      "operatingSpend": 1919545,
+      "operatingPerWorking": null,
+      "representationalPerWorking": null,
+      "passedThrough": 105934,
+      "payroll": 623953,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 48163,
+      "payrollShareOperating": 32.5
     },
     {
       "year": 2002,
@@ -907,9 +1609,22 @@
         "interest": 45794,
         "dividends": 0,
         "fees": 528248,
-        "other_receipts": 124775
+        "other_receipts": 124775,
+        "strike_benefits": null,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 380429,
+        "edu_pub_expense": 0,
+        "pro_fees": 63961,
+        "other_disbursements": 90534,
+        "to_affiliates": 102116,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 168981,
+        "withheld_sent": null
       },
-      "representationalPerMember": 0,
+      "representationalPerMember": null,
       "assets": 2199606,
       "liabilities": 957,
       "receipts": 2610628,
@@ -917,7 +1632,19 @@
       "receiptsPerMember": 1101,
       "assetsPerMember": 928,
       "disbursementsPerMember": 960,
-      "payrollShare": 29.1
+      "payrollShare": 29.1,
+      "memberClasses": null,
+      "working": null,
+      "duesPerMember": 740,
+      "oldForm": true,
+      "operatingSpend": 2043816,
+      "operatingPerWorking": null,
+      "representationalPerWorking": null,
+      "passedThrough": 102116,
+      "payroll": 617580,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 44982,
+      "payrollShareOperating": 30.2
     },
     {
       "year": 2001,
@@ -945,9 +1672,22 @@
         "interest": 55310,
         "dividends": 0,
         "fees": 416473,
-        "other_receipts": 52160
+        "other_receipts": 52160,
+        "strike_benefits": null,
+        "fees_paid": 0,
+        "supplies_bought": 0,
+        "off_admin_expense": 273349,
+        "edu_pub_expense": 200,
+        "pro_fees": 81787,
+        "other_disbursements": 61978,
+        "to_affiliates": 87129,
+        "for_members": 0,
+        "loans_made": 0,
+        "loans_repaid": 0,
+        "withheld": 150992,
+        "withheld_sent": null
       },
-      "representationalPerMember": 0,
+      "representationalPerMember": null,
       "assets": 1844120,
       "liabilities": 630,
       "receipts": 2115926,
@@ -955,7 +1695,19 @@
       "receiptsPerMember": 940,
       "assetsPerMember": 819,
       "disbursementsPerMember": 887,
-      "payrollShare": 28.7
+      "payrollShare": 28.7,
+      "memberClasses": null,
+      "working": null,
+      "duesPerMember": 668,
+      "oldForm": true,
+      "operatingSpend": 1718336,
+      "operatingPerWorking": null,
+      "representationalPerWorking": null,
+      "passedThrough": 87129,
+      "payroll": 529546,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 44864,
+      "payrollShareOperating": 30.8
     },
     {
       "year": 2000,
@@ -983,9 +1735,22 @@
         "interest": null,
         "dividends": null,
         "fees": 499537,
-        "other_receipts": 10441
+        "other_receipts": 10441,
+        "strike_benefits": null,
+        "fees_paid": 1309,
+        "supplies_bought": null,
+        "off_admin_expense": 242823,
+        "edu_pub_expense": 1695,
+        "pro_fees": 137995,
+        "other_disbursements": 105562,
+        "to_affiliates": 72908,
+        "for_members": null,
+        "loans_made": null,
+        "loans_repaid": null,
+        "withheld": 148052,
+        "withheld_sent": null
       },
-      "representationalPerMember": 0,
+      "representationalPerMember": null,
       "assets": 1582838,
       "liabilities": 3211,
       "receipts": 2271885,
@@ -993,7 +1758,19 @@
       "receiptsPerMember": 1011,
       "assetsPerMember": 704,
       "disbursementsPerMember": 840,
-      "payrollShare": 30.4
+      "payrollShare": 30.4,
+      "memberClasses": null,
+      "working": null,
+      "duesPerMember": 718,
+      "oldForm": true,
+      "operatingSpend": 1764674,
+      "operatingPerWorking": null,
+      "representationalPerWorking": null,
+      "passedThrough": 72908,
+      "payroll": 548324,
+      "staffUnder10k": 0,
+      "expensesPaidBack": 25706,
+      "payrollShareOperating": 31.1
     }
   ],
   "people": [
@@ -1005,14 +1782,16 @@
         {
           "title": "PRESIDENT/BUS MGR",
           "kind": "officer",
-          "total": 446336
+          "total": 446336,
+          "pay": 437067
         }
       ],
       "grossSalary": 437067,
       "allowances": 0,
       "officialBusiness": 9269,
       "total": 446336,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 437067
     },
     {
       "year": 2025,
@@ -1022,14 +1801,16 @@
         {
           "title": "BUS MGR/SEC TREAS",
           "kind": "officer",
-          "total": 332225
+          "total": 332225,
+          "pay": 308288
         }
       ],
       "grossSalary": 308288,
       "allowances": 0,
       "officialBusiness": 23937,
       "total": 332225,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 308288
     },
     {
       "year": 2025,
@@ -1039,14 +1820,16 @@
         {
           "title": "REC SEC/BUS REP",
           "kind": "officer",
-          "total": 169195
+          "total": 169195,
+          "pay": 155069
         }
       ],
       "grossSalary": 155069,
       "allowances": 0,
       "officialBusiness": 14126,
       "total": 169195,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 155069
     },
     {
       "year": 2025,
@@ -1056,14 +1839,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 148755
+          "total": 148755,
+          "pay": 131007
         }
       ],
       "grossSalary": 131007,
       "allowances": 0,
       "officialBusiness": 17748,
       "total": 148755,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 131007
     },
     {
       "year": 2025,
@@ -1073,14 +1858,16 @@
         {
           "title": "PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 144205
+          "total": 144205,
+          "pay": 133178
         }
       ],
       "grossSalary": 133178,
       "allowances": 0,
       "officialBusiness": 11027,
       "total": 144205,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 133178
     },
     {
       "year": 2025,
@@ -1090,14 +1877,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 124374
+          "total": 124374,
+          "pay": 122894
         }
       ],
       "grossSalary": 122894,
       "allowances": 0,
       "officialBusiness": 1480,
       "total": 124374,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 122894
     },
     {
       "year": 2025,
@@ -1107,14 +1896,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 7382
+          "total": 7382,
+          "pay": 1500
         }
       ],
       "grossSalary": 1500,
       "allowances": 0,
       "officialBusiness": 5882,
       "total": 7382,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1500
     },
     {
       "year": 2025,
@@ -1124,14 +1915,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 6132
+          "total": 6132,
+          "pay": 5400
         }
       ],
       "grossSalary": 5400,
       "allowances": 0,
       "officialBusiness": 732,
       "total": 6132,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5400
     },
     {
       "year": 2025,
@@ -1141,14 +1934,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 5400
+          "total": 5400,
+          "pay": 5400
         }
       ],
       "grossSalary": 5400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 5400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5400
     },
     {
       "year": 2025,
@@ -1158,14 +1953,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 4959
+          "total": 4959,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 159,
       "total": 4959,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2025,
@@ -1175,14 +1972,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3633
+          "total": 3633,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 33,
       "total": 3633,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2025,
@@ -1192,14 +1991,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 2270
+          "total": 2270,
+          "pay": 2250
         }
       ],
       "grossSalary": 2250,
       "allowances": 0,
       "officialBusiness": 20,
       "total": 2270,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2250
     },
     {
       "year": 2025,
@@ -1209,14 +2010,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2161
+          "total": 2161,
+          "pay": 1500
         }
       ],
       "grossSalary": 1500,
       "allowances": 0,
       "officialBusiness": 661,
       "total": 2161,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1500
     },
     {
       "year": 2025,
@@ -1226,14 +2029,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2100
+          "total": 2100,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2100,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2025,
@@ -1243,14 +2048,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1880
+          "total": 1880,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 80,
       "total": 1880,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2024,
@@ -1260,14 +2067,16 @@
         {
           "title": "PRESIDENT/BUS MGR",
           "kind": "officer",
-          "total": 305691
+          "total": 305691,
+          "pay": 290685
         }
       ],
       "grossSalary": 290685,
       "allowances": 0,
       "officialBusiness": 15006,
       "total": 305691,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 290685
     },
     {
       "year": 2024,
@@ -1277,14 +2086,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 304868
+          "total": 304868,
+          "pay": 284958
         }
       ],
       "grossSalary": 284958,
       "allowances": 0,
       "officialBusiness": 19910,
       "total": 304868,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 284958
     },
     {
       "year": 2024,
@@ -1294,14 +2105,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 158627
+          "total": 158627,
+          "pay": 145781
         }
       ],
       "grossSalary": 145781,
       "allowances": 0,
       "officialBusiness": 12846,
       "total": 158627,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 145781
     },
     {
       "year": 2024,
@@ -1311,14 +2124,16 @@
         {
           "title": "RECORDING SEC/BUS REP",
           "kind": "officer",
-          "total": 145427
+          "total": 145427,
+          "pay": 125077
         }
       ],
       "grossSalary": 125077,
       "allowances": 0,
       "officialBusiness": 20350,
       "total": 145427,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 125077
     },
     {
       "year": 2024,
@@ -1328,14 +2143,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 139960
+          "total": 139960,
+          "pay": 135844
         }
       ],
       "grossSalary": 135844,
       "allowances": 0,
       "officialBusiness": 4116,
       "total": 139960,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 135844
     },
     {
       "year": 2024,
@@ -1345,14 +2162,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS REP",
           "kind": "officer",
-          "total": 137168
+          "total": 137168,
+          "pay": 123250
         }
       ],
       "grossSalary": 123250,
       "allowances": 0,
       "officialBusiness": 13918,
       "total": 137168,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 123250
     },
     {
       "year": 2024,
@@ -1362,14 +2181,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 115745
+          "total": 115745,
+          "pay": 115216
         }
       ],
       "grossSalary": 115216,
       "allowances": 0,
       "officialBusiness": 529,
       "total": 115745,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 115216
     },
     {
       "year": 2024,
@@ -1379,14 +2200,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 5400
+          "total": 5400,
+          "pay": 5400
         }
       ],
       "grossSalary": 5400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 5400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5400
     },
     {
       "year": 2024,
@@ -1396,14 +2219,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 4800
+          "total": 4800,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2024,
@@ -1413,14 +2238,16 @@
         {
           "title": "SGT AR ARMS",
           "kind": "officer",
-          "total": 4800
+          "total": 4800,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2024,
@@ -1430,14 +2257,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3300
+          "total": 3300,
+          "pay": 3300
         }
       ],
       "grossSalary": 3300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3300
     },
     {
       "year": 2024,
@@ -1447,14 +2276,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2100
+          "total": 2100,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2100,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2024,
@@ -1464,14 +2295,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2024,
@@ -1481,14 +2314,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1224
+          "total": 1224,
+          "pay": 900
         }
       ],
       "grossSalary": 900,
       "allowances": 0,
       "officialBusiness": 324,
       "total": 1224,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 900
     },
     {
       "year": 2023,
@@ -1498,14 +2333,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 294295
+          "total": 294295,
+          "pay": 274990
         }
       ],
       "grossSalary": 274990,
       "allowances": 0,
       "officialBusiness": 19305,
       "total": 294295,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 274990
     },
     {
       "year": 2023,
@@ -1515,14 +2352,16 @@
         {
           "title": "PRESIDENT/BUS MGR",
           "kind": "officer",
-          "total": 293018
+          "total": 293018,
+          "pay": 280784
         }
       ],
       "grossSalary": 280784,
       "allowances": 0,
       "officialBusiness": 12234,
       "total": 293018,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 280784
     },
     {
       "year": 2023,
@@ -1532,14 +2371,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 184751
+          "total": 184751,
+          "pay": 175189
         }
       ],
       "grossSalary": 175189,
       "allowances": 0,
       "officialBusiness": 9562,
       "total": 184751,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 175189
     },
     {
       "year": 2023,
@@ -1549,14 +2390,16 @@
         {
           "title": "EXECUTIVE BOARD/ BUS REP",
           "kind": "officer",
-          "total": 152607
+          "total": 152607,
+          "pay": 140400
         }
       ],
       "grossSalary": 140400,
       "allowances": 0,
       "officialBusiness": 12207,
       "total": 152607,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 140400
     },
     {
       "year": 2023,
@@ -1566,14 +2409,16 @@
         {
           "title": "RECORDING SEC/BUS REP",
           "kind": "officer",
-          "total": 133289
+          "total": 133289,
+          "pay": 119720
         }
       ],
       "grossSalary": 119720,
       "allowances": 0,
       "officialBusiness": 13569,
       "total": 133289,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 119720
     },
     {
       "year": 2023,
@@ -1583,14 +2428,16 @@
         {
           "title": "EXECUTIVE BOARD/ BUS REP",
           "kind": "officer",
-          "total": 131798
+          "total": 131798,
+          "pay": 117772
         }
       ],
       "grossSalary": 117772,
       "allowances": 0,
       "officialBusiness": 14026,
       "total": 131798,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 117772
     },
     {
       "year": 2023,
@@ -1600,14 +2447,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 110202
+          "total": 110202,
+          "pay": 109816
         }
       ],
       "grossSalary": 109816,
       "allowances": 0,
       "officialBusiness": 386,
       "total": 110202,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 109816
     },
     {
       "year": 2023,
@@ -1617,14 +2466,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 5452
+          "total": 5452,
+          "pay": 5400
         }
       ],
       "grossSalary": 5400,
       "allowances": 0,
       "officialBusiness": 52,
       "total": 5452,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5400
     },
     {
       "year": 2023,
@@ -1634,14 +2485,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 5003
+          "total": 5003,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 203,
       "total": 5003,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2023,
@@ -1651,14 +2504,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2023,
@@ -1668,14 +2523,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3340
+          "total": 3340,
+          "pay": 3300
         }
       ],
       "grossSalary": 3300,
       "allowances": 0,
       "officialBusiness": 40,
       "total": 3340,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3300
     },
     {
       "year": 2023,
@@ -1685,14 +2542,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3300
+          "total": 3300,
+          "pay": 3300
         }
       ],
       "grossSalary": 3300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3300
     },
     {
       "year": 2022,
@@ -1702,14 +2561,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 292932
+          "total": 292932,
+          "pay": 267131
         }
       ],
       "grossSalary": 267131,
       "allowances": 0,
       "officialBusiness": 25801,
       "total": 292932,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 267131
     },
     {
       "year": 2022,
@@ -1719,14 +2580,16 @@
         {
           "title": "PRESIDENT/BUS. MGR.",
           "kind": "officer",
-          "total": 284768
+          "total": 284768,
+          "pay": 272751
         }
       ],
       "grossSalary": 272751,
       "allowances": 0,
       "officialBusiness": 12017,
       "total": 284768,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 272751
     },
     {
       "year": 2022,
@@ -1736,14 +2599,16 @@
         {
           "title": "VICE PRESIDENT/BUS. REP.",
           "kind": "officer",
-          "total": 177517
+          "total": 177517,
+          "pay": 169449
         }
       ],
       "grossSalary": 169449,
       "allowances": 0,
       "officialBusiness": 8068,
       "total": 177517,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 169449
     },
     {
       "year": 2022,
@@ -1753,14 +2618,16 @@
         {
           "title": "EXEC BOARD/BUS REP.",
           "kind": "officer",
-          "total": 149094
+          "total": 149094,
+          "pay": 134849
         }
       ],
       "grossSalary": 134849,
       "allowances": 0,
       "officialBusiness": 14245,
       "total": 149094,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 134849
     },
     {
       "year": 2022,
@@ -1770,14 +2637,16 @@
         {
           "title": "EXEC BOARD/BUS. REP.",
           "kind": "officer",
-          "total": 125235
+          "total": 125235,
+          "pay": 112562
         }
       ],
       "grossSalary": 112562,
       "allowances": 0,
       "officialBusiness": 12673,
       "total": 125235,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 112562
     },
     {
       "year": 2022,
@@ -1787,14 +2656,16 @@
         {
           "title": "RECORDING SEC./BUS. REP.",
           "kind": "officer",
-          "total": 124074
+          "total": 124074,
+          "pay": 113300
         }
       ],
       "grossSalary": 113300,
       "allowances": 0,
       "officialBusiness": 10774,
       "total": 124074,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 113300
     },
     {
       "year": 2022,
@@ -1804,14 +2675,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 104976
+          "total": 104976,
+          "pay": 104516
         }
       ],
       "grossSalary": 104516,
       "allowances": 0,
       "officialBusiness": 460,
       "total": 104976,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 104516
     },
     {
       "year": 2022,
@@ -1821,14 +2694,16 @@
         {
           "title": "RECORDING SEC./BUS. REP.",
           "kind": "officer",
-          "total": 64703
+          "total": 64703,
+          "pay": 59154
         }
       ],
       "grossSalary": 59154,
       "allowances": 0,
       "officialBusiness": 5549,
       "total": 64703,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 59154
     },
     {
       "year": 2022,
@@ -1838,14 +2713,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 5376
+          "total": 5376,
+          "pay": 5050
         }
       ],
       "grossSalary": 5050,
       "allowances": 0,
       "officialBusiness": 326,
       "total": 5376,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5050
     },
     {
       "year": 2022,
@@ -1855,14 +2732,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 4426
+          "total": 4426,
+          "pay": 4100
         }
       ],
       "grossSalary": 4100,
       "allowances": 0,
       "officialBusiness": 326,
       "total": 4426,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4100
     },
     {
       "year": 2022,
@@ -1872,14 +2751,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2022,
@@ -1889,14 +2770,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3312
+          "total": 3312,
+          "pay": 3300
         }
       ],
       "grossSalary": 3300,
       "allowances": 0,
       "officialBusiness": 12,
       "total": 3312,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3300
     },
     {
       "year": 2022,
@@ -1906,14 +2789,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 2700
+          "total": 2700,
+          "pay": 2700
         }
       ],
       "grossSalary": 2700,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2700,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2700
     },
     {
       "year": 2022,
@@ -1923,14 +2808,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1826
+          "total": 1826,
+          "pay": 1500
         }
       ],
       "grossSalary": 1500,
       "allowances": 0,
       "officialBusiness": 326,
       "total": 1826,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1500
     },
     {
       "year": 2021,
@@ -1940,14 +2827,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 276564
+          "total": 276564,
+          "pay": 262474
         }
       ],
       "grossSalary": 262474,
       "allowances": 0,
       "officialBusiness": 14090,
       "total": 276564,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 262474
     },
     {
       "year": 2021,
@@ -1957,14 +2846,16 @@
         {
           "title": "PRESIDENT/BUSINESS MANAGE",
           "kind": "officer",
-          "total": 274425
+          "total": 274425,
+          "pay": 269116
         }
       ],
       "grossSalary": 269116,
       "allowances": 0,
       "officialBusiness": 5309,
       "total": 274425,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 269116
     },
     {
       "year": 2021,
@@ -1974,14 +2865,16 @@
         {
           "title": "VICE PRESIDENT",
           "kind": "officer",
-          "total": 173394
+          "total": 173394,
+          "pay": 166541
         }
       ],
       "grossSalary": 166541,
       "allowances": 0,
       "officialBusiness": 6853,
       "total": 173394,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 166541
     },
     {
       "year": 2021,
@@ -1991,14 +2884,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 141322
+          "total": 141322,
+          "pay": 132020
         }
       ],
       "grossSalary": 132020,
       "allowances": 0,
       "officialBusiness": 9302,
       "total": 141322,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 132020
     },
     {
       "year": 2021,
@@ -2008,14 +2903,16 @@
         {
           "title": "RECORDING SECRETARY",
           "kind": "officer",
-          "total": 119701
+          "total": 119701,
+          "pay": 109306
         }
       ],
       "grossSalary": 109306,
       "allowances": 0,
       "officialBusiness": 10395,
       "total": 119701,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 109306
     },
     {
       "year": 2021,
@@ -2025,14 +2922,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 117531
+          "total": 117531,
+          "pay": 109118
         }
       ],
       "grossSalary": 109118,
       "allowances": 0,
       "officialBusiness": 8413,
       "total": 117531,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 109118
     },
     {
       "year": 2021,
@@ -2042,14 +2941,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 116194
+          "total": 116194,
+          "pay": 110582
         }
       ],
       "grossSalary": 110582,
       "allowances": 0,
       "officialBusiness": 5612,
       "total": 116194,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 110582
     },
     {
       "year": 2021,
@@ -2059,14 +2960,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 99801
+          "total": 99801,
+          "pay": 99691
         }
       ],
       "grossSalary": 99691,
       "allowances": 0,
       "officialBusiness": 110,
       "total": 99801,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 99691
     },
     {
       "year": 2021,
@@ -2076,14 +2979,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 4972
+          "total": 4972,
+          "pay": 4950
         }
       ],
       "grossSalary": 4950,
       "allowances": 0,
       "officialBusiness": 22,
       "total": 4972,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4950
     },
     {
       "year": 2021,
@@ -2093,14 +2998,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 4400
+          "total": 4400,
+          "pay": 4400
         }
       ],
       "grossSalary": 4400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4400
     },
     {
       "year": 2021,
@@ -2110,14 +3017,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2021,
@@ -2127,14 +3036,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3300
+          "total": 3300,
+          "pay": 3300
         }
       ],
       "grossSalary": 3300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3300
     },
     {
       "year": 2021,
@@ -2144,14 +3055,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3300
+          "total": 3300,
+          "pay": 3300
         }
       ],
       "grossSalary": 3300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3300
     },
     {
       "year": 2020,
@@ -2161,14 +3074,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 272060
+          "total": 272060,
+          "pay": 267590
         }
       ],
       "grossSalary": 267590,
       "allowances": 0,
       "officialBusiness": 4470,
       "total": 272060,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 267590
     },
     {
       "year": 2020,
@@ -2178,14 +3093,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 270653
+          "total": 270653,
+          "pay": 260568
         }
       ],
       "grossSalary": 260568,
       "allowances": 0,
       "officialBusiness": 10085,
       "total": 270653,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 260568
     },
     {
       "year": 2020,
@@ -2195,14 +3112,16 @@
         {
           "title": "VICE PRESIDENT",
           "kind": "officer",
-          "total": 170662
+          "total": 170662,
+          "pay": 164698
         }
       ],
       "grossSalary": 164698,
       "allowances": 0,
       "officialBusiness": 5964,
       "total": 170662,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 164698
     },
     {
       "year": 2020,
@@ -2212,14 +3131,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 136625
+          "total": 136625,
+          "pay": 126922
         }
       ],
       "grossSalary": 126922,
       "allowances": 0,
       "officialBusiness": 9703,
       "total": 136625,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 126922
     },
     {
       "year": 2020,
@@ -2229,14 +3150,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 113263
+          "total": 113263,
+          "pay": 104062
         }
       ],
       "grossSalary": 104062,
       "allowances": 0,
       "officialBusiness": 9201,
       "total": 113263,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 104062
     },
     {
       "year": 2020,
@@ -2246,14 +3169,16 @@
         {
           "title": "RECORDING SECRETARY",
           "kind": "officer",
-          "total": 112873
+          "total": 112873,
+          "pay": 105704
         }
       ],
       "grossSalary": 105704,
       "allowances": 0,
       "officialBusiness": 7169,
       "total": 112873,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 105704
     },
     {
       "year": 2020,
@@ -2263,14 +3188,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 111799
+          "total": 111799,
+          "pay": 105966
         }
       ],
       "grossSalary": 105966,
       "allowances": 0,
       "officialBusiness": 5833,
       "total": 111799,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 105966
     },
     {
       "year": 2020,
@@ -2280,14 +3207,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 96954
+          "total": 96954,
+          "pay": 96769
         }
       ],
       "grossSalary": 96769,
       "allowances": 0,
       "officialBusiness": 185,
       "total": 96954,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 96769
     },
     {
       "year": 2020,
@@ -2297,14 +3226,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 5984
+          "total": 5984,
+          "pay": 5834
         }
       ],
       "grossSalary": 5834,
       "allowances": 0,
       "officialBusiness": 150,
       "total": 5984,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5834
     },
     {
       "year": 2020,
@@ -2314,14 +3245,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 5774
+          "total": 5774,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 2174,
       "total": 5774,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2020,
@@ -2331,14 +3264,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 5099
+          "total": 5099,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 299,
       "total": 5099,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2020,
@@ -2348,14 +3283,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3899
+          "total": 3899,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 299,
       "total": 3899,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2020,
@@ -2365,14 +3302,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2019,
@@ -2382,14 +3321,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 264365
+          "total": 264365,
+          "pay": 245894
         }
       ],
       "grossSalary": 245894,
       "allowances": 0,
       "officialBusiness": 18471,
       "total": 264365,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 245894
     },
     {
       "year": 2019,
@@ -2399,14 +3340,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 256544
+          "total": 256544,
+          "pay": 251515
         }
       ],
       "grossSalary": 251515,
       "allowances": 0,
       "officialBusiness": 5029,
       "total": 256544,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 251515
     },
     {
       "year": 2019,
@@ -2416,14 +3359,16 @@
         {
           "title": "VICE PRESIDENT",
           "kind": "officer",
-          "total": 165479
+          "total": 165479,
+          "pay": 157460
         }
       ],
       "grossSalary": 157460,
       "allowances": 0,
       "officialBusiness": 8019,
       "total": 165479,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 157460
     },
     {
       "year": 2019,
@@ -2433,14 +3378,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 133627
+          "total": 133627,
+          "pay": 122410
         }
       ],
       "grossSalary": 122410,
       "allowances": 0,
       "officialBusiness": 11217,
       "total": 133627,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 122410
     },
     {
       "year": 2019,
@@ -2450,14 +3397,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 90847
+          "total": 90847,
+          "pay": 90776
         }
       ],
       "grossSalary": 90776,
       "allowances": 0,
       "officialBusiness": 71,
       "total": 90847,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 90776
     },
     {
       "year": 2019,
@@ -2467,14 +3416,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 69462
+          "total": 69462,
+          "pay": 63127
         }
       ],
       "grossSalary": 63127,
       "allowances": 0,
       "officialBusiness": 6335,
       "total": 69462,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 63127
     },
     {
       "year": 2019,
@@ -2484,14 +3435,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 67576
+          "total": 67576,
+          "pay": 61859
         }
       ],
       "grossSalary": 61859,
       "allowances": 0,
       "officialBusiness": 5717,
       "total": 67576,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 61859
     },
     {
       "year": 2019,
@@ -2501,14 +3454,16 @@
         {
           "title": "RECORDING SECRETARY",
           "kind": "officer",
-          "total": 63112
+          "total": 63112,
+          "pay": 58385
         }
       ],
       "grossSalary": 58385,
       "allowances": 0,
       "officialBusiness": 4727,
       "total": 63112,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 58385
     },
     {
       "year": 2019,
@@ -2518,14 +3473,16 @@
         {
           "title": "EXEC BOARD",
           "kind": "officer",
-          "total": 5400
+          "total": 5400,
+          "pay": 5400
         }
       ],
       "grossSalary": 5400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 5400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5400
     },
     {
       "year": 2019,
@@ -2535,14 +3492,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 4800
+          "total": 4800,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2019,
@@ -2552,14 +3511,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2019,
@@ -2569,14 +3530,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2019,
@@ -2586,14 +3549,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2018,
@@ -2603,14 +3568,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 241556
+          "total": 241556,
+          "pay": 234857
         }
       ],
       "grossSalary": 234857,
       "allowances": 0,
       "officialBusiness": 6699,
       "total": 241556,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 234857
     },
     {
       "year": 2018,
@@ -2620,14 +3587,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 240512
+          "total": 240512,
+          "pay": 226759
         }
       ],
       "grossSalary": 226759,
       "allowances": 0,
       "officialBusiness": 13753,
       "total": 240512,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 226759
     },
     {
       "year": 2018,
@@ -2637,14 +3606,16 @@
         {
           "title": "VICE PRES/BUS REP",
           "kind": "officer",
-          "total": 155679
+          "total": 155679,
+          "pay": 149802
         }
       ],
       "grossSalary": 149802,
       "allowances": 0,
       "officialBusiness": 5877,
       "total": 155679,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 149802
     },
     {
       "year": 2018,
@@ -2654,14 +3625,16 @@
         {
           "title": "EXEC BOARD/BUS AGENT",
           "kind": "officer",
-          "total": 123081
+          "total": 123081,
+          "pay": 113683
         }
       ],
       "grossSalary": 113683,
       "allowances": 0,
       "officialBusiness": 9398,
       "total": 123081,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 113683
     },
     {
       "year": 2018,
@@ -2671,14 +3644,16 @@
         {
           "title": "EXEC BOARD/BUS REP",
           "kind": "officer",
-          "total": 121563
+          "total": 121563,
+          "pay": 117651
         }
       ],
       "grossSalary": 117651,
       "allowances": 0,
       "officialBusiness": 3912,
       "total": 121563,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 117651
     },
     {
       "year": 2018,
@@ -2688,14 +3663,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 86242
+          "total": 86242,
+          "pay": 86226
         }
       ],
       "grossSalary": 86226,
       "allowances": 0,
       "officialBusiness": 16,
       "total": 86242,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 86226
     },
     {
       "year": 2018,
@@ -2705,14 +3682,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 63924
+          "total": 63924,
+          "pay": 59847
         }
       ],
       "grossSalary": 59847,
       "allowances": 0,
       "officialBusiness": 4077,
       "total": 63924,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 59847
     },
     {
       "year": 2018,
@@ -2722,14 +3701,16 @@
         {
           "title": "RECORDING SECRETARY",
           "kind": "officer",
-          "total": 6708
+          "total": 6708,
+          "pay": 6700
         }
       ],
       "grossSalary": 6700,
       "allowances": 0,
       "officialBusiness": 8,
       "total": 6708,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 6700
     },
     {
       "year": 2018,
@@ -2739,14 +3720,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 5158
+          "total": 5158,
+          "pay": 5150
         }
       ],
       "grossSalary": 5150,
       "allowances": 0,
       "officialBusiness": 8,
       "total": 5158,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5150
     },
     {
       "year": 2018,
@@ -2756,14 +3739,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 4033
+          "total": 4033,
+          "pay": 4025
         }
       ],
       "grossSalary": 4025,
       "allowances": 0,
       "officialBusiness": 8,
       "total": 4033,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4025
     },
     {
       "year": 2018,
@@ -2773,14 +3758,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2975
+          "total": 2975,
+          "pay": 2975
         }
       ],
       "grossSalary": 2975,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2975,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2975
     },
     {
       "year": 2018,
@@ -2790,14 +3777,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 2837
+          "total": 2837,
+          "pay": 2800
         }
       ],
       "grossSalary": 2800,
       "allowances": 0,
       "officialBusiness": 37,
       "total": 2837,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2800
     },
     {
       "year": 2018,
@@ -2807,14 +3796,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 2400
+          "total": 2400,
+          "pay": 2400
         }
       ],
       "grossSalary": 2400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2400
     },
     {
       "year": 2018,
@@ -2824,14 +3815,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2100
+          "total": 2100,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2100,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2018,
@@ -2841,14 +3834,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2100
+          "total": 2100,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2100,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2018,
@@ -2858,14 +3853,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 1250
+          "total": 1250,
+          "pay": 1250
         }
       ],
       "grossSalary": 1250,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1250,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1250
     },
     {
       "year": 2018,
@@ -2875,14 +3872,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 875
+          "total": 875,
+          "pay": 875
         }
       ],
       "grossSalary": 875,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 875,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 875
     },
     {
       "year": 2017,
@@ -2892,14 +3891,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 223137
+          "total": 223137,
+          "pay": 218762
         }
       ],
       "grossSalary": 218762,
       "allowances": 0,
       "officialBusiness": 4375,
       "total": 223137,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 218762
     },
     {
       "year": 2017,
@@ -2909,14 +3910,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 222481
+          "total": 222481,
+          "pay": 211075
         }
       ],
       "grossSalary": 211075,
       "allowances": 0,
       "officialBusiness": 11406,
       "total": 222481,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 211075
     },
     {
       "year": 2017,
@@ -2926,14 +3929,16 @@
         {
           "title": "VICE PRES/BUS REP",
           "kind": "officer",
-          "total": 146233
+          "total": 146233,
+          "pay": 140781
         }
       ],
       "grossSalary": 140781,
       "allowances": 0,
       "officialBusiness": 5452,
       "total": 146233,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 140781
     },
     {
       "year": 2017,
@@ -2943,14 +3948,16 @@
         {
           "title": "EXEC BOARD/BUS REP",
           "kind": "officer",
-          "total": 145663
+          "total": 145663,
+          "pay": 139455
         }
       ],
       "grossSalary": 139455,
       "allowances": 0,
       "officialBusiness": 6208,
       "total": 145663,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 139455
     },
     {
       "year": 2017,
@@ -2960,14 +3967,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 110337
+          "total": 110337,
+          "pay": 103239
         }
       ],
       "grossSalary": 103239,
       "allowances": 0,
       "officialBusiness": 7098,
       "total": 110337,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 103239
     },
     {
       "year": 2017,
@@ -2977,14 +3986,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 108386
+          "total": 108386,
+          "pay": 101470
         }
       ],
       "grossSalary": 101470,
       "allowances": 0,
       "officialBusiness": 6916,
       "total": 108386,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 101470
     },
     {
       "year": 2017,
@@ -2994,14 +4005,16 @@
         {
           "title": "OFFICE MANAGER",
           "kind": "employee",
-          "total": 81337
+          "total": 81337,
+          "pay": 79418
         }
       ],
       "grossSalary": 79418,
       "allowances": 0,
       "officialBusiness": 1919,
       "total": 81337,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 79418
     },
     {
       "year": 2017,
@@ -3011,14 +4024,16 @@
         {
           "title": "RECORDING SECRETARY",
           "kind": "officer",
-          "total": 6000
+          "total": 6000,
+          "pay": 6000
         }
       ],
       "grossSalary": 6000,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 6000,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 6000
     },
     {
       "year": 2017,
@@ -3028,14 +4043,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 4809
+          "total": 4809,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 9,
       "total": 4809,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2017,
@@ -3045,14 +4062,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 4800
+          "total": 4800,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2017,
@@ -3062,14 +4081,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 3000
+          "total": 3000,
+          "pay": 3000
         }
       ],
       "grossSalary": 3000,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3000,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3000
     },
     {
       "year": 2017,
@@ -3079,14 +4100,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3000
+          "total": 3000,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 900,
       "total": 3000,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2017,
@@ -3096,14 +4119,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2100
+          "total": 2100,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2100,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2017,
@@ -3113,14 +4138,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1400
+          "total": 1400,
+          "pay": 1400
         }
       ],
       "grossSalary": 1400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1400
     },
     {
       "year": 2016,
@@ -3130,14 +4157,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 214923
+          "total": 214923,
+          "pay": 210813
         }
       ],
       "grossSalary": 210813,
       "allowances": 0,
       "officialBusiness": 4110,
       "total": 214923,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 210813
     },
     {
       "year": 2016,
@@ -3147,14 +4176,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 213158
+          "total": 213158,
+          "pay": 202974
         }
       ],
       "grossSalary": 202974,
       "allowances": 0,
       "officialBusiness": 10184,
       "total": 213158,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 202974
     },
     {
       "year": 2016,
@@ -3164,14 +4195,16 @@
         {
           "title": "VICE PRES/BUS REP",
           "kind": "officer",
-          "total": 142391
+          "total": 142391,
+          "pay": 136325
         }
       ],
       "grossSalary": 136325,
       "allowances": 0,
       "officialBusiness": 6066,
       "total": 142391,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 136325
     },
     {
       "year": 2016,
@@ -3181,14 +4214,16 @@
         {
           "title": "E BOARD/BUS REP",
           "kind": "officer",
-          "total": 141040
+          "total": 141040,
+          "pay": 135452
         }
       ],
       "grossSalary": 135452,
       "allowances": 0,
       "officialBusiness": 5588,
       "total": 141040,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 135452
     },
     {
       "year": 2016,
@@ -3198,14 +4233,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 102936
+          "total": 102936,
+          "pay": 96430
         }
       ],
       "grossSalary": 96430,
       "allowances": 0,
       "officialBusiness": 6506,
       "total": 102936,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 96430
     },
     {
       "year": 2016,
@@ -3215,14 +4252,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 85787
+          "total": 85787,
+          "pay": 80725
         }
       ],
       "grossSalary": 80725,
       "allowances": 0,
       "officialBusiness": 5062,
       "total": 85787,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 80725
     },
     {
       "year": 2016,
@@ -3232,14 +4271,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 76117
+          "total": 76117,
+          "pay": 75768
         }
       ],
       "grossSalary": 75768,
       "allowances": 0,
       "officialBusiness": 349,
       "total": 76117,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 75768
     },
     {
       "year": 2016,
@@ -3249,14 +4290,16 @@
         {
           "title": "RECORDING SECRETARY",
           "kind": "officer",
-          "total": 6651
+          "total": 6651,
+          "pay": 6000
         }
       ],
       "grossSalary": 6000,
       "allowances": 0,
       "officialBusiness": 651,
       "total": 6651,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 6000
     },
     {
       "year": 2016,
@@ -3266,14 +4309,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 5141
+          "total": 5141,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 341,
       "total": 5141,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2016,
@@ -3283,14 +4328,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 5120
+          "total": 5120,
+          "pay": 4800
         }
       ],
       "grossSalary": 4800,
       "allowances": 0,
       "officialBusiness": 320,
       "total": 5120,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4800
     },
     {
       "year": 2016,
@@ -3300,14 +4347,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3845
+          "total": 3845,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 1745,
       "total": 3845,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2016,
@@ -3317,14 +4366,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 3000
+          "total": 3000,
+          "pay": 3000
         }
       ],
       "grossSalary": 3000,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3000,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3000
     },
     {
       "year": 2016,
@@ -3334,14 +4385,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2447
+          "total": 2447,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 347,
       "total": 2447,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2016,
@@ -3351,14 +4404,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1925
+          "total": 1925,
+          "pay": 1925
         }
       ],
       "grossSalary": 1925,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1925,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1925
     },
     {
       "year": 2015,
@@ -3368,14 +4423,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 201597
+          "total": 201597,
+          "pay": 191776
         }
       ],
       "grossSalary": 191776,
       "allowances": 0,
       "officialBusiness": 9821,
       "total": 201597,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 191776
     },
     {
       "year": 2015,
@@ -3385,14 +4442,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 196668
+          "total": 196668,
+          "pay": 185789
         }
       ],
       "grossSalary": 185789,
       "allowances": 0,
       "officialBusiness": 10879,
       "total": 196668,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 185789
     },
     {
       "year": 2015,
@@ -3402,14 +4461,16 @@
         {
           "title": "E BOARD/BUS REP",
           "kind": "officer",
-          "total": 135883
+          "total": 135883,
+          "pay": 127363
         }
       ],
       "grossSalary": 127363,
       "allowances": 0,
       "officialBusiness": 8520,
       "total": 135883,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 127363
     },
     {
       "year": 2015,
@@ -3419,14 +4480,16 @@
         {
           "title": "VICE PRES/BUS REP",
           "kind": "officer",
-          "total": 135086
+          "total": 135086,
+          "pay": 128483
         }
       ],
       "grossSalary": 128483,
       "allowances": 0,
       "officialBusiness": 6603,
       "total": 135086,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 128483
     },
     {
       "year": 2015,
@@ -3436,14 +4499,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 64659
+          "total": 64659,
+          "pay": 64659
         }
       ],
       "grossSalary": 64659,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 64659,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 64659
     },
     {
       "year": 2015,
@@ -3453,14 +4518,16 @@
         {
           "title": "REC SEC/ OFFICE SECRETARY",
           "kind": "officer",
-          "total": 60543
+          "total": 60543,
+          "pay": 60543
         }
       ],
       "grossSalary": 60543,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 60543,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 60543
     },
     {
       "year": 2015,
@@ -3470,14 +4537,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 13052
+          "total": 13052,
+          "pay": 12655
         }
       ],
       "grossSalary": 12655,
       "allowances": 0,
       "officialBusiness": 397,
       "total": 13052,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 12655
     },
     {
       "year": 2015,
@@ -3487,14 +4556,16 @@
         {
           "title": "RECORDING SECRETARY",
           "kind": "officer",
-          "total": 5400
+          "total": 5400,
+          "pay": 5400
         }
       ],
       "grossSalary": 5400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 5400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5400
     },
     {
       "year": 2015,
@@ -3504,14 +4575,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 3900
+          "total": 3900,
+          "pay": 3900
         }
       ],
       "grossSalary": 3900,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3900,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3900
     },
     {
       "year": 2015,
@@ -3521,14 +4594,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 3700
+          "total": 3700,
+          "pay": 3700
         }
       ],
       "grossSalary": 3700,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3700,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3700
     },
     {
       "year": 2015,
@@ -3538,14 +4613,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 3200
+          "total": 3200,
+          "pay": 3200
         }
       ],
       "grossSalary": 3200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3200
     },
     {
       "year": 2015,
@@ -3555,14 +4632,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 2800
+          "total": 2800,
+          "pay": 2800
         }
       ],
       "grossSalary": 2800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2800
     },
     {
       "year": 2015,
@@ -3572,14 +4651,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1925
+          "total": 1925,
+          "pay": 1400
         }
       ],
       "grossSalary": 1400,
       "allowances": 0,
       "officialBusiness": 525,
       "total": 1925,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1400
     },
     {
       "year": 2015,
@@ -3589,14 +4670,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1400
+          "total": 1400,
+          "pay": 1400
         }
       ],
       "grossSalary": 1400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1400
     },
     {
       "year": 2015,
@@ -3606,14 +4689,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1400
+          "total": 1400,
+          "pay": 1400
         }
       ],
       "grossSalary": 1400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1400
     },
     {
       "year": 2015,
@@ -3623,14 +4708,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 500
+          "total": 500,
+          "pay": 500
         }
       ],
       "grossSalary": 500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 500
     },
     {
       "year": 2014,
@@ -3640,14 +4727,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 184503
+          "total": 184503,
+          "pay": 177058
         }
       ],
       "grossSalary": 177058,
       "allowances": 0,
       "officialBusiness": 7445,
       "total": 184503,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 177058
     },
     {
       "year": 2014,
@@ -3657,14 +4746,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 171043
+          "total": 171043,
+          "pay": 156862
         }
       ],
       "grossSalary": 156862,
       "allowances": 0,
       "officialBusiness": 14181,
       "total": 171043,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 156862
     },
     {
       "year": 2014,
@@ -3674,14 +4765,16 @@
         {
           "title": "E BOARD/BUS REP",
           "kind": "officer",
-          "total": 129281
+          "total": 129281,
+          "pay": 119862
         }
       ],
       "grossSalary": 119862,
       "allowances": 0,
       "officialBusiness": 9419,
       "total": 129281,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 119862
     },
     {
       "year": 2014,
@@ -3691,14 +4784,16 @@
         {
           "title": "VICE PRES/E BD/BUS REP",
           "kind": "officer",
-          "total": 127390
+          "total": 127390,
+          "pay": 120704
         }
       ],
       "grossSalary": 120704,
       "allowances": 0,
       "officialBusiness": 6686,
       "total": 127390,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 120704
     },
     {
       "year": 2014,
@@ -3708,14 +4803,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 102556
+          "total": 102556,
+          "pay": 100284
         }
       ],
       "grossSalary": 100284,
       "allowances": 0,
       "officialBusiness": 2272,
       "total": 102556,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 100284
     },
     {
       "year": 2014,
@@ -3725,14 +4822,16 @@
         {
           "title": "REC SECRETARY/SECRETARY",
           "kind": "officer",
-          "total": 87477
+          "total": 87477,
+          "pay": 87477
         }
       ],
       "grossSalary": 87477,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 87477,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 87477
     },
     {
       "year": 2014,
@@ -3742,14 +4841,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 52901
+          "total": 52901,
+          "pay": 52901
         }
       ],
       "grossSalary": 52901,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 52901,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 52901
     },
     {
       "year": 2014,
@@ -3759,14 +4860,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 3575
+          "total": 3575,
+          "pay": 3500
         }
       ],
       "grossSalary": 3500,
       "allowances": 0,
       "officialBusiness": 75,
       "total": 3575,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3500
     },
     {
       "year": 2014,
@@ -3776,14 +4879,16 @@
         {
           "title": "EXCUTIVE BOARD",
           "kind": "officer",
-          "total": 2150
+          "total": 2150,
+          "pay": 2150
         }
       ],
       "grossSalary": 2150,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2150,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2150
     },
     {
       "year": 2014,
@@ -3793,14 +4898,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2014,
@@ -3810,14 +4917,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1250
+          "total": 1250,
+          "pay": 1250
         }
       ],
       "grossSalary": 1250,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1250,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1250
     },
     {
       "year": 2014,
@@ -3827,14 +4936,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2014,
@@ -3844,14 +4955,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 500
+          "total": 500,
+          "pay": 500
         }
       ],
       "grossSalary": 500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 500
     },
     {
       "year": 2013,
@@ -3861,14 +4974,16 @@
         {
           "title": "PRESIDENT/BUS MANAGER",
           "kind": "officer",
-          "total": 173423
+          "total": 173423,
+          "pay": 164842
         }
       ],
       "grossSalary": 164842,
       "allowances": 0,
       "officialBusiness": 8581,
       "total": 173423,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 164842
     },
     {
       "year": 2013,
@@ -3878,14 +4993,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 171271
+          "total": 171271,
+          "pay": 163320
         }
       ],
       "grossSalary": 163320,
       "allowances": 0,
       "officialBusiness": 7951,
       "total": 171271,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 163320
     },
     {
       "year": 2013,
@@ -3895,14 +5012,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS REP",
           "kind": "officer",
-          "total": 144386
+          "total": 144386,
+          "pay": 131918
         }
       ],
       "grossSalary": 131918,
       "allowances": 0,
       "officialBusiness": 12468,
       "total": 144386,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 131918
     },
     {
       "year": 2013,
@@ -3912,14 +5031,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS REP",
           "kind": "officer",
-          "total": 127057
+          "total": 127057,
+          "pay": 118584
         }
       ],
       "grossSalary": 118584,
       "allowances": 0,
       "officialBusiness": 8473,
       "total": 127057,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 118584
     },
     {
       "year": 2013,
@@ -3929,14 +5050,16 @@
         {
           "title": "VP/EXEC BRD/BUS REP",
           "kind": "officer",
-          "total": 126226
+          "total": 126226,
+          "pay": 118350
         }
       ],
       "grossSalary": 118350,
       "allowances": 0,
       "officialBusiness": 7876,
       "total": 126226,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 118350
     },
     {
       "year": 2013,
@@ -3946,14 +5069,16 @@
         {
           "title": "REC SECRETARY/OFFICE",
           "kind": "officer",
-          "total": 87335
+          "total": 87335,
+          "pay": 87335
         }
       ],
       "grossSalary": 87335,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 87335,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 87335
     },
     {
       "year": 2013,
@@ -3963,14 +5088,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 52815
+          "total": 52815,
+          "pay": 52815
         }
       ],
       "grossSalary": 52815,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 52815,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 52815
     },
     {
       "year": 2013,
@@ -3980,14 +5107,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 2800
+          "total": 2800,
+          "pay": 2800
         }
       ],
       "grossSalary": 2800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2800
     },
     {
       "year": 2013,
@@ -3997,14 +5126,16 @@
         {
           "title": "SERGEANT AT ARMS",
           "kind": "officer",
-          "total": 2200
+          "total": 2200,
+          "pay": 2200
         }
       ],
       "grossSalary": 2200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2200
     },
     {
       "year": 2013,
@@ -4014,14 +5145,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1500
+          "total": 1500,
+          "pay": 1500
         }
       ],
       "grossSalary": 1500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1500
     },
     {
       "year": 2013,
@@ -4031,14 +5164,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1500
+          "total": 1500,
+          "pay": 1500
         }
       ],
       "grossSalary": 1500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1500
     },
     {
       "year": 2013,
@@ -4048,14 +5183,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1500
+          "total": 1500,
+          "pay": 1500
         }
       ],
       "grossSalary": 1500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1500
     },
     {
       "year": 2012,
@@ -4065,14 +5202,16 @@
         {
           "title": "BUSINESS MANAGER/PRES",
           "kind": "officer",
-          "total": 169419
+          "total": 169419,
+          "pay": 160188
         }
       ],
       "grossSalary": 160188,
       "allowances": 0,
       "officialBusiness": 9231,
       "total": 169419,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 160188
     },
     {
       "year": 2012,
@@ -4082,14 +5221,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 166817
+          "total": 166817,
+          "pay": 158244
         }
       ],
       "grossSalary": 158244,
       "allowances": 0,
       "officialBusiness": 8573,
       "total": 166817,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 158244
     },
     {
       "year": 2012,
@@ -4099,14 +5240,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS AGENT",
           "kind": "officer",
-          "total": 134659
+          "total": 134659,
+          "pay": 118658
         }
       ],
       "grossSalary": 118658,
       "allowances": 0,
       "officialBusiness": 16001,
       "total": 134659,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 118658
     },
     {
       "year": 2012,
@@ -4116,14 +5259,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS REP",
           "kind": "officer",
-          "total": 118895
+          "total": 118895,
+          "pay": 106877
         }
       ],
       "grossSalary": 106877,
       "allowances": 0,
       "officialBusiness": 12018,
       "total": 118895,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 106877
     },
     {
       "year": 2012,
@@ -4133,14 +5278,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 115545
+          "total": 115545,
+          "pay": 106337
         }
       ],
       "grossSalary": 106337,
       "allowances": 0,
       "officialBusiness": 9208,
       "total": 115545,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 106337
     },
     {
       "year": 2012,
@@ -4150,14 +5297,16 @@
         {
           "title": "REC SECRETARY/OFFICE",
           "kind": "officer",
-          "total": 75647
+          "total": 75647,
+          "pay": 75647
         }
       ],
       "grossSalary": 75647,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 75647,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 75647
     },
     {
       "year": 2012,
@@ -4167,14 +5316,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 46275
+          "total": 46275,
+          "pay": 46275
         }
       ],
       "grossSalary": 46275,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 46275,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 46275
     },
     {
       "year": 2012,
@@ -4184,14 +5335,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 3150
+          "total": 3150,
+          "pay": 3150
         }
       ],
       "grossSalary": 3150,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3150,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3150
     },
     {
       "year": 2012,
@@ -4201,14 +5354,16 @@
         {
           "title": "SERGEANT-AT-ARMS",
           "kind": "officer",
-          "total": 1900
+          "total": 1900,
+          "pay": 1900
         }
       ],
       "grossSalary": 1900,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1900,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1900
     },
     {
       "year": 2012,
@@ -4218,14 +5373,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1625
+          "total": 1625,
+          "pay": 625
         }
       ],
       "grossSalary": 625,
       "allowances": 0,
       "officialBusiness": 1000,
       "total": 1625,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 625
     },
     {
       "year": 2012,
@@ -4235,14 +5392,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1250
+          "total": 1250,
+          "pay": 1250
         }
       ],
       "grossSalary": 1250,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1250,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1250
     },
     {
       "year": 2012,
@@ -4252,14 +5411,16 @@
         {
           "title": "SERGEANT-AT-ARMS",
           "kind": "officer",
-          "total": 1000
+          "total": 1000,
+          "pay": 1000
         }
       ],
       "grossSalary": 1000,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1000,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1000
     },
     {
       "year": 2012,
@@ -4269,14 +5430,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 875
+          "total": 875,
+          "pay": 875
         }
       ],
       "grossSalary": 875,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 875,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 875
     },
     {
       "year": 2012,
@@ -4286,14 +5449,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 500
+          "total": 500,
+          "pay": 500
         }
       ],
       "grossSalary": 500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 500
     },
     {
       "year": 2012,
@@ -4303,14 +5468,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 0
+          "total": 0,
+          "pay": 0
         }
       ],
       "grossSalary": 0,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 0,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 0
     },
     {
       "year": 2011,
@@ -4320,14 +5487,16 @@
         {
           "title": "BUSINESS MANAGER/PRES",
           "kind": "officer",
-          "total": 169418
+          "total": 169418,
+          "pay": 160344
         }
       ],
       "grossSalary": 160344,
       "allowances": 0,
       "officialBusiness": 9074,
       "total": 169418,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 160344
     },
     {
       "year": 2011,
@@ -4337,14 +5506,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 164469
+          "total": 164469,
+          "pay": 155728
         }
       ],
       "grossSalary": 155728,
       "allowances": 0,
       "officialBusiness": 8741,
       "total": 164469,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 155728
     },
     {
       "year": 2011,
@@ -4354,14 +5525,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 131443
+          "total": 131443,
+          "pay": 118723
         }
       ],
       "grossSalary": 118723,
       "allowances": 0,
       "officialBusiness": 12720,
       "total": 131443,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 118723
     },
     {
       "year": 2011,
@@ -4371,14 +5544,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS REP",
           "kind": "officer",
-          "total": 117726
+          "total": 117726,
+          "pay": 106731
         }
       ],
       "grossSalary": 106731,
       "allowances": 0,
       "officialBusiness": 10995,
       "total": 117726,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 106731
     },
     {
       "year": 2011,
@@ -4388,14 +5563,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 112589
+          "total": 112589,
+          "pay": 105760
         }
       ],
       "grossSalary": 105760,
       "allowances": 0,
       "officialBusiness": 6829,
       "total": 112589,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 105760
     },
     {
       "year": 2011,
@@ -4405,14 +5582,16 @@
         {
           "title": "REC SECRETARY/OFFICE",
           "kind": "officer",
-          "total": 75647
+          "total": 75647,
+          "pay": 75647
         }
       ],
       "grossSalary": 75647,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 75647,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 75647
     },
     {
       "year": 2011,
@@ -4422,14 +5601,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 45747
+          "total": 45747,
+          "pay": 45747
         }
       ],
       "grossSalary": 45747,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 45747,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 45747
     },
     {
       "year": 2011,
@@ -4439,14 +5620,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 4200
+          "total": 4200,
+          "pay": 4200
         }
       ],
       "grossSalary": 4200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4200
     },
     {
       "year": 2011,
@@ -4456,14 +5639,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 4200
+          "total": 4200,
+          "pay": 4200
         }
       ],
       "grossSalary": 4200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4200
     },
     {
       "year": 2011,
@@ -4473,14 +5658,16 @@
         {
           "title": "SERGEANT-AT-ARMS",
           "kind": "officer",
-          "total": 2400
+          "total": 2400,
+          "pay": 2400
         }
       ],
       "grossSalary": 2400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2400
     },
     {
       "year": 2011,
@@ -4490,14 +5677,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1375
+          "total": 1375,
+          "pay": 1375
         }
       ],
       "grossSalary": 1375,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1375,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1375
     },
     {
       "year": 2011,
@@ -4507,14 +5696,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1375
+          "total": 1375,
+          "pay": 1375
         }
       ],
       "grossSalary": 1375,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1375,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1375
     },
     {
       "year": 2011,
@@ -4524,14 +5715,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1375
+          "total": 1375,
+          "pay": 1375
         }
       ],
       "grossSalary": 1375,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1375,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1375
     },
     {
       "year": 2010,
@@ -4541,14 +5734,16 @@
         {
           "title": "BUSINESS MANAGER/PRES",
           "kind": "officer",
-          "total": 168669
+          "total": 168669,
+          "pay": 160795
         }
       ],
       "grossSalary": 160795,
       "allowances": 0,
       "officialBusiness": 7874,
       "total": 168669,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 160795
     },
     {
       "year": 2010,
@@ -4558,14 +5753,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 166358
+          "total": 166358,
+          "pay": 155969
         }
       ],
       "grossSalary": 155969,
       "allowances": 0,
       "officialBusiness": 10389,
       "total": 166358,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 155969
     },
     {
       "year": 2010,
@@ -4575,14 +5772,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 129950
+          "total": 129950,
+          "pay": 120258
         }
       ],
       "grossSalary": 120258,
       "allowances": 0,
       "officialBusiness": 9692,
       "total": 129950,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 120258
     },
     {
       "year": 2010,
@@ -4592,14 +5791,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS REP",
           "kind": "officer",
-          "total": 114316
+          "total": 114316,
+          "pay": 106676
         }
       ],
       "grossSalary": 106676,
       "allowances": 0,
       "officialBusiness": 7640,
       "total": 114316,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 106676
     },
     {
       "year": 2010,
@@ -4609,14 +5810,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 114155
+          "total": 114155,
+          "pay": 107460
         }
       ],
       "grossSalary": 107460,
       "allowances": 0,
       "officialBusiness": 6695,
       "total": 114155,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 107460
     },
     {
       "year": 2010,
@@ -4626,14 +5829,16 @@
         {
           "title": "REC SECRETARY/OFFICE",
           "kind": "officer",
-          "total": 75779
+          "total": 75779,
+          "pay": 75647
         }
       ],
       "grossSalary": 75647,
       "allowances": 0,
       "officialBusiness": 132,
       "total": 75779,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 75647
     },
     {
       "year": 2010,
@@ -4643,14 +5848,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 47507
+          "total": 47507,
+          "pay": 47507
         }
       ],
       "grossSalary": 47507,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 47507,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 47507
     },
     {
       "year": 2010,
@@ -4660,14 +5867,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 4200
+          "total": 4200,
+          "pay": 4200
         }
       ],
       "grossSalary": 4200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4200
     },
     {
       "year": 2010,
@@ -4677,14 +5886,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 4200
+          "total": 4200,
+          "pay": 4200
         }
       ],
       "grossSalary": 4200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4200
     },
     {
       "year": 2010,
@@ -4694,14 +5905,16 @@
         {
           "title": "SERGEANT-AT-ARMS",
           "kind": "officer",
-          "total": 2400
+          "total": 2400,
+          "pay": 2400
         }
       ],
       "grossSalary": 2400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2400
     },
     {
       "year": 2010,
@@ -4711,14 +5924,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1500
+          "total": 1500,
+          "pay": 1500
         }
       ],
       "grossSalary": 1500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1500
     },
     {
       "year": 2010,
@@ -4728,14 +5943,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1250
+          "total": 1250,
+          "pay": 1250
         }
       ],
       "grossSalary": 1250,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1250,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1250
     },
     {
       "year": 2010,
@@ -4745,14 +5962,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1250
+          "total": 1250,
+          "pay": 1250
         }
       ],
       "grossSalary": 1250,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1250,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1250
     },
     {
       "year": 2009,
@@ -4762,14 +5981,16 @@
         {
           "title": "BUSINESS MANAGER/PRES",
           "kind": "officer",
-          "total": 170868
+          "total": 170868,
+          "pay": 164110
         }
       ],
       "grossSalary": 164110,
       "allowances": 0,
       "officialBusiness": 6758,
       "total": 170868,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 164110
     },
     {
       "year": 2009,
@@ -4779,14 +6000,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 161091
+          "total": 161091,
+          "pay": 153025
         }
       ],
       "grossSalary": 153025,
       "allowances": 0,
       "officialBusiness": 8066,
       "total": 161091,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 153025
     },
     {
       "year": 2009,
@@ -4796,14 +6019,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 127694
+          "total": 127694,
+          "pay": 116787
         }
       ],
       "grossSalary": 116787,
       "allowances": 0,
       "officialBusiness": 10907,
       "total": 127694,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 116787
     },
     {
       "year": 2009,
@@ -4813,14 +6038,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS REP",
           "kind": "officer",
-          "total": 112635
+          "total": 112635,
+          "pay": 105143
         }
       ],
       "grossSalary": 105143,
       "allowances": 0,
       "officialBusiness": 7492,
       "total": 112635,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 105143
     },
     {
       "year": 2009,
@@ -4830,14 +6057,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 111702
+          "total": 111702,
+          "pay": 103688
         }
       ],
       "grossSalary": 103688,
       "allowances": 0,
       "officialBusiness": 8014,
       "total": 111702,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 103688
     },
     {
       "year": 2009,
@@ -4847,14 +6076,16 @@
         {
           "title": "REC SECRETARY/OFFICE",
           "kind": "officer",
-          "total": 74270
+          "total": 74270,
+          "pay": 74270
         }
       ],
       "grossSalary": 74270,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 74270,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 74270
     },
     {
       "year": 2009,
@@ -4864,14 +6095,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 45764
+          "total": 45764,
+          "pay": 45764
         }
       ],
       "grossSalary": 45764,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 45764,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 45764
     },
     {
       "year": 2009,
@@ -4881,14 +6114,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 5525
+          "total": 5525,
+          "pay": 3950
         }
       ],
       "grossSalary": 3950,
       "allowances": 0,
       "officialBusiness": 1575,
       "total": 5525,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3950
     },
     {
       "year": 2009,
@@ -4898,14 +6133,16 @@
         {
           "title": "SERGEANT-AT-ARMS",
           "kind": "officer",
-          "total": 2925
+          "total": 2925,
+          "pay": 2150
         }
       ],
       "grossSalary": 2150,
       "allowances": 0,
       "officialBusiness": 775,
       "total": 2925,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2150
     },
     {
       "year": 2009,
@@ -4915,14 +6152,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 2450
+          "total": 2450,
+          "pay": 2450
         }
       ],
       "grossSalary": 2450,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2450,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2450
     },
     {
       "year": 2009,
@@ -4932,14 +6171,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2009,
@@ -4949,14 +6190,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1175
+          "total": 1175,
+          "pay": 875
         }
       ],
       "grossSalary": 875,
       "allowances": 0,
       "officialBusiness": 300,
       "total": 1175,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 875
     },
     {
       "year": 2009,
@@ -4966,14 +6209,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 875
+          "total": 875,
+          "pay": 875
         }
       ],
       "grossSalary": 875,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 875,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 875
     },
     {
       "year": 2009,
@@ -4983,14 +6228,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 750
+          "total": 750,
+          "pay": 750
         }
       ],
       "grossSalary": 750,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 750,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 750
     },
     {
       "year": 2009,
@@ -5000,14 +6247,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 600
+          "total": 600,
+          "pay": 600
         }
       ],
       "grossSalary": 600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 600
     },
     {
       "year": 2009,
@@ -5017,14 +6266,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 600
+          "total": 600,
+          "pay": 600
         }
       ],
       "grossSalary": 600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 600
     },
     {
       "year": 2008,
@@ -5034,14 +6285,16 @@
         {
           "title": "BUSINESS MANAGER/PRES",
           "kind": "officer",
-          "total": 171280
+          "total": 171280,
+          "pay": 161667
         }
       ],
       "grossSalary": 161667,
       "allowances": 0,
       "officialBusiness": 9613,
       "total": 171280,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 161667
     },
     {
       "year": 2008,
@@ -5051,14 +6304,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 159536
+          "total": 159536,
+          "pay": 150500
         }
       ],
       "grossSalary": 150500,
       "allowances": 0,
       "officialBusiness": 9036,
       "total": 159536,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 150500
     },
     {
       "year": 2008,
@@ -5068,14 +6323,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 132732
+          "total": 132732,
+          "pay": 114190
         }
       ],
       "grossSalary": 114190,
       "allowances": 0,
       "officialBusiness": 18542,
       "total": 132732,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 114190
     },
     {
       "year": 2008,
@@ -5085,14 +6342,16 @@
         {
           "title": "VICE PRESIDENT/BUS REP",
           "kind": "officer",
-          "total": 116765
+          "total": 116765,
+          "pay": 102999
         }
       ],
       "grossSalary": 102999,
       "allowances": 0,
       "officialBusiness": 13766,
       "total": 116765,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 102999
     },
     {
       "year": 2008,
@@ -5102,14 +6361,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 112114
+          "total": 112114,
+          "pay": 102785
         }
       ],
       "grossSalary": 102785,
       "allowances": 0,
       "officialBusiness": 9329,
       "total": 112114,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 102785
     },
     {
       "year": 2008,
@@ -5119,14 +6380,16 @@
         {
           "title": "REC SECRETARY/OFFICE",
           "kind": "officer",
-          "total": 74070
+          "total": 74070,
+          "pay": 74070
         }
       ],
       "grossSalary": 74070,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 74070,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 74070
     },
     {
       "year": 2008,
@@ -5136,14 +6399,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 42450
+          "total": 42450,
+          "pay": 42450
         }
       ],
       "grossSalary": 42450,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 42450,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 42450
     },
     {
       "year": 2008,
@@ -5153,14 +6418,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 8363
+          "total": 8363,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 4763,
       "total": 8363,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2008,
@@ -5170,14 +6437,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 8213
+          "total": 8213,
+          "pay": 4500
         }
       ],
       "grossSalary": 4500,
       "allowances": 0,
       "officialBusiness": 3713,
       "total": 8213,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4500
     },
     {
       "year": 2008,
@@ -5187,14 +6456,16 @@
         {
           "title": "SERGEANT-AT-ARMS",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2008,
@@ -5204,14 +6475,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1100
+          "total": 1100,
+          "pay": 1100
         }
       ],
       "grossSalary": 1100,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1100,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1100
     },
     {
       "year": 2008,
@@ -5221,14 +6494,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1100
+          "total": 1100,
+          "pay": 1100
         }
       ],
       "grossSalary": 1100,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1100,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1100
     },
     {
       "year": 2008,
@@ -5238,14 +6513,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 200
+          "total": 200,
+          "pay": 200
         }
       ],
       "grossSalary": 200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 200
     },
     {
       "year": 2007,
@@ -5255,14 +6532,16 @@
         {
           "title": "BUS. MGR./PRESIDENT",
           "kind": "officer",
-          "total": 161871
+          "total": 161871,
+          "pay": 153683
         }
       ],
       "grossSalary": 153683,
       "allowances": 0,
       "officialBusiness": 8188,
       "total": 161871,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 153683
     },
     {
       "year": 2007,
@@ -5272,14 +6551,16 @@
         {
           "title": "SECRETARY/TREASURER",
           "kind": "officer",
-          "total": 153710
+          "total": 153710,
+          "pay": 142818
         }
       ],
       "grossSalary": 142818,
       "allowances": 0,
       "officialBusiness": 10892,
       "total": 153710,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 142818
     },
     {
       "year": 2007,
@@ -5289,14 +6570,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 121228
+          "total": 121228,
+          "pay": 106601
         }
       ],
       "grossSalary": 106601,
       "allowances": 0,
       "officialBusiness": 14627,
       "total": 121228,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 106601
     },
     {
       "year": 2007,
@@ -5306,14 +6589,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 102288
+          "total": 102288,
+          "pay": 95872
         }
       ],
       "grossSalary": 95872,
       "allowances": 0,
       "officialBusiness": 6416,
       "total": 102288,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 95872
     },
     {
       "year": 2007,
@@ -5323,14 +6608,16 @@
         {
           "title": "VICE PRESIDENT/BUS. REP.",
           "kind": "officer",
-          "total": 101585
+          "total": 101585,
+          "pay": 95780
         }
       ],
       "grossSalary": 95780,
       "allowances": 0,
       "officialBusiness": 5805,
       "total": 101585,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 95780
     },
     {
       "year": 2007,
@@ -5340,14 +6627,16 @@
         {
           "title": "REC. SECRETARY/OFFICE",
           "kind": "officer",
-          "total": 67544
+          "total": 67544,
+          "pay": 67544
         }
       ],
       "grossSalary": 67544,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 67544,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 67544
     },
     {
       "year": 2007,
@@ -5357,14 +6646,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 34800
+          "total": 34800,
+          "pay": 34800
         }
       ],
       "grossSalary": 34800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 34800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 34800
     },
     {
       "year": 2007,
@@ -5374,14 +6665,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 6175
+          "total": 6175,
+          "pay": 3900
         }
       ],
       "grossSalary": 3900,
       "allowances": 0,
       "officialBusiness": 2275,
       "total": 6175,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3900
     },
     {
       "year": 2007,
@@ -5391,14 +6684,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 6000
+          "total": 6000,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 2400,
       "total": 6000,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2007,
@@ -5408,14 +6703,16 @@
         {
           "title": "SERGEANT-AT-ARMS",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2007,
@@ -5425,14 +6722,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2007,
@@ -5442,14 +6741,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2007,
@@ -5459,14 +6760,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2006,
@@ -5476,14 +6779,16 @@
         {
           "title": "BUSINESS MGR/PRESIDENT",
           "kind": "officer",
-          "total": 158542
+          "total": 158542,
+          "pay": 149163
         }
       ],
       "grossSalary": 149163,
       "allowances": 0,
       "officialBusiness": 9379,
       "total": 158542,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 149163
     },
     {
       "year": 2006,
@@ -5493,14 +6798,16 @@
         {
           "title": "SECRETARY TREASURER",
           "kind": "officer",
-          "total": 145272
+          "total": 145272,
+          "pay": 137198
         }
       ],
       "grossSalary": 137198,
       "allowances": 0,
       "officialBusiness": 8074,
       "total": 145272,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 137198
     },
     {
       "year": 2006,
@@ -5510,14 +6817,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 119520
+          "total": 119520,
+          "pay": 102056
         }
       ],
       "grossSalary": 102056,
       "allowances": 0,
       "officialBusiness": 17464,
       "total": 119520,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 102056
     },
     {
       "year": 2006,
@@ -5527,14 +6836,16 @@
         {
           "title": "VICE PRESIDENT/BUS. REP.",
           "kind": "officer",
-          "total": 98967
+          "total": 98967,
+          "pay": 91312
         }
       ],
       "grossSalary": 91312,
       "allowances": 0,
       "officialBusiness": 7655,
       "total": 98967,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 91312
     },
     {
       "year": 2006,
@@ -5544,14 +6855,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 97416
+          "total": 97416,
+          "pay": 88805
         }
       ],
       "grossSalary": 88805,
       "allowances": 0,
       "officialBusiness": 8611,
       "total": 97416,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 88805
     },
     {
       "year": 2006,
@@ -5561,14 +6874,16 @@
         {
           "title": "RECORDING SECRETARY/OFFIC",
           "kind": "officer",
-          "total": 61881
+          "total": 61881,
+          "pay": 61881
         }
       ],
       "grossSalary": 61881,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 61881,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 61881
     },
     {
       "year": 2006,
@@ -5578,14 +6893,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 22101
+          "total": 22101,
+          "pay": 22101
         }
       ],
       "grossSalary": 22101,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 22101,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 22101
     },
     {
       "year": 2006,
@@ -5595,14 +6912,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 5727
+          "total": 5727,
+          "pay": 4017
         }
       ],
       "grossSalary": 4017,
       "allowances": 0,
       "officialBusiness": 1710,
       "total": 5727,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4017
     },
     {
       "year": 2006,
@@ -5612,14 +6931,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2006,
@@ -5629,14 +6950,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2006,
@@ -5646,14 +6969,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1568
+          "total": 1568,
+          "pay": 1568
         }
       ],
       "grossSalary": 1568,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1568,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1568
     },
     {
       "year": 2006,
@@ -5663,14 +6988,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1362
+          "total": 1362,
+          "pay": 1362
         }
       ],
       "grossSalary": 1362,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1362,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1362
     },
     {
       "year": 2006,
@@ -5680,14 +7007,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 700
+          "total": 700,
+          "pay": 700
         }
       ],
       "grossSalary": 700,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 700,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 700
     },
     {
       "year": 2006,
@@ -5697,14 +7026,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 500
+          "total": 500,
+          "pay": 500
         }
       ],
       "grossSalary": 500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 500
     },
     {
       "year": 2006,
@@ -5714,14 +7045,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 500
+          "total": 500,
+          "pay": 500
         }
       ],
       "grossSalary": 500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 500
     },
     {
       "year": 2005,
@@ -5731,14 +7064,16 @@
         {
           "title": "BUSINESS MGR/PRESIDENT",
           "kind": "officer",
-          "total": 149540
+          "total": 149540,
+          "pay": 142069
         }
       ],
       "grossSalary": 142069,
       "allowances": 0,
       "officialBusiness": 7471,
       "total": 149540,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 142069
     },
     {
       "year": 2005,
@@ -5748,14 +7083,16 @@
         {
           "title": "SECRETARY TREASURER",
           "kind": "officer",
-          "total": 139104
+          "total": 139104,
+          "pay": 130166
         }
       ],
       "grossSalary": 130166,
       "allowances": 0,
       "officialBusiness": 8938,
       "total": 139104,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 130166
     },
     {
       "year": 2005,
@@ -5765,14 +7102,16 @@
         {
           "title": "BUSINESS REPRESENTATIVE",
           "kind": "employee",
-          "total": 111619
+          "total": 111619,
+          "pay": 96738
         }
       ],
       "grossSalary": 96738,
       "allowances": 0,
       "officialBusiness": 14881,
       "total": 111619,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 96738
     },
     {
       "year": 2005,
@@ -5782,14 +7121,16 @@
         {
           "title": "VICE-PRESIDENT/BUS. REP.",
           "kind": "officer",
-          "total": 95101
+          "total": 95101,
+          "pay": 87336
         }
       ],
       "grossSalary": 87336,
       "allowances": 0,
       "officialBusiness": 7765,
       "total": 95101,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 87336
     },
     {
       "year": 2005,
@@ -5799,14 +7140,16 @@
         {
           "title": "EXECUTIVE BOARD/BUS. REP.",
           "kind": "officer",
-          "total": 91814
+          "total": 91814,
+          "pay": 86214
         }
       ],
       "grossSalary": 86214,
       "allowances": 0,
       "officialBusiness": 5600,
       "total": 91814,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 86214
     },
     {
       "year": 2005,
@@ -5816,14 +7159,16 @@
         {
           "title": "REC SECRETARY/OFFICE",
           "kind": "officer",
-          "total": 58060
+          "total": 58060,
+          "pay": 58060
         }
       ],
       "grossSalary": 58060,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 58060,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 58060
     },
     {
       "year": 2005,
@@ -5833,14 +7178,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2005,
@@ -5850,14 +7197,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2005,
@@ -5867,14 +7216,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2010
+          "total": 2010,
+          "pay": 2010
         }
       ],
       "grossSalary": 2010,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2010,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2010
     },
     {
       "year": 2005,
@@ -5884,14 +7235,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 1650
+          "total": 1650,
+          "pay": 1650
         }
       ],
       "grossSalary": 1650,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1650,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1650
     },
     {
       "year": 2005,
@@ -5901,14 +7254,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2005,
@@ -5918,14 +7273,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2004,
@@ -5935,14 +7292,16 @@
         {
           "title": "BUS MGR/PRES",
           "kind": "officer",
-          "total": 150209
+          "total": 150209,
+          "pay": 142757
         }
       ],
       "grossSalary": 142757,
       "allowances": 0,
       "officialBusiness": 7452,
       "total": 150209,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 142757
     },
     {
       "year": 2004,
@@ -5952,14 +7311,16 @@
         {
           "title": "SEC/TREAS",
           "kind": "officer",
-          "total": 141063
+          "total": 141063,
+          "pay": 132733
         }
       ],
       "grossSalary": 132733,
       "allowances": 0,
       "officialBusiness": 8330,
       "total": 141063,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 132733
     },
     {
       "year": 2004,
@@ -5969,14 +7330,16 @@
         {
           "title": "BUS. AGENT",
           "kind": "employee",
-          "total": 105980
+          "total": 105980,
+          "pay": 94362
         }
       ],
       "grossSalary": 94362,
       "allowances": 0,
       "officialBusiness": 11618,
       "total": 105980,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 94362
     },
     {
       "year": 2004,
@@ -5986,14 +7349,16 @@
         {
           "title": "EXEC BRD/BA",
           "kind": "officer",
-          "total": 94560
+          "total": 94560,
+          "pay": 85979
         }
       ],
       "grossSalary": 85979,
       "allowances": 0,
       "officialBusiness": 8581,
       "total": 94560,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 85979
     },
     {
       "year": 2004,
@@ -6003,14 +7368,16 @@
         {
           "title": "V-P",
           "kind": "officer",
-          "total": 91858
+          "total": 91858,
+          "pay": 83991
         }
       ],
       "grossSalary": 83991,
       "allowances": 0,
       "officialBusiness": 7867,
       "total": 91858,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 83991
     },
     {
       "year": 2004,
@@ -6020,14 +7387,16 @@
         {
           "title": "REC SEC/OFFICE",
           "kind": "officer",
-          "total": 47455
+          "total": 47455,
+          "pay": 47455
         }
       ],
       "grossSalary": 47455,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 47455,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 47455
     },
     {
       "year": 2004,
@@ -6037,14 +7406,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 3600
+          "total": 3600,
+          "pay": 3600
         }
       ],
       "grossSalary": 3600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3600
     },
     {
       "year": 2004,
@@ -6054,14 +7425,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 3300
+          "total": 3300,
+          "pay": 3300
         }
       ],
       "grossSalary": 3300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3300
     },
     {
       "year": 2004,
@@ -6071,14 +7444,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2004,
@@ -6088,14 +7463,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2004,
@@ -6105,14 +7482,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2004,
@@ -6122,14 +7501,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1200
+          "total": 1200,
+          "pay": 1200
         }
       ],
       "grossSalary": 1200,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1200,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1200
     },
     {
       "year": 2003,
@@ -6139,14 +7520,16 @@
         {
           "title": "BUS MGR/PRES",
           "kind": "officer",
-          "total": 142923
+          "total": 142923,
+          "pay": 135133
         }
       ],
       "grossSalary": 135133,
       "allowances": 0,
       "officialBusiness": 7790,
       "total": 142923,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 135133
     },
     {
       "year": 2003,
@@ -6156,14 +7539,16 @@
         {
           "title": "SEC/TREAS",
           "kind": "officer",
-          "total": 123553
+          "total": 123553,
+          "pay": 114713
         }
       ],
       "grossSalary": 114713,
       "allowances": 0,
       "officialBusiness": 8840,
       "total": 123553,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 114713
     },
     {
       "year": 2003,
@@ -6173,14 +7558,16 @@
         {
           "title": "BUS AGENT",
           "kind": "employee",
-          "total": 89462
+          "total": 89462,
+          "pay": 80617
         }
       ],
       "grossSalary": 80617,
       "allowances": 0,
       "officialBusiness": 8845,
       "total": 89462,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 80617
     },
     {
       "year": 2003,
@@ -6190,14 +7577,16 @@
         {
           "title": "V-P",
           "kind": "officer",
-          "total": 87027
+          "total": 87027,
+          "pay": 81146
         }
       ],
       "grossSalary": 81146,
       "allowances": 0,
       "officialBusiness": 5881,
       "total": 87027,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 81146
     },
     {
       "year": 2003,
@@ -6207,14 +7596,16 @@
         {
           "title": "EXEC BRD/BA",
           "kind": "officer",
-          "total": 86801
+          "total": 86801,
+          "pay": 81184
         }
       ],
       "grossSalary": 81184,
       "allowances": 0,
       "officialBusiness": 5617,
       "total": 86801,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 81184
     },
     {
       "year": 2003,
@@ -6224,14 +7615,16 @@
         {
           "title": "BUS AGENT",
           "kind": "employee",
-          "total": 68307
+          "total": 68307,
+          "pay": 58917
         }
       ],
       "grossSalary": 58917,
       "allowances": 0,
       "officialBusiness": 9390,
       "total": 68307,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 58917
     },
     {
       "year": 2003,
@@ -6241,14 +7634,16 @@
         {
           "title": "OFFICE",
           "kind": "employee",
-          "total": 51806
+          "total": 51806,
+          "pay": 50906
         }
       ],
       "grossSalary": 50906,
       "allowances": 0,
       "officialBusiness": 900,
       "total": 51806,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 50906
     },
     {
       "year": 2003,
@@ -6258,14 +7653,16 @@
         {
           "title": "REC SECRETARY",
           "kind": "officer",
-          "total": 6174
+          "total": 6174,
+          "pay": 6174
         }
       ],
       "grossSalary": 6174,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 6174,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 6174
     },
     {
       "year": 2003,
@@ -6275,14 +7672,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 4209
+          "total": 4209,
+          "pay": 4209
         }
       ],
       "grossSalary": 4209,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 4209,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 4209
     },
     {
       "year": 2003,
@@ -6292,14 +7691,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 2404
+          "total": 2404,
+          "pay": 2404
         }
       ],
       "grossSalary": 2404,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2404,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2404
     },
     {
       "year": 2003,
@@ -6309,14 +7710,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 2300
+          "total": 2300,
+          "pay": 1400
         }
       ],
       "grossSalary": 1400,
       "allowances": 0,
       "officialBusiness": 900,
       "total": 2300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1400
     },
     {
       "year": 2003,
@@ -6326,14 +7729,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2003,
@@ -6343,14 +7748,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 1300
+          "total": 1300,
+          "pay": 1300
         }
       ],
       "grossSalary": 1300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1300
     },
     {
       "year": 2003,
@@ -6360,14 +7767,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 900
+          "total": 900,
+          "pay": 900
         }
       ],
       "grossSalary": 900,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 900,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 900
     },
     {
       "year": 2003,
@@ -6377,14 +7786,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 900
+          "total": 900,
+          "pay": 900
         }
       ],
       "grossSalary": 900,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 900,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 900
     },
     {
       "year": 2003,
@@ -6394,14 +7805,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 750
+          "total": 750,
+          "pay": 750
         }
       ],
       "grossSalary": 750,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 750,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 750
     },
     {
       "year": 2003,
@@ -6411,14 +7824,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 600
+          "total": 600,
+          "pay": 600
         }
       ],
       "grossSalary": 600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 600
     },
     {
       "year": 2003,
@@ -6428,14 +7843,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 450
+          "total": 450,
+          "pay": 450
         }
       ],
       "grossSalary": 450,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 450,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 450
     },
     {
       "year": 2003,
@@ -6445,14 +7862,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 450
+          "total": 450,
+          "pay": 450
         }
       ],
       "grossSalary": 450,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 450,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 450
     },
     {
       "year": 2002,
@@ -6462,14 +7881,16 @@
         {
           "title": "BUS MGR/PRES",
           "kind": "officer",
-          "total": 138350
+          "total": 138350,
+          "pay": 134894
         }
       ],
       "grossSalary": 134894,
       "allowances": 0,
       "officialBusiness": 3456,
       "total": 138350,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 134894
     },
     {
       "year": 2002,
@@ -6479,14 +7900,16 @@
         {
           "title": "SEC/TRES",
           "kind": "officer",
-          "total": 109405
+          "total": 109405,
+          "pay": 102917
         }
       ],
       "grossSalary": 102917,
       "allowances": 0,
       "officialBusiness": 6488,
       "total": 109405,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 102917
     },
     {
       "year": 2002,
@@ -6496,14 +7919,16 @@
         {
           "title": "BUS AGENT",
           "kind": "employee",
-          "total": 84087
+          "total": 84087,
+          "pay": 74272
         }
       ],
       "grossSalary": 74272,
       "allowances": 0,
       "officialBusiness": 9815,
       "total": 84087,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 74272
     },
     {
       "year": 2002,
@@ -6513,14 +7938,16 @@
         {
           "title": "BUS AGENT",
           "kind": "employee",
-          "total": 83670
+          "total": 83670,
+          "pay": 73385
         }
       ],
       "grossSalary": 73385,
       "allowances": 0,
       "officialBusiness": 10285,
       "total": 83670,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 73385
     },
     {
       "year": 2002,
@@ -6530,14 +7957,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 78451
+          "total": 78451,
+          "pay": 72903
         }
       ],
       "grossSalary": 72903,
       "allowances": 0,
       "officialBusiness": 5548,
       "total": 78451,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 72903
     },
     {
       "year": 2002,
@@ -6547,14 +7976,16 @@
         {
           "title": "CLERK",
           "kind": "employee",
-          "total": 50894
+          "total": 50894,
+          "pay": 49402
         }
       ],
       "grossSalary": 49402,
       "allowances": 0,
       "officialBusiness": 1492,
       "total": 50894,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 49402
     },
     {
       "year": 2002,
@@ -6564,14 +7995,16 @@
         {
           "title": "BUS AGENT",
           "kind": "employee",
-          "total": 44195
+          "total": 44195,
+          "pay": 41348
         }
       ],
       "grossSalary": 41348,
       "allowances": 0,
       "officialBusiness": 2847,
       "total": 44195,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 41348
     },
     {
       "year": 2002,
@@ -6581,14 +8014,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 34683
+          "total": 34683,
+          "pay": 33061
         }
       ],
       "grossSalary": 33061,
       "allowances": 0,
       "officialBusiness": 1622,
       "total": 34683,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 33061
     },
     {
       "year": 2002,
@@ -6598,14 +8033,16 @@
         {
           "title": "PRES",
           "kind": "officer",
-          "total": 24536
+          "total": 24536,
+          "pay": 22113
         }
       ],
       "grossSalary": 22113,
       "allowances": 0,
       "officialBusiness": 2423,
       "total": 24536,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 22113
     },
     {
       "year": 2002,
@@ -6615,14 +8052,16 @@
         {
           "title": "REC SEC",
           "kind": "officer",
-          "total": 6016
+          "total": 6016,
+          "pay": 5010
         }
       ],
       "grossSalary": 5010,
       "allowances": 0,
       "officialBusiness": 1006,
       "total": 6016,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5010
     },
     {
       "year": 2002,
@@ -6632,14 +8071,16 @@
         {
           "title": "VICE",
           "kind": "officer",
-          "total": 2400
+          "total": 2400,
+          "pay": 2400
         }
       ],
       "grossSalary": 2400,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2400,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2400
     },
     {
       "year": 2002,
@@ -6649,14 +8090,16 @@
         {
           "title": "EXEV BRD",
           "kind": "officer",
-          "total": 1800
+          "total": 1800,
+          "pay": 1800
         }
       ],
       "grossSalary": 1800,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1800,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1800
     },
     {
       "year": 2002,
@@ -6666,14 +8109,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 1375
+          "total": 1375,
+          "pay": 1375
         }
       ],
       "grossSalary": 1375,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1375,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1375
     },
     {
       "year": 2002,
@@ -6683,14 +8128,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 900
+          "total": 900,
+          "pay": 900
         }
       ],
       "grossSalary": 900,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 900,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 900
     },
     {
       "year": 2002,
@@ -6700,14 +8147,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 900
+          "total": 900,
+          "pay": 900
         }
       ],
       "grossSalary": 900,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 900,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 900
     },
     {
       "year": 2002,
@@ -6717,14 +8166,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 900
+          "total": 900,
+          "pay": 900
         }
       ],
       "grossSalary": 900,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 900,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 900
     },
     {
       "year": 2001,
@@ -6734,14 +8185,16 @@
         {
           "title": "BUS MGR",
           "kind": "officer",
-          "total": 132053
+          "total": 132053,
+          "pay": 126978
         }
       ],
       "grossSalary": 126978,
       "allowances": 0,
       "officialBusiness": 5075,
       "total": 132053,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 126978
     },
     {
       "year": 2001,
@@ -6751,14 +8204,16 @@
         {
           "title": "SEC/TREAS",
           "kind": "officer",
-          "total": 99890
+          "total": 99890,
+          "pay": 93227
         }
       ],
       "grossSalary": 93227,
       "allowances": 0,
       "officialBusiness": 6663,
       "total": 99890,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 93227
     },
     {
       "year": 2001,
@@ -6768,14 +8223,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 74790
+          "total": 74790,
+          "pay": 68765
         }
       ],
       "grossSalary": 68765,
       "allowances": 0,
       "officialBusiness": 6025,
       "total": 74790,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 68765
     },
     {
       "year": 2001,
@@ -6785,14 +8242,16 @@
         {
           "title": "PRES",
           "kind": "officer",
-          "total": 72522
+          "total": 72522,
+          "pay": 64555
         }
       ],
       "grossSalary": 64555,
       "allowances": 0,
       "officialBusiness": 7967,
       "total": 72522,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 64555
     },
     {
       "year": 2001,
@@ -6802,14 +8261,16 @@
         {
           "title": "PRES",
           "kind": "officer",
-          "total": 61683
+          "total": 61683,
+          "pay": 52059
         }
       ],
       "grossSalary": 52059,
       "allowances": 0,
       "officialBusiness": 9624,
       "total": 61683,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 52059
     },
     {
       "year": 2001,
@@ -6819,14 +8280,16 @@
         {
           "title": "FMR BUS REP",
           "kind": "employee",
-          "total": 52993
+          "total": 52993,
+          "pay": 45027
         }
       ],
       "grossSalary": 45027,
       "allowances": 0,
       "officialBusiness": 7966,
       "total": 52993,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 45027
     },
     {
       "year": 2001,
@@ -6836,14 +8299,16 @@
         {
           "title": "CLERK",
           "kind": "employee",
-          "total": 48000
+          "total": 48000,
+          "pay": 48000
         }
       ],
       "grossSalary": 48000,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 48000,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 48000
     },
     {
       "year": 2001,
@@ -6853,14 +8318,16 @@
         {
           "title": "BUS AGENT",
           "kind": "employee",
-          "total": 15958
+          "total": 15958,
+          "pay": 14414
         }
       ],
       "grossSalary": 14414,
       "allowances": 0,
       "officialBusiness": 1544,
       "total": 15958,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 14414
     },
     {
       "year": 2001,
@@ -6870,14 +8337,16 @@
         {
           "title": "REC SEC",
           "kind": "officer",
-          "total": 5358
+          "total": 5358,
+          "pay": 5358
         }
       ],
       "grossSalary": 5358,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 5358,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 5358
     },
     {
       "year": 2001,
@@ -6887,14 +8356,16 @@
         {
           "title": "EXEC BRD",
           "kind": "officer",
-          "total": 3463
+          "total": 3463,
+          "pay": 3463
         }
       ],
       "grossSalary": 3463,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3463,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3463
     },
     {
       "year": 2001,
@@ -6904,14 +8375,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 3000
+          "total": 3000,
+          "pay": 3000
         }
       ],
       "grossSalary": 3000,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 3000,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 3000
     },
     {
       "year": 2001,
@@ -6921,14 +8394,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 2100
+          "total": 2100,
+          "pay": 2100
         }
       ],
       "grossSalary": 2100,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 2100,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 2100
     },
     {
       "year": 2001,
@@ -6938,14 +8413,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 1700
+          "total": 1700,
+          "pay": 1700
         }
       ],
       "grossSalary": 1700,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 1700,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 1700
     },
     {
       "year": 2001,
@@ -6955,14 +8432,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 900
+          "total": 900,
+          "pay": 900
         }
       ],
       "grossSalary": 900,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 900,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 900
     },
     {
       "year": 2000,
@@ -6972,14 +8451,16 @@
         {
           "title": "TRUSTEE",
           "kind": "employee",
-          "total": 79368
+          "total": 79368,
+          "pay": 77954
         }
       ],
       "grossSalary": 77954,
       "allowances": 0,
       "officialBusiness": 1414,
       "total": 79368,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 77954
     },
     {
       "year": 2000,
@@ -6989,14 +8470,16 @@
         {
           "title": "DEPUTY TRUSTEE",
           "kind": "employee",
-          "total": 75884
+          "total": 75884,
+          "pay": 74192
         }
       ],
       "grossSalary": 74192,
       "allowances": 0,
       "officialBusiness": 1692,
       "total": 75884,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 74192
     },
     {
       "year": 2000,
@@ -7006,14 +8489,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 58644
+          "total": 58644,
+          "pay": 56806
         }
       ],
       "grossSalary": 56806,
       "allowances": 0,
       "officialBusiness": 1838,
       "total": 58644,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 56806
     },
     {
       "year": 2000,
@@ -7023,14 +8508,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 52796
+          "total": 52796,
+          "pay": 45527
         }
       ],
       "grossSalary": 45527,
       "allowances": 0,
       "officialBusiness": 7269,
       "total": 52796,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 45527
     },
     {
       "year": 2000,
@@ -7040,14 +8527,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 51323
+          "total": 51323,
+          "pay": 50631
         }
       ],
       "grossSalary": 50631,
       "allowances": 0,
       "officialBusiness": 692,
       "total": 51323,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 50631
     },
     {
       "year": 2000,
@@ -7057,14 +8546,16 @@
         {
           "title": "BUSINESS AGENT",
           "kind": "employee",
-          "total": 42909
+          "total": 42909,
+          "pay": 39417
         }
       ],
       "grossSalary": 39417,
       "allowances": 0,
       "officialBusiness": 3492,
       "total": 42909,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 39417
     },
     {
       "year": 2000,
@@ -7074,14 +8565,16 @@
         {
           "title": "BUSINESS MGR",
           "kind": "officer",
-          "total": 40677
+          "total": 40677,
+          "pay": 40493
         }
       ],
       "grossSalary": 40493,
       "allowances": 0,
       "officialBusiness": 184,
       "total": 40677,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 40493
     },
     {
       "year": 2000,
@@ -7091,14 +8584,16 @@
         {
           "title": "CLERK",
           "kind": "employee",
-          "total": 31513
+          "total": 31513,
+          "pay": 31513
         }
       ],
       "grossSalary": 31513,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 31513,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 31513
     },
     {
       "year": 2000,
@@ -7108,14 +8603,16 @@
         {
           "title": "CLERK",
           "kind": "employee",
-          "total": 30648
+          "total": 30648,
+          "pay": 30648
         }
       ],
       "grossSalary": 30648,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 30648,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 30648
     },
     {
       "year": 2000,
@@ -7125,14 +8622,16 @@
         {
           "title": "SEC TREASURER",
           "kind": "officer",
-          "total": 29647
+          "total": 29647,
+          "pay": 27879
         }
       ],
       "grossSalary": 27879,
       "allowances": 0,
       "officialBusiness": 1768,
       "total": 29647,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 27879
     },
     {
       "year": 2000,
@@ -7142,14 +8641,16 @@
         {
           "title": "PRESIDENT",
           "kind": "officer",
-          "total": 21774
+          "total": 21774,
+          "pay": 18832
         }
       ],
       "grossSalary": 18832,
       "allowances": 0,
       "officialBusiness": 2942,
       "total": 21774,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 18832
     },
     {
       "year": 2000,
@@ -7159,14 +8660,16 @@
         {
           "title": "BUSINESS REP",
           "kind": "employee",
-          "total": 19515
+          "total": 19515,
+          "pay": 17658
         }
       ],
       "grossSalary": 17658,
       "allowances": 0,
       "officialBusiness": 1857,
       "total": 19515,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 17658
     },
     {
       "year": 2000,
@@ -7176,14 +8679,16 @@
         {
           "title": "VICE PRESIDENT",
           "kind": "officer",
-          "total": 19513
+          "total": 19513,
+          "pay": 18745
         }
       ],
       "grossSalary": 18745,
       "allowances": 0,
       "officialBusiness": 768,
       "total": 19513,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 18745
     },
     {
       "year": 2000,
@@ -7193,14 +8698,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 17119
+          "total": 17119,
+          "pay": 15329
         }
       ],
       "grossSalary": 15329,
       "allowances": 0,
       "officialBusiness": 1790,
       "total": 17119,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 15329
     },
     {
       "year": 2000,
@@ -7210,14 +8717,16 @@
         {
           "title": "REC SECRETARY",
           "kind": "officer",
-          "total": 700
+          "total": 700,
+          "pay": 700
         }
       ],
       "grossSalary": 700,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 700,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 700
     },
     {
       "year": 2000,
@@ -7227,14 +8736,16 @@
         {
           "title": "EXECUTIVE BOARD",
           "kind": "officer",
-          "total": 600
+          "total": 600,
+          "pay": 600
         }
       ],
       "grossSalary": 600,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 600,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 600
     },
     {
       "year": 2000,
@@ -7244,14 +8755,16 @@
         {
           "title": "SGT AT ARMS",
           "kind": "officer",
-          "total": 500
+          "total": 500,
+          "pay": 500
         }
       ],
       "grossSalary": 500,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 500,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 500
     },
     {
       "year": 2000,
@@ -7261,14 +8774,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 300
+          "total": 300,
+          "pay": 300
         }
       ],
       "grossSalary": 300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 300
     },
     {
       "year": 2000,
@@ -7278,14 +8793,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 300
+          "total": 300,
+          "pay": 300
         }
       ],
       "grossSalary": 300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 300
     },
     {
       "year": 2000,
@@ -7295,14 +8812,16 @@
         {
           "title": "AUDITOR",
           "kind": "officer",
-          "total": 300
+          "total": 300,
+          "pay": 300
         }
       ],
       "grossSalary": 300,
       "allowances": 0,
       "officialBusiness": 0,
       "total": 300,
-      "dualRole": false
+      "dualRole": false,
+      "pay": 300
     }
   ],
   "dues": {

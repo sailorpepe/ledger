@@ -19,7 +19,8 @@
       "inferred": false,
       "actuary": "Horizon Actuarial Services, LLC",
       "auditor": "Calibre CPA Group, PLLC",
-      "contributionRatePerHour": 19.1,
+      "contributionRatePerHour": 20.97,
+      "contributionRateFrom": "2026-06-01",
       "cbaExpires": "2026-05-31",
       "series": [
         {
@@ -173,11 +174,11 @@
           "body": "Your benefit is a percentage of the employer contributions made on your behalf: <b>6.7%</b> for work between June 1965 and May 1984, <b>5%</b> for June 1984 to May 2005, <b>3%</b> for June 2005 to May 2010, and <b>1.5%</b> for everything on or after June 1, 2010. An hour worked today earns less than a quarter of what the same hour earned in the 1970s."
         },
         {
-          "title": "100 hours in a plan year, or the year does not count",
-          "title_es": "100 horas en el año del plan, o el año no cuenta",
-          "body_es": "Menos de <b>100 horas de servicio</b> en un año del plan (1 de junio al 31 de mayo) y sufres una interrupción de servicio. Una vez que tienes derechos adquiridos tu beneficio acumulado está protegido, pero antes de eso una interrupción te puede costar. Este es el número contra el que cuenta el registro de horas.",
+          "title": "100 or 500 hours in a plan year, or the year does not count",
+          "title_es": "100 o 500 horas en el año del plan, o el año no cuenta",
+          "body_es": "Menos de <b>100 horas</b> en un año del plan (1 de junio al 31 de mayo) es una interrupción de servicio, o menos de <b>500 horas</b> si empezaste a trabajar bajo el plan el 1 de junio de 2004 o después. El tiempo fuera por enfermedad o lesión no cuenta como interrupción siempre que se haya avisado a los trustees, así que avísale al fondo por escrito. Antes de tener derechos adquiridos, cinco interrupciones seguidas te quitan el servicio que ya tenías; ya con derechos, tu beneficio acumulado está protegido. El registro de horas cuenta contra los dos mínimos.",
           "ask_es": "¿Cuántos años de servicio acreditado tengo, y ya tengo derechos adquiridos?",
-          "body": "Fewer than <b>100 hours of service</b> in a plan year (June 1 to May 31) and you incur a break in service. Once you are vested your accrued benefit is protected, but before that a break can cost you. This is the number the hours log counts against.",
+          "body": "Fewer than <b>100 hours</b> in a plan year (June 1 to May 31) is a break in service, or fewer than <b>500 hours</b> if you first worked under the plan on or after June 1, 2004. Time out sick or hurt is not a break as long as the trustees were notified, so tell the fund office in writing. Before you are vested, five breaks in a row cost you the service you had built up; once vested, your accrued benefit is protected. The hours log counts against both floors.",
           "ask": "How many years of credited service do I have, and am I vested?"
         },
         {
@@ -273,6 +274,7 @@
       ],
       "inferred": true,
       "contributionRatePerHour": 18.34,
+      "contributionRateFrom": "2026-06-01",
       "source": "https://www.chicagolaborersfunds.com/public/files/news/Annual%20Funding%20Notice.pdf",
       "series": [
         {
@@ -394,6 +396,7 @@
       ],
       "inferred": true,
       "contributionRatePerHour": 19.86,
+      "contributionRateFrom": "2026-06-01",
       "source": "https://projects.propublica.org/nonprofits/organizations/362151212",
       "retireePlanEin": "46-5243652",
       "series": [

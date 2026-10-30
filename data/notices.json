@@ -3,12 +3,18 @@
     "id": "2026-08-app-store-launch",
     "date": "2026-08-17",
     "from": "Sailorpepe",
-    "title": "It's on the App Store · Ya está en la App Store",
-    "body": "Ledger is now on the Apple App Store, free. If you are using this web version on an iPhone, you can switch: back up here (Settings → Save a backup), install the app, restore your backup, and your whole record moves with you. Android users — this web version is yours, and it is not going anywhere. — Ledger ya está en la App Store de Apple, gratis. Si usas esta versión web en un iPhone, puedes cambiarte: haz un respaldo aquí (Ajustes → Guardar un respaldo), instala la app, restaura tu respaldo, y todo tu registro se va contigo. Si usas Android — esta versión web es tuya y no se va a ninguna parte.",
+    "title": "It's on the App Store",
+    "body": "Ledger is now on the Apple App Store, free. If you use this web version on an iPhone, you can switch: here, go to Settings → Save a backup. Install the app, then in the app go to Settings → Restore from a backup. Your work log moves with you. Your cards do not move yet — before you switch, write down each card with its number and expiration date, and add them again in the app. On Android, this web version is yours, and it is not going anywhere.",
+    "title_es": "Ya está en la App Store",
+    "body_es": "Ledger ya está en la App Store de Apple, gratis. Si usas esta versión web en un iPhone, te puedes cambiar: aquí, ve a Ajustes → Guardar un respaldo. Instala la app y en la app ve a Ajustes → Restaurar de un respaldo. Tu registro de trabajo se va contigo. Tus tarjetas todavía no se pasan — antes de cambiarte, apunta cada tarjeta con su número y su fecha de vencimiento, y vuelve a agregarlas en la app. Si usas Android, esta versión web es tuya y no se va a ninguna parte.",
     "link": {
       "label": "Get it on the App Store",
+      "label_es": "Bájala de la App Store",
       "url": "https://apps.apple.com/us/app/ledger-union-work-log/id6797896983"
     },
+    "platforms": [
+      "web"
+    ],
     "until": "2026-11-30"
   }
 ]

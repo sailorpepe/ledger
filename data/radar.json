@@ -1,7 +1,125 @@
 {
-  "generated": "2026-09-03T21:40:19.177Z",
+  "generated": "2026-10-30T04:45:34.054Z",
+  "asOf": "2026-10-29",
   "lookbackDays": 365,
   "events": [
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "Everlast Blacktop, Inc.",
+      "defendantKey": "EVERLAST BLACKTOP",
+      "dateFiled": "2026-10-23",
+      "docketNumber": "1:26-cv-13064",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/75011063/chicago-vicinity-laborers-district-council-pension-fund-v-everlast/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "Asphalt, Concrete & Excavation Solutions, Inc.",
+      "defendantKey": "ASPHALT CONCRETE EXCAVATION SOLUTIONS",
+      "dateFiled": "2026-10-23",
+      "docketNumber": "1:26-cv-13063",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/75010674/chicago-vicinity-laborers-district-council-pension-fund-v-asphalt/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Fox Valley Laborers Health and Welfare Fund",
+      "defendant": "Seyller's, Inc.",
+      "defendantKey": "SEYLLER S",
+      "dateFiled": "2026-10-20",
+      "docketNumber": "1:26-cv-12887",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/74992183/fox-valley-laborers-health-and-welfare-fund-v-seyllers-inc/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "Paving Zone, Inc.",
+      "defendantKey": "PAVING ZONE",
+      "dateFiled": "2026-10-19",
+      "docketNumber": "1:26-cv-12773",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/74981851/chicago-vicinity-laborers-district-council-pension-fund-v-paving-zone/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Central Laborers' Pension Fund",
+      "defendant": "Image Pros Asphalt Maintenance Inc.",
+      "defendantKey": "IMAGE PROS ASPHALT MAINTENANCE",
+      "dateFiled": "2026-10-12",
+      "docketNumber": "3:26-cv-50477",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/74949731/central-laborers-pension-fund-v-image-pros-asphalt-maintenance-inc/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Central Laborers Pension Fund",
+      "defendant": "Northern Illinois Fence, Inc.",
+      "defendantKey": "NORTHERN ILLINOIS FENCE",
+      "dateFiled": "2026-10-12",
+      "docketNumber": "1:26-cv-12463",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/74949321/central-laborers-pension-fund-v-northern-illinois-fence-inc/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "Kreative Scape, Inc.",
+      "defendantKey": "KREATIVE SCAPE",
+      "dateFiled": "2026-09-17",
+      "docketNumber": "1:26-cv-11397",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/74808003/chicago-vicinity-laborers-district-council-pension-fund-v-kreative/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "H&Z Fireproofing, Inc.",
+      "defendantKey": "H Z FIREPROOFING",
+      "dateFiled": "2026-09-15",
+      "docketNumber": "1:26-cv-11295",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/74792877/chicago-vicinity-laborers-district-council-pension-fund-v-hz/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "Oro Stone Landscaping, LLC",
+      "defendantKey": "ORO STONE LANDSCAPING",
+      "dateFiled": "2026-09-08",
+      "docketNumber": "1:26-cv-10831",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/74761281/chicago-vicinity-laborers-district-council-pension-fund-v-oro-stone/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
+    },
     {
       "kind": "fund-lawsuit",
       "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
@@ -11,7 +129,9 @@
       "docketNumber": "1:26-cv-10058",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/74675569/chicago-vicinity-laborers-district-council-pension-fund-v-sustainable/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -22,7 +142,9 @@
       "docketNumber": "1:26-cv-07862",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73578326/central-laborers-pension-fund-v-d2k-traffic-safety-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -33,7 +155,9 @@
       "docketNumber": "1:26-cv-07868",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73579333/chicago-vicinity-laborers-district-council-pension-fund-v-island/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -44,7 +168,9 @@
       "docketNumber": "1:26-cv-07805",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73572179/central-laborers-pension-fund-v-weaver-construction-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -55,7 +181,9 @@
       "docketNumber": "1:26-cv-07605",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73549865/central-laborers-pension-fund-v-performance-pipelining-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -66,7 +194,9 @@
       "docketNumber": "1:26-cv-07582",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73548105/central-laborers-pension-fund-v-plote-construction-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -77,7 +207,9 @@
       "docketNumber": "1:26-cv-07530",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73542540/central-laborers-pension-fund-v-anderson-concrete-construction-llc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -88,7 +220,9 @@
       "docketNumber": "1:26-cv-07285",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73514062/chicago-vicinity-laborers-district-council-pension-fund-v-maxwell/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -99,7 +233,9 @@
       "docketNumber": "1:26-cv-07234",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73509454/central-laborers-pension-fund-v-allstate-concrete-cutting-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -110,7 +246,9 @@
       "docketNumber": "1:26-cv-07013",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73483974/fox-valley-laborers-health-and-welfare-fund-v-sure-international-of/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -121,7 +259,9 @@
       "docketNumber": "1:26-cv-06104",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73387730/central-laborers-pension-fund-v-american-mechanical-services-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -132,7 +272,9 @@
       "docketNumber": "1:26-cv-05763",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73357969/chicago-vicinity-laborers-district-council-pension-fund-v-blue-reef/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -143,7 +285,9 @@
       "docketNumber": "1:26-cv-04940",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73266401/chicago-vicinity-laborers-district-council-pension-fund-v-d2k-traffic/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -154,7 +298,9 @@
       "docketNumber": "1:26-cv-03969",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/73169254/chicago-vicinity-laborers-district-council-pension-fund-v-angel/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -165,7 +311,9 @@
       "docketNumber": "1:26-cv-02563",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72375780/central-laborers-pension-fund-v-evans-and-son-blacktop-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -176,7 +324,9 @@
       "docketNumber": "1:26-cv-01088",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72210337/fox-valley-laborers-health-and-welfare-fund-v-kwcc-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -187,7 +337,9 @@
       "docketNumber": "1:26-cv-01037",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72205006/fox-valley-laborers-health-and-welfare-fund-v-corrective-asphalt/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -198,7 +350,9 @@
       "docketNumber": "1:26-cv-00674",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72168671/fox-valley-laborers-health-and-welfare-fund-v-evans-and-son-blacktop-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -209,7 +363,9 @@
       "docketNumber": "1:26-cv-00641",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72165351/laborers-pension-fund-v-kanoo-llc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -220,7 +376,9 @@
       "docketNumber": "1:26-cv-00617",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72162890/laborers-pension-fund-v-martinez-underground-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -231,7 +389,9 @@
       "docketNumber": "1:26-cv-00541",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72155444/fox-valley-laborers-health-and-welfare-fund-v-jensens-plumbing-heating/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -242,7 +402,9 @@
       "docketNumber": "1:25-cv-15160",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72032244/chicago-vicinity-laborers-district-council-pension-fund-v-interstate/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -253,7 +415,9 @@
       "docketNumber": "1:25-cv-14920",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/72011621/chicago-vicinity-laborers-district-council-pension-fund-v-alliance/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -264,7 +428,9 @@
       "docketNumber": "1:25-cv-14186",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/71938016/fox-valley-laborers-health-and-welfare-fund-v-illini-suburban-asphalt/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -275,7 +441,9 @@
       "docketNumber": "1:25-cv-13683",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/71889036/chicago-vicinity-laborers-district-council-pension-fund-v-hz/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     },
     {
       "kind": "fund-lawsuit",
@@ -286,139 +454,9 @@
       "docketNumber": "1:25-cv-13608",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/71882163/chicago-vicinity-laborers-district-council-pension-fund-v-whippin-work/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Laborers' District Council and Contractors' Pension Fund of Ohio",
-      "defendant": "James Hardie Industries, PLC",
-      "defendantKey": "JAMES HARDIE INDUSTRIES PLC",
-      "dateFiled": "2025-10-24",
-      "docketNumber": "1:25-cv-13018",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71747028/laborers-district-council-and-contractors-pension-fund-of-ohio-v-james/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "American Backhoe Service & Excavating Company, LLC",
-      "defendantKey": "AMERICAN BACKHOE SERVICE EXCAVATING",
-      "dateFiled": "2025-10-23",
-      "docketNumber": "1:25-cv-12935",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71733362/chicago-vicinity-laborers-district-council-pension-fund-v-american/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "RG Stamping LLC",
-      "defendantKey": "RG STAMPING",
-      "dateFiled": "2025-10-20",
-      "docketNumber": "1:25-cv-12781",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71702522/chicago-vicinity-laborers-district-council-pension-fund-v-rg-stamping/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "Four Province Masonry, Inc.",
-      "defendantKey": "FOUR PROVINCE MASONRY",
-      "dateFiled": "2025-10-15",
-      "docketNumber": "1:25-cv-12580",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71656118/chicago-vicinity-laborers-district-council-pension-fund-v-four-province/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "Sanchez Construction Services, Inc.",
-      "defendantKey": "SANCHEZ CONSTRUCTION SERVICES",
-      "dateFiled": "2025-10-14",
-      "docketNumber": "1:25-cv-12529",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71642781/chicago-vicinity-laborers-district-council-pension-fund-v-sanchez/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "REA Masonry, LLC",
-      "defendantKey": "REA MASONRY",
-      "dateFiled": "2025-09-29",
-      "docketNumber": "1:25-cv-11825",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71488224/chicago-vicinity-laborers-district-council-pension-fund-v-rea-masonry/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "Banks Masonry Construction, LLC",
-      "defendantKey": "BANKS MASONRY CONSTRUCTION",
-      "dateFiled": "2025-09-25",
-      "docketNumber": "1:25-cv-11662",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71458971/chicago-vicinity-laborers-district-council-pension-fund-v-banks-masonry/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "AJ Trucking, LLC",
-      "defendantKey": "AJ TRUCKING",
-      "dateFiled": "2025-09-25",
-      "docketNumber": "1:25-cv-11665",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71458972/chicago-vicinity-laborers-district-council-pension-fund-v-aj-trucking/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "Dale, Inc.",
-      "defendantKey": "DALE",
-      "dateFiled": "2025-09-11",
-      "docketNumber": "1:25-cv-10991",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71321949/chicago-vicinity-laborers-district-council-pension-fund-v-dale-inc/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "Always Underground, Inc.",
-      "defendantKey": "ALWAYS UNDERGROUND",
-      "dateFiled": "2025-09-10",
-      "docketNumber": "1:25-cv-10920",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71311892/chicago-vicinity-laborers-district-council-pension-fund-v-always/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Central Laborers Pension Fund",
-      "defendant": "Wiggins Computing, LLC d/b/a WCT Midwest",
-      "defendantKey": "WIGGINS COMPUTING",
-      "dateFiled": "2025-09-09",
-      "docketNumber": "3:25-cv-50389",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71301835/central-laborers-pension-fund-v-wiggins-computing-llc-dba-wct-midwest/",
-      "source": "CourtListener / RECAP (federal docket)"
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Central Laborers Pension Fund",
-      "defendant": "Herbig Blacktop Construction, LLC",
-      "defendantKey": "HERBIG BLACKTOP CONSTRUCTION",
-      "dateFiled": "2025-09-09",
-      "docketNumber": "3:25-cv-50386",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71299842/central-laborers-pension-fund-v-herbig-blacktop-construction-llc/",
-      "source": "CourtListener / RECAP (federal docket)"
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
     }
   ]
 }

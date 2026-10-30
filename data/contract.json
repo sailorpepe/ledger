@@ -96,6 +96,7 @@
     "weekday": {
       "label": "Weekday",
       "note": "Normal day is 8 hours between 7:00 a.m. and 3:30 p.m. Time and one-half for the first 4 hours after the 8th, double time after that.",
+      "note_es": "El día normal es de 8 horas entre las 7:00 a.m. y las 3:30 p.m. Tiempo y medio por las primeras 4 horas después de la octava, y doble después de eso.",
       "cite": "Art. 15 ¶1, ¶3",
       "tiers": [
         {
@@ -115,6 +116,7 @@
     "saturday": {
       "label": "Saturday",
       "note": "Time and one-half for the first 10 hours, double time thereafter, running until 8:00 a.m. Monday.",
+      "note_es": "Tiempo y medio por las primeras 10 horas, y doble de ahí en adelante, hasta las 8:00 a.m. del lunes.",
       "cite": "Art. 15 ¶5",
       "tiers": [
         {
@@ -130,6 +132,7 @@
     "sunday": {
       "label": "Sunday / holiday",
       "note": "All work on Sundays and on New Year's, Memorial Day, Independence Day, Labor Day, Thanksgiving and Christmas is double time. No work on Labor Day except a dire emergency with the District Council's written consent.",
+      "note_es": "Todo el trabajo en domingo y en Año Nuevo, Memorial Day, el Día de la Independencia, Labor Day, Thanksgiving y Navidad es doble. En Labor Day no se trabaja, salvo una emergencia grave con permiso por escrito del District Council.",
       "cite": "Art. 17 ¶1",
       "tiers": [
         {
@@ -140,15 +143,16 @@
     },
     "fourTens": {
       "label": "Four 10s",
-      "note": "The employer may schedule four consecutive 10-hour days at straight time — but only if it is current on fringe contributions and working dues, is not in violation of JATC rules, and gave notice to the union and the employees by 4:00 p.m. the preceding Friday.",
-      "cite": "Art. 15 ¶1",
+      "note": "The employer may schedule four 10-hour days at straight time only in a week with a designated holiday, no more than 6 times a year, and only if it is current on fringe contributions and working dues, has complied with every JGC or arbitration award, is not in violation of JATC rules, and gave notice to the union and the employees by 4:00 p.m. the preceding Friday. The days must be consecutive unless the other trades on the job work the same schedule. Past 10 hours it is time and one-half to the 12th hour, double time after that. In any other week, hours 9 and 10 are overtime like any weekday.",
+      "note_es": "El patrón puede poner cuatro días de 10 horas a tiempo regular solo en una semana con feriado, no más de 6 veces al año, y solo si está al corriente con los fringes y las cuotas de trabajo, ha cumplido con todo fallo del JGC o de arbitraje, no está violando las reglas del JATC, y avisó al sindicato y a los trabajadores a más tardar a las 4:00 p.m. del viernes anterior. Los días van de corrido, a menos que los otros oficios en la obra trabajen el mismo horario. Pasando las 10 horas es tiempo y medio hasta la hora 12, y doble después. En cualquier otra semana, las horas 9 y 10 son tiempo extra como en cualquier día entre semana.",
+      "cite": "Art. 15 ¶1, ¶3",
       "tiers": [
         {
           "upto": 10,
           "mult": 1
         },
         {
-          "upto": 14,
+          "upto": 12,
           "mult": 1.5
         },
         {
