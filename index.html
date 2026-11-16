@@ -74,12 +74,32 @@
 
     <div class="card entry">
       <div class="punch" id="punchBox">
+        <!-- The shield is drawn only in the Shield skin (Settings, Skin): there
+             the logo is the punch clock. Every other skin shows the clock icon. -->
         <button type="button" class="punch-btn" id="btnPunch">
+          <svg class="shield" viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+            <defs><filter id="shGlowA" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.4"/></filter></defs>
+            <circle class="s-r1" cx="60" cy="60" r="52"/>
+            <circle class="s-arc" cx="60" cy="60" r="52" transform="rotate(-90 60 60)"/>
+            <g class="s-glow" filter="url(#shGlowA)"><circle cx="60" cy="60" r="40.5"/><path d="M60 35 L65.61 52.27 L83.78 52.27 L69.08 62.95 L74.69 80.23 L60 69.55 L45.31 80.23 L50.92 62.95 L36.22 52.27 L54.39 52.27 Z"/></g>
+            <circle class="s-r2" cx="60" cy="60" r="40.5"/>
+            <circle class="s-r3" cx="60" cy="60" r="30"/>
+            <path class="s-star" d="M60 35 L65.61 52.27 L83.78 52.27 L69.08 62.95 L74.69 80.23 L60 69.55 L45.31 80.23 L50.92 62.95 L36.22 52.27 L54.39 52.27 Z"/>
+          </svg>
           <span class="punch-ic" aria-hidden="true"></span>
           <span id="punchLabel">Punch in</span>
         </button>
         <div class="punch-live" id="punchLive" hidden>
-          <div class="pl-elapsed" id="punchElapsed" aria-live="off">0:00:00</div>
+          <svg class="shield live" viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+            <defs><filter id="shGlowB" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.4"/></filter></defs>
+            <circle class="s-r1" cx="60" cy="60" r="52"/>
+            <circle class="s-arc" cx="60" cy="60" r="52" transform="rotate(-90 60 60)"/>
+            <g class="s-glow" filter="url(#shGlowB)"><circle cx="60" cy="60" r="40.5"/><path d="M60 35 L65.61 52.27 L83.78 52.27 L69.08 62.95 L74.69 80.23 L60 69.55 L45.31 80.23 L50.92 62.95 L36.22 52.27 L54.39 52.27 Z"/></g>
+            <circle class="s-r2" cx="60" cy="60" r="40.5"/>
+            <circle class="s-r3" cx="60" cy="60" r="30"/>
+            <path class="s-star" d="M60 35 L65.61 52.27 L83.78 52.27 L69.08 62.95 L74.69 80.23 L60 69.55 L45.31 80.23 L50.92 62.95 L36.22 52.27 L54.39 52.27 Z"/>
+          </svg>
+          <div class="pl-elapsed" id="punchElapsed" role="img" aria-live="off">0:00:00</div>
           <div class="pl-since" id="punchSince"></div>
           <button type="button" class="punch-out" id="btnPunchOut">Punch out</button>
         </div>
@@ -137,7 +157,10 @@
       </button>
       <p class="mic-msg" id="micMsg" hidden></p>
       <label class="sr-only" for="fNote" id="fNoteLabel">What happened today</label>
-      <textarea id="fNote" rows="3" placeholder="Job, foreman, who told you to stay, anything that felt off. Twenty seconds is plenty."></textarea>
+      <div class="notewrap">
+        <div class="note-ghost" id="noteGhost" aria-hidden="true" translate="no"></div>
+        <textarea id="fNote" rows="3" placeholder="Job, foreman, who told you to stay, anything that felt off. Twenty seconds is plenty."></textarea>
+      </div>
 
       <div class="flags" id="flagStrip" hidden></div>
 
@@ -230,7 +253,7 @@
 </div>
 
 <nav class="tabs" role="tablist">
-  <button data-go="log" class="on" type="button"><i class="ic-log"></i><span>Log</span></button>
+  <button data-go="log" class="on" type="button" aria-current="page"><i class="ic-log"></i><span>Log</span></button>
   <button data-go="certs" type="button"><i class="ic-card"></i><span>Cards</span></button>
   <button data-go="local" type="button"><i class="ic-local"></i><span>Local</span></button>
   <button data-go="fund" type="button"><i class="ic-fund"></i><span>Pension</span></button>

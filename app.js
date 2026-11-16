@@ -119,7 +119,10 @@ const usd = (n) => n == null ? '—' : '$' + Math.round(n).toLocaleString(LOC())
 const usdK = (n) => {
   if (n == null) return '—'
   const a = Math.abs(n)
-  if (a >= 1e6) return '$' + (n / 1e6).toFixed(a >= 1e7 ? 0 : 1) + 'M'
+  // A billion stays in millions, with its comma: $6,140M, not $6140M. ("B"
+  // reads as billón — a trillion — in Spanish.)
+  if (a >= 1e7) return '$' + Math.round(n / 1e6).toLocaleString(LOC()) + 'M'
+  if (a >= 1e6) return '$' + (n / 1e6).toFixed(1) + 'M'
   if (a >= 1e3) return '$' + Math.round(n / 1e3) + 'K'
   return '$' + Math.round(n)
 }
@@ -132,6 +135,29 @@ const ord = (n) => {
   return n + (s[(v - 20) % 10] || s[v] || s[0])
 }
 const hrs = (n) => Number.isInteger(n) ? String(n) : n.toFixed(1)
+const cap = (s) => String(s).charAt(0).toUpperCase() + String(s).slice(1)
+
+// Plain words loud, references quiet. A reference is the article and
+// paragraph, the code section or the agreement's name and years that a
+// sentence rests on. It stays on the screen, because it is what makes the
+// sentence checkable, and it is drawn in the quiet ink so the eye lands on
+// the words first. This only ever wraps text as it is PAINTED: a sealed
+// note, its hash and a backup are read, never rewritten, so a day sealed
+// before this existed greys the same way. It takes text already escaped.
+const REF_RE = /\((?:Art\.|¶|29 CFR|77 Ill\.|ANSI)[^()]*(?:\([^()]*\)[^()]*)*\)\.?|(?:Art\. \d+(?: ¶\d+)?(?:(?:,| and| y) ¶\d+)*|¶\d+)(?: \((?:2021–2026 CAICA|CAICA 2021–2026)\))?|\((?:2021–2026 CAICA|CAICA 2021–2026)\)/g
+const quiet = (escaped) => String(escaped ?? '').replace(REF_RE, '<span class="ref">$&</span>')
+
+// A label that ends in its reference, "Funded percentage (Schedule MB line
+// 4a)": the plain name, and the reference to draw quietly under it.
+function splitRef(label) {
+  const m = /^(.*\S)\s*\(([^()]+)\)$/.exec(String(label ?? ''))
+  return m ? { plain: m[1], ref: m[2] } : { plain: String(label ?? ''), ref: '' }
+}
+// The first sentence of a line, and the rest of it.
+function firstSentence(s) {
+  const i = String(s).indexOf('. ')
+  return i < 0 ? [String(s), ''] : [String(s).slice(0, i + 1), String(s).slice(i + 2)]
+}
 
 // The Fox Valley plan year runs June 1 – May 31. Hours are counted against it,
 // so the log counts against it too, from today in the log's zone.
@@ -280,6 +306,8 @@ function activeLog() {
 /* ============================ log view ============================ */
 
 let total = 8, dayType = 'weekday'
+// What Log it last refused, and the timer that puts "Log it" back (refuse).
+let refuseTimer = 0, refusedKey = null
 // Whether the hours are still the form's own default, 8 or a four-10s 10.
 // Hours from the punch clock, from + and − or from a show-up floor are his.
 let hoursUntouched = true
@@ -383,14 +411,19 @@ function daySplit() {
 }
 
 function paintHours() {
+  // What Log it refused is there now, however it got there: the + button,
+  // Punch out, a short-day choice, the forgot-to-punch-out form.
+  if (refusedKey === 'addHoursFirst' ? total > 0 : refusedKey === 'dateFirst' && isDayKey($('#fDate').value)) clearRefusal()
   // First: a floor that no longer applies hands the hours back here.
   paintShort()
   $('#outTotal').value = hrs(total)
+  // How many characters the figure is: 10.5 is drawn to fit beside the + button.
+  $('#outTotal').dataset.len = hrs(total).length
   const s = daySplit()
   $('#splitOut').innerHTML = [
-    s.st ? `<span>${t('straight')} <b>${hrs(s.st)}</b></span>` : '',
-    s.ot ? `<span class="x-ot">${t('timeHalf')} <b>${hrs(s.ot)}</b></span>` : '',
-    s.dt ? `<span class="x-dt">${t('double')} <b>${hrs(s.dt)}</b></span>` : '',
+    s.st ? `<span><em>${t('straight')}</em> <b>${hrs(s.st)}</b></span>` : '',
+    s.ot ? `<span class="x-ot"><em>${t('timeHalf')}</em> <b>${hrs(s.ot)}</b></span>` : '',
+    s.dt ? `<span class="x-dt"><em>${t('double')}</em> <b>${hrs(s.dt)}</b></span>` : '',
   ].filter(Boolean).join('') || `<span>${t('noHours')}</span>`
 
   const rate = Number($('#fRate').value) || 0
@@ -409,7 +442,7 @@ function paintHours() {
     : ''
 
   const parts = [
-    t('hoursWorkedSay', { h: hrs(total) }),
+    total === 1 ? t('hourWorkedSay') : t('hoursWorkedSay', { h: hrs(total) }),
     s.ot ? t('otSay', { h: hrs(s.ot) }) : '',
     s.dt ? t('dtSay', { h: hrs(s.dt) }) : '',
     g == null ? '' : usd(g),
@@ -444,7 +477,7 @@ function showSheet() {
 // tap on it doesn't close the sheet and VoiceOver doesn't offer it as one.
 function openSheet(title, rows, onPick) {
   $('#sheetTitle').textContent = title
-  $('#sheetBody').innerHTML = rows.map((r, i) => `<${r.info ? 'div' : 'button'} class="sheet-row${r.on ? ' on' : ''}${r.danger ? ' danger' : ''}${r.info ? ' info' : ''}"${r.info ? '' : ` data-i="${i}" type="button"`}>
+  $('#sheetBody').innerHTML = rows.map((r, i) => `<${r.info ? 'div' : 'button'} class="sheet-row${r.on ? ' on' : ''}${r.danger ? ' danger' : ''}${r.info ? ' info' : ''}"${r.info ? '' : ` data-i="${i}" type="button"`}${r.on && !r.info ? ' aria-current="true"' : ''}>
     ${r.swatch ? `<span class="swatch" style="background:${r.swatch}"></span>` : ''}
     <span>${esc(r.label)}${r.sub ? `<span class="sub">${esc(r.sub)}</span>` : ''}</span>
   </${r.info ? 'div' : 'button'}>`).join('')
@@ -537,6 +570,9 @@ const THEMES = [
   { id: 'dark', label: 'Dark', sub: 'Easy at night and in the gang box', swatch: '#171b21' },
   { id: 'jobsite', label: 'Jobsite', sub: 'Navy and safety orange', swatch: 'linear-gradient(135deg,#0d1b30 50%,#f5821f 50%)' },
   { id: 'sun', label: 'Sunlight', sub: 'Hard contrast for a bright deck', swatch: '#ffffff' },
+  // The logo as the punch clock, sign lettering, navy with red, white and
+  // steel blue. A choice, never the default.
+  { id: 'shield', label: 'Shield', sub: 'The shield is the punch clock', swatch: 'radial-gradient(circle, #ffffff 0 16%, #0c2350 17% 28%, #4b7cbf 29% 42%, #0c2350 43% 52%, #ffffff 53% 66%, #0c2350 67% 76%, #d4162c 77%)' },
 ]
 const THEME_KEY = 'ledger.theme.v1'
 // The default skin was called 'liuna' before v1.0. The colors did not change —
@@ -574,12 +610,35 @@ function applyTheme(id) {
   if (id) document.documentElement.dataset.theme = id
   else delete document.documentElement.dataset.theme
   localStorage.setItem(THEME_KEY, id ?? '')
+  placePunch(id)
+}
+
+// In the Shield skin the punch clock is a plate at the top of the Log tab.
+// In every other skin it stays where it has always been, at the head of the
+// day's form. A marker keeps its place so it can go back.
+let punchHome = null
+function placePunch(id) {
+  const box = $('#punchBox'), head = $('#view-log .vhead')
+  if (!box || !head) return
+  if (!punchHome) { punchHome = document.createComment('punch clock'); box.before(punchHome) }
+  if (id === 'shield') head.after(box)
+  else punchHome.after(box)
+  // The receipt a punch-out leaves ("... then log it") stays right under the
+  // clock, wherever the clock is.
+  const sum = $('#punchSummary')
+  if (sum) box.after(sum)
 }
 
 // The date box starts on today. Whether it still holds that default — rather
 // than a day the member picked or the punch clock filled in — decides whether
 // it may follow the calendar to a new day on its own.
 let dateUntouched = true, shownDay = ''
+// When the member last typed or tapped in the day's form. A form in use when
+// midnight passes is a shift being written up: it keeps the day it was
+// started on, whether the screen stayed on or the app was left for a minute.
+// A form left alone for hours is not, and follows the new day as it always has.
+let formTouchedAt = 0
+const formInUse = () => Date.now() - formTouchedAt < 3 * 3.6e6
 function setDefaultDate() { $('#fDate').value = dayKey(); dateUntouched = true }
 // When the phone is set to another zone than the log, the header says whose
 // day it is showing: at 12:30 am in New York it is still last night in Chicago.
@@ -624,8 +683,38 @@ function followDate() {
   if (moved) setDayType(sug.type)
   paintDayHint(sug)
   paintHours()
+  if (punchMeta) paintPunchReceipt()
   // The pay just changed under him: say why before the new numbers.
   if (moved) announce(`${$('#dayHint').textContent} ${hoursSaid}`)
+}
+
+// The punch-out receipt is about the day the punch was made. On any other
+// date its clock times and its Lunch worked flag are not sealed (punchFor),
+// and the receipt says so instead of vanishing; back on that date, it is back.
+function paintPunchReceipt() {
+  const sum = $('#punchSummary')
+  if (!sum || !punchMeta) return
+  const own = !!punchFor()
+  sum.hidden = false
+  if (own) sum.innerHTML = punchReceipt
+  else {
+    // A night shift belongs to the day it started and the day it ended.
+    const a = dayKey(new Date(punchMeta.inAt)), b = dayKey(new Date(punchMeta.outAt))
+    sum.innerHTML = esc(a === b ? t('punchOtherDay', { d: fmtFiled(a) }) : t('punchOtherDays', { d: fmtFiled(a), e: fmtFiled(b) })) +
+      (punchMeta.lunchWorked ? ` ${esc(t('punchOtherLunch'))}` : '')
+  }
+  // The lunch line the punch-out wrote is a claim about the punch's own day:
+  // it leaves the note on any other date, and comes back with the date.
+  const n = $('#fNote')
+  if (!punchNoteLine || !n) return
+  if (!own && !punchNoteOff && n.value.includes(punchNoteLine)) {
+    n.value = n.value.replace(punchNoteLine, '').replace(/\s{2,}/g, ' ').trim()
+    punchNoteOff = true
+  } else if (own && punchNoteOff) {
+    if (!n.value.includes(punchNoteLine)) n.value = (n.value.trim() ? n.value.trim() + ' ' : '') + punchNoteLine
+    punchNoteOff = false
+  } else return
+  paintFlags(detectFlags(n.value))
 }
 
 function paintDayHint(sug) {
@@ -654,13 +743,21 @@ function paintDayHint(sug) {
 // front on a new day, the header, the calendar and an untouched date box move
 // to it, and a clock left running gets the missed-punch question that boot
 // would have asked. A date the member chose is never moved.
-function onResume() {
+// The header, the list and the card line always follow the day. The date box
+// follows it only when moveDate says so: never under a form in use
+// (formInUse), so a shift being written up at midnight keeps the day it was
+// worked and the pay that day earns.
+function rollDay(moveDate = true) {
   if (document.visibilityState !== 'visible') return
   const f = $('#fDate')
-  const was = f.value
-  f.value = rolledDate(f.value, dateUntouched)
-  if (f.value !== was) followDate()
-  if (dayKey() !== shownDay) { paintToday(); paintEntries(); paintNotices() }
+  const next = moveDate ? rolledDate(f.value, dateUntouched) : f.value
+  if (next !== f.value) { f.value = next; followDate() }
+  if (dayKey() !== shownDay) { paintToday(); paintEntries(); paintNotices(); paintCards() }
+}
+
+function onResume() {
+  if (document.visibilityState !== 'visible') return
+  rollDay(!formInUse())
   if ($('#sheet').hidden) punchForgotCheck()
 }
 
@@ -676,7 +773,9 @@ async function initLog() {
 
   // Your rate barely changes. Ask once, remember it, let it be corrected.
   const lastRate = localStorage.getItem(RATE_KEY)
-  if (lastRate) $('#fRate').value = lastRate
+  // In dollars and cents, as the scale prefills it: after the first day was
+  // logged the field said "53" where it had said "53.00".
+  if (lastRate) $('#fRate').value = Number(lastRate) > 0 ? Number(lastRate).toFixed(2) : lastRate
   $('#fRate').addEventListener('input', paintHours)
 
   $$('.daytype button').forEach((b) => b.addEventListener('click', () => {
@@ -716,6 +815,7 @@ async function initLog() {
   cIn.addEventListener('blur', () => setTimeout(() => { cSug.hidden = true }, 150))
 
   $('#fNote').addEventListener('input', (e) => paintFlags(detectFlags(e.target.value)))
+  syncNote()
   initTitle()
   applyTheme(migrateTheme(localStorage.getItem(THEME_KEY)) ?? 'jobsite')
 
@@ -738,16 +838,45 @@ async function initLog() {
   $('#btnPunch').addEventListener('click', () => {
     navigator.vibrate?.(10)
     // A new punch starts a new day: the last punch-out's receipt is stale now.
+    // It is kept aside for one case: this punch-in turns out to be a slip and
+    // is taken back, and then the punch-out that was waiting is still owed.
+    punchUndo = punchMeta ? { meta: punchMeta, html: punchReceipt, line: punchNoteLine, off: punchNoteOff } : null
     $('#punchSummary').hidden = true
     punchMeta = null
+    punchNoteLine = ''; punchNoteOff = false
     setPunch({ inAt: new Date().toISOString() })
     announce(t('punchedInSay', { t: fmtClock(new Date().toISOString()) }))
   })
   $('#btnPunchOut').addEventListener('click', () => {
+    // A second landing in the same instant, after the first already ended it.
+    if (!PUNCH) return
     navigator.vibrate?.(10)
     // Sixteen hours or more is a missed punch-out, not a shift: ask for the
     // finish time instead of prefilling the whole span.
     if (punchForgotCheck(true)) return
+    // Under a minute on the clock is a thumb that landed on Punch in, not a
+    // shift: Punch out takes it back, with no lunch question and nothing left
+    // behind to be sealed onto a day. A clock that was set back makes the span
+    // negative, and that is never treated as a slip.
+    const onFor = Date.now() - new Date(PUNCH.inAt)
+    if (onFor >= 0 && onFor < 60000) {
+      setPunch(null)
+      const sum = $('#punchSummary')
+      // The punch-out that was waiting to be logged when the slip happened
+      // goes back exactly as it was, receipt and all, under the line that
+      // says the slip was taken back.
+      if (punchUndo) {
+        punchMeta = punchUndo.meta
+        punchReceipt = punchUndo.html
+        punchNoteLine = punchUndo.line ?? ''; punchNoteOff = punchUndo.off ?? false
+        punchUndo = null
+        paintPunchReceipt()
+        sum.innerHTML = `${esc(t('punchUndone'))}<br>${sum.innerHTML}`
+      } else sum.textContent = t('punchUndone')
+      sum.hidden = false
+      announce(t('punchUndone'))
+      return
+    }
     punchOutFlow(new Date().toISOString())
   })
   clearInterval(punchTimer)
@@ -756,6 +885,16 @@ async function initLog() {
   punchForgotCheck()
   document.addEventListener('visibilitychange', onResume)
   addEventListener('pageshow', (e) => { if (e.persisted) onResume() })
+  // A screen left on across midnight never comes back from anywhere: once a
+  // minute, the same check moves the date nobody touched to the new day,
+  // unless the form is in use.
+  setInterval(() => rollDay(!formInUse()), 60000)
+  // Any typing or tapping in the day's form marks it in use.
+  for (const ev of ['input', 'change', 'click']) $('.card.entry')?.addEventListener(ev, () => { formTouchedAt = Date.now() })
+  // Typing or picking in the form is a change to the day; a bare tap is not.
+  for (const ev of ['input', 'change']) $('.card.entry')?.addEventListener(ev, clearRefusal)
+  // The note box is measured against its width: a new width measures it again.
+  addEventListener('resize', syncNote)
 
   $('#calPrev').addEventListener('click', () => { calMonth = stepMonth(calMonth, -1); paintCalendar() })
   $('#calNext').addEventListener('click', () => { calMonth = stepMonth(calMonth, 1); paintCalendar() })
@@ -778,7 +917,28 @@ async function initLog() {
   paintEntries()
 }
 
+// The note box grows to fit what is in it, so nothing he typed and nothing
+// the app wrote is ever cut off. When the note holds a reference (an article,
+// the agreement's name), the same text is drawn behind the box with that
+// reference grey, and the box's own letters go clear: one box, the words
+// loud, the reference quiet. What is typed, sealed and backed up is the
+// box's text, exactly as before.
+function syncNote() {
+  const n = $('#fNote')
+  if (!n) return
+  n.style.height = 'auto'
+  n.style.height = n.scrollHeight + 2 + 'px'
+  const g = $('#noteGhost')
+  if (!g) return
+  REF_RE.lastIndex = 0
+  const has = REF_RE.test(n.value)
+  REF_RE.lastIndex = 0
+  g.parentElement.classList.toggle('ghosted', has)
+  g.innerHTML = has ? quiet(esc(n.value)) + '\u200b' : ''
+}
+
 function paintFlags(flags) {
+  syncNote()
   const strip = $('#flagStrip')
   strip.hidden = !flags.length
   strip.innerHTML = flags.map((f) => `<span class="chip">${esc(flagText(f))}</span>`).join('')
@@ -826,18 +986,23 @@ const save = oneSealPerTap(sealDay, {
   unlock: () => {
     const btn = $('#btnSave')
     btn.disabled = false
-    btn.textContent = t('logIt')
     btn.classList.remove('done')
+    // A refusal says why on the button for a moment (refuse); its timer puts
+    // "Log it" back.
+    if (!btn.classList.contains('refused')) btn.textContent = t('logIt')
   },
 })
 
 async function sealDay() {
   const btn = $('#btnSave')
-  if (total <= 0) { say('addHoursFirst'); return false }
+  if (total <= 0) { refuse('addHoursFirst', 'needHoursBtn', $('.hero-hours')); return false }
   // One Backspace empties a date box. Asked for, not guessed: the member is
   // the only one who knows which day this was.
   const date = $('#fDate').value
-  if (!isDayKey(date)) { say('dateFirst'); $('#fDate').focus(); return false }
+  if (!isDayKey(date)) { refuse('dateFirst', 'needDateBtn'); $('#fDate').focus(); return false }
+
+  // Past the checks: whatever was refused before is not, while this seals.
+  clearRefusal()
 
   const s = daySplit()
   const rate = Number($('#fRate').value) || 0
@@ -852,15 +1017,20 @@ async function sealDay() {
       rate: rate || null,
       gross: grossOf(s, rate),
       note: $('#fNote').value.trim(),
-      punch: punchMeta,
+      // The punch for this date: the one waiting, or the one a new Punch in
+      // put aside while this day's form was still on the screen.
+      punch: punchFor(date) ?? punchFor(date, punchUndo?.meta),
       shortDay: shortDayRecord(SHORT, dayType),
     })
   } catch {
     // The form is left exactly as it was, so trying again loses nothing.
-    say('sealFailed')
+    refuse('sealFailed', 'notSavedBtn')
     return false
   }
   punchMeta = null
+  punchUndo = null
+  formTouchedAt = 0
+  punchNoteLine = ''; punchNoteOff = false
   SHORT = null
   shortNoteLine = ''
   $('#punchSummary').hidden = true
@@ -871,6 +1041,7 @@ async function sealDay() {
 
   stopMic()
   $('#fNote').value = ''
+  syncNote()
   // The date picked or prefilled was for the day just sealed. Carried over to
   // the next entry, it is how yesterday's date ends up sealed on today's work.
   // A day type tapped by hand was about that day too.
@@ -888,6 +1059,59 @@ async function sealDay() {
 function say(key) {
   $('#saveHint').textContent = t(key)
   announce(t(key))
+}
+
+// Log it said no. A grey line under the button was all there was, and a
+// member who tapped Log it after a short test punch (0 hours) saw nothing
+// happen at all. So the reason goes where his eyes are: on the button for a
+// moment, in the warning ink under it until the day is fixed, and on the
+// hours box, when that is what is missing.
+function refuse(key, btnKey, fix) {
+  say(key)
+  refusedKey = key
+  const btn = $('#btnSave')
+  $('#saveHint').classList.add('warn')
+  btn.classList.add('refused')
+  btn.textContent = t(btnKey)
+  navigator.vibrate?.([30, 60, 30])
+  clearTimeout(refuseTimer)
+  refuseTimer = setTimeout(() => {
+    btn.classList.remove('refused')
+    if (!btn.classList.contains('done')) btn.textContent = t('logIt')
+  }, 2400)
+  if (!fix) return
+  fix.classList.remove('needs')
+  void fix.offsetWidth // restart the glow on a second refusal
+  fix.classList.add('needs')
+  // The page moves only when that costs nothing: the hours box is out of
+  // sight above, and it, the button and the line under it all fit above the
+  // tab bar together. Otherwise the button stays under his thumb saying why;
+  // a scroll on a small phone carried the reason behind the tab bar, and a
+  // second tap landed on whatever slid under it.
+  const box = fix.getBoundingClientRect(), hint = $('#saveHint').getBoundingClientRect()
+  const tabs = $('.tabs')?.getBoundingClientRect()
+  const floor = tabs && tabs.top > 0 && tabs.top < innerHeight ? tabs.top : innerHeight
+  const ceil = parseFloat(getComputedStyle(fix).scrollMarginTop) || 0
+  if (box.top < ceil && hint.bottom - box.top <= floor - ceil) {
+    window.scrollBy({ top: box.top - ceil, behavior: 'smooth' })
+  }
+}
+
+// The warning comes down when the day is fixed (paintHours, for hours and
+// date), when he edits anything in the form, and when a retry gets past the
+// checks. A tap that changes nothing (the note, the rule box) leaves it up.
+function clearRefusal() {
+  refusedKey = null
+  clearTimeout(refuseTimer)
+  $('.hero-hours')?.classList.remove('needs')
+  const btn = $('#btnSave'), hint = $('#saveHint')
+  if (btn.classList.contains('refused')) {
+    btn.classList.remove('refused')
+    if (!btn.classList.contains('done')) btn.textContent = t('logIt')
+  }
+  if (!hint.classList.contains('warn')) return
+  hint.classList.remove('warn')
+  hint.textContent = t('sealedHint')
 }
 
 function paintEntries() {
@@ -930,29 +1154,30 @@ function paintEntries() {
     list.innerHTML = `<div class="empty"><p>${t('emptyLog')}</p></div>`
     return
   }
+  // Each day is its own card, stacked so nothing shares a line with the
+  // contractor's name and it is never cut off: the day, who it was for, the
+  // hours and pay in words, his note, then the seal. A reference in a note
+  // (an article, the agreement) is drawn grey; the stored note is only read.
   list.innerHTML = activeLog().slice(0, 30).map((e) => {
     // A day 1.0 sealed with a blank date says so, instead of NaN.
     const d = new Date(e.date + 'T12:00:00')
     const dated = !isNaN(d)
+    const when = dated ? d.toLocaleDateString(LOC(), { weekday: 'short', month: 'short', day: 'numeric' }) : t('noDate')
+    const part = (o) => (dated ? d.toLocaleDateString(LOC(), o).replace('.', '') : '')
+    const worked = [
+      e.st + e.ot + (e.dt ?? 0) === 1 ? t('hourWorkedSay') : t('hoursWorkedSay', { h: hrs(e.st + e.ot + (e.dt ?? 0)) }),
+      e.ot ? `<span class="ot">${t('otSay', { h: hrs(e.ot) })}</span>` : '',
+      e.dt ? `<span class="dt">${t('dtSay', { h: hrs(e.dt) })}</span>` : '',
+    ].filter(Boolean).join(' · ')
     return `<div class="log-day">
-      <div class="log-when">
-        <div class="d">${dated ? d.getDate() : '?'}</div>
-        <div class="m">${dated ? d.toLocaleDateString(LOC(), { month: 'short' }) : esc(t('noDate'))}</div>
-      </div>
-      <div class="log-body">
-        <div class="log-top">
-          <span class="log-co">${esc(e.contractor || t('noContractor'))}</span>
-          <span class="log-hrs">${hrs(e.st + e.ot + (e.dt ?? 0))}h${
-            e.ot ? ` <span class="ot">${hrs(e.ot)}×1½</span>` : ''}${
-            e.dt ? ` <span class="dt">${hrs(e.dt)}×2</span>` : ''}${
-            e.gross ? ` <span class="gr">${usd(e.gross)}</span>` : ''}</span>
-        </div>
-        ${e.note ? `<div class="log-note">${esc(e.note)}</div>` : ''}
-        ${e.flags?.length ? `<div class="flags">${e.flags.map((f) => `<span class="chip">${esc(flagText(f))}</span>`).join('')}</div>` : ''}
-        ${e.flags?.some((f) => f.id === 'short' || f.id === 'lunch') && inGrievanceWindow(e.date)
-          ? `<p class="griev">${esc(t('grievClock'))}</p>` : ''}
-        <div class="log-meta">${e.punch ? `${fmtClock(e.punch.inAt)}–${fmtClock(e.punch.outAt)} · ` : ''}${t('sealedAt')} ${new Date(e.loggedAt).toLocaleString(LOC(), inZone())} · ${esc(String(e.hash).slice(0, 12))}</div>
-      </div>
+      <div class="log-when"><span class="lw-line">${esc(when)}</span><span class="lw-block" aria-hidden="true"><span class="ld-dow">${esc(part({ weekday: 'short' }))}</span><b class="ld-day">${dated ? d.getDate() : '?'}</b><span class="ld-mon">${esc(part({ month: 'short' }))}</span></span></div>
+      <div class="log-co">${esc(e.contractor || t('noContractor'))}</div>
+      <div class="log-hrs"><span class="lh-w">${worked}</span>${e.gross ? `<span class="gr">${usd(e.gross)}</span>` : ''}</div>
+      ${e.note ? `<div class="log-note">${quiet(esc(e.note))}</div>` : ''}
+      ${e.flags?.length ? `<div class="flags">${e.flags.map((f) => `<span class="chip">${esc(flagText(f))}</span>`).join('')}</div>` : ''}
+      ${e.flags?.some((f) => f.id === 'short' || f.id === 'lunch') && inGrievanceWindow(e.date)
+        ? `<p class="griev">${quiet(esc(t('grievClock')))}</p>` : ''}
+      <div class="log-meta">${e.punch ? `${fmtClock(e.punch.inAt)}–${fmtClock(e.punch.outAt)} · ` : ''}${t('sealedAt')} ${new Date(e.loggedAt).toLocaleString(LOC(), inZone())} · ${esc(String(e.hash).slice(0, 12))}</div>
       <button type="button" class="log-x" data-void="${esc(e.hash)}" aria-label="${t('voidTitle')}">&times;</button>
     </div>`
   }).join('')
@@ -1003,6 +1228,11 @@ let shortNoteLine = ''
 // A punched span shows to the hundredth: "you worked 4.0" beside the 8-hour
 // floor for more than four hours would read as a mistake.
 const hrsWorked = (n) => String(+Number(n).toFixed(2))
+// The punch waiting to be logged belongs to the day it started or ended on.
+// On any other date in the box it is not this day's punch: it is not sealed
+// onto that day, and it does not decide that day's short-day floor.
+const punchFor = (date, meta = punchMeta) => (meta && [dayKey(new Date(meta.inAt)), dayKey(new Date(meta.outAt))]
+  .includes(date ?? $('#fDate').value) ? meta : null)
 
 function paintShort() {
   const box = $('#shortBox')
@@ -1018,7 +1248,7 @@ function paintShort() {
   box.hidden = false
 
   if (!SHORT) {
-    box.innerHTML = `<p class="sd-lead">${t('shortLead', { h: hrs(total) })}</p>
+    box.innerHTML = `<p class="sd-lead">${t(total === 1 ? 'shortLeadOne' : 'shortLead', { h: hrs(total) })}</p>
       <button type="button" class="sd-ask" id="sdAsk">${esc(t('shortAsk'))}</button>`
     $('#sdAsk').addEventListener('click', askShort)
     return
@@ -1065,7 +1295,7 @@ function askShort() {
     // from the hours logged, not from a floor the first answer put there.
     const prior = SHORT
     if (prior?.used) total = prior.logged
-    const worked = prior ? prior.worked : workedHours(total, punchMeta)
+    const worked = prior ? prior.worked : workedHours(total, punchFor())
     SHORT = { id: pick.act, worked, logged: prior ? prior.logged : total, used: false }
 
     // The note says what happened once, in the words of the latest answer.
@@ -1076,7 +1306,7 @@ function askShort() {
     const j = judge(SHORT.id, worked, SHORT.logged, dayType)
     // Sent home on a Saturday is still what happened, floor or not.
     const key = j.weekdayOnly ? SHORT_NOTE.reporting : SHORT_NOTE[j.rule]
-    shortNoteLine = key ? t(key, { h: hrsWorked(worked) }) : ''
+    shortNoteLine = key ? t(key === 'shortNoteRain' && hrsWorked(worked) === '1' ? 'shortNoteRainOne' : key, { h: hrsWorked(worked) }) : ''
     if (shortNoteLine && !n.value.includes(shortNoteLine)) {
       n.value = (n.value ? n.value.trim() + ' ' : '') + shortNoteLine
     }
@@ -1099,6 +1329,10 @@ function askShort() {
 let PUNCH = null          // { inAt: ISO } while on the clock
 let punchTimer = null
 let punchMeta = null      // consumed by save(): { inAt, outAt, exact, lunchWorked }
+let punchUndo = null      // the waiting punch-out a new Punch in put aside: { meta, html }
+let punchReceipt = ''     // what the last punch-out's receipt says, to show again
+let punchNoteLine = ''    // the lunch line that punch-out wrote into the note
+let punchNoteOff = false  // that line was taken out of the note for another date
 
 const fmtClock = (iso) => new Date(iso).toLocaleTimeString(LOC(), inZone({ hour: 'numeric', minute: '2-digit' }))
 
@@ -1113,9 +1347,19 @@ function paintPunch() {
     // of cardboard instead.
     const el = Math.floor((Date.now() - new Date(PUNCH.inAt)) / 1000)
     const pad = (n) => String(n).padStart(2, '0')
-    $('#punchElapsed').textContent =
-      `${Math.floor(el / 3600)}:${pad(Math.floor(el / 60) % 60)}:${pad(el % 60)}`
+    // Each digit in its own cell: in a skin whose numbers are not all one
+    // width, the clock must not shiver as the seconds change.
+    const clock = `${Math.floor(el / 3600)}:${pad(Math.floor(el / 60) % 60)}:${pad(el % 60)}`
+    const out = $('#punchElapsed')
+    if (out.dataset.t !== clock) {
+      out.dataset.t = clock
+      out.setAttribute('aria-label', clock)
+      out.innerHTML = [...clock].map((c) => (c === ':' ? '<i class="c">:</i>' : `<i>${c}</i>`)).join('')
+    }
     $('#punchSince').textContent = t('punchSince', { t: fmtClock(PUNCH.inAt) })
+    // The Shield skin's red ring is the shift: empty at punch-in, closed at 8 hours.
+    const arc = $('.shield.live .s-arc')
+    if (arc) arc.setAttribute('stroke-dasharray', `${(Math.max(0, Math.min(1, el / (8 * 3600))) * 326.73).toFixed(1)} 326.73`)
   }
 }
 
@@ -1152,22 +1396,30 @@ function punchOutFlow(outISO) {
     // after.
     $('#fDate').value = dayKey(new Date(inAt))
     dateUntouched = false
+    punchNoteLine = ''
+    punchNoteOff = false
     if (lunchWorked) {
       // The note says what the clock showed, and names the 8.5 floor only on
-      // the day it lifted.
+      // the day it lifted. The line is kept, so it can leave the note on a
+      // date this punch does not belong to (paintPunchReceipt).
       const c = lunchClaim(span)
       const n = $('#fNote')
-      n.value = (n.value ? n.value.trim() + ' ' : '') + t(c.floor ? 'lunchNoteFloor' : 'lunchNote', { h: c.clock.toFixed(1) })
+      punchNoteLine = t(c.floor ? 'lunchNoteFloor' : 'lunchNote', { h: c.clock.toFixed(1) })
+      n.value = (n.value ? n.value.trim() + ' ' : '') + punchNoteLine
       paintFlags(detectFlags(n.value))
     }
     punchMeta = { inAt, outAt: outISO, exact, lunchWorked }
+    punchUndo = null
     followDate()
     if (rounded < 8) askShort()
     const sum = $('#punchSummary')
     sum.hidden = false
-    announce(t('punchedOutSay', { h: hrs(rounded) }))
-    sum.innerHTML = t('punchPrefill', { a: fmtClock(inAt), b: fmtClock(outISO), exact: exact.toFixed(1), rounded: hrs(rounded) }) +
-      (lunchWorked ? ` <b class="griev">${esc(t('grievClock'))}</b>` : '')
+    announce(rounded === 1 ? t('punchedOutSayOne') : t('punchedOutSay', { h: hrs(rounded) }))
+    // A punch that rounds to no hours (a test, a slip held past the minute)
+    // says so, or Log it refuses a day that looks filled in.
+    punchReceipt = t(rounded > 0 ? 'punchPrefill' : 'punchPrefillZero', { a: fmtClock(inAt), b: fmtClock(outISO), exact: exact.toFixed(1), rounded: hrs(rounded) }) +
+      (lunchWorked ? ` <b class="griev">${quiet(esc(t('grievClock')))}</b>` : '')
+    sum.innerHTML = punchReceipt
     await setPunch(null)
   })
 }
@@ -1292,7 +1544,7 @@ function paintCalendar() {
     const pay = isPayday(date)
     cells.push(`<button type="button" class="cal-cell${hit ? ' has' : ''}${hit?.prem ? ' prem' : ''}${iso === todayKey ? ' today' : ''}${pay ? ' pay' : ''}"
       style="--i:${intensity}%" data-iso="${iso}"
-      title="${esc(date.toLocaleDateString(LOC(), { weekday: 'long', month: 'long', day: 'numeric' }))}${hit ? ` — ${esc(t('calHours', { h: hrs(hit.h) }))}` : ''}${pay ? ` — ${esc(t('calPayday'))}` : ''}">
+      title="${esc(date.toLocaleDateString(LOC(), { weekday: 'long', month: 'long', day: 'numeric' }))}${hit ? ` — ${esc(hit.h === 1 ? t('hourWorkedSay') : t('calHours', { h: hrs(hit.h) }))}` : ''}${pay ? ` — ${esc(t('calPayday'))}` : ''}">
       <span class="dn">${d}</span>
       ${hit ? `<span class="dh">${hrs(hit.h)}</span>` : ''}
     </button>`)
@@ -1500,6 +1752,11 @@ function importLog() {
 /* ============================ filings ============================ */
 
 let INDEX, FUNDS, RADAR = null, loadedLocal = null, DATA_VERSION = ''
+const LOCAL_KEY = 'ledger.local.v1'
+// The local picked on the Local tab, the moment it is picked (its file may
+// still be loading), and how Erase puts it back to the home local.
+let pickedSlug = null
+let resetLocalPick = async () => {}
 
 async function initFilings() {
   // index.json is small and always fetched fresh; its build timestamp then acts
@@ -1520,12 +1777,17 @@ async function initFilings() {
   const rateField = $('#fRate')
   if (!rateField.value && CONTRACT?.wages?.baseRate) {
     rateField.value = CONTRACT.wages.baseRate.toFixed(2)
-    rateField.placeholder = `$${CONTRACT.wages.baseRate.toFixed(2)} scale`
+    rateField.placeholder = CONTRACT.wages.baseRate.toFixed(2)
   }
   paintHours() // contract-driven overtime tiers are only known now
 
   const choices = INDEX.locals.filter((l) => l.role !== 'dissolved')
-  let current = String(INDEX.homeLocal)
+  // The local he picked last time: the Local, Pension and Radar tabs all
+  // follow it, so it must not snap back to 582 on every launch. A saved local
+  // that is no longer offered falls back to the home local.
+  const saved = localStorage.getItem(LOCAL_KEY)
+  let current = saved && choices.some((l) => String(l.slug) === saved && l.desig != null) ? saved : String(INDEX.homeLocal)
+  pickedSlug = current
   const setLabel = () => {
     const c = choices.find((l) => String(l.slug) === current)
     $('#localPickLabel').textContent = c ? c.label : 'Choose a local'
@@ -1537,16 +1799,45 @@ async function initFilings() {
       sub: `${l.city ?? ''}${l.stale ? ` · ${t('lastFiled', { y: l.latestYear })}`
         : l.members ? ` · ${t('membersSuffix', { n: num(l.members) })}` : ''}`,
       slug: String(l.slug), on: String(l.slug) === current,
-    })), (r) => { current = r.slug; setLabel(); renderLocal(r.slug).then(renderFund) })
+    })), (r) => {
+      current = pickedSlug = r.slug
+      setLabel()
+      // Remembered only once it has loaded: a local picked offline that never
+      // arrives must not become every launch's broken Local tab. The district
+      // council is not a local with a fund of its own and is not remembered.
+      renderLocal(r.slug).then(() => {
+        if (choices.find((l) => String(l.slug) === r.slug)?.desig != null) localStorage.setItem(LOCAL_KEY, r.slug)
+        else localStorage.removeItem(LOCAL_KEY)
+        renderFund()
+        if (!$('#view-radar').hidden) paintRadar()
+      }).catch(() => {})
+    })
   })
+  // Erase everything forgets the pick on the screen too, not just in storage.
+  resetLocalPick = async () => {
+    current = pickedSlug = String(INDEX.homeLocal)
+    setLabel()
+    await renderLocal(current)
+    renderFund()
+  }
   setLabel()
-  await renderLocal(current)
+  try {
+    await renderLocal(current)
+  } catch (e) {
+    // A remembered local that will not load falls back to the home local,
+    // which the app carries with it.
+    if (current === String(INDEX.homeLocal)) throw e
+    localStorage.removeItem(LOCAL_KEY)
+    current = pickedSlug = String(INDEX.homeLocal)
+    setLabel()
+    await renderLocal(current)
+  }
   renderFund()
 }
 
 async function renderLocal(slug) {
   const body = $('#localBody')
-  body.innerHTML = '<p class="loading">Loading…</p>'
+  body.innerHTML = `<p class="loading">${esc(t('loading'))}</p>`
   const L = await fetch(`./data/locals/${slug}.json`).then((r) => r.json())
   loadedLocal = L
   const y = L.years[0]
@@ -1557,35 +1848,41 @@ async function renderLocal(slug) {
     const s = peers.filter((p) => p[k] != null).sort((a, b) => b[k] - a[k])
     return { at: s.findIndex((p) => p.desig === L.desig) + 1, of: s.length }
   }
-  const rk = (r) => r ? t('rankOf', { at: ord(r.at), of: r.of }) : ''
+  // Where this local stands among the others, in words and as a strip with
+  // one tick per local, his own filled. Sorted high to low, as rank() is.
+  const rk = (r) => r ? `${t('rankOf', { at: ord(r.at), of: r.of })}<span class="ticks" aria-hidden="true">${
+    Array.from({ length: r.of }, (_, i) => `<i${i + 1 === r.at ? ' class="me"' : ''}></i>`).join('')}</span>` : ''
   // Stale: no filing in years (ingest's peers.mjs). Its figures are that
   // year's, and it is in no rank.
   const stale = L.stale === true
   // Each figure's inputs, so the source note's promise holds for the cards.
+  // Behind a row named by the note's own first words.
+  const [howK, howBody] = (() => {
+    const s = t('statsNote', { dues: usd(y.spend?.dues), m: num(y.members), a: usd(y.assets), p: usd(y.payroll), o: usd(y.operatingSpend) })
+    const i = s.indexOf(': ')
+    return i < 0 ? ['', s] : [s.slice(0, i), cap(s.slice(i + 2))]
+  })()
   const how = y.spend?.dues != null && y.operatingSpend != null && y.payroll != null
-    ? `<p class="note">${t('statsNote', {
-      dues: usd(y.spend.dues), m: num(y.members), a: usd(y.assets), p: usd(y.payroll), o: usd(y.operatingSpend),
-    })}</p>` : ''
+    ? `<details class="more"><summary>${howK}</summary><p>${howBody}</p></details>` : ''
+  const fact = (k, v, r) => `<div class="fact"><div class="fact-k"><span class="k">${k}</span>${r ? `<span class="r">${r}</span>` : ''}</div><div class="fact-v">${v}</div></div>`
 
   body.innerHTML = ''
   body.append(el(`<section class="sec">
     <p class="lede">${t(stale ? 'localLedeStale' : 'localLede', { city: esc(L.city ?? ''), n: num(y.members), y: y.year })}</p>
-    <div class="stats">
-      <div class="card stat"><div class="k">${t('kMembers')}</div><div class="v">${num(y.members)}</div>
-        <div class="r">${t('kYearsOnFile', { n: L.years.length })}</div></div>
-      <div class="card stat"><div class="k">${t('kDuesIn')}</div><div class="v">${usd(y.duesPerMember)}</div>
-        <div class="r">${rk(rank('duesPerMember'))}</div></div>
-      <div class="card stat"><div class="k">${t('kTreasury')}</div><div class="v">${usd(y.assetsPerMember)}</div>
-        <div class="r">${rk(rank('assetsPerMember'))}</div></div>
-      <div class="card stat"><div class="k">${t('kPayrollShare')}</div><div class="v">${pct(y.payrollShareOperating)}</div>
-        <div class="r">${t('kOfSpent')}</div></div>
+    <div class="card facts">
+      ${fact(t('kMembers'), num(y.members), t('kYearsOnFile', { n: L.years.length }))}
+      ${fact(t('kDuesIn'), usd(y.duesPerMember), rk(rank('duesPerMember')))}
+      ${fact(t('kTreasury'), usd(y.assetsPerMember), rk(rank('assetsPerMember')))}
+      ${fact(t('kPayrollShare'), pct(y.payrollShareOperating), t('kOfSpent'))}
     </div>
     ${how}
   </section>`))
 
+  // The comparison with the other locals comes second: a figure means
+  // nothing alone.
+  if (peers.length > 1) { const sec = peerSection(L, peers); body.append(sec); wirePeers(sec) }
   if (y.spend) body.append(spendSection(L, y))
   if (L.people.length) body.append(peopleSection(L, y))
-  if (peers.length > 1) body.append(peerSection(L, peers))
   // Reference material, not headline — it earns a place, at the bottom.
   if (CONTRACT?.scope) body.append(scopeSection())
   // The strongest thing this page can do is refuse to be the only source. Every
@@ -1647,7 +1944,9 @@ function arcOf(h) {
   if (firstPaid) {
     bits.push(t('arcFirstPaid', { y: firstPaid.year, role: esc(firstPaid.roles.map((r) => r.title).filter(Boolean).join(' + ')) }))
     const since = now.year - firstPaid.year
-    if (since >= 1 && payOf(firstPaid) > 0) {
+    // Only while still on a salary: a staff job years ago and a stipend today
+    // are not one pay path.
+    if (since >= 1 && payOf(firstPaid) > 0 && payOf(now) >= PAID) {
       bits.push(t('arcSince', { from: usd(payOf(firstPaid)), to: usd(payOf(now)), n: since, s: since === 1 ? '' : 's' }))
     }
   }
@@ -1666,7 +1965,7 @@ function peopleSection(L, y) {
 
   return el(`<section class="sec">
     <h2>${t('whoRuns')}</h2>
-    <p class="lede">${t('whoRunsLede')}</p>
+    <p class="lede q">${t('whoRunsLede')}</p>
     <div class="card">
       ${now.map((p) => {
         const h = historyFor(p.key)
@@ -1677,7 +1976,7 @@ function peopleSection(L, y) {
           <summary>
             <div class="p-who">
               <div class="p-nm">${esc(p.name)}${p.dualRole ? `<span class="pill n">${t('bothTag')}</span>` : ''}</div>
-              <div class="p-rl">${esc(p.roles.map((r) => r.title).filter(Boolean).join(' + '))}</div>
+              <div class="p-rl">${esc(p.roles.map((r) => r.title).filter(Boolean).join(' + ')).replaceAll('/', '/<wbr>')}</div>
               <div class="p-bar" style="width:${Math.max(3, (payOf(p) / top) * 100)}%"></div>
             </div>
             <div class="p-amt">${usd(payOf(p))}</div>
@@ -1688,10 +1987,12 @@ function peopleSection(L, y) {
               <tbody>${h.map((row, i) => {
                 const title = row.roles.map((r) => r.title).filter(Boolean).join(' + ') || '—'
                 const prevTitle = h[i + 1]?.roles.map((r) => r.title).filter(Boolean).join(' + ')
-                const changed = prevTitle && prevTitle !== title
+                // The same job spelled another way ("MGR", "MANAGE") is not
+                // a change of job.
+                const changed = prevTitle && normTitle(prevTitle) !== normTitle(title)
                 return `<tr${changed ? ' class="p-turn"' : ''}>
                   <td class="p-yr">${row.year}</td>
-                  <td class="p-role">${esc(title)}</td>
+                  <td class="p-role">${esc(title).replaceAll('/', '/<wbr>')}</td>
                   <td class="n">${payOf(row) ? usd(payOf(row)) : '—'}</td>
                 </tr>`
               }).join('')}</tbody>
@@ -1699,7 +2000,7 @@ function peopleSection(L, y) {
             ${h.some((row, i) => {
               const ti = row.roles.map((r) => r.title).filter(Boolean).join(' + ')
               const pt = h[i + 1]?.roles.map((r) => r.title).filter(Boolean).join(' + ')
-              return pt && pt !== ti
+              return pt && normTitle(pt) !== normTitle(ti)
             }) ? `<p class="p-key"><i></i>${t('turnKey')}</p>` : ''}
             <p class="p-sum">${arcOf(h)}</p>
             ${p.officialBusiness > 0 ? `<p class="p-sum">${t('payExpenses', { v: usd(p.officialBusiness), y: p.year })}</p>` : ''}
@@ -1720,11 +2021,11 @@ function scopeSection() {
   const s = CONTRACT.scope
   return el(`<section class="sec">
     <h2>${t('ourWork')}</h2>
-    <p class="lede">${esc(s.body)}</p>
+    <p class="lede q">${esc(pick(s, 'body'))}</p>
     <details class="card pad scope">
-      <summary>${esc(s.title)} <cite>${esc(CONTRACT.name.split('—')[0].trim())} ${esc(s.cite)}</cite></summary>
-      <ul>${s.covers.map((c) => `<li>${esc(c)}</li>`).join('')}</ul>
-      <p class="note">${esc(s.note)}</p>
+      <summary><span class="f-t">${esc(pick(s, 'title'))} <cite>${esc(CONTRACT.name.split('—')[0].trim())} ${esc(s.cite)}</cite></span></summary>
+      <ul>${pick(s, 'covers').map((c) => `<li>${esc(c)}</li>`).join('')}</ul>
+      <p class="note">${esc(pick(s, 'note'))}</p>
     </details>
   </section>`)
 }
@@ -1811,24 +2112,47 @@ function lineageSection(L) {
   </section>`)
 }
 
+// One figure at a time, ranked, so the local's name and its number both fit a
+// phone and nothing scrolls sideways. All four figures are drawn; the buttons
+// choose which list shows. Every local's member count rides under its name.
 function peerSection(L, peers) {
-  const rows = [...peers].sort((a, b) => (b.duesPerMember ?? 0) - (a.duesPerMember ?? 0))
-  return el(`<section class="sec">
+  const cols = [
+    ['duesPerMember', t('tInPer'), usd],
+    ['assetsPerMember', t('tTreasPer'), usd],
+    ['topPayWithoutExpenses', t('tTopPaid'), usdK],
+    ['payrollShareOperating', t('tPayroll'), pct],
+  ]
+  // The year most of the reports cover; a row from another year says so.
+  const yrs = peers.map((p) => p.year)
+  const common = yrs.reduce((best, y) => (yrs.filter((x) => x === y).length > yrs.filter((x) => x === best).length ? y : best), yrs[0])
+  const list = ([k, , fmt], i) => {
+    const rows = [...peers].sort((a, b) => (b[k] ?? 0) - (a[k] ?? 0))
+    const top = Math.max(...rows.map((p) => p[k] ?? 0), 1)
+    return `<div class="card rank-list" data-k="${k}"${i ? ' hidden' : ''}>${rows.map((p, n) => `<div class="rank-row${p.desig === L.desig ? ' me' : ''}" data-d="${p.desig}">
+        <span class="rank-n">${n + 1}</span>
+        <span class="rank-who"><span class="nm">${p.desig}${p.city ? ' · ' + esc(p.city) : ''}${p.year && p.year !== common ? ` <span class="ref">${esc(t('peerReportYear', { y: p.year }))}</span>` : ''}</span>
+          <span class="rank-bar"><i style="width:${Math.max(2, ((p[k] ?? 0) / top) * 100).toFixed(1)}%"></i></span></span>
+        <span class="rank-v">${fmt(p[k])}<span class="ref">${t('membersSuffix', { n: num(p.members) })}</span></span>
+      </div>`).join('')}</div>`
+  }
+  return el(`<section class="sec peers">
     <h2>${t('againstCouncil')}</h2>
-    <p class="lede">${t('againstLede')}</p>
-    <div class="card scroll"><table>
-      <thead><tr><th>${t('tLocal')}</th><th class="n">${t('tMembersCol')}</th><th class="n">${t('tInPer')}</th>
-        <th class="n">${t('tTreasPer')}</th><th class="n">${t('tTopPaid')}</th><th class="n">${t('tPayroll')}</th></tr></thead>
-      <tbody>${rows.map((p) => `<tr class="${p.desig === L.desig ? 'me' : ''}">
-        <td>${p.desig}${p.city ? ' · ' + esc(p.city) : ''}</td>
-        <td class="n">${num(p.members)}</td>
-        <td class="n">${usd(p.duesPerMember)}</td>
-        <td class="n">${usd(p.assetsPerMember)}</td>
-        <td class="n">${usdK(p.topPayWithoutExpenses)}</td>
-        <td class="n">${pct(p.payrollShareOperating)}</td>
-      </tr>`).join('')}</tbody>
-    </table></div>
+    <p class="lede q">${t('againstLede')}</p>
+    <div class="seg" role="group">${cols.map(([k, label], i) =>
+      `<button type="button" data-k="${k}" class="${i ? '' : 'on'}" aria-pressed="${!i}">${label}</button>`).join('')}</div>
+    ${cols.map(list).join('')}
   </section>`)
+}
+
+// The buttons over the ranked lists: one list shows at a time.
+function wirePeers(sec) {
+  $$('.seg button', sec).forEach((b) => b.addEventListener('click', () => {
+    $$('.seg button', sec).forEach((x) => {
+      x.classList.toggle('on', x === b)
+      x.setAttribute('aria-pressed', String(x === b))
+    })
+    $$('.rank-list', sec).forEach((l) => { l.hidden = l.dataset.k !== b.dataset.k })
+  }))
 }
 
 function timelineSection(L) {
@@ -1864,6 +2188,46 @@ function contributionRate(fund) {
   return { rate: fund.contributionRatePerHour ?? 0, from: fund.contributionRateFrom ?? null }
 }
 
+// The day a plan year's assets were counted. Fox Valley's and Westchester's
+// plan years run June 1 to May 31, so plan year 2025 ends May 31, 2026.
+function planYearEnd(fund, y) {
+  const ends = fund.planYearEnds ?? '05-31'
+  return `${ends === '12-31' ? y : y + 1}-${ends}`
+}
+
+const planYearText = (y) => t('planYearOf', { a: y, b: String(y + 1).slice(2) })
+
+// Fifteen June 1sts as two lines: the official figure lit, market value
+// behind it. Every point is the notice's own number; the table under it
+// still prints them all.
+function fundedChart(hist) {
+  if (!hist || hist.length < 3) return ''
+  const W = 340, H = 170, L = 34, R = 42, T = 14, B = 26
+  const vals = hist.flatMap((h) => [h.official, h.market])
+  const lo = Math.floor((Math.min(...vals) - 3) / 10) * 10, hi = Math.ceil((Math.max(...vals) + 2) / 10) * 10
+  const x = (i) => L + (i / (hist.length - 1)) * (W - L - R)
+  const y = (v) => T + (1 - (v - lo) / (hi - lo)) * (H - T - B)
+  const line = (k) => hist.map((h, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)} ${y(h[k]).toFixed(1)}`).join(' ')
+  const last = hist.at(-1), n = hist.length - 1
+  // Two labels at the right edge never sit on top of each other.
+  let yo = y(last.official), ym = y(last.market)
+  if (Math.abs(yo - ym) < 15) { const mid = (yo + ym) / 2; const up = yo < ym ? -1 : 1; yo = mid + up * 7.5; ym = mid - up * 7.5 }
+  const grid = []
+  for (let v = lo; v <= hi; v += 10) grid.push(`<line class="fc-grid" x1="${L}" x2="${W - R}" y1="${y(v).toFixed(1)}" y2="${y(v).toFixed(1)}"/><text class="fc-ax" x="${L - 6}" y="${(y(v) + 4).toFixed(1)}" text-anchor="end">${v}%</text>`)
+  const years = [0, Math.round(n / 2), n].map((i) => `<text class="fc-ax" x="${x(i).toFixed(1)}" y="${H - 6}" text-anchor="middle">${esc(hist[i].date.slice(0, 4))}</text>`)
+  const lastYear = last.date.slice(0, 4), prelim = last.preliminary ? ` ${t('prelim')}` : ''
+  return `<div class="card fchart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t('fundedYears'))}: ${esc(t('tOfficial'))} ${hist[0].official}% ${esc(hist[0].date.slice(0, 4))}, ${last.official}% ${esc(lastYear)}${esc(prelim)}">
+    ${grid.join('')}${years.join('')}
+    <path class="fc-market" d="${line('market')}"/>
+    <path class="fc-official" d="${line('official')}"/>
+    <circle class="fc-dot m" cx="${x(n).toFixed(1)}" cy="${y(last.market).toFixed(1)}" r="3.5"/>
+    <circle class="fc-dot o" cx="${x(n).toFixed(1)}" cy="${y(last.official).toFixed(1)}" r="4"/>
+    <text class="fc-end m" x="${(x(n) + 8).toFixed(1)}" y="${(ym + 4).toFixed(1)}">${last.market}%</text>
+    <text class="fc-end o" x="${(x(n) + 8).toFixed(1)}" y="${(yo + 4).toFixed(1)}">${last.official}%</text>
+  </svg>
+  <p class="fc-key"><span class="o"><i></i>${esc(t('tOfficial'))}</span><span class="m"><i></i>${esc(t('tMarket'))}</span>${last.preliminary ? `<span class="pk">${esc(lastYear)} · ${esc(t('prelim'))}</span>` : ''}</p></div>`
+}
+
 function renderFund() {
   const body = $('#fundBody')
   const desig = loadedLocal?.desig ?? INDEX.homeLocal
@@ -1879,6 +2243,13 @@ function renderFund() {
 
   const a = fund.actuarial?.at(-1)
   const s = fund.series.at(-1)
+  // The funding notice brings the funded percentage months before the Form
+  // 5500 brings the Schedule MB detail, so the newest year can be missing the
+  // cushion and the audit. Those cards show the newest year that has them,
+  // and say which year — a number without its date is how the meeting-hall
+  // version and the filed version end up arguing.
+  const mb = fund.actuarial?.findLast((x) => x.creditBalance != null)
+  const aud = fund.actuarial?.findLast((x) => x.auditorOpinion)
   const facts = fund.memberFacts ?? []
 
   // Name the fund in the heading rather than burying it in a paragraph. Fox
@@ -1888,44 +2259,105 @@ function renderFund() {
   $('h1', head).textContent = fund.name.replace('Fox Valley & Vicinity', 'Fox Valley')
   $('.eyebrow', head).textContent = `Local ${desig} · ${t('pensionEyebrow')}`
 
+  // The answer first. "Is my pension OK?" is the zone, in plain words and
+  // large, then what it rests on: each figure with its plain line under its
+  // name and its date or source quiet after that. Green only for the green
+  // zone; any other zone is said in the fund's own words, in the neutral ink.
+  const green = a?.zoneCode === 'N'
+  const fact = (k, v, r, ref, word = false) => `<div class="fact"><div class="fact-k"><span class="k">${k}</span>${r ? `<span class="r">${r}</span>` : ''}${ref ? `<span class="ref">${ref}</span>` : ''}</div><div class="fact-v${word ? ' word' : ''}">${v}</div></div>`
   body.innerHTML = ''
   body.append(el(`<section class="sec">
-    <p class="lede">${t('pensionLede', {
+    ${fund.inferred ? `<p class="caveat">${t('inferredWarn', { d: desig })}</p>` : ''}
+    <div class="card">
+    <div class="verdict">
+      ${a ? `<svg class="gauge" viewBox="0 0 120 120" role="img" aria-label="${esc(t('funded'))} ${a.fundedPercentage}%">
+        <circle class="g-track" cx="60" cy="60" r="50"/>
+        <circle class="g-arc${green ? ' g' : ''}" cx="60" cy="60" r="50" transform="rotate(-90 60 60)" stroke-dasharray="${(Math.max(0, Math.min(100, a.fundedPercentage)) / 100 * 314.16).toFixed(1)} 314.16"/>
+        <text class="g-num" x="60" y="62" text-anchor="middle">${a.fundedPercentage}%</text>
+        <text class="g-k" x="60" y="80" text-anchor="middle">${esc(t('funded'))}</text>
+      </svg>` : ''}
+      <div class="verdict-txt">
+        <div class="verdict-v${green ? ' g' : ''}">${green ? '<i class="vk" aria-hidden="true"></i>' : ''}${green ? t('greenZone') : esc(a?.zoneLabel ?? '—')}</div>
+        <p class="verdict-s">${t('funded')} <b>${a ? a.fundedPercentage + '%' : '—'}</b>
+          <span class="ref">${a?.valuationDate ? esc(fmtFiled(a.valuationDate)) : ''}</span></p>
+      </div>
+    </div>
+    <div class="facts">
+      ${fact(t('fundAssets'), usdK(s.assets),
+        t('forPeople', { n: num(s.participants), y: `<span class="ref">${esc(fmtFiled(planYearEnd(fund, s.planYear)))}${s.preliminary ? ` · ${t('prelim')}` : ''}</span>` }))}
+      ${mb ? fact(t('cushion'), usdK(mb.creditBalance), t('noDeficiency'), planYearText(mb.planYear)) : ''}
+      ${aud ? fact(t('auditK'), aud.auditorOpinion === 'unmodified' ? t('auditClean') : esc(aud.auditorOpinion), '',
+        `${esc(fund.auditor ?? '')} · ${planYearText(aud.planYear)}`, true) : ''}
+    </div>
+    </div>
+    <p class="note">${t(s.source === 'notice' ? 'pensionLedeNotice' : 'pensionLede', {
       name: esc(fund.name),
       serves: fund.confirmedLocals ? t('servesLocals', { a: fund.confirmedLocals[0], b: fund.confirmedLocals[1] }) : '',
-    })}</p>
-    ${fund.inferred ? `<p class="caveat">${t('inferredWarn', { d: desig })}</p>` : ''}
-    <div class="stats">
-      <div class="card stat"><div class="k">${t('fundAssets')}</div><div class="v">${usdK(s.assets)}</div>
-        <div class="r">${t('forPeople', { n: num(s.participants), y: s.planYear })}</div></div>
-      <div class="card stat"><div class="k">${t('funded')}</div><div class="v">${a ? a.fundedPercentage + '%' : '—'}</div>
-        <div class="r"><span class="pill ${a?.zoneCode === 'N' ? 'g' : 'n'}">${a?.zoneCode === 'N' ? t('greenZone') : esc(a?.zoneLabel ?? '')}</span></div></div>
-      ${a?.creditBalance != null ? `<div class="card stat"><div class="k">${t('cushion')}</div>
-        <div class="v">${usdK(a.creditBalance)}</div>
-        <div class="r">${t('noDeficiency')}</div></div>` : ''}
-      ${a?.auditorOpinion ? `<div class="card stat"><div class="k">${t('auditK')}</div>
-        <div class="v" style="font-size:1.2rem">${a.auditorOpinion === 'unmodified' ? t('auditClean') : esc(a.auditorOpinion)}</div>
-        <div class="r">${esc(fund.auditor ?? '')}</div></div>` : ''}
-    </div>
+    })}${s.source === 'notice' && (mb || aud) ? ` ${t('pensionLede5500')}` : ''}</p>
   </section>`))
 
+  // What a member can do with it comes next: the questions worth asking,
+  // pulled out where they can be found, then each fact as a row that opens.
+  // The title is the answer; the paragraph behind it is the proof. Nothing is
+  // left out, and each question still closes the fact it belongs to. The
+  // first fact is open: its title alone alarms, and the sentence that calms
+  // it is in its paragraph. Plain card ground: a fact is not a warning.
+  const asks = facts.filter((f) => f.ask)
   if (facts.length) body.append(el(`<section class="sec">
     <h2>${t('meansForYou')}</h2>
-    <p class="lede">${t('meansLede')}</p>
-    ${facts.map((f) => `<div class="callout">
-      <h3>${esc(pick(f, 'title'))}</h3>
-      <p>${pick(f, 'body')}</p>
-      ${f.ask ? `<p>${t('askOffice')} ${esc(pick(f, 'ask'))}</p>` : ''}
-    </div>`).join('')}
+    <p class="lede q">${t('meansLede')}</p>
+    ${asks.length ? `<div class="card asks">
+      <h3>${t('askOffice').replace(/<\/?b>/g, '')}</h3>
+      <ol>${asks.map((f) => `<li>${esc(pick(f, 'ask'))}</li>`).join('')}</ol>
+    </div>` : ''}
+    <div class="card">${facts.map((f, i) => `<details class="fold"${i ? '' : ' open'}>
+      <summary><span class="f-t">${esc(pick(f, 'title'))}</span></summary>
+      <div class="fold-body">
+        <p>${pick(f, 'body')}</p>
+        ${f.ask ? `<p class="ask">${t('askOffice')} ${esc(pick(f, 'ask'))}</p>` : ''}
+      </div>
+    </details>`).join('')}</div>
   </section>`))
 
+  // Where the fund stood every June 1, both ways, as its own notice prints
+  // it. Someone will always quote a funded percentage from a podium; this is
+  // what lets a member check which column and which year it came from. The
+  // newest five show; the rest are one tap away.
+  const hist = fund.fundedHistory?.years
+  const SHOWN = 5
+  if (hist?.length) {
+    const sec = el(`<section class="sec">
+    <h2>${t('fundedYears')}</h2>
+    <p class="lede q">${t('fundedYearsLede', { n: hist.length })}</p>
+    ${fundedChart(hist)}
+    <div class="card"><table class="${hist.length > SHOWN ? 'closed' : ''}">
+      <thead><tr><th>${t('tJune1')}</th><th class="n">${t('tOfficial')}</th><th class="n">${t('tMarket')}</th></tr></thead>
+      <tbody>${hist.slice().reverse().map((h, i) => `<tr${i >= SHOWN ? ' class="extra"' : ''}>
+        <td>${esc(h.date.slice(0, 4))}${h.preliminary ? ` <span class="pill n">${t('prelim')}</span>` : ''}</td>
+        <td class="n">${h.official}%</td>
+        <td class="n">${h.market}%</td>
+      </tr>`).join('')}</tbody>
+    </table>${hist.length > SHOWN ? `<button type="button" class="t-more">${esc(t('showAllYears', { n: hist.length }))}</button>` : ''}</div>
+    <p class="note">${t('fundedYearsNote')}</p>
+    ${linkHtml(fund.fundedHistory.source, t('readNotice'), 'line-btn')}
+  </section>`)
+    $('.t-more', sec)?.addEventListener('click', (e) => { $('table', sec).classList.remove('closed'); e.target.remove() })
+    body.append(sec)
+  }
+
+  // The plain name of each number is the loud part. The schedule and line it
+  // sits on in the filing is its reference: under the name, quiet.
   body.append(el(`<section class="sec">
     <h2>${t('alarmingTitle')}</h2>
-    <p class="lede">${t('alarmingLede')}</p>
-    <div class="card pad">${Object.values(FUNDS.explainers).map((x) => `<details class="ex">
-      <summary>${esc(pick(x, 'label'))} ${x.lookScary ? `<span class="pill r">${t('looksScary')}</span>` : `<span class="pill g">${t('theRealOne')}</span>`}</summary>
-      <div class="why"><p>${esc(pick(x, 'plain'))}</p>${x.proof ? `<p class="proof">${esc(pick(x, 'proof'))}</p>` : ''}</div>
-    </details>`).join('')}</div>
+    <p class="lede q">${t('alarmingLede')}</p>
+    <div class="card">${Object.values(FUNDS.explainers).map((x) => {
+      const { plain, ref } = splitRef(pick(x, 'label'))
+      return `<details class="fold ex">
+      <summary><span class="f-t">${esc(plain)}${ref ? `<span class="ref">${esc(ref)}</span>` : ''}
+        ${x.lookScary ? `<span class="pill r">${t('looksScary')}</span>` : `<span class="pill g">${t('theRealOne')}</span>`}</span></summary>
+      <div class="fold-body why"><p>${esc(pick(x, 'plain'))}</p>${x.proof ? `<p class="proof">${esc(pick(x, 'proof'))}</p>` : ''}</div>
+    </details>`
+    }).join('')}</div>
   </section>`))
 
   // Both district council pension funds are green zone, but they are not in the
@@ -1933,34 +2365,53 @@ function renderFund() {
   // covering everybody else — same rule as the officer pay table.
   const others = Object.values(FUNDS.funds)
     .filter((f) => f.type === 'multiemployer-db' && f !== fund && f.actuarial?.length)
+  // Fund assets here are the same figure as the card above — what the assets
+  // were worth at the end of the plan year. (This table used to show the
+  // actuarial value under the same heading, so one fund had two "assets".)
+  const pair = [fund, ...others]
+  const sameDay = (list) => new Set(list).size === 1 ? esc(fmtFiled(list[0])) : t('eachLatest')
+  const valued = sameDay(pair.map((f) => f.actuarial.at(-1).valuationDate))
+  const worth = sameDay(pair.map((f) => planYearEnd(f, f.series.at(-1).planYear)))
+  // Turned on its side, a fund to a column, so two funds fit a phone with
+  // nothing off the edge. The plain sentence leads; the dates and the source
+  // follow it, quiet.
+  const [bothGreen, bothRest] = firstSentence(t('bothGreenNote', { d: valued, e: worth }))
+  const mark = (fs) => fs.preliminary ? '<sup class="pm">*</sup>' : ''
+  const anyPrelim = pair.some((f) => f.series.at(-1).preliminary)
+  const side = (label, cell) => `<tr><td>${label}</td>${pair.map((f) => {
+    const fa = f.actuarial.at(-1)
+    const fs = f.series.at(-1)
+    return `<td class="n${f === fund ? ' mine' : ''}">${cell(fa, fs)}</td>`
+  }).join('')}</tr>`
   if (others.length) body.append(el(`<section class="sec">
     <h2>${t('nextToOther')}</h2>
-    <div class="card scroll"><table>
-      <thead><tr><th>${t('tFund')}</th><th class="n">${t('funded')}</th><th class="n">${t('fundAssets')}</th>
-        <th class="n">${t('tParticipants')}</th><th class="n">${t('tZone')}</th></tr></thead>
-      <tbody>${[fund, ...others].map((f) => {
-        const fa = f.actuarial.at(-1)
-        return `<tr class="${f === fund ? 'me' : ''}">
-          <td>${esc(f.city)}</td>
-          <td class="n">${fa.fundedPercentage}%</td>
-          <td class="n">${usdK(fa.actuarialAssets)}</td>
-          <td class="n">${num(f.series.at(-1).participants)}</td>
-          <td class="n">${fa.zoneCode === 'N' ? t('zGreen') : esc(fa.zoneLabel)}</td>
-        </tr>`
-      }).join('')}</tbody>
+    <p class="lede">${bothGreen}</p>
+    <div class="card"><table class="side">
+      <thead><tr><th>${t('tFund')}</th>${pair.map((f) => `<th class="n${f === fund ? ' mine' : ''}">${esc(f.city)}</th>`).join('')}</tr></thead>
+      <tbody>
+        ${side(t('funded'), (fa) => `${fa.fundedPercentage}%`)}
+        ${side(t('fundAssets'), (fa, fs) => usdK(fs.assets) + mark(fs))}
+        ${side(t('tParticipants'), (fa, fs) => num(fs.participants) + mark(fs))}
+        ${side(t('tZone'), (fa) => (fa.zoneCode === 'N' ? t('zGreen') : esc(fa.zoneLabel)))}
+      </tbody>
     </table></div>
-    <p class="note">${t('bothGreenNote')}</p>
+    <p class="note">${bothRest}${anyPrelim ? ` ${t('prelimMark')}` : ''}</p>
   </section>`))
 
+  // Two columns that fit: the name wraps, the amount is never cut.
   const rate = contributionRate(fund)
-  if (fund.topContributors2024?.length) body.append(el(`<section class="sec">
+  // The totals are one plan year's, paid at that year's rate: say which.
+  const topYear = fund.topContributorsYear
+  if (fund.topContributors2024?.length && topYear) body.append(el(`<section class="sec">
     <h2>${t('whoPaysIn')}</h2>
-    <p class="lede">${t('whoPaysLede', { r: rate.rate.toFixed(2), since: rate.from ? esc(t('rateSince', { d: fmtFiled(rate.from) })) : '' })}</p>
-    <div class="card scroll"><table>
+    <p class="lede q">${t('whoPaysLede', { r: rate.rate.toFixed(2), since: rate.from ? esc(t('rateSince', { d: fmtFiled(rate.from) })) : '', n: fund.topContributors2024.length,
+      a: esc(fmtFiled(topYear.from)), b: esc(fmtFiled(topYear.to)), y: topYear.ratePerHour.toFixed(2) })}</p>
+    <div class="card"><table>
       <thead><tr><th>${t('tContractor')}</th><th class="n">${t('tContributed')}</th></tr></thead>
       <tbody>${fund.topContributors2024.map((c) => `<tr>
         <td>${esc(c.name)}</td><td class="n">${usd(c.amount)}</td></tr>`).join('')}</tbody>
     </table></div>
+    <p class="note">${t('whoPaysSource', { py: topYear.planYear })}</p>
   </section>`))
 }
 
@@ -2037,8 +2488,9 @@ function zoneMoved() {
 
 function pickSkin() {
   const cur = migrateTheme(localStorage.getItem(THEME_KEY)) ?? 'jobsite'
-  const subKey = { '': 'skinAuto', america: 'skinAmerica', dark: 'skinDark', jobsite: 'skinJobsite', sun: 'skinSun' }
-  openSheet(t('skin'), THEMES.map((th) => ({ ...th, sub: t(subKey[th.id] ?? ''), on: th.id === cur })),
+  const subKey = { '': 'skinAuto', america: 'skinAmerica', dark: 'skinDark', jobsite: 'skinJobsite', sun: 'skinSun', shield: 'skinShield' }
+  const nameKey = { '': 'skinNameAuto', america: 'skinNameAmerica', dark: 'skinNameDark', jobsite: 'skinNameJobsite', sun: 'skinNameSun', shield: 'skinNameShield' }
+  openSheet(t('skin'), THEMES.map((th) => ({ ...th, label: t(nameKey[th.id] ?? '') || th.label, sub: t(subKey[th.id] ?? ''), on: th.id === cur })),
     (r) => applyTheme(r.id))
 }
 
@@ -2107,10 +2559,15 @@ async function resetEverything() {
   for (const k of erasableKeys()) localStorage.removeItem(k)
 
   // What the screen still holds from before.
+  // The local he picked goes back to the home local on all three tabs.
+  try { await resetLocalPick() } catch {}
+  if (!$('#view-radar').hidden) paintRadar()
   CERTS = []
   PAYDAY = null
   PUNCH = null
   punchMeta = null
+  punchUndo = null
+  punchNoteLine = ''; punchNoteOff = false
   clearInterval(punchTimer)
   $('#punchSummary').hidden = true
   paintPunch()
@@ -2486,7 +2943,29 @@ function radarAsOfLine() {
 // downstate Central Laborers fund) says so. No fundScope is a file from before
 // it existed, and reads as the district's, as it always did.
 const otherFund = (e) => e.fundScope === 'other'
-const otherFundTag = (e) => otherFund(e) ? ` (${esc(t('radarOtherFund'))})` : ''
+
+// Which family of district funds a suit's plaintiff is: Fox Valley's (Locals
+// 582 and 1035) or the Westchester funds' (the other district council
+// locals). The second pattern is the captions radar.mjs files as 'district'.
+const RADAR_FAMILY = [
+  ['fox-valley', /fox\s+valley/i],
+  ['westchester', /chicago\s*(&|and)\s*vicinity|district\s+council\s+of\s+chicago|westchester|^\s*laborers['’]?\s+(pension|welfare)\s+fund\b/i],
+]
+const radarFamily = (e) => (otherFund(e) ? null : RADAR_FAMILY.find(([, re]) => re.test(e.plaintiff))?.[0] ?? null)
+
+// The local picked on the Local tab (582 until another is picked) and the
+// family of funds it pays into, read from the same servesLocals the Pension
+// tab uses. The Westchester list is a deduction (inferred), and says so.
+function radarMine() {
+  // The pick, not the loaded file: on a slow connection Radar can open before
+  // the new local's figures arrive. The district council has no number and no
+  // fund of its own: nothing leads.
+  const L = INDEX?.locals?.find((l) => String(l.slug) === String(pickedSlug ?? INDEX?.homeLocal))
+  const desig = L ? L.desig : INDEX?.homeLocal
+  if (desig == null) return null
+  const hit = Object.entries(FUNDS?.funds ?? {}).find(([, f]) => f.servesLocals?.includes(desig))
+  return hit ? { desig, family: hit[0].replace(/-(pension|hw)$/, ''), inferred: !!hit[1].inferred } : null
+}
 
 // The spidey-sense: a banner on the Log tab, only when a fund sues a contractor
 // that appears in this member's own log, and only until dismissed.
@@ -2554,47 +3033,63 @@ function paintRadar() {
   const matches = radarMatches()
   const hasLog = readLog().some((e) => e.contractor)
 
+  // The answer first: a match, or the all-clear. How the radar works comes
+  // after it, behind a row he can open, word for word.
   const asOf = radarAsOf()
-  body.innerHTML = `
-    <p class="lede">${t('radarLede')}</p>
-    ${asOf ? `<p class="note radar-asof${asOf.stale ? ' stale' : ''}">${esc(radarAsOfLine())}</p>` : ''}
+  const asOfLine = asOf ? `<span class="ref radar-asof${asOf.stale ? ' stale' : ''}">${esc(radarAsOfLine())}</span>` : ''
+  const shortFiled = (d) => isDayKey(d)
+    ? new Date(d + 'T12:00:00').toLocaleDateString(LOC(), { month: 'short', day: 'numeric', year: 'numeric' }) : '—'
+  const [clear, holds] = firstSentence(hasLog
+    ? t('radarNoMatch', { n: RADAR.events.length, m: Math.round((RADAR.lookbackDays ?? 365) / 30), d: esc(asOf ? asOf.text : '—') })
+    : t('radarLogFirst'))
+  // One header per fund instead of the same plaintiff on every row.
+  // Apostrophe variants ("Laborers" / "Laborers'") are the same fund.
+  const groups = new Map()
+  for (const e of RADAR.events) {
+    const k = e.plaintiff.replace(/[’']/g, '').replace(/\s+/g, ' ').trim().toUpperCase()
+    if (!groups.has(k)) groups.set(k, { name: e.plaintiff, events: [], family: radarFamily(e) })
+    groups.get(k).events.push(e)
+  }
+  // The chosen local's own fund first, then the rest of the district's, then
+  // a different laborers' fund; newest first within each.
+  const mine = radarMine()
+  const place = (g) => (mine && g.family === mine.family ? 0 : otherFund(g.events[0]) ? 2 : 1)
+  const ordered = [...groups.values()].sort((a, b) => place(a) - place(b)
+    || String(b.events[0].dateFiled).localeCompare(String(a.events[0].dateFiled)))
+  const minesFirst = mine && ordered.some((g) => place(g) === 0)
+  const mineTag = mine ? t(mine.inferred ? 'radarLikelyFund' : 'radarYourFund', { d: mine.desig }) : ''
 
-    ${matches.length ? matches.map((m) => `<article class="radar-hit">
+  // The as-of date leads the tab: the note under the list says "the date at
+  // the top of this tab", and that has to be literally true.
+  body.innerHTML = `
+    ${matches.length && asOfLine ? `<p class="radar-find top">${asOfLine}</p>` : ''}
+    ${matches.length ? matches.map((m) => `<article class="radar-hit${otherFund(m) ? ' other' : ''}">
       <div class="rh-k">${t('radarKicker')}</div>
-      <h3>${esc(m.plaintiff)} v. ${esc(m.defendant)}</h3>
-      ${otherFund(m) ? `<p><span class="pill n">${esc(t('radarOtherFund'))}</span></p>` : ''}
-      <p>${t('filed')} <b>${fmtFiled(m.dateFiled)}</b> · ${t('docketWord')} ${esc(m.docketNumber ?? '—')} · ${esc(m.court)}.
-        ${t('youLogged')} <b>${esc(m.matched)}</b>. ${esc(t('radarNameCheck'))}</p>
-      <p>${t(otherFund(m) ? 'whatToDoOther' : 'whatToDo')}</p>
-      ${m.url ? linkHtml(m.url, t('viewDocket')) : ''}
+      <h3>${t(otherFund(m) ? 'radarBannerOther' : 'radarBanner', { def: esc(m.defendant.replace(/\.+$/, '')), c: esc(m.matched) })} ${esc(t('radarNameCheck'))}</h3>
+      <p class="todo">${t(otherFund(m) ? 'whatToDoOther' : 'whatToDo')}</p>
+      <p class="ref rh-ref">${esc(m.plaintiff)} v. ${esc(m.defendant)} · ${t('filed')} ${fmtFiled(m.dateFiled)} · ${t('docketWord')} ${esc(m.docketNumber ?? '—')} · ${esc(m.court)}</p>
+      ${m.url ? linkHtml(m.url, t('viewDocket'), 'line-btn') : ''}
     </article>`).join('')
-    : `<div class="card pad" style="margin-bottom:1rem"><p class="note" style="margin:0">
-        ${hasLog
-          ? t('radarNoMatch', { n: RADAR.events.length, m: Math.round((RADAR.lookbackDays ?? 365) / 30), d: esc(asOf ? asOf.text : '—') })
-          : t('radarLogFirst')}
-      </p></div>`}
+    : `<div class="card radar-clear">${hasLog ? '<i class="vk" aria-hidden="true"></i>' : ''}
+        <p>${clear}${holds ? ` <span class="ref">${holds}</span>` : ''}${asOfLine}</p>
+      </div>`}
+    <details class="more radar-how">
+      <summary>${esc(t('radarHow'))}</summary>
+      <p>${t('radarLede')}</p>
+    </details>
 
     <section class="sec">
       <h2>${t('allRecent')}</h2>
-      <p class="lede">${t('feedLede')}</p>
+      <p class="lede q">${t('feedLede')}${minesFirst ? ` ${t(mine.inferred ? 'radarLikelyFirst' : 'radarFundFirst', { d: mine.desig })}` : ''}</p>
       <div class="card">${(() => {
-        // One header per fund instead of the same plaintiff on every row.
-        // Apostrophe variants ("Laborers" / "Laborers'") are the same fund.
-        const groups = new Map()
-        for (const e of RADAR.events) {
-          const k = e.plaintiff.replace(/[\u2019']/g, '').replace(/\s+/g, ' ').trim().toUpperCase()
-          if (!groups.has(k)) groups.set(k, { name: e.plaintiff, events: [] })
-          groups.get(k).events.push(e)
-        }
-        return [...groups.values()]
-          .sort((a, b) => String(b.events[0].dateFiled).localeCompare(String(a.events[0].dateFiled)))
-          .map((g) => `<div class="radar-fund"><span>${esc(g.name)}${otherFundTag(g.events[0])}</span>
-              <span class="rf-n">${g.events.length === 1 ? t('suitOne') : t('suitsN', { n: g.events.length })}</span></div>
-            ${g.events.map((e) => `<div class="radar-row">
-              <span class="rr-date">${esc(e.dateFiled ?? '—')}</span>
-              <span class="rr-body"><span class="rr-def">${esc(e.defendant)}</span></span>
-              ${e.url ? linkHtml(e.url, t('docketLink')) : ''}
-            </div>`).join('')}`).join('')
+        // The whole row is the way to the court file: the name, then when it
+        // was filed, in his own date format, as the quiet line under it.
+        return ordered
+          .map((g) => `<div class="radar-fund${place(g) === 0 ? ' mine' : ''}"><span class="nm">${esc(g.name)}</span>
+              <span class="ref">${g.events.length === 1 ? t('suitOne') : t('suitsN', { n: g.events.length })}${place(g) === 0 ? ` · <b>${esc(mineTag)}</b>` : ''}${otherFund(g.events[0]) ? ` · ${esc(t('radarOtherFund'))}` : ''}</span></div>
+            ${g.events.map((e) => linkHtml(e.url, `<span class="rr-body"><span class="rr-def">${esc(e.defendant)}</span>
+                <span class="ref">${t('filed')} ${esc(shortFiled(e.dateFiled))}${e.url ? ` · ${t('docketLink')}` : ''}</span></span>
+              ${e.url ? '<i class="sr-go" aria-hidden="true"></i>' : ''}`, 'radar-row')).join('')}`).join('')
       })()}</div>
       <p class="note">${t('claimsNote')}</p>
     </section>`
@@ -2604,8 +3099,10 @@ function paintRadar() {
 
 $$('.tabs button').forEach((b) => b.addEventListener('click', () => {
   const go = b.dataset.go
-  $$('.tabs button').forEach((x) => x.classList.toggle('on', x === b))
+  $$('.tabs button').forEach((x) => { x.classList.toggle('on', x === b); x.setAttribute('aria-current', x === b ? 'page' : 'false') })
   $$('.view').forEach((v) => { v.hidden = v.dataset.view !== go })
+  // A note written while another tab was showing could not be measured then.
+  if (go === 'log') syncNote()
   if (go === 'fund') renderFund()
   if (go === 'certs') paintCards()
   if (go === 'radar') paintRadar()
@@ -2629,6 +3126,7 @@ function applyStatic() {
   $('#fNoteLabel').textContent = t('noteLabel')
   const mic = $('.mic-text'); if (mic) mic.textContent = t('micIdle')
   const bankedK = $('.banked-k'); if (bankedK) bankedK.textContent = t('bankedK')
+  const grossOut = $('#grossOut'); if (grossOut) grossOut.dataset.k = t('gross')
   $$('.recent > h2').forEach((h) => { h.textContent = t('recent') })
   const certHead = $('#view-certs .vhead')
   if (certHead) { $('.eyebrow', certHead).textContent = t('certEyebrow'); $('h1', certHead).textContent = t('cards') }

@@ -1,8 +1,21 @@
 {
-  "generated": "2026-10-30T04:45:34.054Z",
-  "asOf": "2026-10-29",
+  "generated": "2026-11-16T20:21:30.188Z",
+  "asOf": "2026-11-16",
   "lookbackDays": 365,
   "events": [
+    {
+      "kind": "fund-lawsuit",
+      "plaintiff": "Central Laborers' Pension Fund",
+      "defendant": "Leigh",
+      "defendantKey": "LEIGH",
+      "dateFiled": "2026-10-30",
+      "docketNumber": "1:26-cv-13419",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/75046502/central-laborers-pension-fund-v-leigh/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "other",
+      "closed": null
+    },
     {
       "kind": "fund-lawsuit",
       "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
@@ -317,6 +330,19 @@
     },
     {
       "kind": "fund-lawsuit",
+      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
+      "defendant": "T CAT Enterprise, Inc.",
+      "defendantKey": "T CAT ENTERPRISE",
+      "dateFiled": "2026-03-06",
+      "docketNumber": "1:26-cv-02534",
+      "court": "N.D. Illinois",
+      "url": "https://www.courtlistener.com/docket/72373855/chicago-vicinity-laborers-district-council-pension-fund-v-t-cat/",
+      "source": "CourtListener / RECAP (federal docket)",
+      "fundScope": "district",
+      "closed": null
+    },
+    {
+      "kind": "fund-lawsuit",
       "plaintiff": "Fox Valley Laborers Health and Welfare Fund",
       "defendant": "KWCC, Inc.",
       "defendantKey": "KWCC",
@@ -428,32 +454,6 @@
       "docketNumber": "1:25-cv-14186",
       "court": "N.D. Illinois",
       "url": "https://www.courtlistener.com/docket/71938016/fox-valley-laborers-health-and-welfare-fund-v-illini-suburban-asphalt/",
-      "source": "CourtListener / RECAP (federal docket)",
-      "fundScope": "district",
-      "closed": null
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "H&Z Fireproofing, Inc.",
-      "defendantKey": "H Z FIREPROOFING",
-      "dateFiled": "2025-11-07",
-      "docketNumber": "1:25-cv-13683",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71889036/chicago-vicinity-laborers-district-council-pension-fund-v-hz/",
-      "source": "CourtListener / RECAP (federal docket)",
-      "fundScope": "district",
-      "closed": null
-    },
-    {
-      "kind": "fund-lawsuit",
-      "plaintiff": "Chicago & Vicinity Laborers' District Council Pension Fund",
-      "defendant": "Whippin Work, LLC",
-      "defendantKey": "WHIPPIN WORK",
-      "dateFiled": "2025-11-06",
-      "docketNumber": "1:25-cv-13608",
-      "court": "N.D. Illinois",
-      "url": "https://www.courtlistener.com/docket/71882163/chicago-vicinity-laborers-district-council-pension-fund-v-whippin-work/",
       "source": "CourtListener / RECAP (federal docket)",
       "fundScope": "district",
       "closed": null

@@ -92,16 +92,105 @@
         {
           "planYear": 2023,
           "participants": 5123,
-          "assets": 652100252,
+          "assets": 649792067,
           "verified": true
         },
         {
           "planYear": 2024,
           "participants": 5171,
-          "assets": 715716094,
+          "assets": 713479732,
           "verified": true
+        },
+        {
+          "planYear": 2025,
+          "participants": 5034,
+          "assets": 843111520,
+          "verified": true,
+          "preliminary": true,
+          "source": "notice"
         }
       ],
+      "fundedHistory": {
+        "source": "https://fvlab.com/app/uploads/2026/11/2026-Annual-Funding-Notice.pdf",
+        "years": [
+          {
+            "date": "2012-06-01",
+            "official": 77,
+            "market": 68
+          },
+          {
+            "date": "2013-06-01",
+            "official": 78,
+            "market": 74
+          },
+          {
+            "date": "2014-06-01",
+            "official": 79,
+            "market": 76
+          },
+          {
+            "date": "2015-06-01",
+            "official": 80,
+            "market": 76
+          },
+          {
+            "date": "2016-06-01",
+            "official": 78,
+            "market": 70
+          },
+          {
+            "date": "2017-06-01",
+            "official": 78,
+            "market": 75
+          },
+          {
+            "date": "2018-06-01",
+            "official": 79,
+            "market": 78
+          },
+          {
+            "date": "2019-06-01",
+            "official": 79,
+            "market": 74
+          },
+          {
+            "date": "2020-06-01",
+            "official": 77,
+            "market": 71
+          },
+          {
+            "date": "2021-06-01",
+            "official": 78,
+            "market": 85
+          },
+          {
+            "date": "2022-06-01",
+            "official": 80,
+            "market": 79
+          },
+          {
+            "date": "2023-06-01",
+            "official": 78,
+            "market": 73
+          },
+          {
+            "date": "2024-06-01",
+            "official": 78,
+            "market": 78
+          },
+          {
+            "date": "2025-06-01",
+            "official": 81,
+            "market": 82
+          },
+          {
+            "date": "2026-06-01",
+            "official": 82,
+            "market": 89,
+            "preliminary": true
+          }
+        ]
+      },
       "actuarial": [
         {
           "planYear": 2023,
@@ -156,22 +245,35 @@
             "cash": 0,
             "other": 5
           }
+        },
+        {
+          "planYear": 2025,
+          "verified": true,
+          "source": "notice",
+          "valuationDate": "2025-06-01",
+          "actuarialAssets": 712078892,
+          "accruedLiability": 874687827,
+          "fundedPercentage": 81.4,
+          "zoneCode": "N",
+          "zoneLabel": "Neither endangered nor critical"
         }
       ],
       "memberFacts": [
         {
-          "title": "Half of your pension contribution does not build your pension",
-          "title_es": "La mitad de tu aportación de pensión no construye tu pensión",
-          "body_es": "Hasta el 31 de mayo de 2024 los contratistas pagaban <b>$18.00</b> por hora al fondo, de los cuales <b>$9.00 no contaban para acumular tu beneficio</b>. Desde el 1 de junio de 2024 la tarifa subió a <b>$19.10</b>, de los cuales <b>$10.10 no cuentan</b>. Ese dinero está pagando el pasivo no financiado del fondo en vez de construir tu propio beneficio. Esto es normal en un plan que se está recuperando y está completamente declarado — solo que nunca se dice en voz alta.",
+          "title": "More than half of your pension contribution does not build your pension",
+          "title_es": "Más de la mitad de tu aportación de pensión no construye tu pensión",
+          "body_es": "Desde el 1 de junio de 2026 los contratistas pagan <b>$20.97</b> por hora al fondo, y solo los primeros <b>$9.25</b> cuentan para acumular tu beneficio — <b>$11.72 no cuentan</b>. Antes el tope era $9.00 por hora. Ese dinero está pagando el pasivo no financiado del fondo en vez de construir tu propio beneficio. Esto es normal en un plan que se está recuperando y está completamente declarado en el folleto del plan — solo que nunca se dice en voz alta.",
           "ask_es": "¿Cuál es mi beneficio mensual acumulado a la edad normal de retiro, al día de hoy?",
-          "body": "Through May 31, 2024 contractors paid <b>$18.00</b> an hour into the fund, of which <b>$9.00 did not count toward benefit accrual</b>. From June 1, 2024 the rate went to <b>$19.10</b>, of which <b>$10.10 does not count</b>. That money is paying down the fund's unfunded liability rather than building your own benefit. This is normal for a plan digging out and it is fully disclosed — it is just never said out loud.",
+          "body": "Since June 1, 2026 contractors pay <b>$20.97</b> an hour into the fund, and only the first <b>$9.25</b> counts toward your benefit — <b>$11.72 does not</b>. Before that the cap was $9.00 an hour. That money is paying down the fund's unfunded liability rather than building your own benefit. This is normal for a plan digging out and it is fully disclosed in the plan booklet — it is just never said out loud.",
           "ask": "What is my accrued monthly benefit at normal retirement age as of today?"
         },
         {
-          "title": "The accrual rate has been cut four times",
-          "title_es": "La tasa de acumulación se ha recortado cuatro veces",
-          "body_es": "Tu beneficio es un porcentaje de las aportaciones que hizo el patrón por ti: <b>6.7%</b> por trabajo entre junio de 1965 y mayo de 1984, <b>5%</b> de junio de 1984 a mayo de 2005, <b>3%</b> de junio de 2005 a mayo de 2010, y <b>1.5%</b> para todo lo que sea del 1 de junio de 2010 en adelante. Una hora trabajada hoy gana menos de la cuarta parte de lo que ganaba la misma hora en los años setenta.",
-          "body": "Your benefit is a percentage of the employer contributions made on your behalf: <b>6.7%</b> for work between June 1965 and May 1984, <b>5%</b> for June 1984 to May 2005, <b>3%</b> for June 2005 to May 2010, and <b>1.5%</b> for everything on or after June 1, 2010. An hour worked today earns less than a quarter of what the same hour earned in the 1970s."
+          "title": "Newer work earns a smaller percentage: 3 drops, plus a cap",
+          "title_es": "El trabajo más nuevo gana un porcentaje más chico: 3 bajadas y un tope",
+          "body_es": "Tu beneficio es un porcentaje de las aportaciones que hizo el patrón por ti: <b>6.7%</b> por trabajo entre junio de 1965 y mayo de 1984, <b>5%</b> de junio de 1984 a mayo de 2005, <b>3%</b> de junio de 2005 a mayo de 2010, y <b>1.5%</b> del 1 de junio de 2010 en adelante. Desde el 1 de junio de 2008 además hay un tope: solo cuenta la primera parte de la aportación de cada hora, <b>$9.25</b> por hora hoy. Por cada dólar que cuenta, el trabajo de hoy gana menos de la cuarta parte de lo que gana el trabajo de antes de junio de 1984: 1.5% contra 6.7%. Una hora trabajada hoy le suma como <b>13.9 centavos</b> al mes a tu pensión; en el año que empezó en junio de 2004, una hora sumaba 19.5 centavos.",
+          "ask_es": "¿Qué porcentaje y qué tope por hora se aplicaron a cada año de mis aportaciones?",
+          "body": "Your benefit is a percentage of the employer contributions made on your behalf: <b>6.7%</b> for work between June 1965 and May 1984, <b>5%</b> for June 1984 to May 2005, <b>3%</b> for June 2005 to May 2010, and <b>1.5%</b> from June 1, 2010 on. Since June 1, 2008 there is also a cap: only the first part of each hour's contribution counts, <b>$9.25</b> an hour today. Per dollar that counts, work today earns less than a quarter of what work before June 1984 earns: 1.5% against 6.7%. An hour worked today adds about <b>13.9 cents</b> a month to your pension; in the year that began June 2004, an hour added 19.5 cents.",
+          "ask": "Which percentage and which hourly cap were applied to each year of my contributions?"
         },
         {
           "title": "100 or 500 hours in a plan year, or the year does not count",
@@ -184,14 +286,14 @@
         {
           "title": "30 years means you can go at any age",
           "title_es": "30 años y te puedes ir a cualquier edad",
-          "body_es": "El retiro normal es a los 65 años con 5 años de servicio, o a los 60 con 10. El retiro anticipado va de los 50 a los 59 con una <b>reducción del 4% por cada año antes de los 60</b>. Pero un participante activo con <b>al menos 30 años de servicio recibe una pensión completa sin importar la edad</b> — esa cláusula vale muchísimo y es fácil pasarla por alto.",
-          "body": "Normal retirement is age 65 with 5 years, or age 60 with 10. Early retirement runs 50 to 59 with a <b>4% reduction for each year under 60</b>. But an active participant with <b>at least 30 years of service gets an unreduced pension regardless of age</b> — that provision is worth a great deal and is easy to miss."
+          "body_es": "El retiro normal es a los 65 años con 5 años de servicio, o a los 60 con 10. El retiro anticipado va de los 50 a los 59, con al menos 10 años de servicio, y una <b>reducción del 4% por cada año antes de los 60</b>. Pero un participante activo con <b>al menos 30 años de servicio, incluyendo al menos 16 años en este plan, recibe una pensión completa sin importar la edad</b> — esa cláusula vale muchísimo y es fácil pasarla por alto.",
+          "body": "Normal retirement is age 65 with 5 years, or age 60 with 10. Early retirement runs 50 to 59, with at least 10 years of service, and a <b>4% reduction for each year under 60</b>. But an active participant with <b>at least 30 years of service, including at least 16 years in this plan, gets an unreduced pension regardless of age</b> — that provision is worth a great deal and is easy to miss."
         },
         {
           "title": "There is a lump sum on top, and it went up",
           "title_es": "Hay un pago único además, y subió",
-          "body_es": "Los participantes activos que se retiren a partir del 1 de junio de 1999 con <b>20 años o más</b> de servicio acumulado reciben un pago único suplementario de <b>$1,000 por año de servicio</b>. A partir del 1 de junio de 2024 el plan se modificó para subirlo a <b>$2,000 por cada año después de los 30</b>.",
-          "body": "Active participants retiring on or after June 1, 1999 with <b>20 or more years</b> of cumulative service get a supplemental lump sum of <b>$1,000 per year of service</b>. Effective June 1, 2024 the plan was amended to raise that to <b>$2,000 for each year beyond 30</b>."
+          "body_es": "Los participantes activos que se retiren a partir del 1 de junio de 1999 con <b>20 años o más</b> de servicio para el pago único reciben un pago único suplementario de <b>$1,000 por cada año de ese servicio en este plan</b>. Desde el 1 de junio de 2001, un año de ese servicio requiere 500 horas en el año del plan (antes eran 100), y necesitas al menos 5 años de aportaciones a este fondo. A partir del 1 de junio de 2024 el plan se modificó para subirlo a <b>$2,000 por cada año después de los 30</b>.",
+          "body": "Active participants retiring on or after June 1, 1999 with <b>20 or more years</b> of lump-sum service get a supplemental lump sum of <b>$1,000 for each year of lump-sum service in this plan</b>. Since June 1, 2001 a year of lump-sum service takes 500 hours in the plan year (100 before that), and you need at least 5 years of contributions to this fund. Effective June 1, 2024 the plan was amended to raise that to <b>$2,000 for each year beyond 30</b>."
         },
         {
           "title": "Disability pension exists at 10 years",
@@ -202,6 +304,12 @@
           "ask": "Do I meet the plan definition of totally and permanently disabled, and what is my service credit?"
         }
       ],
+      "topContributorsYear": {
+        "planYear": 2024,
+        "from": "2024-06-01",
+        "to": "2025-05-31",
+        "ratePerHour": 19.1
+      },
       "topContributors2024": [
         {
           "name": "Plote Construction Inc",
@@ -228,7 +336,7 @@
           "amount": 1058795
         },
         {
-          "name": "Curran Construction Co",
+          "name": "Curran Contracting Co",
           "amount": 1052597
         },
         {
@@ -291,10 +399,17 @@
         },
         {
           "planYear": 2024,
-          "participants": 30356,
-          "assets": 5220558637,
+          "participants": 30331,
+          "assets": 5225944542,
+          "verified": true
+        },
+        {
+          "planYear": 2025,
+          "participants": 30585,
+          "assets": 6140428321,
           "verified": true,
-          "preliminary": true
+          "preliminary": true,
+          "source": "notice"
         }
       ],
       "actuarial": [
@@ -355,6 +470,17 @@
             "cash": 0.63,
             "buildings": 0.07
           }
+        },
+        {
+          "planYear": 2025,
+          "verified": true,
+          "source": "notice",
+          "valuationDate": "2025-06-01",
+          "actuarialAssets": 5218494253,
+          "accruedLiability": 5487694875,
+          "fundedPercentage": 95.1,
+          "zoneCode": "N",
+          "zoneLabel": "Neither endangered nor critical"
         }
       ]
     },
@@ -474,17 +600,19 @@
       "label": "Assets ÷ RPA '94 current liability (Schedule MB line 2c)",
       "label_es": "Activos ÷ pasivo corriente RPA '94 (Schedule MB línea 2c)",
       "plain_es": "Esto NO es qué tan financiada está tu pensión. Es una medida deliberadamente pesimista que exige el IRS, calculada con una tasa de descuento que fija el gobierno — abajo del 3% en algunos años. Una tasa más baja hace que los beneficios futuros parezcan mucho más caros hoy, así que este número sale bajo en casi todos los planes multipatronales del país.",
-      "proof_es": "En el año del plan 2023 marcaba 35.72% con una tasa de 2.80%. Un año después marcaba 45.01% con 3.63%. El pasivo bajó $160 millones porque se movió la tasa obligatoria, no porque le pasara algo al fondo. En esos mismos dos años el porcentaje financiado real casi no se movió: de 78.9% a 78.3%.",
+      "proof_es": "En Fox Valley, en el año del plan 2023 marcaba 35.72% con una tasa de 2.80%. Un año después marcaba 45.01% con 3.63%. El pasivo bajó $160 millones porque se movió la tasa obligatoria, no porque le pasara algo al fondo. En esos mismos dos años el porcentaje financiado real casi no se movió: de 78.9% a 78.3%.",
       "lookScary": true,
       "plain": "This is not how funded your pension is. It is a deliberately pessimistic measure the IRS requires, calculated at a discount rate the government sets — under 3% in some years. A lower rate makes future benefits look far more expensive today, so this number is low for nearly every multiemployer plan in the country.",
-      "proof": "In plan year 2023 it read 35.72% at a 2.80% rate. One year later it read 45.01% at a 3.63% rate. The liability fell by $160 million because the mandated rate moved, not because anything happened to the fund. Over the same two years the real funded percentage barely budged: 78.9% to 78.3%."
+      "proof": "At Fox Valley, in plan year 2023 it read 35.72% at a 2.80% rate. One year later it read 45.01% at a 3.63% rate. The liability fell by $160 million because the mandated rate moved, not because anything happened to the fund. Over the same two years the real funded percentage barely budged: 78.9% to 78.3%."
     },
     "fundedPercentage": {
       "label": "Funded percentage (Schedule MB line 4a)",
       "label_es": "Porcentaje financiado (Schedule MB línea 4a)",
-      "plain_es": "Este sí es el bueno — activos actuariales entre pasivo acumulado. Vas a ver por todos lados que \"abajo de 80% significa en peligro\". Eso es una regla de dedo, no la prueba real. La ley exime a un plan que no se proyecta en peligro en ninguno de los siguientes diez años, y por eso un plan puede estar en 78% y aun así certificar zona verde.",
+      "plain_es": "Este sí es el bueno — activos actuariales entre pasivo acumulado. Vas a ver por todos lados que \"abajo de 80% significa en peligro\". Eso es una regla de dedo, no la prueba real. La ley exime a un plan abajo de 80% si su actuario proyecta que saldrá de la zona de peligro para el final del año 10 y el año anterior no estaba en peligro ni en estado crítico, y por eso un plan puede estar en 78% y aun así certificar zona verde.",
+      "proof_es": "El aviso anual de Fox Valley también imprime una segunda columna: financiado a valor de mercado, que sube y baja con la bolsa. Las dos son ciertas y casi nunca coinciden. Cuando alguien te diga un porcentaje financiado, pregunta de cuál columna y de qué 1 de junio.",
       "lookScary": false,
-      "plain": "This is the real one — actuarial assets divided by accrued liability. You will see \"below 80% means endangered\" repeated everywhere. That is a rule of thumb, not the test. The statute exempts a plan that is not projected to be endangered in any of the next ten years, which is why a plan can sit at 78% and still certify green."
+      "plain": "This is the real one — actuarial assets divided by accrued liability. You will see \"below 80% means endangered\" repeated everywhere. That is a rule of thumb, not the test. The law excuses a plan under 80% if its actuary projects it will be out of endangered status by the end of the 10th year and it was not endangered or critical the year before, which is why a plan can sit at 78% and still certify green.",
+      "proof": "Fox Valley's annual notice also prints a second column: funded on market value, which rises and falls with the stock market. Both are true and they rarely match. When someone quotes you a funded percentage, ask which column and which June 1."
     },
     "creditBalance": {
       "label": "Credit balance in the funding standard account (line 9m)",

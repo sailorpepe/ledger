@@ -287,25 +287,44 @@
   ],
   "scope": {
     "title": "Renewable energy work is covered",
-    "cite": "Side Letter #1",
-    "body": "The District Council and CAICA agreed to expand the branches of work to cover the renewable energy sector — solar, wind, hydrogen and geothermal power plants. The letter names the work specifically rather than leaving it to argument.",
+    "title_es": "El trabajo de energía renovable está cubierto",
+    "cite": "Side Letter #1 (2021–2026)",
+    "body": "The District Council and CAICA agreed to expand the branches of work to cover the renewable energy sector, including but not limited to the solar, wind and hydrogen industries and geothermal power plants. The letter names the work below, and says the work is not limited to it.",
+    "body_es": "El District Council y CAICA acordaron ampliar las ramas de trabajo para cubrir el sector de energía renovable, incluyendo, entre otras, las industrias solar, eólica y de hidrógeno y las plantas geotérmicas. La carta nombra el trabajo de abajo, y dice que el trabajo no se limita a eso.",
     "covers": [
       "Construction and site surveying",
       "Solar panel foundations and posts",
       "Installation of the panel racking system",
-      "Forming, stripping of forms, backfilling and compaction of subsoil and topsoil at completed foundations",
+      "Forming, stripping of forms, backfilling and compaction of subsoil and/or topsoil at completed solar panel foundations",
       "Filter cloth for access road construction",
       "Vegetation management and weed control",
-      "Dust control, offloading and maintenance",
-      "Offloading and unwrapping panel modules in the yard and in the field",
+      "Dust control, installation and maintenance",
+      "Offloading panel modules in the yard; offloading, distribution and unwrapping them in the field",
       "Removal of packing material, wrapping and debris",
       "Placing modules on racking systems",
       "Trench excavation and backfill for DC cable to the inverter",
       "Trench excavation and backfill for AC cable to the transformer",
       "Inverter foundations",
-      "Unloading, stockpiling, handling, distribution and placing of batteries in storage facilities"
+      "Unloading, stockpiling, handling, distribution and placing of batteries in battery storage facilities, to the point of installation"
     ],
-    "note": "The parties also agreed to seek recognition of this work and its rates under the Davis-Bacon and Related Acts and the Illinois Prevailing Wage Act — which is what puts these jobs on the county rate schedule."
+    "covers_es": [
+      "Construcción y topografía del sitio",
+      "Cimientos y postes para paneles solares",
+      "Instalación del sistema de soportes (racking) de los paneles",
+      "Cimbrado, descimbrado, relleno y compactación del subsuelo o la capa superior de tierra (o ambos) en los cimientos terminados de los paneles solares",
+      "Tela filtrante para la construcción de caminos de acceso",
+      "Control de vegetación y de maleza",
+      "Control de polvo, instalación y mantenimiento",
+      "Descarga de los módulos de paneles en el patio; descarga, distribución y desempaque en el campo",
+      "Retiro de material de empaque, envolturas y escombro",
+      "Colocación de los módulos en los soportes",
+      "Excavación y relleno de zanjas para el cable de DC al inversor",
+      "Excavación y relleno de zanjas para el cable de AC al transformador",
+      "Cimientos de los inversores",
+      "Descarga, acopio, manejo, distribución y colocación de baterías en las instalaciones de almacenamiento de baterías, hasta el punto de instalación"
+    ],
+    "note": "The parties also agreed to seek recognition of this work and its rates of pay under the Davis-Bacon and Related Acts and the Illinois Prevailing Wage Act.",
+    "note_es": "Las partes también acordaron buscar que este trabajo y su escala de pago se reconozcan bajo la ley Davis-Bacon y leyes relacionadas y la Ley de Salario Prevaleciente de Illinois."
   },
   "fringeRules": {
     "increment": "No less than one-half hour for each half-hour or portion worked.",

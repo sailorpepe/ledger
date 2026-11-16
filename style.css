@@ -306,6 +306,10 @@ button { cursor: pointer; border: 0; background: none; }
 .row2 > .line { min-width: 0; }
 .row2 .line > span { min-width: 0; }
 .row2 .line input { text-align: right; }
+/* iOS draws a date field's text in an inner box of its own, centred, and
+   ignores the field's text-align: the date sat in the middle of its row,
+   left of the rate under it. */
+.row2 .line input::-webkit-date-and-time-value { text-align: right; }
 .line {
   display: flex; align-items: baseline; gap: .75rem;
   padding: .7rem .1rem; border-bottom: 1px solid var(--line);
@@ -319,6 +323,7 @@ button { cursor: pointer; border: 0; background: none; }
   flex: 1; min-width: 0; background: none; border: 0; padding: 0;
   font-size: 1.05rem; font-weight: 560; color: var(--ink);
 }
+.line input::placeholder { color: var(--ink-3); opacity: 1; }
 .line input:focus { outline: 0; }
 .line:focus-within { border-bottom-color: var(--amber); }
 .line:focus-within > span { color: var(--amber); }
@@ -353,6 +358,8 @@ button { cursor: pointer; border: 0; background: none; }
   display: block; font-family: var(--num); font-size: 3.4rem; font-weight: 600;
   letter-spacing: -.055em; line-height: 1; font-variant-numeric: tabular-nums;
 }
+/* 10.5 and up on the narrowest phones: clear of the + button, same height. */
+.hh-mid output[data-len="4"] { font-size: min(3.4rem, calc((100vw - 14.25rem) / 2.2)); line-height: 3.4rem; }
 .hh-unit {
   display: block; margin-top: .3rem; font-size: .8rem; font-weight: 620;
   letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3);
@@ -487,6 +494,18 @@ button { cursor: pointer; border: 0; background: none; }
    "Sealed" is the confirmation, and a browser may dim a disabled button. */
 .primary:disabled { opacity: 1; cursor: default; }
 .micro { margin: .7rem 0 0; font-size: .85rem; color: var(--ink-3); line-height: 1.45; }
+/* Log it said no (refuse in app.js): the button says why for a moment, the
+   line under it keeps saying it, and the hours box it points at lights up.
+   The id beats every skin's .primary, and the size is the same on all of
+   them so the reason fits on one line. */
+#btnSave.refused {
+  background: var(--red-soft); color: var(--red); box-shadow: inset 0 0 0 2px var(--red);
+  font-size: 1.05rem; letter-spacing: 0; text-transform: none;
+}
+#saveHint.warn { color: var(--red); font-weight: 650; }
+.hero-hours.needs { box-shadow: 0 0 0 3px var(--red); }
+/* Scrolled to on a refusal: clear of the notch and the status bar. */
+.hero-hours { scroll-margin: calc(env(safe-area-inset-top, 0px) + .75rem) 0 .75rem; }
 .micro.dayhint { margin: 0 0 .8rem; padding: 0 .2rem; color: var(--ink-2); }
 
 /* ---------------- entries ---------------- */
@@ -1092,7 +1111,8 @@ a { color: var(--amber); }
 #radarNag { row-gap: .35rem; }
 #radarNag .nag-text {
   font-size: .9rem; line-height: 1.4;
-  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
+  /* The whole sentence shows: a contractor's name is never cut off. */
+  display: block; overflow: visible;
 }
 #radarNag .nag-go {
   padding: 0; border: 0; border-radius: 0;
@@ -1298,7 +1318,7 @@ button:focus-visible, a:focus-visible, select:focus-visible,
 .sug button {
   border: 1px solid var(--line-2); background: var(--card); color: var(--ink-2);
   border-radius: 999px; padding: .4rem .8rem; font-size: .88rem; font-weight: 580;
-  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  max-width: 100%; white-space: normal; overflow-wrap: anywhere; text-align: left; border-radius: 22px;
 }
 .sug button:active { border-color: var(--amber); color: var(--amber); background: var(--amber-soft); }
 
@@ -1471,3 +1491,655 @@ body { padding-top: env(safe-area-inset-top, 0px); }
     scroll-behavior: auto !important;
   }
 }
+
+/* =====================================================================
+   LOCAL, PENSION AND RADAR
+   These three tabs open on the answer, keep the proof one tap behind it,
+   and never cut a name or a number: rows stack and wrap, tables fit the
+   phone. Plain words are large; a reference (a schedule line, a docket, a
+   date) follows them small and grey. Everything here is scoped to the
+   three tabs, so the Log and Cards tabs are drawn exactly as before.
+   ===================================================================== */
+:root {
+  --fs-ref: .8125rem; --fs-sub: .9375rem; --fs-body: 1.0625rem;
+  --fs-title: 1.25rem; --fs-num: 1.5rem; --fs-big: 1.75rem;
+  --code: ui-monospace, "SF Mono", "Roboto Mono", Menlo, monospace;
+  /* a step up from the card, and the one filled button, per skin */
+  --tint: #eaeaeb; --act: #16191d; --act-ink: #f4f2ef;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) { --tint: #2a2e34; --act: #eef1f5; --act-ink: #0d1014; }
+}
+:root[data-theme="america"] { --tint: #233d62; --act: #d4162c; --act-ink: #ffffff; }
+:root[data-theme="dark"]    { --tint: #2a2e34; --act: #eef1f5; --act-ink: #0d1014; }
+:root[data-theme="jobsite"] { --tint: #274271; --act: #ff9130; --act-ink: #0a1e4d; }
+:root[data-theme="sun"]     { --tint: #e8e8e8; --act: #000000; --act-ink: #ffffff; }
+:is(#view-local, #view-fund, #view-radar) {
+  --num: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+:is(#view-local, #view-fund, #view-radar) .ref {
+  font-size: var(--fs-ref); font-weight: 400; font-style: normal;
+  letter-spacing: 0; text-transform: none; color: var(--ink-3);
+}
+:is(#view-local, #view-fund, #view-radar) b .ref, :is(#view-local, #view-fund, #view-radar) strong .ref { font-weight: 400; }/* ---------------- surfaces and text ---------------- */
+
+
+
+:is(#view-local, #view-fund, #view-radar) .card {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--r);
+}
+:is(#view-local, #view-fund, #view-radar) .pad { padding: 1rem 1.1rem; }
+
+:is(#view-local, #view-fund, #view-radar) .sec { margin: 2.25rem 0; }
+:is(#view-local, #view-fund, #view-radar) .recent { margin: 1.75rem 0 1rem; }/* A heading is louder than the text under it. */
+
+:is(#view-local, #view-fund, #view-radar) .recent > h2, :is(#view-local, #view-fund, #view-radar) .sec > h2 {
+  font-size: var(--fs-title); font-weight: 700; letter-spacing: -.01em;
+  line-height: 1.25; color: var(--ink); margin: 0 0 .7rem;
+}
+:is(#view-local, #view-fund, #view-radar) .lede { margin: 0 0 .9rem; color: var(--ink); font-size: var(--fs-body); line-height: 1.5; max-width: 38rem; }
+:is(#view-local, #view-fund, #view-radar) .lede.q { color: var(--ink-2); }
+:is(#view-local, #view-fund, #view-radar) .note { font-size: var(--fs-sub); color: var(--ink-2); margin: .7rem 0 0; line-height: 1.5; max-width: 38rem; }
+:is(#view-local, #view-fund, #view-radar) .micro { margin: .7rem 0 0; font-size: var(--fs-sub); color: var(--ink-2); line-height: 1.45; }
+:is(#view-local, #view-fund, #view-radar) .loading { color: var(--ink-2); padding: 2.5rem 0; }
+:is(#view-local, #view-fund, #view-radar) .foot { padding: 1.5rem 0 2.5rem; margin-top: 2rem; border-top: 1px solid var(--line); }
+:is(#view-local, #view-fund, #view-radar) .foot p { font-size: var(--fs-ref); color: var(--ink-3); line-height: 1.6; margin: 0 0 .6rem; max-width: 38rem; }
+:is(#view-local, #view-fund, #view-radar) .foot p b { font-weight: 400; }
+:is(#view-local, #view-fund, #view-radar) .empty { text-align: center; padding: 2.25rem 1rem; color: var(--ink-2); }
+:is(#view-local, #view-fund, #view-radar) .empty p { margin: 0; font-size: var(--fs-body); }/* A row that opens what is behind it: the proof, the method, the rest. */
+
+
+:is(#view-local, #view-fund, #view-radar) details.more { margin-top: .6rem; }
+:is(#view-local, #view-fund, #view-radar) details.more > summary {
+  list-style: none; cursor: pointer; min-height: 44px;
+  display: flex; align-items: center; gap: .5rem;
+  font-size: var(--fs-sub); font-weight: 600; color: var(--ink-2);
+}
+:is(#view-local, #view-fund, #view-radar) details.more > summary::-webkit-details-marker { display: none; }
+:is(#view-local, #view-fund, #view-radar) details.more > summary::after {
+  content: ""; width: 8px; height: 8px; flex: none;
+  border-right: 2px solid var(--ink-3); border-bottom: 2px solid var(--ink-3);
+  transform: rotate(45deg) translate(-2px, -2px);
+}
+:is(#view-local, #view-fund, #view-radar) details.more[open] > summary::after { transform: rotate(-135deg) translate(-1px, -1px); }
+:is(#view-local, #view-fund, #view-radar) details.more > p, :is(#view-local, #view-fund, #view-radar) details.more > .more-body { margin: 0 0 .5rem; font-size: var(--fs-sub); line-height: 1.55; color: var(--ink-2); max-width: 38rem; }/* A word tag: two words at most, never wrapped, never capitals. Neutral
+   unless it has earned a colour. */
+
+
+:is(#view-local, #view-fund, #view-radar) .pill {
+  display: inline-block; vertical-align: .08em; white-space: nowrap;
+  font-size: var(--fs-ref); font-weight: 600; line-height: 1.3;
+  padding: .08rem .5rem; border-radius: 999px;
+  border: 1px solid var(--line-2); color: var(--ink-2); background: transparent;
+}
+:is(#view-local, #view-fund, #view-radar) .pill.g { border-color: var(--green); color: var(--green); }
+:is(#view-local, #view-fund, #view-radar) .pill.r { border-color: var(--line-2); color: var(--ink-2); }
+:is(#view-local, #view-fund, #view-radar) .pill.fill { border-color: var(--red); background: var(--red); color: var(--paper); }
+
+:is(#view-local, #view-fund, #view-radar) .chip {
+  display: inline-flex; align-items: center; white-space: nowrap;
+  font-size: var(--fs-ref); font-weight: 600; padding: .15rem .55rem;
+  border-radius: 6px; border: 1px solid var(--line-2); color: var(--ink-2);
+}/* Red is for someone hurt. A week of worked lunches is not an alarm panel. */
+
+:is(#view-local, #view-fund, #view-radar) .chip.r { border-color: var(--red); color: var(--red); }
+:is(#view-local, #view-fund, #view-radar) .flags { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin-top: .6rem; }
+:is(#view-local, #view-fund, #view-radar) .flags .flags-k { font-size: var(--fs-sub); color: var(--ink-2); margin-right: .1rem; }
+
+
+:is(#view-local, #view-fund, #view-radar) .line-btn {
+  display: flex; align-items: center; justify-content: center; gap: .5rem;
+  width: 100%; min-height: 48px; padding: .6rem 1rem;
+  border: 1px solid var(--line-2); border-radius: var(--r-sm);
+  font-size: var(--fs-body); font-weight: 600; color: var(--ink);
+  text-decoration: none; background: transparent;
+}
+:is(#view-local, #view-fund, #view-radar) .line-btn:active { border-color: var(--amber); color: var(--amber); }
+:is(#view-local, #view-fund, #view-radar) .sec > .line-btn { margin-top: .75rem; }
+:is(#view-local, #view-fund, #view-radar) .quiet-btn {
+  display: block; width: 100%; min-height: 44px; padding: .5rem;
+  font-size: var(--fs-sub); color: var(--ink-2);
+  text-decoration: underline; text-underline-offset: 3px;
+}/* inline "what does this mean?" opener */
+
+
+:is(#view-local, #view-fund, #view-radar) .linky {
+  display: inline; padding: 0; font-size: inherit; font-weight: 600;
+  color: var(--amber); text-decoration: underline; text-underline-offset: 3px;
+}/* ---------------- Local and Pension ---------------- *//* The first section under a tab header sits flush; the header's own padding is
+   the gap. */
+
+
+
+
+
+:is(#view-local, #view-fund, #view-radar) #localBody > .sec:first-child, :is(#view-local, #view-fund, #view-radar) #fundBody > .sec:first-child, :is(#view-local, #view-fund, #view-radar) #radarBody > .sec:first-child { margin-top: 0 }/* A figure and what it means: the name on the left, the number on the right,
+   and under the name the plain line, then the reference. */
+
+
+:is(#view-local, #view-fund, #view-radar) .facts { padding: .2rem 1.1rem; }
+:is(#view-local, #view-fund, #view-radar) .fact { display: flex; align-items: baseline; gap: 1rem; padding: .8rem 0; border-top: 1px solid var(--line); }
+:is(#view-local, #view-fund, #view-radar) .fact:first-child { border-top: 0; }
+:is(#view-local, #view-fund, #view-radar) .fact-k { flex: 1; min-width: 0; }
+:is(#view-local, #view-fund, #view-radar) .fact-k .k { display: block; font-size: var(--fs-body); font-weight: 600; line-height: 1.3; }
+:is(#view-local, #view-fund, #view-radar) .fact-k .r { display: block; margin-top: .15rem; font-size: var(--fs-sub); line-height: 1.4; color: var(--ink-2); }
+:is(#view-local, #view-fund, #view-radar) .fact-k .r b { color: var(--ink); font-weight: 600; }
+:is(#view-local, #view-fund, #view-radar) .fact-k .ref { display: block; margin-top: .15rem; }
+:is(#view-local, #view-fund, #view-radar) .fact-k .r .ref { display: inline; margin: 0; }
+:is(#view-local, #view-fund, #view-radar) .fact-v { flex: none; font-size: var(--fs-num); font-weight: 700; letter-spacing: -.02em; line-height: 1.1; text-align: right; }
+:is(#view-local, #view-fund, #view-radar) .fact-v.word { font-size: var(--fs-title); }/* Where this local stands among the others: one tick each, his own filled. */
+
+:is(#view-local, #view-fund, #view-radar) .ticks { display: flex; gap: 3px; margin-top: .45rem; max-width: 14rem; }
+:is(#view-local, #view-fund, #view-radar) .ticks i { flex: 1; height: 6px; border-radius: 2px; background: var(--tint); }
+:is(#view-local, #view-fund, #view-radar) .ticks i.me { background: var(--amber); }/* The answer, first: the zone in plain words, then what it rests on. */
+
+
+:is(#view-local, #view-fund, #view-radar) .verdict { padding: 1.1rem 1.1rem 1rem; border-bottom: 1px solid var(--line); }
+:is(#view-local, #view-fund, #view-radar) .verdict-v { display: flex; align-items: center; gap: .6rem; font-size: var(--fs-big); font-weight: 700; letter-spacing: -.02em; line-height: 1.15; }
+:is(#view-local, #view-fund, #view-radar) .verdict-v.g { color: var(--green); }
+:is(#view-local, #view-fund, #view-radar) .verdict-v .vk {
+  flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--green); position: relative;
+}
+:is(#view-local, #view-fund, #view-radar) .verdict-v .vk::after {
+  content: ""; position: absolute; left: 10.5px; top: 6px; width: 7px; height: 13px;
+  border: solid var(--card); border-width: 0 3px 3px 0; transform: rotate(45deg);
+}
+:is(#view-local, #view-fund, #view-radar) .verdict-s { margin: .45rem 0 0; font-size: var(--fs-body); line-height: 1.45; color: var(--ink); }
+:is(#view-local, #view-fund, #view-radar) .verdict-s .ref::before { content: "· "; }
+:is(#view-local, #view-fund, #view-radar) .verdict-s .ref:empty { display: none; }/* What to ask, pulled out where it can be found. */
+
+
+:is(#view-local, #view-fund, #view-radar) .asks { padding: 1rem 1.1rem; margin-bottom: .9rem; }
+:is(#view-local, #view-fund, #view-radar) .asks h3 { margin: 0 0 .5rem; font-size: var(--fs-body); font-weight: 700; }
+:is(#view-local, #view-fund, #view-radar) .asks ol { margin: 0; padding-left: 1.3rem; }
+:is(#view-local, #view-fund, #view-radar) .asks li { font-size: var(--fs-body); line-height: 1.45; margin-top: .45rem; }/* A fact is a row that opens: the title is the answer, the proof is behind
+   the tap. Plain card ground: information is not a warning. */
+
+
+:is(#view-local, #view-fund, #view-radar) details.fold { border-top: 1px solid var(--line); }
+:is(#view-local, #view-fund, #view-radar) details.fold:first-child { border-top: 0; }
+:is(#view-local, #view-fund, #view-radar) details.fold > summary {
+  list-style: none; cursor: pointer; min-height: 60px; padding: .8rem 1.1rem;
+  display: flex; align-items: center; gap: .8rem;
+}
+:is(#view-local, #view-fund, #view-radar) details.fold > summary::-webkit-details-marker { display: none; }
+:is(#view-local, #view-fund, #view-radar) details.fold > summary .f-t { flex: 1; min-width: 0; font-size: var(--fs-body); font-weight: 600; line-height: 1.3; }
+:is(#view-local, #view-fund, #view-radar) details.fold > summary .f-t .ref { display: block; margin-top: .2rem; }
+:is(#view-local, #view-fund, #view-radar) details.fold > summary .f-t .pill { margin-top: .35rem; }
+:is(#view-local, #view-fund, #view-radar) details.fold > summary::after {
+  content: ""; width: 9px; height: 9px; flex: none; margin-right: .2rem;
+  border-right: 2px solid var(--ink-3); border-bottom: 2px solid var(--ink-3);
+  transform: rotate(45deg) translate(-2px, -2px);
+}
+:is(#view-local, #view-fund, #view-radar) details.fold[open] > summary::after { transform: rotate(-135deg) translate(-1px, -1px); }
+:is(#view-local, #view-fund, #view-radar) .fold-body { padding: 0 1.1rem 1rem; }
+:is(#view-local, #view-fund, #view-radar) .fold-body p { margin: 0 0 .6rem; font-size: var(--fs-body); line-height: 1.5; color: var(--ink); }
+:is(#view-local, #view-fund, #view-radar) .fold-body p:last-child { margin-bottom: 0; }
+:is(#view-local, #view-fund, #view-radar) .fold-body b { color: var(--ink); font-weight: 600; }
+:is(#view-local, #view-fund, #view-radar) .fold-body .proof { padding-left: .85rem; border-left: 3px solid var(--line-2); color: var(--ink); }
+:is(#view-local, #view-fund, #view-radar) .fold-body .ask { color: var(--ink); }/* tables: every cell wraps, so nothing is ever cut at the card's edge */
+
+
+:is(#view-local, #view-fund, #view-radar) .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: var(--r); }
+:is(#view-local, #view-fund, #view-radar) table { width: 100%; border-collapse: collapse; font-size: var(--fs-body); }
+:is(#view-local, #view-fund, #view-radar) th, :is(#view-local, #view-fund, #view-radar) td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--line); vertical-align: baseline; white-space: normal; }
+:is(#view-local, #view-fund, #view-radar) th { font-size: var(--fs-ref); color: var(--ink-3); font-weight: 400; }
+:is(#view-local, #view-fund, #view-radar) tbody tr:last-child td { border-bottom: 0; }
+:is(#view-local, #view-fund, #view-radar) td.n, :is(#view-local, #view-fund, #view-radar) th.n { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+:is(#view-local, #view-fund, #view-radar) td.n { font-weight: 600; }/* The orange edge means one thing: this one is yours. */
+
+:is(#view-local, #view-fund, #view-radar) tr.me td:first-child, :is(#view-local, #view-fund, #view-radar) .rank-row.me { box-shadow: inset 3px 0 0 var(--amber); }
+:is(#view-local, #view-fund, #view-radar) tr.me td, :is(#view-local, #view-fund, #view-radar) .rank-row.me { background: var(--tint); }
+:is(#view-local, #view-fund, #view-radar) .rank-row.me .ref, :is(#view-local, #view-fund, #view-radar) .rank-row.me .rank-n { color: var(--ink-2); }
+:is(#view-local, #view-fund, #view-radar) .t-more { display: block; width: 100%; min-height: 48px; border-top: 1px solid var(--line); font-size: var(--fs-sub); font-weight: 600; color: var(--ink); }
+:is(#view-local, #view-fund, #view-radar) table.closed tr.extra { display: none; }/* Two funds side by side, turned so it fits a phone. */
+
+:is(#view-local, #view-fund, #view-radar) table.side th, :is(#view-local, #view-fund, #view-radar) table.side td { padding-inline: .6rem; }
+:is(#view-local, #view-fund, #view-radar) table.side td:first-child { color: var(--ink-2); font-size: var(--fs-sub); }
+:is(#view-local, #view-fund, #view-radar) table.side .mine { background: var(--tint); }
+:is(#view-local, #view-fund, #view-radar) table.side th.mine { box-shadow: inset 0 3px 0 var(--amber); color: var(--ink); font-weight: 600; }/* expandable person */
+
+
+:is(#view-local, #view-fund, #view-radar) .person { border-bottom: 1px solid var(--line); }
+:is(#view-local, #view-fund, #view-radar) .person:last-child { border-bottom: 0; }
+:is(#view-local, #view-fund, #view-radar) .person summary { display: flex; align-items: center; gap: .7rem; min-height: 60px; padding: .7rem 1.1rem; list-style: none; cursor: pointer; }
+:is(#view-local, #view-fund, #view-radar) .person summary::-webkit-details-marker { display: none; }
+:is(#view-local, #view-fund, #view-radar) .p-who { flex: 1; min-width: 0; }
+:is(#view-local, #view-fund, #view-radar) .p-nm { font-weight: 600; font-size: var(--fs-body); display: flex; align-items: center; gap: .45rem; flex-wrap: wrap; }
+:is(#view-local, #view-fund, #view-radar) .p-rl { font-size: var(--fs-sub); color: var(--ink-2); margin-top: .1rem; overflow-wrap: anywhere; }
+:is(#view-local, #view-fund, #view-radar) .p-amt { font-weight: 700; font-size: var(--fs-body); flex: none; }
+:is(#view-local, #view-fund, #view-radar) .p-chev { width: 9px; height: 9px; flex: none; border-right: 2px solid var(--ink-3); border-bottom: 2px solid var(--ink-3); transform: rotate(45deg) translate(-2px,-2px); }
+:is(#view-local, #view-fund, #view-radar) .person[open] .p-chev { transform: rotate(-135deg) translate(-1px,-1px); }
+:is(#view-local, #view-fund, #view-radar) .p-bar { height: 3px; border-radius: 2px; background: var(--amber); opacity: .6; margin-top: .45rem; }
+:is(#view-local, #view-fund, #view-radar) .p-detail { padding: 0 1.1rem 1rem; }
+:is(#view-local, #view-fund, #view-radar) .p-detail table { font-size: var(--fs-sub); table-layout: fixed; width: 100%; margin-top: .6rem; }
+:is(#view-local, #view-fund, #view-radar) .p-detail td { padding: .4rem .3rem; border-bottom: 1px solid var(--line); }
+:is(#view-local, #view-fund, #view-radar) .p-detail tr:last-child td { border-bottom: 0; }
+:is(#view-local, #view-fund, #view-radar) .p-yr { width: 3.2rem; color: var(--ink-2); }
+:is(#view-local, #view-fund, #view-radar) .p-role { line-height: 1.3; overflow-wrap: anywhere; }
+:is(#view-local, #view-fund, #view-radar) .p-detail td.n { width: 5.6rem; }/* A year the job changed: shaded, as the line under the table says, with an
+   edge mark and a heavier title so it is not told by the shade alone. */
+
+:is(#view-local, #view-fund, #view-radar) tr.p-turn td { background: var(--tint); }
+:is(#view-local, #view-fund, #view-radar) tr.p-turn td:first-child { box-shadow: inset 3px 0 0 var(--amber); }
+:is(#view-local, #view-fund, #view-radar) tr.p-turn .p-role { font-weight: 700; color: var(--ink); }
+:is(#view-local, #view-fund, #view-radar) .p-sum { font-size: var(--fs-sub); color: var(--ink-2); margin: 0 0 .5rem; line-height: 1.55; }
+:is(#view-local, #view-fund, #view-radar) .p-sum b { color: var(--ink); font-weight: 600; }/* Legend for the marked rows. Without it the mark reads as decoration. */
+
+:is(#view-local, #view-fund, #view-radar) .p-key { display: flex; align-items: flex-start; gap: .5rem; margin: .7rem 0 0; font-size: var(--fs-ref); line-height: 1.45; color: var(--ink-3); }
+:is(#view-local, #view-fund, #view-radar) .p-key i { flex: none; width: 14px; height: 1.1em; border-radius: 2px; background: var(--tint); box-shadow: inset 3px 0 0 var(--amber); margin-top: .12em; }/* ---- where the money goes ---- */
+
+
+:is(#view-local, #view-fund, #view-radar) .spend-row { padding: .8rem 1.1rem; border-bottom: 1px solid var(--line); }
+:is(#view-local, #view-fund, #view-radar) .spend-row:last-child { border-bottom: 0; }
+:is(#view-local, #view-fund, #view-radar) .spend-top { display: flex; align-items: baseline; gap: .6rem; }
+:is(#view-local, #view-fund, #view-radar) .spend-label { flex: 1; font-weight: 600; font-size: var(--fs-body); line-height: 1.3; min-width: 0; }
+:is(#view-local, #view-fund, #view-radar) .spend-amt { font-weight: 700; font-size: var(--fs-body); }
+:is(#view-local, #view-fund, #view-radar) .spend-pct { font-size: var(--fs-ref); color: var(--ink-3); width: 3rem; text-align: right; flex: none; }/* Lengths to compare, on no track: a full bar is the biggest line, not "all of it". */
+
+:is(#view-local, #view-fund, #view-radar) .spend-bar { height: 5px; margin-top: .45rem; }
+:is(#view-local, #view-fund, #view-radar) .spend-bar i { display: block; height: 100%; min-width: 4px; background: var(--amber); border-radius: 3px; }
+:is(#view-local, #view-fund, #view-radar) .spend-note { font-size: var(--fs-sub); color: var(--ink-2); margin-top: .35rem; line-height: 1.4; }/* ---- against the other locals ----
+   One figure at a time, ranked, so the name and the number both fit a phone. */
+
+
+:is(#view-local, #view-fund, #view-radar) .seg { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: .75rem; }
+:is(#view-local, #view-fund, #view-radar) .seg button {
+  min-height: 48px; padding: .4rem .6rem; border-radius: var(--r-sm); border: 1px solid var(--line-2);
+  font-size: var(--fs-sub); font-weight: 600; line-height: 1.25; color: var(--ink-2);
+}
+:is(#view-local, #view-fund, #view-radar) .seg button.on { border: 2px solid var(--ink); background: var(--tint); color: var(--ink); font-weight: 700; }
+:is(#view-local, #view-fund, #view-radar) .rank-row { display: flex; align-items: center; gap: .8rem; padding: .5rem 1.1rem; border-bottom: 1px solid var(--line); min-height: 52px; }
+:is(#view-local, #view-fund, #view-radar) .rank-row:last-child { border-bottom: 0; }
+:is(#view-local, #view-fund, #view-radar) .rank-n { flex: none; width: 1.6rem; font-size: var(--fs-ref); color: var(--ink-3); }
+:is(#view-local, #view-fund, #view-radar) .rank-who { flex: 1; min-width: 0; }
+:is(#view-local, #view-fund, #view-radar) .rank-who .nm { display: block; font-size: var(--fs-body); font-weight: 600; line-height: 1.3; }
+:is(#view-local, #view-fund, #view-radar) .rank-bar { display: block; }
+:is(#view-local, #view-fund, #view-radar) .rank-bar { height: 4px; margin-top: .3rem; }
+:is(#view-local, #view-fund, #view-radar) .rank-bar i { display: block; height: 100%; min-width: 3px; background: var(--amber); border-radius: 2px; opacity: .75; }
+:is(#view-local, #view-fund, #view-radar) .rank-who .ref { white-space: nowrap; }
+:is(#view-local, #view-fund, #view-radar) .rank-v { flex: none; width: 6.25rem; text-align: right; font-size: var(--fs-body); font-weight: 700; line-height: 1.3; }
+:is(#view-local, #view-fund, #view-radar) .rank-v .ref { display: block; white-space: nowrap; }/* ---- verify link ----
+   Deliberately a real button. A member being handed numbers about their own
+   union should be told how to check them against the government. */
+
+
+:is(#view-local, #view-fund, #view-radar) .verify {
+  display: block; text-decoration: none; min-height: 56px;
+  border: 1px solid var(--line-2); border-radius: var(--r); padding: .85rem 1.1rem; margin-bottom: 1rem;
+}
+:is(#view-local, #view-fund, #view-radar) .verify:active { border-color: var(--amber); }
+:is(#view-local, #view-fund, #view-radar) .verify-k { display: block; font-size: var(--fs-sub); color: var(--ink-2); margin-bottom: .1rem; }
+:is(#view-local, #view-fund, #view-radar) .verify-v { display: block; color: var(--ink); font-weight: 600; font-size: var(--fs-body); }/* Says out loud when something is deduced rather than documented. */
+
+
+:is(#view-local, #view-fund, #view-radar) .caveat {
+  border-left: 3px solid var(--red); padding: .1rem 0 .1rem .85rem; margin: 0 0 1rem;
+  font-size: var(--fs-sub); line-height: 1.5; color: var(--ink-2);
+}
+:is(#view-local, #view-fund, #view-radar) .caveat b { color: var(--red); }/* scope of work */
+
+
+:is(#view-local, #view-fund, #view-radar) .scope summary {
+  list-style: none; cursor: pointer; min-height: 44px; font-weight: 600; font-size: var(--fs-body);
+  display: flex; align-items: center; gap: .6rem;
+}
+:is(#view-local, #view-fund, #view-radar) .scope summary::-webkit-details-marker { display: none; }
+:is(#view-local, #view-fund, #view-radar) .scope summary .f-t { flex: 1; min-width: 0; }
+:is(#view-local, #view-fund, #view-radar) .scope summary::after {
+  content: ""; width: 9px; height: 9px; flex: none; margin-right: .2rem;
+  border-right: 2px solid var(--ink-3); border-bottom: 2px solid var(--ink-3);
+  transform: rotate(45deg) translate(-2px, -2px);
+}
+:is(#view-local, #view-fund, #view-radar) .scope[open] summary::after { transform: rotate(-135deg) translate(-1px, -1px); }
+:is(#view-local, #view-fund, #view-radar) .scope summary cite { display: block; margin-top: .15rem; font-style: normal; font-size: var(--fs-ref); font-weight: 400; color: var(--ink-3); }
+:is(#view-local, #view-fund, #view-radar) .scope ul { margin: .7rem 0 0; padding-left: 1.2rem; }
+:is(#view-local, #view-fund, #view-radar) .scope li { font-size: var(--fs-body); line-height: 1.45; color: var(--ink); margin-bottom: .35rem; }
+:is(#view-local, #view-fund, #view-radar) .scope li::marker { color: var(--ink-3); }/* timeline (kept for the sections not yet switched on) */
+
+
+:is(#view-local, #view-fund, #view-radar) .tl { list-style: none; margin: 0; padding: 0 0 0 1.35rem; border-left: 2px solid var(--line); }
+:is(#view-local, #view-fund, #view-radar) .tl li { position: relative; padding: 0 0 1.4rem .25rem; }
+:is(#view-local, #view-fund, #view-radar) .tl li:last-child { padding-bottom: 0; }
+:is(#view-local, #view-fund, #view-radar) .tl .when { font-size: var(--fs-ref); color: var(--ink-3); }
+:is(#view-local, #view-fund, #view-radar) .tl .what { font-weight: 600; margin: .12rem 0 .22rem; font-size: var(--fs-body); }
+:is(#view-local, #view-fund, #view-radar) .tl .body { color: var(--ink-2); font-size: var(--fs-body); line-height: 1.55; }/* ---------------- Radar ----------------
+   The answer first: a match, or the all-clear. A match starts with his own
+   contractor in plain words; the caption, the date filed, the docket and the
+   court follow as one quiet reference. */
+
+
+
+:is(#view-local, #view-fund, #view-radar) .radar-clear { display: flex; gap: .8rem; align-items: flex-start; padding: 1rem 1.1rem; margin-bottom: .4rem; }
+:is(#view-local, #view-fund, #view-radar) .radar-clear .vk { flex: none; width: 26px; height: 26px; margin-top: .1rem; border-radius: 50%; background: var(--green); position: relative; }
+:is(#view-local, #view-fund, #view-radar) .radar-clear .vk::after {
+  content: ""; position: absolute; left: 9px; top: 5px; width: 6px; height: 11px;
+  border: solid var(--card); border-width: 0 2.5px 2.5px 0; transform: rotate(45deg);
+}
+:is(#view-local, #view-fund, #view-radar) .radar-clear p { margin: 0; font-size: var(--fs-body); line-height: 1.45; }
+:is(#view-local, #view-fund, #view-radar) .radar-clear .ref { display: block; margin-top: .3rem; }
+:is(#view-local, #view-fund, #view-radar) .radar-asof { margin: 0 0 .9rem; }
+:is(#view-local, #view-fund, #view-radar) .radar-asof.stale { color: var(--amber); font-weight: 600; }
+
+:is(#view-local, #view-fund, #view-radar) .radar-hit {
+  background: var(--card); border: 1px solid var(--line);
+  border-left: 4px solid var(--red);
+  border-radius: var(--r); padding: 1rem 1.1rem 1.1rem; margin-bottom: .8rem;
+}
+:is(#view-local, #view-fund, #view-radar) .radar-hit.other { border-left-color: var(--amber); }
+:is(#view-local, #view-fund, #view-radar) .radar-hit .rh-k { font-size: var(--fs-sub); font-weight: 700; color: var(--red); margin-bottom: .3rem; }
+:is(#view-local, #view-fund, #view-radar) .radar-hit.other .rh-k { color: var(--amber); }
+:is(#view-local, #view-fund, #view-radar) .radar-hit h3 { margin: 0 0 .6rem; font-size: var(--fs-body); font-weight: 600; line-height: 1.4; }
+:is(#view-local, #view-fund, #view-radar) .radar-hit h3 b { font-weight: 700; }
+:is(#view-local, #view-fund, #view-radar) .radar-hit p { margin: 0 0 .7rem; font-size: var(--fs-body); line-height: 1.5; color: var(--ink); }
+:is(#view-local, #view-fund, #view-radar) .radar-hit p b { color: var(--ink); font-weight: 600; }
+:is(#view-local, #view-fund, #view-radar) .radar-hit .rh-fund { padding-left: .75rem; border-left: 3px solid var(--amber); color: var(--ink); }
+:is(#view-local, #view-fund, #view-radar) .radar-hit .rh-fund::first-letter { text-transform: uppercase; }
+:is(#view-local, #view-fund, #view-radar) .radar-hit .rh-ref { margin: 0 0 .9rem; line-height: 1.55; overflow-wrap: anywhere; }
+
+:is(#view-local, #view-fund, #view-radar) .radar-find { display: block; margin: 0 0 .75rem; }
+:is(#view-local, #view-fund, #view-radar) .radar-fund { padding: .8rem 1.1rem .65rem; border-bottom: 1px solid var(--line); border-top: 1px solid var(--line-2); }
+:is(#view-local, #view-fund, #view-radar) .radar-fund:first-child { border-top: 0; }
+:is(#view-local, #view-fund, #view-radar) .radar-fund .nm { display: block; font-size: var(--fs-body); font-weight: 700; line-height: 1.3; }
+:is(#view-local, #view-fund, #view-radar) .radar-fund .ref { display: block; margin-top: .15rem; }/* The whole row is the way to the court file. */
+/* The chosen local's own fund leads the list and says so, in the ink. */
+#view-radar .radar-fund.mine .ref b { color: var(--ink); font-weight: 700; }
+
+:is(#view-local, #view-fund, #view-radar) .radar-row {
+  display: flex; gap: .8rem; align-items: center; min-height: 56px;
+  padding: .6rem 1.1rem; border-bottom: 1px solid var(--line);
+  color: inherit; text-decoration: none;
+}
+:is(#view-local, #view-fund, #view-radar) .radar-row:last-child { border-bottom: 0; }
+:is(#view-local, #view-fund, #view-radar) .radar-row:active { background: var(--tint); }
+:is(#view-local, #view-fund, #view-radar) .radar-row .rr-body { flex: 1; min-width: 0; }
+:is(#view-local, #view-fund, #view-radar) .radar-row .rr-def { display: block; font-size: var(--fs-body); font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
+:is(#view-local, #view-fund, #view-radar) .radar-row .ref { display: block; margin-top: .1rem; }
+:is(#view-local, #view-fund, #view-radar) .radar-row .sr-go {
+  flex: none; width: 8px; height: 8px; margin-right: .2rem;
+  border-right: 2px solid var(--ink-3); border-top: 2px solid var(--ink-3); transform: rotate(45deg);
+}
+
+/* ---- pictures that say it at a glance ----
+   The ring is how funded the pension is. The chart is fifteen June 1sts:
+   the official figure as the heavy line, market value as the light one. */
+#view-fund .verdict { display: flex; flex-wrap: wrap; align-items: center; gap: 1.1rem; }
+#view-fund .gauge { flex: none; width: 118px; height: 118px; overflow: visible; }
+#view-fund .gauge circle { fill: none; stroke-width: 11; }
+#view-fund .g-track { stroke: var(--tint); }
+#view-fund .g-arc { stroke: var(--amber); stroke-linecap: round; }
+#view-fund .g-arc.g { stroke: var(--green); }
+#view-fund .g-num { font-size: 25px; font-weight: 700; fill: var(--ink); letter-spacing: -.02em; }
+#view-fund .g-k { font-size: 12.5px; font-weight: 400; fill: var(--ink-2); }
+#view-fund .verdict-txt { flex: 1 1 7.5rem; min-width: 0; }
+#view-fund .fchart { padding: .8rem .5rem .6rem; margin-bottom: .9rem; }
+#view-fund .fchart svg { display: block; width: 100%; height: auto; overflow: visible; }
+#view-fund .fc-grid { stroke: var(--line); stroke-width: 1; }
+#view-fund .fc-ax { font-size: 13.5px; fill: var(--ink-3); }
+#view-fund .fc-official, #view-fund .fc-market { fill: none; stroke-linejoin: round; stroke-linecap: round; }
+#view-fund .fc-official { stroke: var(--green); stroke-width: 3.5; }
+#view-fund .fc-market { stroke: var(--line-2); stroke-width: 2.5; }
+#view-fund .fc-dot.o { fill: var(--green); }
+#view-fund .fc-dot.m { fill: var(--line-2); }
+#view-fund .fc-end { font-size: 14.5px; font-weight: 700; }
+#view-fund .fc-end.o { fill: var(--ink); }
+#view-fund .fc-end.m { fill: var(--ink-2); }
+#view-fund .fc-key { display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; margin: .5rem .6rem 0; font-size: var(--fs-ref); color: var(--ink-2); }
+#view-fund .fc-key i { display: inline-block; width: 18px; height: 4px; border-radius: 2px; margin-right: .4rem; vertical-align: middle; }
+#view-fund .fc-key .o i { background: var(--green); }
+#view-fund .fc-key .m i { background: var(--line-2); }
+/* The radar's date leads its tab; a reference stays small inside a match. */
+#view-radar .radar-find.top { margin: -.2rem 0 .8rem; }
+#view-radar .radar-hit p.ref { font-size: var(--fs-ref); font-weight: 400; color: var(--ink-3); }
+
+/* Sentence case inside the three tabs: the older rules for headings, table
+   heads and tags set capitals, which these layouts don't use. */
+:is(#view-local, #view-fund, #view-radar) :is(.sec > h2, h3, th, .pill, .chip, .rh-k, summary) { text-transform: none; letter-spacing: normal; }
+:is(#view-local, #view-fund, #view-radar) .sec > h2 { letter-spacing: -.01em; }
+#view-radar .radar-find, #view-radar .radar-asof { background: none; padding: 0; border: 0; }
+#view-fund .gauge { width: 108px; height: 108px; }
+
+/* =====================================================================
+   THE LOG TAB
+   Drawn as it was, with four things changed. Each day in the list is its
+   own card with the contractor's name whole, in bigger letters. The note
+   box grows to its text and draws a reference in it grey. Punch in stays
+   where it was, with a green edge so it can be found. Punch out and the
+   Sealed button can be read on every skin.
+   ===================================================================== */
+
+/* A reference anywhere: after the words, small and grey. */
+.ref { font-size: .8125rem; font-weight: 400; font-style: normal; letter-spacing: 0; text-transform: none; color: var(--ink-3); }
+
+/* ---- the days ---- */
+.log-day { position: relative; display: block; padding: .7rem 1rem .9rem; margin-bottom: .6rem; }
+.log-when {
+  width: auto; text-align: left; padding: 0 2.4rem .55rem 0; margin-bottom: .65rem;
+  border-bottom: 1px solid var(--line); font-size: .95rem; font-weight: 650; color: var(--ink-2);
+}
+.log-when .lw-block { display: none; }
+.log-co {
+  display: block; font-size: 1.25rem; font-weight: 700; line-height: 1.25;
+  white-space: normal; overflow: visible; text-overflow: clip; overflow-wrap: anywhere;
+}
+.log-hrs {
+  display: flex; align-items: baseline; justify-content: space-between; gap: .75rem;
+  margin: .2rem 0 0; font-family: inherit; font-size: 1.05rem; font-weight: 400; color: var(--ink);
+}
+.log-hrs .lh-w { min-width: 0; }
+.log-hrs .gr { flex: none; font-size: 1.15rem; font-weight: 700; }
+.log-note { font-size: 1.05rem; color: var(--ink); margin-top: .55rem; overflow-wrap: anywhere; }
+.log-meta { font-size: .8125rem; line-height: 1.5; margin-top: .55rem; overflow-wrap: anywhere; }
+.log-day .log-x { position: absolute; top: .05rem; right: .15rem; }
+.griev .ref { font-weight: 400; }
+
+/* ---- the note ---- */
+.notewrap { position: relative; }
+.entry textarea, .note-ghost {
+  font: inherit; font-size: 1.05rem; line-height: 1.45; letter-spacing: normal;
+  padding: .75rem .8rem; border: 1px solid transparent; border-radius: var(--r-sm);
+  white-space: pre-wrap; overflow-wrap: break-word; word-break: normal;
+}
+.entry textarea { display: block; min-height: 5.6rem; resize: none; overflow: hidden; }
+.note-ghost { position: absolute; inset: 0; z-index: 1; pointer-events: none; overflow: hidden; color: var(--ink); }
+/* Same size as the words around it, so the lines break where the box breaks them. */
+.note-ghost .ref { font-size: inherit; }
+/* And the same weight: Sunlight's text is heavier than a reference elsewhere. */
+.note-ghost .ref { font-weight: inherit; }
+.notewrap.ghosted textarea { -webkit-text-fill-color: transparent; caret-color: var(--ink); }
+.notewrap.ghosted textarea::placeholder { -webkit-text-fill-color: var(--ink-3); }
+
+/* ---- the clock ---- */
+.punch-btn { border: 2px solid var(--green); font-size: 1.15rem; padding: 1.1rem 1rem; }
+.punch-ic { width: 22px; height: 22px; }
+:root { --stop: #b3261e; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]) { --stop: #c9302c; } }
+:root[data-theme="america"] { --stop: #d4162c; }
+:root[data-theme="dark"]    { --stop: #c9302c; }
+:root[data-theme="jobsite"] { --stop: #d93a2b; }
+:root[data-theme="sun"]     { --stop: #9a0007; }
+.punch-out { background: var(--stop); color: #ffffff; font-size: 1.1rem; padding: 1rem; }
+/* Sealed is green on every skin; a skin's own button colour used to win. */
+:root .primary.done, :root[data-theme] .primary.done { background: var(--green); color: var(--paper); }
+
+/* The shield mark and the per-digit clock cells exist in every skin's page;
+   only the Shield skin draws them. */
+.shield { display: none; }
+.pl-elapsed i { font-style: normal; }
+.split em { font-style: normal; }
+
+/* =====================================================================
+   THE SHIELD SKIN  (Settings, Skin, Shield)
+   A choice, never the default. The logo is the punch clock, on a plate at
+   the top of the Log tab: pressed to punch in, lit on the clock, its red
+   ring closing over 8 hours. Signs, buttons and numbers are set in a
+   condensed heavy face, capitals. Navy ground; white is the thing to do,
+   red is stop.
+   ===================================================================== */
+:root[data-theme="shield"] {
+  --paper: #061533; --card: #0c2350; --sunk: #040e24;
+  --ink: #ffffff; --ink-2: #c3d4f3; --ink-3: #93aedc;
+  --line: #1c3b74; --line-2: #4b7cbf;
+  --amber: #ffb547; --amber-soft: #33240a;
+  --green: #4fd196; --green-soft: #06291c;
+  --red: #ff6b78; --red-soft: #3d0f14;
+  --tint: #1b3a72; --act: #ffffff; --act-ink: #061533; --stop: #d4162c;
+  --ring-1: #d4162c; --ring-2: #ffffff; --ring-3: #4b7cbf;
+  --glow: 0 0 0 1px rgba(255,255,255,.85), 0 0 28px rgba(160,195,255,.5);
+  --display: "Avenir Next Condensed", "DIN Condensed", "HelveticaNeue-CondensedBold", "Roboto Condensed", "Arial Narrow", sans-serif-condensed, sans-serif;
+  --shadow-1: none; --shadow-2: 0 14px 36px rgba(0,5,25,.7);
+  color-scheme: dark;
+}
+:root[data-theme="shield"] body { background: var(--paper); }
+
+/* lettering */
+:root[data-theme="shield"] :is(.vhead h1, .recent h2, .sec > h2, .cal-head h2, .sheet-head h2, #sheetTitle,
+  .primary, .punch-out, #punchLabel, .sheet-cancel, .nag-go, .ghost, .scale-btn, .seg button, .daytype button, .tabs button) {
+  font-family: var(--display); text-transform: uppercase;
+}
+:root[data-theme="shield"] .vhead h1 { font-size: clamp(2.1rem, 9.6vw, 2.8rem); font-weight: 800; letter-spacing: .005em; line-height: .95; }
+:root[data-theme="shield"] .eyebrow { font-family: var(--display); font-weight: 600; letter-spacing: .09em; font-size: .9375rem; color: var(--ink-2); }
+:root[data-theme="shield"] #appTitle { box-shadow: none; border: 0; }
+:root[data-theme="shield"] .vhead > div:first-child::after,
+:root[data-theme="shield"] .recent h2::after,
+:root[data-theme="shield"] .sec > h2::after {
+  content: ""; display: block; height: 4px; width: 60px; margin-top: .5rem; border-radius: 2px;
+  background: linear-gradient(90deg, var(--ring-1) 0 33.33%, var(--ring-2) 33.33% 66.66%, var(--ring-3) 66.66%);
+}
+:root[data-theme="shield"] .vhead > div:first-child::after { width: 84px; height: 5px; margin-top: .65rem; }
+:root[data-theme="shield"] :is(.recent h2, .sec > h2) { font-size: 1.55rem; font-weight: 800; letter-spacing: .015em; line-height: 1.05; color: var(--ink); }
+:root[data-theme="shield"] :is(#view-local, #view-fund, #view-radar) .sec > h2 { font-size: 1.55rem; font-weight: 800; letter-spacing: .015em; text-transform: uppercase; }
+:root[data-theme="shield"] .cal-head h2 { font-size: 1.25rem; font-weight: 800; letter-spacing: .03em; color: var(--ink); }
+:root[data-theme="shield"] .cal-head h2::after { margin-inline: auto; }
+
+/* the plate: the logo is the punch clock */
+:root[data-theme="shield"] .punch { margin: 0 0 1.25rem; }
+:root[data-theme="shield"] .shield { display: block; flex: none; width: 104px; height: 104px; overflow: visible; }
+:root[data-theme="shield"] .shield circle { fill: none; }
+:root[data-theme="shield"] .s-r1 { stroke: var(--ring-1); stroke-width: 8; }
+:root[data-theme="shield"] .s-arc { stroke: var(--ring-1); stroke-width: 8; display: none; }
+:root[data-theme="shield"] .s-r2 { stroke: var(--ring-2); stroke-width: 6.5; }
+:root[data-theme="shield"] .s-r3 { stroke: var(--ring-3); stroke-width: 5.5; }
+:root[data-theme="shield"] .s-star { fill: var(--ring-2); }
+:root[data-theme="shield"] .s-glow { opacity: .38; }
+:root[data-theme="shield"] .s-glow circle { stroke: #cfe0ff; stroke-width: 9; }
+:root[data-theme="shield"] .s-glow path { fill: #cfe0ff; }
+:root[data-theme="shield"] .punch-ic { display: none; }
+:root[data-theme="shield"] .punch-btn, :root[data-theme="shield"] .punch-live {
+  width: 100%; min-height: 128px; padding: .8rem 1.1rem .8rem .9rem; text-align: left;
+  border: 2px solid var(--line-2); border-radius: 18px; color: var(--ink);
+  background: linear-gradient(180deg, #123068 0%, #0a1e47 100%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+}
+:root[data-theme="shield"] .punch-btn { display: flex; align-items: center; justify-content: flex-start; gap: 1.05rem; }
+:root[data-theme="shield"] #punchLabel { font-size: clamp(2rem, 10.4vw, 2.7rem); font-weight: 800; letter-spacing: .01em; line-height: .95; }
+:root[data-theme="shield"] .punch-live {
+  display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 1.05rem; align-items: center;
+  border-color: var(--ring-2); box-shadow: inset 0 1px 0 rgba(255,255,255,.1), var(--glow);
+}
+:root[data-theme="shield"] .punch-live[hidden] { display: none !important; }
+:root[data-theme="shield"] .punch-live .shield { grid-row: 1 / span 2; }
+:root[data-theme="shield"] .shield.live .s-r1 { opacity: .28; }
+:root[data-theme="shield"] .shield.live .s-arc { display: block; }
+:root[data-theme="shield"] .shield.live .s-glow { opacity: .7; animation: litBreathe 3.2s ease-in-out infinite; }
+@keyframes litBreathe { 0%, 100% { opacity: .7 } 50% { opacity: .3 } }
+:root[data-theme="shield"] .pl-elapsed {
+  align-self: end; font-family: var(--display); font-size: 3.3rem; font-weight: 800; letter-spacing: .01em; line-height: .95; white-space: nowrap;
+}
+/* Under 375 wide the clock shrinks to stay on its plate, ten hours and up included. */
+@media (max-width: 374px) { :root[data-theme="shield"] .pl-elapsed { font-size: calc((100vw - 185px) / 3.95); } }
+:root[data-theme="shield"] .pl-elapsed::before { content: none; }
+:root[data-theme="shield"] .pl-elapsed i { display: inline-block; width: .56em; text-align: center; }
+:root[data-theme="shield"] .pl-elapsed i.c { width: .28em; }
+:root[data-theme="shield"] .pl-since { align-self: start; margin: .3rem 0 0; font-size: .9375rem; color: var(--ink-2); }
+:root[data-theme="shield"] .punch-out {
+  grid-column: 1 / -1; margin-top: .85rem; min-height: 60px; background: var(--stop); color: #fff;
+  font-size: 1.5rem; font-weight: 800; letter-spacing: .07em; border-radius: 13px;
+}
+
+/* the day */
+:root[data-theme="shield"] .primary {
+  min-height: 66px; background: var(--act); color: var(--act-ink); box-shadow: var(--glow);
+  font-size: 1.65rem; font-weight: 800; letter-spacing: .07em; border-radius: 13px;
+}
+:root[data-theme="shield"] .primary.done { box-shadow: none; }
+:root[data-theme="shield"] :is(.line > span, .hh-unit, .banked-k) {
+  font-family: var(--display); text-transform: uppercase; letter-spacing: .09em; font-weight: 600; font-size: .9375rem; color: var(--ink-2);
+}
+:root[data-theme="shield"] :is(.seg, .daytype) button { font-size: 1.1rem; font-weight: 700; letter-spacing: .05em; }
+:root[data-theme="shield"] :is(.seg, .daytype) button.on { background: var(--act); color: var(--act-ink); font-weight: 800; }
+:root[data-theme="shield"] .hero-hours > button { border-radius: 14px; border: 2px solid var(--line-2); background: var(--tint); font-weight: 600; color: var(--ink); }
+:root[data-theme="shield"] .hh-mid output { font-family: var(--display); font-size: 5.4rem; font-weight: 800; letter-spacing: 0; line-height: 4.428rem; }
+/* 9.5 and 10.5 are wider than 8: they shrink just enough to clear the + button, in a box that keeps its height. */
+:root[data-theme="shield"] .hh-mid output[data-len="3"] { font-size: min(5.4rem, calc((100vw - 232px) / 1.43)); }
+:root[data-theme="shield"] .hh-mid output[data-len="4"] { font-size: min(5.4rem, calc((100vw - 232px) / 2)); }
+:root[data-theme="shield"] .tally { display: block; }
+:root[data-theme="shield"] .split { display: block; font-size: 1.0625rem; color: var(--ink); }
+:root[data-theme="shield"] .split span { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: .55rem 0; border-bottom: 1px solid var(--line); }
+:root[data-theme="shield"] .split em { display: inline-block; }
+:root[data-theme="shield"] .split em::first-letter { text-transform: uppercase; }
+:root[data-theme="shield"] .split b { font-family: var(--display); font-size: 1.5rem; font-weight: 700; line-height: 1; }
+:root[data-theme="shield"] .split b::after { content: " h"; font-size: .62em; font-weight: 600; color: var(--ink-2); }
+:root[data-theme="shield"] .gross {
+  display: flex; align-items: baseline; justify-content: space-between; margin: 0; padding: .65rem 0 .1rem;
+  font-family: var(--display); font-size: 2.5rem; font-weight: 800; line-height: .9;
+}
+:root[data-theme="shield"] .gross::before {
+  content: attr(data-k); font-size: .9375rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-2);
+}
+:root[data-theme="shield"] .banked-v { font-family: var(--display); font-weight: 800; }
+:root[data-theme="shield"] .meter-fill { background: var(--ring-2); }
+
+/* the days: a block for the date, the name in sign lettering */
+:root[data-theme="shield"] .log-day { display: block; min-height: 6.6rem; padding: .9rem 1rem 1rem 5.25rem; }
+:root[data-theme="shield"] .log-day > .log-when {
+  position: absolute; left: .8rem; top: .9rem; width: 3.5rem; margin: 0; padding: .35rem 0 .4rem;
+  border: 2px solid var(--line-2); border-radius: 10px; background: var(--sunk);
+}
+/* Out of sight, still read out: the block beside it is a picture of the same date. */
+:root[data-theme="shield"] .log-when .lw-line { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+:root[data-theme="shield"] .log-when .lw-block {
+  display: flex; flex-direction: column; align-items: center; gap: .1rem;
+  font-family: var(--display); text-transform: uppercase; color: var(--ink-2);
+}
+:root[data-theme="shield"] :is(.ld-dow, .ld-mon) { font-size: .8125rem; font-weight: 700; letter-spacing: .1em; line-height: 1.1; }
+:root[data-theme="shield"] .ld-day { font-size: 2rem; font-weight: 800; line-height: .9; color: var(--ink); }
+:root[data-theme="shield"] .log-co { font-family: var(--display); font-size: 1.45rem; font-weight: 800; letter-spacing: .01em; line-height: 1.08; text-transform: uppercase; padding-right: 2.2rem; }
+:root[data-theme="shield"] .log-hrs .gr { font-family: var(--display); font-size: 1.5rem; font-weight: 800; line-height: 1; }
+
+/* tab bar, pension ring, chart */
+:root[data-theme="shield"] .tabs { background: var(--sunk); border-top: 2px solid var(--line-2); }
+:root[data-theme="shield"] .tabs button { position: relative; font-size: .8125rem; font-weight: 700; letter-spacing: .1em; color: var(--ink-3); }
+@media (max-width: 21rem) { :root[data-theme="shield"] .tabs button { letter-spacing: .04em; } }
+:root[data-theme="shield"] .tabs button.on { color: var(--ink); font-weight: 800; }
+:root[data-theme="shield"] .tabs button.on::before {
+  content: ""; position: absolute; top: -2px; left: 20%; right: 20%; height: 4px; border-radius: 0 0 3px 3px; background: var(--ring-1);
+}
+:root[data-theme="shield"] #view-fund .g-arc, :root[data-theme="shield"] #view-fund .g-arc.g { stroke: var(--ring-2); stroke-linecap: butt; }
+:root[data-theme="shield"] #view-fund .g-num { font-family: var(--display); font-size: 27px; font-weight: 800; }
+:root[data-theme="shield"] #view-fund .verdict-v { font-family: var(--display); font-size: 2rem; font-weight: 800; text-transform: uppercase; letter-spacing: .02em; line-height: 1; }
+:root[data-theme="shield"] #view-fund .fc-official { stroke: var(--ring-2); }
+:root[data-theme="shield"] #view-fund .fc-dot.o { fill: var(--ring-2); }
+:root[data-theme="shield"] #view-fund .fc-key .o i { background: var(--ring-2); }
+:root[data-theme="shield"] #view-fund .fc-market { stroke: var(--ring-3); }
+:root[data-theme="shield"] #view-fund .fc-dot.m { fill: var(--ring-3); }
+:root[data-theme="shield"] #view-fund .fc-key .m i { background: var(--ring-3); }
+@media (prefers-reduced-motion: reduce) { :root[data-theme="shield"] .shield.live .s-glow { animation: none; } }
+
+/* Inks that can be read inside the three tabs, on the skins where the older
+   supporting greys fall short of 4.5:1. */
+:root:not([data-theme]) :is(#view-local, #view-fund, #view-radar) { --ink-2: #474c54; --ink-3: #5d636e; --line-2: #8a857d; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) :is(#view-local, #view-fund, #view-radar) { --ink-2: #a3acb8; --ink-3: #8a94a3; --line-2: #667082; }
+}
+:root[data-theme="jobsite"] :is(#view-local, #view-fund, #view-radar) { --ink-2: #b9cbee; --ink-3: #93abd8; --line: #27467f; --line-2: #5a83d0; }
+/* Sunlight's card and page are both white: its hard edge is the only edge. */
+:root[data-theme="sun"] :is(#view-local, #view-fund, #view-radar) .card { border-width: 2px; }
+:root[data-theme="sun"] :is(#view-local, #view-fund, #view-radar) .radar-hit { border-width: 2px 2px 2px 4px; }
+/* Automatic in daylight: the note box's quiet grey, dark enough to read. */
+@media (prefers-color-scheme: light) { :root:not([data-theme]) .notewrap { --ink-3: #5d636e; } }
+/* The calendar's day numbers, in the brighter supporting ink. */
+.cal-cell .dn { color: var(--ink-2); }

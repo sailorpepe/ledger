@@ -6,7 +6,7 @@
 // bundle to read, so it names the release its code belongs to. That number
 // moves with MARKETING_VERSION in ios/project.yml, and tests/version.test.mjs
 // fails if it falls behind.
-export const WEB_VERSION = '1.0.1 (web)'
+export const WEB_VERSION = '1.0.2 (web)'
 
 // Anything but a non-empty string is not the shell talking: an element with
 // that id also shows up as a window property.
