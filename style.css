@@ -973,6 +973,16 @@ a { color: var(--amber); }
   font-size: 1.05rem; font-weight: 560; color: var(--ink);
 }
 .sfield input:focus { outline: 0; border-color: var(--amber); }
+/* iOS draws a date box with its own built-in look, which adds the padding on
+   top of the full width: in this form the date ran off the right edge of the
+   sheet (since 1.0). Without the built-in look it sizes like every other
+   field, and a tap still opens the iPhone's calendar. The minimum height keeps
+   an empty one (Expires) as tall as the rest. */
+.sfield input[type="date"] {
+  -webkit-appearance: none; appearance: none; display: block;
+  min-height: calc(1.05rem * 1.25 + 1.6rem + 2px);
+}
+.sfield input[type="date"]::-webkit-date-and-time-value { text-align: left; }
 .sfield small {
   display: block; margin-top: .4rem; font-size: .85rem;
   line-height: 1.45; color: var(--ink-2);

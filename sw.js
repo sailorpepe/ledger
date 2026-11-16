@@ -28,7 +28,7 @@
  * never touched a network.
  */
 
-const VERSION = 'ledger-1.0-b8'
+const VERSION = 'ledger-1.0-b9'
 const SHELL = `${VERSION}-shell`
 const DATA = 'ledger-data'
 
