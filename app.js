@@ -571,7 +571,9 @@ const THEMES = [
   { id: 'jobsite', label: 'Jobsite', sub: 'Navy and safety orange', swatch: 'linear-gradient(135deg,#0d1b30 50%,#f5821f 50%)' },
   { id: 'sun', label: 'Sunlight', sub: 'Hard contrast for a bright deck', swatch: '#ffffff' },
   // The logo as the punch clock, sign lettering, navy with red, white and
-  // steel blue. A choice, never the default.
+  // steel blue. The look a new install opens with since 1.0.2 (his pick,
+  // November 16, 2026). A phone that already ran the app saved its skin on
+  // first launch and keeps it.
   { id: 'shield', label: 'Shield', sub: 'The shield is the punch clock', swatch: 'radial-gradient(circle, #ffffff 0 16%, #0c2350 17% 28%, #4b7cbf 29% 42%, #0c2350 43% 52%, #ffffff 53% 66%, #0c2350 67% 76%, #d4162c 77%)' },
 ]
 const THEME_KEY = 'ledger.theme.v1'
@@ -817,7 +819,7 @@ async function initLog() {
   $('#fNote').addEventListener('input', (e) => paintFlags(detectFlags(e.target.value)))
   syncNote()
   initTitle()
-  applyTheme(migrateTheme(localStorage.getItem(THEME_KEY)) ?? 'jobsite')
+  applyTheme(migrateTheme(localStorage.getItem(THEME_KEY)) ?? 'shield')
 
   $('#btnScale').addEventListener('click', () => {
     const rows = classificationRows()
@@ -2487,7 +2489,7 @@ function zoneMoved() {
 }
 
 function pickSkin() {
-  const cur = migrateTheme(localStorage.getItem(THEME_KEY)) ?? 'jobsite'
+  const cur = migrateTheme(localStorage.getItem(THEME_KEY)) ?? 'shield'
   const subKey = { '': 'skinAuto', america: 'skinAmerica', dark: 'skinDark', jobsite: 'skinJobsite', sun: 'skinSun', shield: 'skinShield' }
   const nameKey = { '': 'skinNameAuto', america: 'skinNameAmerica', dark: 'skinNameDark', jobsite: 'skinNameJobsite', sun: 'skinNameSun', shield: 'skinNameShield' }
   openSheet(t('skin'), THEMES.map((th) => ({ ...th, label: t(nameKey[th.id] ?? '') || th.label, sub: t(subKey[th.id] ?? ''), on: th.id === cur })),
